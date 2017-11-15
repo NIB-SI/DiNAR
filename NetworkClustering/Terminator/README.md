@@ -1,2 +1,8 @@
 # moviegalaxies
 http://moviegalaxies.com/movies/index/query:terminator
+
+1. download .gexf.xml files
+2. run xmlTOedgelist.R
+3. create node.txt and edges.txt (unique from el1, el2, el3)
+4. run 01_graphMLforRigraph.py and 02_multilevel_and_spinglass_clustering.Rmd
+5. run DiNAR
