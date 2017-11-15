@@ -1,8 +1,10 @@
-# GEOmicroarrayDataAnalysis
-GEOmicroarrayDataAnalysis
+#  Experimental data analysis in R
 
-# http://htmlpreview.github.io/?
-http://htmlpreview.github.io/?https://raw.githubusercontent.com/NIB-SI/GEOmicroarrayDataAnalysis/master/GEOmicroarrayDataAnalysis.html?token=ANHKfQsMjbxTSSxYN3xlfgmLZX61cqdeks5Y720mwA%3D%3D
+For HTMLpreview use http://htmlpreview.github.io/?
+
+# GEO accession
+* https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE56094
+* https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
 
 # Ref:
 * http://bioconductor.org/packages/release/bioc/vignettes/GEOquery/inst/doc/GEOquery.html
