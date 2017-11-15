@@ -1,0 +1,600 @@
+---
+title: "GEOmicroarrayDataAnalysis"
+author: "mzagor"
+date: "11 oktober 2016"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{rupdate pcks}
+################################################################################
+# 1. Get the list of packages you have installed, 
+#    use priority to exclude base and recommended packages.
+#    that may have been distributed with R.
+# (pkgList <- installed.packages(priority='NA')[,'Package'])
+
+# 2. Find out which packages are on CRAN and R-Forge.  Because
+#    of R-Forge build capacity is currently limiting the number of
+#    binaries available, it is queried for source packages only.
+# (CRANpkgs <- available.packages(contriburl=contrib.url('http://cran.r-project.org'))[,'Package'])
+# (forgePkgs <- available.packages(contriburl=contrib.url('http://r-forge.r-project.org', type='source'))[,'Package'])
+
+# 3. Calculate the set of packages which are installed on your machine,
+#    not on CRAN but also present on R-Force.
+# (pkgsToUp <- intersect(setdiff(pkgList, CRANpkgs), forgePkgs))
+
+# 4. Update the packages, using oldPkgs to restrict the list considered.
+# update.packages(checkBuilt=TRUE, ask=FALSE, repos="http://r-forge.r-project.org", oldPkgs=pkgsToUp)
+################################################################################
+
+# Update all packages
+# update.packages(ask = FALSE, dependencies = c('Suggests'))
+
+```
+
+
+```{r pckg}
+
+source("https://bioconductor.org/biocLite.R")
+
+if (!require("GEOquery")) {
+  biocLite("GEOquery")
+}
+library(GEOquery)
+
+if (!require("Biobase")) {
+  biocLite("Biobase")
+}
+library(Biobase)
+
+if (!require("limma")) {
+  biocLite("limma")
+}
+library(limma)
+# source("http://bioconductor.org/biocLite.R")
+# biocLite("genefilter")
+# library(genefilter)
+if (!require("plyr")) {
+  install.packages(pkgs="plyr")
+}
+library(plyr)
+# install.packages("XML", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"))
+# library("XML")
+# install.packages("RCurl", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"))
+# library("RCurl")
+# install.packages("rvest", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"))
+# library("rvest")
+getPkgVigs()
+
+```
+
+
+http://www.bioconductor.org/packages/release/bioc/manuals/Biobase/man/Biobase.pdf
+
+http://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/ExpressionSetIntroduction.pdf
+
+http://www.bioconductor.org/packages/release/bioc/manuals/GEOquery/man/GEOquery.pdf
+
+<font color='purple'>GEO Series (GSE), GEO platforms (GPL), and GEO samples (GSM)</font>
+
+<font color='green'>The Gene Expression Omnibus (GEO) from NCBI serves as a public repository for a wide range of  high-throughput  experimental  data. These  data  include  single  and  dual  channel  microarray-based experiments measuring mRNA, genomic DNA, and protein abundance, as well as non-array techniques such as serial analysis of gene expression (SAGE), and mass spectrometry proteomic data.   At  the  most  basic  level  of  organization  of GEO,  there  are  three  entity  types  that  may  be supplied by users:  Platforms, Samples, and Series.  Additionally, there is a curated entity called a GEO dataset.</font>
+
+<font color='purple'>GDS-class</font>: A class describing a GEO GDS entity
+
+<font color='purple'>GEOData-class</font>:  virtual class for holding GEO samples, platforms, and datasets
+
+<font color='purple'>GEODataTable-class</font>: Contains the column descriptions and data for the datatable part of a GEO object
+
+<font color='purple'>GPL-class</font>: Contains a full GEO Platform entity
+
+<font color='purple'>GSE-class</font>: Contains a GEO Series entity
+
+1. GPLList signature(object = "GSE"): returns a list, each item of the list being a GPL object
+
+2. GSMList signature(object = "GSE"): returns a list, each item of the list being a GSM object
+
+3. Meta signature(object = "GSE"): returns a list, the metadata associated with the GSE
+
+<font color='purple'>GSM-class</font>: A class containing a GEO Sample entity
+
+
+1. <font color='red'>getGEO</font>
+
+<font color='blue'>getGEO(GEO = NULL, filename = NULL, destdir = tempdir(), GSElimits=NULL, GSEMatrix=TRUE,AnnotGPL=FALSE,getGPL=TRUE)</font>
+
+This function is the main user-level function in the GEOquery package. It directs the download (if no filename is specified) and parsing of a GEO SOFT format file into an R data structure specifically designed to make access to each of the important parts of the GEO SOFT format easily accessible.
+
+2. <font color='red'>getGEOfile</font>
+
+<font color='blue'>getGEOfile(GEO, destdir = tempdir(), AnnotGPL = FALSE, amount = c("full", "brief", "quick", "data"))</font>
+
+This function simply downloads a SOFT format file associated with the GEO accession number given.
+
+3. <font color='red'>getGEOSuppFiles</font>
+
+<font color='blue'>getGEOSuppFiles(GEO, makeDirectory = TRUE, baseDir = getwd())</font>
+
+NCBI GEO allows supplemental files to be attached to GEO Series (GSE), GEO platforms (GPL), and GEO samples (GSM). This function "knows" how to get these files based on the GEO accession. No parsing of the downloaded files is attempted, since the file format is not generally knowable by the computer.
+
+4. <font color='red'>getGSEDataTables</font>
+
+<font color='blue'>getGSEDataTables(GSE)</font>
+
+In some cases, instead of individual sample records (GSM) containing information regarding sample phenotypes, the GEO Series contains that information in an attached data table.  And example is given by GSE3494 where there are two data tables with important information contained within them.  Using getGEO with the standard parameters downloads the GSEMatrix file which, unfortunately, does not contain the information in the data tables.  This function simply downloads the “header” information from the GSE record and parses out the data tables into R data.frames.
+
+5. <font color='red'>parseGEO</font>
+
+<font color='blue'>parseGEO(fname, GSElimits, destdir=tempdir(), AnnotGPL=FALSE, getGPL=TRUE)</font>
+
+<font color='blue'>parseGPL(fname)</font>
+
+<font color='blue'>parseGDS(fname)</font>
+
+<font color='blue'>parseGSE(fname, GSElimits)</font>
+
+<font color='blue'>parseGSM(fname)</font>
+
+6. <font color='red'>Functions to take a GDS data structure from getGEO and coerce it to limma MALists or ExpressionSets.</font>
+
+<font color='blue'>GDS2MA(GDS,do.log2=FALSE,GPL=NULL,AnnotGPL=TRUE,getGPL=TRUE)</font>
+
+<font color='blue'>GDS2eSet(GDS,do.log2=FALSE,GPL=NULL,AnnotGPL=TRUE,getGPL=TRUE)</font>
+
+7. <font color='red'>gunzip</font>
+
+<font color='blue'>gunzip(filename, destname = gsub("[.]gz$", "", filename), overwrite = FALSE, remove = TRUE, ...</font>
+
+
+<font color='purple'>Gene Expression Omnibus</font>: https://www.ncbi.nlm.nih.gov/geo/
+
+<font color='green'>GSE56094</font>
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4682296/
+
+| Series GSE56094 | Query DataSets for GSE56094
+| --------------- | -------------------------------------------------- |
+| Status | Public on Jun 02, 2015
+| Title |Transcriptional dynamics driving MAMP-triggered immunity and pathogen effector-mediated immunosuppression in Arabidopsis leaves following infection with Pseudomonas syringae pv. tomato DC3000
+| Organism | Arabidopsis thaliana
+| Experiment type | Expression profiling by array
+| Summary | High-resolution temporal transcriptomic analysis of Arabidopsis thaliana leaves during infection by Pseudomonas syringae DC3000 and DC3000hrpA-thaliana. Overall design 	RNA was extracted from Arabidopsis leaves after mock-inoculation, infection with P. syringae DC3000 and infection with P. syringae DC3000hrpA-. 13 time points (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 14, 16, 17.5 hours post inoculation) were sampled from each treatment and four biological replicates (a single leaf) were harvested at each time point for each treatment. This led to 156 biological samples (13 time points x 3 treatments x 4 biological replicates). Four technical replicates of each biological sample were generated (624). The microarrays were two-channel CATMA arrays and hence two samples are hybridized to each array resulting in 312 arrays used in the experiment. A “loop design” was developed to enable efficient extraction of information about sample comparisons. Half the arrays were used to directly compare samples at different time points within the same treatment, and half directly compared the same time point and adjacent time points between treatments. This design maximizes the power of data comparisons over time and between treatments.
+| Contributor(s) | Lewis LA, Polanski K, de Torres-Zabala M, Jayaraman S, Bowden L, Moore JD, Penfold CA, Jenkins DJ, Hill C, Baxter L, Kulasekaran S, Truman W, Littlejohn G, Pruskinska J, Mead A, Steinbrenner J, Hickman R, Rand D, Wild DL, Ott S, Buchanan-Wollaston V, Smirnoff N, Beynon J, Denby K, Grant M
+| Citation(s)  | Lewis LA, Polanski K, de Torres-Zabala M, Jayaraman S et al. Transcriptional Dynamics Driving MAMP-Triggered Immunity and Pathogen Effector-Mediated Immunosuppression in Arabidopsis Leaves Following Infection with Pseudomonas syringae pv tomato DC3000. Plant Cell 2015 Nov;27(11):3038-64. PMID: 26566919
+
+The aim of the <font color='purple'>Complete Arabidopsis Transcriptome MicroArray (CATMA)</font> project was the design and production of high quality Gene-specific Sequence Tags (GSTs) covering most Arabidopsis genes. The GST repertoire is used by numerous groups for the production of DNA arrays for transcript profiling experiments.
+
+CATMA microarrays constitute the foundation of the CAGE project aiming at the construction of a gene expression reference database for Arabidopsis. The CATMA GSTs are also the basic materials in the AGRIKOLA project focusing on the large-scale systematic RNAi silencing of Arabidopsis genes.
+
+
+<font color='deeppink'>Get GEO data</font> 
+
+<font color='green'>GSE56094</font>
+```{r GSE56094, message = FALSE, warnings = FALSE}
+
+# http://bioconductor.org/packages/release/bioc/vignettes/GEOquery/inst/doc/GEOquery.html
+
+# https://support.bioconductor.org/p/33487/
+# you can run limma for differential expression analysis on your object 'gse' which is a list of ExpressionSets, 
+# which contains one single element because the dataset is not too large. 
+# This contains normalized log2 ratios after pre-processing done by the authors.
+
+# assumes only one platform in the GSE
+gse = getGEO('GSE56094')[[1]]
+save (gse, file = 'GEO_GSE56094.RData')
+# gse = get(load('GEO_GSE56094.RData'))
+class(gse)
+classVersion(gse)
+description(gse)
+show(gse)
+varMetadata(gse)
+protocolData(gse)
+# isnorm = getGEO('GSE56094', GSEMatrix=FALSE)
+# head(Meta(isnorm))
+# names(GSMList(isnorm))
+# GSMList(isnorm)[[1]]
+featureData(gse)
+(info = varLabels(gse))
+for (i in info) {
+  if (!grepl('/', i)) {
+    cat(i, '::\t')
+    print(eval(parse(text = paste0('gse$',i,'[[1]]'))))
+    cat('\n')
+  }
+}
+
+fvarMetadata(gse)
+head(fData(gse))
+fvarLabels(gse)
+
+```
+
+
+<font color='deeppink'>Translation table: CATMA to Ath gene</font> 
+```{r CATMA2}
+
+catma = fData(gse)
+cColNames = fvarLabels(gse)
+ncol = length(cColNames)
+dim(catma)
+catma[catma==""]<-NA
+numNAs <- apply(catma, 1, function(x) sum(is.na(x)))
+length(numNAs) == dim(catma)[1]
+sum(is.na(catma$TAIR9_best))
+# keep ones that have assigned Ath gene
+catma = catma[!is.na(catma$TAIR9_best), ]
+dim(catma)
+
+```
+
+
+<font color='deeppink'>Get expression values</font> 
+```{r express vals}
+
+# write.table(data.frame(fData(gse),exprs(gse)),sep="\t",row.names=FALSE,file='testGSE56094Table.txt')
+myE = exprs(gse)
+head(myE)[,1:6]
+dim(myE)
+nold = dim(myE)[2]
+
+```
+
+
+<font color='deeppink'>Plot values per experiment</font> 
+```{r express vals plot}
+
+# par(mfrow=c(2,1))
+plot(density(myE[,1]), col=1, xlim=c(0,20), ylim=c(0,0.60), main = 'Kernel Density Estimation')
+for (n in 2:nold) {lines(density(myE[,n]), col=n, xlim=c(0,20), ylim=c(0,0.60))}
+boxplot(as.data.frame(myE[,1:nold]), col=rainbow(24), main= "Normalised data", las=3, cex.axis = 0.5)
+# par(mfrow=c(1,1))
+
+```
+
+
+<font color='deeppink'>Extract expression data for wanted experimets</font> 
+
+| Order | Sample ID | Sample description | Order | Sample ID | Sample description | Order | Sample ID | Sample description
+| --- | -------- | ------------------ | --- | -------- | ------------------ | --- | -------- | ------------------  
+| 1 | GSM1354976 | Mock 1 hours biorep A | 53 | GSM1355028 | P. syringae pv tomato DC3000 hrpA- mutant 1 hours biorep A | 105 | GSM1355080 | P. syringae pv tomato DC3000 wildtype 1 hours biorep A
+| 2 | GSM1354977 | Mock 2 hours biorep A | 54 | GSM1355029 | P. syringae pv tomato DC3000 hrpA- mutant 2 hours biorep A | 106 | GSM1355081 | P. syringae pv tomato DC3000 wildtype 2 hours biorep A
+| 3 | GSM1354978 | Mock 3 hours biorep A | 55 | GSM1355030 | P. syringae pv tomato DC3000 hrpA- mutant 3 hours biorep A | 107 | GSM1355082 | P. syringae pv tomato DC3000 wildtype 3 hours biorep A
+| 4 | GSM1354979 | Mock 4 hours biorep A | 56 | GSM1355031 | P. syringae pv tomato DC3000 hrpA- mutant 4 hours biorep A | 108 | GSM1355083 | P. syringae pv tomato DC3000 wildtype 4 hours biorep A
+| 5 | GSM1354980 | Mock 5 hours biorep A | 57 | GSM1355032 | P. syringae pv tomato DC3000 hrpA- mutant 5 hours biorep A | 109 | GSM1355084 | P. syringae pv tomato DC3000 wildtype 5 hours biorep A
+| 6 | GSM1354981 | Mock 6 hours biorep A | 58 | GSM1355033 | P. syringae pv tomato DC3000 hrpA- mutant 6 hours biorep A | 110 | GSM1355085 | P. syringae pv tomato DC3000 wildtype 6 hours biorep A
+| 7 | GSM1354982 | Mock 7 hours biorep A | 59 | GSM1355034 | P. syringae pv tomato DC3000 hrpA- mutant 7 hours biorep A | 111 | GSM1355086 | P. syringae pv tomato DC3000 wildtype 7 hours biorep A
+| 8 | GSM1354983 | Mock 8 hours biorep A | 60 | GSM1355035 | P. syringae pv tomato DC3000 hrpA- mutant 8 hours biorep A | 112 | GSM1355087 | P. syringae pv tomato DC3000 wildtype 8 hours biorep A
+| 9 | GSM1354984 | Mock 9 hours biorep A | 61 | GSM1355036 | P. syringae pv tomato DC3000 hrpA- mutant 9 hours biorep A | 113 | GSM1355088 | P. syringae pv tomato DC3000 wildtype 9 hours biorep A
+| 10 | GSM1354985 | Mock 10 hours biorep A | 62 | GSM1355037 | P. syringae pv tomato DC3000 hrpA- mutant 10 hours biorep A | 114 | GSM1355089 | P. syringae pv tomato DC3000 wildtype 10 hours biorep A
+| 11 | GSM1354986 | Mock 11 hours biorep A | 63 | GSM1355038 | P. syringae pv tomato DC3000 hrpA- mutant 11 hours biorep A | 115 | GSM1355090 | P. syringae pv tomato DC3000 wildtype 11 hours biorep A
+| 12 | GSM1354987 | Mock 12 hours biorep A | 64 | GSM1355039 | P. syringae pv tomato DC3000 hrpA- mutant 12 hours biorep A | 116 | GSM1355091 | P. syringae pv tomato DC3000 wildtype 12 hours biorep A
+| 13 | GSM1354988 | Mock 13 hours biorep A | 65 | GSM1355040 | P. syringae pv tomato DC3000 hrpA- mutant 13 hours biorep A | 117 | GSM1355092 | P. syringae pv tomato DC3000 wildtype 13 hours biorep A
+| 14 | GSM1354989 | Mock 1 hours biorep B | 66 | GSM1355041 | P. syringae pv tomato DC3000 hrpA- mutant 1 hours biorep B | 118 | GSM1355093 | P. syringae pv tomato DC3000 wildtype 1 hours biorep B
+| 15 | GSM1354990 | Mock 2 hours biorep B | 67 | GSM1355042 | P. syringae pv tomato DC3000 hrpA- mutant 2 hours biorep B | 119 | GSM1355094 | P. syringae pv tomato DC3000 wildtype 2 hours biorep B
+| 16 | GSM1354991 | Mock 3 hours biorep B | 68 | GSM1355043 | P. syringae pv tomato DC3000 hrpA- mutant 3 hours biorep B | 120 | GSM1355095 | P. syringae pv tomato DC3000 wildtype 3 hours biorep B
+| 17 | GSM1354992 | Mock 4 hours biorep B | 69 | GSM1355044 | P. syringae pv tomato DC3000 hrpA- mutant 4 hours biorep B | 121 | GSM1355096 | P. syringae pv tomato DC3000 wildtype 4 hours biorep B
+| 18 | GSM1354993 | Mock 5 hours biorep B | 70 | GSM1355045 | P. syringae pv tomato DC3000 hrpA- mutant 5 hours biorep B | 122 | GSM1355097 | P. syringae pv tomato DC3000 wildtype 5 hours biorep B
+| 19 | GSM1354994 | Mock 6 hours biorep B | 71 | GSM1355046 | P. syringae pv tomato DC3000 hrpA- mutant 6 hours biorep B | 123 | GSM1355098 | P. syringae pv tomato DC3000 wildtype 6 hours biorep B
+| 20 | GSM1354995 | Mock 7 hours biorep B | 72 | GSM1355047 | P. syringae pv tomato DC3000 hrpA- mutant 7 hours biorep B | 124 | GSM1355099 | P. syringae pv tomato DC3000 wildtype 7 hours biorep B
+| 21 | GSM1354996 | Mock 8 hours biorep B | 73 | GSM1355048 | P. syringae pv tomato DC3000 hrpA- mutant 8 hours biorep B | 125 | GSM1355100 | P. syringae pv tomato DC3000 wildtype 8 hours biorep B
+| 22 | GSM1354997 | Mock 9 hours biorep B | 74 | GSM1355049 | P. syringae pv tomato DC3000 hrpA- mutant 9 hours biorep B | 126 | GSM1355101 | P. syringae pv tomato DC3000 wildtype 9 hours biorep B
+| 23 | GSM1354998 | Mock 10 hours biorep B | 75 | GSM1355050 | P. syringae pv tomato DC3000 hrpA- mutant 10 hours biorep B | 127 | GSM1355102 | P. syringae pv tomato DC3000 wildtype 10 hours biorep B
+| 24 | GSM1354999 | Mock 11 hours biorep B | 76 | GSM1355051 | P. syringae pv tomato DC3000 hrpA- mutant 11 hours biorep B | 128 | GSM1355103 | P. syringae pv tomato DC3000 wildtype 11 hours biorep B
+| 25 | GSM1355000 | Mock 12 hours biorep B | 77 | GSM1355052 | P. syringae pv tomato DC3000 hrpA- mutant 12 hours biorep B | 129 | GSM1355104 | P. syringae pv tomato DC3000 wildtype 12 hours biorep B
+| 26 | GSM1355001 | Mock 13 hours biorep B | 78 | GSM1355053 | P. syringae pv tomato DC3000 hrpA- mutant 13 hours biorep B | 130 | GSM1355105 | P. syringae pv tomato DC3000 wildtype 13 hours biorep B
+| 27 | GSM1355002 | Mock 1 hours biorep C | 79 | GSM1355054 | P. syringae pv tomato DC3000 hrpA- mutant 1 hours biorep C | 131 | GSM1355106 | P. syringae pv tomato DC3000 wildtype 1 hours biorep C
+| 28 | GSM1355003 | Mock 2 hours biorep C | 80 | GSM1355055 | P. syringae pv tomato DC3000 hrpA- mutant 2 hours biorep C | 132 | GSM1355107 | P. syringae pv tomato DC3000 wildtype 2 hours biorep C
+| 29 | GSM1355004 | Mock 3 hours biorep C | 81 | GSM1355056 | P. syringae pv tomato DC3000 hrpA- mutant 3 hours biorep C | 133 | GSM1355108 | P. syringae pv tomato DC3000 wildtype 3 hours biorep C
+| 30 | GSM1355005 | Mock 4 hours biorep C | 82 | GSM1355057 | P. syringae pv tomato DC3000 hrpA- mutant 4 hours biorep C | 134 | GSM1355109 | P. syringae pv tomato DC3000 wildtype 4 hours biorep C
+| 31 | GSM1355006 | Mock 5 hours biorep C | 83 | GSM1355058 | P. syringae pv tomato DC3000 hrpA- mutant 5 hours biorep C | 135 | GSM1355110 | P. syringae pv tomato DC3000 wildtype 5 hours biorep C
+| 32 | GSM1355007 | Mock 6 hours biorep C | 84 | GSM1355059 | P. syringae pv tomato DC3000 hrpA- mutant 6 hours biorep C | 136 | GSM1355111 | P. syringae pv tomato DC3000 wildtype 6 hours biorep C
+| 33 | GSM1355008 | Mock 7 hours biorep C | 85 | GSM1355060 | P. syringae pv tomato DC3000 hrpA- mutant 7 hours biorep C | 137 | GSM1355112 | P. syringae pv tomato DC3000 wildtype 7 hours biorep C
+| 34 | GSM1355009 | Mock 8 hours biorep C | 86 | GSM1355061 | P. syringae pv tomato DC3000 hrpA- mutant 8 hours biorep C | 138 | GSM1355113 | P. syringae pv tomato DC3000 wildtype 8 hours biorep C
+| 35 | GSM1355010 | Mock 9 hours biorep C | 87 | GSM1355062 | P. syringae pv tomato DC3000 hrpA- mutant 9 hours biorep C | 139 | GSM1355114 | P. syringae pv tomato DC3000 wildtype 9 hours biorep C
+| 36 | GSM1355011 | Mock 10 hours biorep C | 88 | GSM1355063 | P. syringae pv tomato DC3000 hrpA- mutant 10 hours biorep C | 140 | GSM1355115 | P. syringae pv tomato DC3000 wildtype 10 hours biorep C
+| 37 | GSM1355012 | Mock 11 hours biorep C | 89 | GSM1355064 | P. syringae pv tomato DC3000 hrpA- mutant 11 hours biorep C | 141 | GSM1355116 | P. syringae pv tomato DC3000 wildtype 11 hours biorep C
+| 38 | GSM1355013 | Mock 12 hours biorep C | 90 | GSM1355065 | P. syringae pv tomato DC3000 hrpA- mutant 12 hours biorep C | 142 | GSM1355117 | P. syringae pv tomato DC3000 wildtype 12 hours biorep C
+| 39 | GSM1355014 | Mock 13 hours biorep C | 91 | GSM1355066 | P. syringae pv tomato DC3000 hrpA- mutant 13 hours biorep C | 143 | GSM1355118 | P. syringae pv tomato DC3000 wildtype 13 hours biorep C
+| 40 | GSM1355015 | Mock 1 hours biorep D | 92 | GSM1355067 | P. syringae pv tomato DC3000 hrpA- mutant 1 hours biorep D | 144 | GSM1355119 | P. syringae pv tomato DC3000 wildtype 1 hours biorep D
+| 41 | GSM1355016 | Mock 2 hours biorep D | 93 | GSM1355068 | P. syringae pv tomato DC3000 hrpA- mutant 2 hours biorep D | 145 | GSM1355120 | P. syringae pv tomato DC3000 wildtype 2 hours biorep D
+| 42 | GSM1355017 | Mock 3 hours biorep D | 94 | GSM1355069 | P. syringae pv tomato DC3000 hrpA- mutant 3 hours biorep D | 146 | GSM1355121 | P. syringae pv tomato DC3000 wildtype 3 hours biorep D
+| 43 | GSM1355018 | Mock 4 hours biorep D | 95 | GSM1355070 | P. syringae pv tomato DC3000 hrpA- mutant 4 hours biorep D | 147 | GSM1355122 | P. syringae pv tomato DC3000 wildtype 4 hours biorep D
+| 44 | GSM1355019 | Mock 5 hours biorep D | 96 | GSM1355071 | P. syringae pv tomato DC3000 hrpA- mutant 5 hours biorep D | 148 | GSM1355123 | P. syringae pv tomato DC3000 wildtype 5 hours biorep D
+| 45 | GSM1355020 | Mock 6 hours biorep D | 97 | GSM1355072 | P. syringae pv tomato DC3000 hrpA- mutant 6 hours biorep D | 149 | GSM1355124 | P. syringae pv tomato DC3000 wildtype 6 hours biorep D
+| 46 | GSM1355021 | Mock 7 hours biorep D | 98 | GSM1355073 | P. syringae pv tomato DC3000 hrpA- mutant 7 hours biorep D | 150 | GSM1355125 | P. syringae pv tomato DC3000 wildtype 7 hours biorep D
+| 47 | GSM1355022 | Mock 8 hours biorep D | 99 | GSM1355074 | P. syringae pv tomato DC3000 hrpA- mutant 8 hours biorep D | 151 | GSM1355126 | P. syringae pv tomato DC3000 wildtype 8 hours biorep D
+| 48 | GSM1355023 | Mock 9 hours biorep D | 100 | GSM1355075 | P. syringae pv tomato DC3000 hrpA- mutant 9 hours biorep D | 152 | GSM1355127 | P. syringae pv tomato DC3000 wildtype 9 hours biorep D
+| 49 | GSM1355024 | Mock 10 hours biorep D | 101 | GSM1355076 | P. syringae pv tomato DC3000 hrpA- mutant 10 hours biorep D | 153 | GSM1355128 | P. syringae pv tomato DC3000 wildtype 10 hours biorep D
+| 50 | GSM1355025 | Mock 11 hours biorep D | 102 | GSM1355077 | P. syringae pv tomato DC3000 hrpA- mutant 11 hours biorep D | 154 | GSM1355129 | P. syringae pv tomato DC3000 wildtype 11 hours biorep D
+| 51 | GSM1355026 | Mock 12 hours biorep D | 103 | GSM1355078 | P. syringae pv tomato DC3000 hrpA- mutant 12 hours biorep D | 155 | GSM1355130 | P. syringae pv tomato DC3000 wildtype 12 hours biorep D
+| 52 | GSM1355027 | Mock 13 hours biorep D | 104 | GSM1355079 | P. syringae pv tomato DC3000 hrpA- mutant 13 hours biorep D | 156 | GSM1355131 | P. syringae pv tomato DC3000 wildtype 13 hours biorep D
+
+```{r express vals parse}
+
+# gse$title
+
+# select only mock and DC3000 wt
+myE = myE[,c(1:(13*4),((13*4*2+1):(13*4*3)))]
+dim(myE)
+nold = dim(myE)[2]
+
+# find match per CATMA
+length(rownames(catma)) == length(unique(rownames(catma)))
+ind = match(rownames(myE),rownames(catma))
+myE = cbind(myE,catma[ind,])
+dim(myE)
+# backup copy of expression file merged with pheno data
+myEextended = myE
+
+# find duplicated probes (one probe per gene)
+# gives you a data frame with a list of ids and the number of times they occurred
+n_occur <- data.frame(table(myE[,(nold+3)]))
+# tells you which ids occurred more than once
+duplicated = n_occur[n_occur$Freq > 1,]
+# dim(duplicated)
+sum(duplicated[,2])
+hist(duplicated[,2])
+# returns the records with more than one occurrence
+duplicatedID = myE[myE[,(nold+3)] %in% n_occur$Var1[n_occur$Freq > 1],]
+dim(duplicatedID)
+length(unique(duplicatedID[,(nold+3)])) == dim(duplicated)[1]
+myE = myE[,c(1:nold, nold+1, nold+3)]
+# remove probes that are not annotated with Ath gene
+myE = myE[!is.na(myE[,dim(myE)[2]]),]
+any(is.na(myE[,dim(myE)[2]]))
+dim(myE)
+# average probe expression for ones that are matching the same gene
+X = aggregate(myE[,1:nold], by=list(myE$TAIR9_best), FUN=mean)
+dim(X)[1] == length(unique(myE$TAIR9_best))
+rownames(X) = X$Group.1
+newCatma = rownames(X)
+length(newCatma) == length(unique(newCatma))
+any(colnames(X)[2:dim(X)[2]] != colnames(myE)[1:nold])
+
+myE = X[,2:dim(X)[2]]
+
+
+```
+
+
+<font color='deeppink'>Phenodata</font> 
+```{r Phenodata}
+
+dim((pData(phenoData(gse))))
+colnames((pData(phenoData(gse))))
+show(pData(phenoData(gse))[1:5,c(1,6,8)])
+myP = (pData(phenoData(gse)))[,c(1,6,8)]
+dim(myP)
+head(myP)
+myP = myP[c(1:(13*4),((13*4*2+1):(13*4*3))),]
+str(myP$source_name_ch1)
+all(rownames(myP)==colnames(myE[,1:nold]))
+# phenoData <- new("AnnotatedDataFrame",data=myP)
+summary(myP)
+names(myP)
+sapply(myP, class)
+
+```
+
+
+<font color='deeppink'>Design (or model) matrix</font> 
+```{r design}
+
+(lev <- unique(ldply(strsplit(gsub(" ", "_", as.character(myP$source_name_ch1), 
+                                  fixed = TRUE), 
+                             split = "_hours_biorep"))[[1]]))
+myP$source_name_ch1 = (ldply(strsplit(gsub(" ", "_", as.character(myP$source_name_ch1), 
+                                           fixed = TRUE), 
+                                      split = "_hours_biorep"))[[1]])
+(f <- factor(myP$source_name_ch1, levels=lev))
+design <- model.matrix(~0+f)
+dim(design)
+which(design!=0,arr.ind = T)
+colnames(design) <- lev
+rownames(design) = rownames(myP)
+str(design)
+
+```
+
+
+<font color='deeppink'>Fit linear model for each gene given a series of arrays</font> 
+```{r lmFit}
+
+fit <- lmFit(myE, design, weights=NULL)
+summary(fit)
+colnames(fit$design)
+
+#colnames(fit65046.comp$contrasts)
+#which(fit65046.comp$contrasts!=0,arr.ind = T)
+```
+
+
+<font color='deeppink'>Plot few pairs</font> 
+```{r plot pairs}
+
+pairs(myE[1:1000,c(1,14,27,40)]-myE[1:1000,c(1,14,27,40)+52])
+
+```
+
+
+<font color='deeppink'>Construct the contrast matrix corresponding to specified contrasts of a set of parameters.</font> 
+```{r contrasts}
+#     print(eval(parse(text = paste0('gse$',i,'[[1]]'))))
+# http://www.bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf
+contrast.matrix = makeContrasts(
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 1])) - 
+    eval(parse(text = colnames(fit$design)[1])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 2])) - 
+    eval(parse(text = colnames(fit$design)[2])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 3])) - 
+    eval(parse(text = colnames(fit$design)[3])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 4])) - 
+    eval(parse(text = colnames(fit$design)[4])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 5])) - 
+    eval(parse(text = colnames(fit$design)[5])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 6])) - 
+    eval(parse(text = colnames(fit$design)[6])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 7])) - 
+    eval(parse(text = colnames(fit$design)[7])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 8])) - 
+    eval(parse(text = colnames(fit$design)[8])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 9])) - 
+    eval(parse(text = colnames(fit$design)[9])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 10])) - 
+    eval(parse(text = colnames(fit$design)[10])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 11])) - 
+    eval(parse(text = colnames(fit$design)[11])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 12])) - 
+    eval(parse(text = colnames(fit$design)[12])),
+  eval(parse(text = colnames(fit$design)[length(colnames(fit$design))/2 + 13])) - 
+    eval(parse(text = colnames(fit$design)[13])),
+  levels=design)
+
+# same as
+# contrast.matrix.b = makeContrasts(P._syringae_pv_tomato_DC3000_wildtype_1 - Mock_1,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_2 - Mock_2,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_3 - Mock_3,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_4 - Mock_4,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_5 - Mock_5,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_6 - Mock_6,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_7 - Mock_7,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_8 - Mock_8,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_9 - Mock_9,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_10 - Mock_10,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_11 - Mock_11,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_12 - Mock_12,
+#                                 P._syringae_pv_tomato_DC3000_wildtype_13 - Mock_13,
+#                                 levels=design)
+# any(contrast.matrix.b != contrast.matrix)
+
+```
+
+
+<font color='deeppink'>Compute Contrasts from Linear Model Fit</font> 
+```{r contrasts.fit}
+
+fit.comp <- contrasts.fit(fit, contrast.matrix)
+
+```
+
+
+<font color='deeppink'>Empirical Bayes Statistics for Differential Expression</font>
+```{r eBayes}
+
+fit.comp <- eBayes(fit.comp)
+
+```
+
+
+<font color='deeppink'>Examine unadjusted p-values</font> 
+```{r p-val plot}
+
+plot(density(fit.comp$p.value))
+
+```
+
+
+<font color='deeppink'>Plot Venn diagrams per tp</font> 
+```{r vennDiagrams plot}
+
+# par(mfrow=c(2,2))
+c_1_5 <- decideTests(fit.comp[, 1:5], adjust='BH', p.value=0.05)
+vennDiagram(c_1_5, include=c("up", "down"), counts.col=c("red", "blue"), 
+            cex=c(0.8, 0.8, 0.8), circle.col=rainbow(5), show.include = TRUE,
+            main = "Differences 1-5", 
+            names = c ("t1-t1", "t2-t2", "t3-t3", "t4-t4", "t5-t5"))
+c_6_10 <- decideTests(fit.comp[, 6:10], adjust='BH', p.value=0.05)
+vennDiagram(c_6_10, include=c("up", "down"), counts.col=c("red", "blue"), 
+            cex=c(0.8, 0.8, 0.8), circle.col=rainbow(5), show.include = TRUE,
+            main = "Differences 6-10", 
+            names = c ("t6-t6", "t7-t7", "t8-t8", "t9-t9", "t10-t10"))
+c_11_13 <- decideTests(fit.comp[, 11:13], adjust='BH', p.value=0.05)
+vennDiagram(c_11_13, include=c("up", "down"), counts.col=c("red", "blue"), 
+            cex=c(0.8, 0.8, 0.8), circle.col=rainbow(5), show.include = TRUE,
+            main = "Differences 11-13", 
+            names = c ("t11-t11", "t12-t12", "t13-t13"))
+# par(mfrow=c(1,1))
+
+```
+
+
+<font color='deeppink'>Up/down-regulated genes in infected leaves</font> 
+```{r summary(decideTests}
+
+temp = decideTests(fit.comp, adjust='fdr', p.value=0.05)
+colnames(temp) = paste0('tp_',seq(1,13,1))
+summary(temp)
+
+```
+
+<font color='deeppink'>Create output directory</font> 
+```{r outDir1}
+
+mainDir <- getwd()
+subDir <- "outputDirectory_GSE56094"
+if (file.exists(subDir)){
+  setwd(file.path(mainDir, subDir))
+} else {
+  dir.create(file.path(mainDir, subDir))
+  setwd(file.path(mainDir, subDir))
+  
+}
+
+```
+
+
+<font color='deeppink'>Write results</font> 
+```{r results1}
+
+tmp = getwd()
+i = 1
+comparisons <- topTable(fit.comp, coef=i, adjust='fdr', sort='p', n=Inf)
+colnames(comparisons) = paste0(colnames(comparisons), '_tp_00', i)
+head(comparisons)
+write.table(cbind(rownames(comparisons), comparisons), 
+            sep="\t", quote=F, row.names = FALSE,
+            file=paste0(tmp, "/DE_GSE56094_tp_", i, ".tsv"))
+for (i in 2:dim(fit.comp$contrasts)[2]){
+  comparison <- topTable(fit.comp, coef=i, adjust='fdr', sort='p', n=Inf)
+  colnames(comparison) = paste0(colnames(comparison), '_tp_00', i)
+  write.table(cbind(rownames(comparison), comparison), 
+              sep="\t", quote=F, row.names = FALSE,
+              file=paste0(tmp, "/DE_GSE56094_tp_", i, ".tsv"))
+  comparisons = cbind(comparisons, comparison)
+}
+write.table(cbind(rownames(comparisons), comparisons), 
+            sep="\t", quote=F, row.names = FALSE, 
+            file=paste0(tmp, "/DE_GSE56094_comparisons.tsv"))
+
+setwd(mainDir)
+
+save.image(file="GSE56094.RData")
+
+```
+
+
+<font color='green'>
+Article results: http://www.plantcell.org/content/suppl/2015/10/23/tpc.15.00471.DC1/TPC2015-00471-LSBR1_Supplemental_Dataset_1.xlsx
+
+Supplemental Data. Lewis et al. (2015). Plant Cell 10.1105/tpc15.00471.
+
+Supplemental Data Set 1a. LIMMA 3D trend data: inoculation with virulent DC3000 versus MgCl (mock control).
+</font>
+
+Up Regulated
+
+| Time points: | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+| Total ids: | 0 | 1712 | 991 | 3109 | 2309 | 3592 | 3210 | 5053 | 5405 | 6830 | 6007 | 5940 | 6539 
+
+Down Regulated
+
+| Time points: | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+| Total ids: | 3 | 1331 | 628 | 2897 | 2198 | 3631 | 3391 | 4965 | 5263 | 6175 | 5712 | 5588 | 6379
+
+
