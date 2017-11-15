@@ -38,5 +38,5 @@ appears in console
 # code ref:
 * https://github.com/cjgb/rPython-win
 
-# bonus: The Terminator network
+# bonus: social network
 * see Terminator folder
