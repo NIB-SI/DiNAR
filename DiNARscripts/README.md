@@ -62,12 +62,12 @@ https://zagor.shinyapps.io/DiNAR (Free - max 1 user; Instance Size: 1GB; Max Wor
 
 # Help
 
-https://zagorGit.github.io
+http://conferences.nib.si/DiNAR/
 
 
 # Additional Data Files
 
-https://github.com/NIB-SI/DiNARdata
+https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 
 # Code References
@@ -84,10 +84,10 @@ https://github.com/NIB-SI/DiNARdata
 
 
 # LKN clustering
-https://github.com/NIB-SI/LKNclusteringCN
+https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
 
 
 # Ath GSE56094 experimental data analysis
-https://github.com/NIB-SI/GEOmicroarrayDataAnalysis
+https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
 
