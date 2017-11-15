@@ -1,0 +1,25 @@
+\documentclass[a0,landscape]{a0poster}
+
+\usepackage{animate}
+\usepackage{media9}
+\usepackage{graphicx}
+
+\graphicspath{ {./plots/}} % path to files
+
+\begin{document}
+\clearpage
+\thispagestyle{empty}
+
+\begin{center}
+% begin info text
+{\bf Differential Network Analysis in R}\\%[96pt]
+\emph{Arabidopsis thaliana LKN}\\%[36pt]
+clusterID: 40\\%[48pt]
+Experimental data: GSE56094\\%[24pt]
+Subset:  \emph{Pseudomonas syringae} pv. tomato DC3000 vs Mock\\%[48pt]
+minimal node degree: 3, animation speed: 0.1 \\[96pt]
+% end nfo text
+% create animation
+\animategraphics[width=0.9\linewidth, controls,loop]{1500}{SampleGraph}{1}{131} % change last generated file number
+\end{center}
+\end{document}
