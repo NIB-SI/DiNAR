@@ -8,7 +8,7 @@ if (!require("devtools")) install.packages("devtools")
 devtools::install_github("rstudio/shiny")
 ```
 
-# LKNclustering
+# Network clustering
 1. Download zip
 2. open server.R or ui.R in RStudio and Run App with Control+Shift+Enter (see <http://shiny.rstudio.com/tutorial/lesson1/>)
 3. wait until 
@@ -37,3 +37,6 @@ appears in console
 
 # code ref:
 * https://github.com/cjgb/rPython-win
+
+# bonus: The Terminator network
+* see Terminator folder
