@@ -1,14 +1,14 @@
-Q1: Low Bandwidth ? 
+* Q1: Low Bandwidth ? 
 
-Q2: Low RAM ? 
+* Q2: Low RAM ? 
 
 
 
-New incompatibility between ggplot2 + plotly + shiny widget IDs -> roll back
+1. New incompatibility between ggplot2 + plotly + shiny widget IDs -> roll back
 
-Chrome's JavaScript engine freezing and/or running very slowly -> change browser, otherwise https://d3js.org/ will not work
+2. Chrome's JavaScript engine freezing and/or running very slowly -> change browser, otherwise https://d3js.org/ will not work
 
-Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> change browser
+3. Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> change browser
 
 
 
