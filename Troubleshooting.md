@@ -6,9 +6,9 @@
 
 1. New incompatibility between ggplot2 + plotly + shiny widget IDs -> roll back
 
-2. Chrome's JavaScript engine freezing and/or running very slowly -> change browser, otherwise https://d3js.org/ will not work
+2. Chrome's JavaScript engine freezing and/or running very slowly -> change browser settings or browser, otherwise https://d3js.org/ will not work
 
-3. Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> change browser
+3. Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> update browser or change it
 
 
 
