@@ -6,7 +6,7 @@ For HTMLpreview use http://htmlpreview.github.io/?
 * https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE56094
 * https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58593
 
-For Microarray Probe (GSE58593) to potato CKN nodeID translation GoMapMan table is used http://www.gomapman.org/export/current/generic/ortholog_OCD_all_genes.tsv.gz
+For Microarray Probe (GSE58593) to potato CKN nodeID translation GoMapMan was is used http://www.gomapman.org/export/current/generic/ortholog_OCD_all_genes.tsv.gz
 
 # Ref:
 * http://bioconductor.org/packages/release/bioc/vignettes/GEOquery/inst/doc/GEOquery.html
