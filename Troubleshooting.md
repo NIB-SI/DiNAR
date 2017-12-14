@@ -9,6 +9,8 @@
 2. Chrome's JavaScript engine freezing and/or running very slowly -> change browser settings or browser, otherwise https://d3js.org/ will not work
 
 3. Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> update browser or change it
+- in addition - no js problems observed using: Opera portable, SRWare Iron portable, Chrome portable, previous veersions of Firefox, IE...
+
 
 
 
