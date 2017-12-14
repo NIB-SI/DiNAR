@@ -10,7 +10,7 @@
 
 3. Chrome/Iron keeps refreshing ("Calculation in Progress" message every second) -> update browser or change it
 
-in addition - no js problems observed using: Opera portable, SRWare Iron portable, Chrome portable, previous veersions of Firefox, IE...
+in addition - no js problems observed using: Opera portable, SRWare Iron portable, Chrome portable, previous versions of Firefox, IE...
 
 
 
