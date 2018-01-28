@@ -89,4 +89,5 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 # Ath GSE56094 experimental data analysis
 https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
-
+# obsolete
+https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
