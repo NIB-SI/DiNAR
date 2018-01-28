@@ -3,9 +3,8 @@
 ptm <- proc.time()
 
 ### use relative path
-# DATA_PATH <- file.path(getwd(), "/78aw64VzX1yAk7Yz/FdLI6cnm2jZ54u76/jI7Fw9J8zf6xO51q")
 DATA_PATH <- file.path("./78aw64VzX1yAk7Yz/FdLI6cnm2jZ54u76/jI7Fw9J8zf6xO51q")
-# DATA_PATH <- file.path("https://raw.githubusercontent.com/NIB-SI/DiNARscripts/master/78aw64VzX1yAk7Yz/FdLI6cnm2jZ54u76/jI7Fw9J8zf6xO51q")
+# DATA_PATH <- file.path("https://raw.githubusercontent.com/NIB-SI/DiNAR/master/CKNs")
 #### Ath
 myfile = 'C5c4lI1bwYc39L9j'# the names are fixed, otherwise use filelist[[1]]
 title.line <- readLines(paste0(DATA_PATH,'/',myfile), n=1)
@@ -50,3 +49,4 @@ nodesSoTub <- read.table(paste0(DATA_PATH,'/',myfile), skip=1,
 
 # Stop the clock
 print(proc.time() - ptm) # in seconds
+
