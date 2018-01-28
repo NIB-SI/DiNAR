@@ -2,23 +2,6 @@
 
 ################################################################################
 #' Plot Animated Network
-#'
-#' @param nlist list of dataframes with node data
-#' @param elist list of dataframes with edge data
-#' @param palette color palette
-#' @param clusterID numeric, cluster identification
-#' @return NULL
-#' @export
-#' @seealso \code{\link{funkcija}}
-#' @note
-#' @references
-#' @keywords graphics, animation, animatoR
-#' @title Plot Animated Network
-#' @author Andrej Blejec \email{andrej.blejec@nib.si}
-#' @examples
-#' is.pseudoprime(13, 4) # TRUE most of the time
-#' 
-#' 
 plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0){
   
   palette = (isolate(mypalette()))
@@ -70,8 +53,11 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
   #if(.test) print(head(n))
   e <- elist[[1]]
   #if(.test) print(head(e))
-  main <- paste("</br>Cluster:",paste(clusterID, collapse=", "),
-                "</br>n:",nrow(n),"</br>e:",nrow(e))
+  
+  minDegreeN = strtoi(trimws(input$mydegree))
+  main <- paste("Cluster:",paste(clusterID, collapse=", "),
+                paste0(" [minDegree: ", minDegreeN, "]"),
+                "\nn:",nrow(n),"e:",nrow(e))
 
   #
   # colors palette for expression and background
@@ -84,15 +70,14 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
   nc <- length(coln)
   # edges
   cole = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = NULL)
-  # pie(rep(1, 16), col = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = 1.0))
-  # barplot(1:16, col = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = 1.0))
+
   # background
-  bkg <- '#D9D9D9' #'#E3E3E3' # gray(0.8)
+  bkg <- '#E3E3E3' # '#D9D9D9' # gray(0.8)
   
   #
   # sel is used for partial plotting (future ...) can be used for selection of active edges
   #
-  sel <- 1:nrow(elist[[1]])
+  sel <- 1:nrow(elist[[1]]) ####  ####  ####  ####  ####  ####  ####  ####  all
   exprCol <- ncol(nlist[[1]])  # last column of n is expression
   edgeCol <- ncol(elist[[1]])  # last column of e is 0 absence / 1 presence of the edge
   #
@@ -114,13 +99,14 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
 
     
   # strength of the edge abs(DEnode1) + abs(DEnode2); sel::allEdges
-  abs1 = abs(nlist[[i]][elist[[i]]$geneID1,exprCol][sel])
+  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel])
   max1 = max(abs1, 1)
-  abs2 = abs(nlist[[i]][elist[[i]]$geneID2,exprCol][sel])
+  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel])
   max2 = max(abs2, 1)
   max3 = max(abs1/max1 + abs2/max2)
   lwd1 <- (abs1/max1 + abs2/max2)/max(max3, 1)
   lwd1[is.na(lwd1)] <- 0
+  lwd1 = ifelse(elist[[i]][,edgeCol] !=0, lwd1, 0) ####  ####  ####  ####  ####
   ise1 <- elist[[i]][,edgeCol][sel]   # edge strength/presence
   tst(max(lwd1))
     
@@ -133,13 +119,15 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
   coln2[is.na(coln1)] <- 0
   cex2 <- nlist[[i]][,exprCol]
   cex2[is.na(cex2)] <- 0
-  abs1 = abs(nlist[[i]][elist[[i]]$geneID1,exprCol][sel])
+  
+  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel])
   max1 = max(abs1, 1)
-  abs2 = abs(nlist[[i]][elist[[i]]$geneID2,exprCol][sel])
+  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel])
   max2 = max(abs2, 1)
   max3 = max(abs1/max1 + abs2/max2)
   lwd2 <- (abs1/max1 + abs2/max2)/max(max3, 1)
   lwd2[is.na(lwd1)] <- 0
+  lwd2 = ifelse(elist[[i]][,edgeCol] !=0, lwd2, 0) ####  ####  ####  ####  ####
   ise2 <- elist[[i]][,edgeCol][sel]   # edge strngth/presence
   tst(max(lwd2))   
     
@@ -191,17 +179,21 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
   colx[bigNegativeInd] = nodeColourBigNegative
   colx[othersInd] = nodeColourOthers
   # not xpressed between two points/conditions stay gray
-  colx[selnNonDE] = '#D9D9D9'
+  colx[selnNonDE] = '#E3E3E3' # '#D9D9D9'
 
 
   # edge width in time t
   lwdx = h(lwd1, lwd2, t)
   tst(max(lwdx))
-  # edge colour in time t
+  selFIX = which(lwdx != 0)
   tst(max(lwdx*16+1))
   temp = lwdx*16+1
   temp[which(temp > length(cole))] = length(cole)
   colex = cole[temp]
+  
+  # lwdx <- 4*lwdx + 0.5 ####  ####  ####  ####  ####  ####  ####  ####  ####  #
+  
+  
   ######## ######## ######## ######## ######## ######## ######## ######## ######
   
   ######## ######## ######## ######## ######## ######## ######## ######## ######
@@ -230,14 +222,14 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
   mytext[which(tmph == 0)] = ''
   
   cexx <- 5*nodeCex + 1.5
-  lwdx <- 5*lwdx + 1.0
+  lwdx <- 5*lwdx + 1.0 ####  ####  ####  ####  ####  ####  ####  ####  ####  ###
   
   tmp = unique(e$reactionType)
   act = grep('act', tmp)
   inh = grep('inh', tmp)
   bind = grep('bind', tmp)
   unkn = grep('unk', tmp)
-  rest = setdiff(seq(1, length(tmp), 1), union(act, union(inh, union(bind, unkn))))#union(inh, bind)))
+  rest = setdiff(seq(1, length(tmp), 1), union(act, union(inh, union(bind, unkn))))
   
   myarrows = unlist(sapply(e$reactionType, 
                            function(x){

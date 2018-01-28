@@ -65,10 +65,10 @@ myplotlys <- function(n, e, clusterID, isOK) {
     tmptext <- paste0("gene ID: ", n$geneID, "</br></br>",
                      "short name: ", n$shortName, "</br>",
                      "short description: ", n$shortDescription, "</br>",
-                     "MapMan bin: ", n$MapManBin, "</br>",
-                     "simplified node degree in network: ", n$networkSimplifiedNodeDegree, "</br>",
-                     "simplified node degree in super cluster: ", n$superClusterSimplifiedNodeDegree, "</br>",
-                     "node degree in cluster: ", n$clusterSimplifiedNodeDegree, "</br>",
+                     "GoMapMan bin: ", n$MapManBin, "</br>",
+                     #"simplified node degree in network: ", n$networkSimplifiedNodeDegree, "</br>",
+                     #"simplified node degree in super cluster: ", n$superClusterSimplifiedNodeDegree, "</br>",
+                     "simplified node degree in cluster: ", n$clusterSimplifiedNodeDegree, "</br>",
                      "targets: ", "</br>", tmp2)
     
     # plotlyGoneWild - showing code also - some 'new' thingy

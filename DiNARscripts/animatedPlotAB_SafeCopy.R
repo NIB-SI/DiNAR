@@ -21,6 +21,8 @@
 #' 
 plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   
+  # coln <- isolate(mypalette())$palette
+  
   palette = (isolate(mypalette()))
 
   if ((length(nlist) < 2) | (length(elist) < 2)) return(NULL)
@@ -45,8 +47,6 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   t0 <- (tanim2())
   tst(t0)
   
-  
-  # To generate .pdf animation
   # subDir <- "./plots"
   # dir.create(file.path(subDir), showWarnings = FALSE)
   # myfilename = paste0("SampleGraph", length(list.files(subDir))+1, '.pdf')
@@ -95,7 +95,8 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   nc <- length(coln)
   # edges
   cole = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = NULL)
-
+  # pie(rep(1, 16), col = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = 1.0))
+  # barplot(1:16, col = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = 1.0))
   # background
   bkg <- '#E3E3E3' # '#D9D9D9' # gray(0.8)
   
@@ -123,14 +124,14 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # minmax
 
   # strength of the edge abs(DEnode1) + abs(DEnode2); sel::allEdges
-  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel])
+  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel]) ####  FIXmz hand run
   max1 = max(abs1, 1)
-  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel])
+  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel]) ####  FIXmz
   max2 = max(abs2, 1)
   max3 = max(abs1/max1 + abs2/max2)
   lwd1 <- (abs1/max1 + abs2/max2)/max(max3, 1)
   lwd1[is.na(lwd1)] <- 0
-  lwd1 = ifelse(elist[[i]][,edgeCol] !=0, lwd1, 0) ####  ####  ####  ####  ####
+  lwd1 = ifelse(elist[[i]][,edgeCol] !=0, lwd1, 0) ####  ####  ####  ####  ####  FIXmz
   ise1 <- elist[[i]][,edgeCol][sel]   # edge strength/presence
   tst(max(lwd1))
     
@@ -144,23 +145,25 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   coln2[is.na(coln1)] <- 0
   cex2 <- nlist[[i]][,exprCol]
   cex2[is.na(cex2)] <- 0
-  
-  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel])
+  # abs1 = abs(nlist[[i]][elist[[i]]$geneID1,exprCol][sel])
+  abs1 = abs(nlist[[i]][match(elist[[i]]$geneID1, nlist[[i]]$geneID),exprCol][sel]) ####  FIXmz
   max1 = max(abs1, 1)
-  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel])
+  # abs2 = abs(nlist[[i]][elist[[i]]$geneID2,exprCol][sel])
+  abs2 = abs(nlist[[i]][match(elist[[i]]$geneID2, nlist[[i]]$geneID),exprCol][sel]) ####  FIXmz
   max2 = max(abs2, 1)
   max3 = max(abs1/max1 + abs2/max2)
   lwd2 <- (abs1/max1 + abs2/max2)/max(max3, 1)
   lwd2[is.na(lwd1)] <- 0
-  lwd2 = ifelse(elist[[i]][,edgeCol] !=0, lwd2, 0) ####  ####  ####  ####  ####
+  lwd2 = ifelse(elist[[i]][,edgeCol] !=0, lwd2, 0) ####  ####  ####  ####  ####  FIXmz
   ise2 <- elist[[i]][,edgeCol][sel]   # edge strngth/presence
   tst(max(lwd2))   
     
   par(oma=c(0,0,0,0),mar=c(2,1,3,2))
 
   selnNonDE <- intersect(selnNonDE1, selnNonDE2)
+  tmp.ise = which((ise1 != 0) & (ise2 !=0))############################################################################
 
-
+    
 
   ############################################################################
   # Nodes expression: cex1 and cex2 (DE)
@@ -208,16 +211,25 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
 
 
   # edge width in time t
+  # lwdx = ifelse(((lwd1 != 0) & (lwd2 != 0)), h(lwd1, lwd2, t), 0.0) ####  #### FIXmz
   lwdx = h(lwd1, lwd2, t)
+  #  which(lwdx != 0.0) == tmp.ise
+  # any(lwdx[tmp.ise] == 0)
   tst(max(lwdx))
+  # length(lwdx[lwdx!=0.5])
+  # selFIX = which((lwd1 != 0) & (lwd2 != 0)) ####  #### FIX?
   selFIX = which(lwdx != 0)
+  # selFIX == tmp.ise
+  # lwdx[setdiff(seq(1,length(lwdx)),sel)]
+  # lwdx = lwdx[sel] ####  #### FIX?
+  # edge colour in time t
   tst(max(lwdx*16+1))
   temp = lwdx*16+1
   temp[which(temp > length(cole))] = length(cole)
   colex = cole[temp]
   
-  lwdx <- 4*lwdx + 0.5
-
+  lwdx <- 4*lwdx + 0.5# 4*lwdx + 0.5 ####  #### FIX?
+  # which(lwdx != 0.5) == tmp.ise
 
   ######## ######## ######## ######## ######## ######## ######## ######## ######
   
@@ -230,25 +242,38 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   nt <- ntp
   tst(nt)
   
-  yLimits = range(n$y)  ####  ####  ####  ####  ####  ####  ####  ####  ####
-  xLimits = isolate(animatoRNE())$xLimits ####  ####  ####  ####  ####  #### 
+  yLimits = range(n$y) ####  ####  ####  ####  ####  ####  ####  #### FIXmz
+  xLimits = isolate(animatoRNE())$xLimits ####  ####  ####  ####  ####  #### FIXmz
   
-
-  newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),
-          ylim=yLimits,
+  # newplot(xlim=range(n$x),ylim=range(n$y),pty="m", asp=12/16)
+  newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),#c(range(n$x)[1], range(n$x)[2]+8),
+          ylim=yLimits,#range(n$y), ####  ####  ####  ####  ####  ####  #### FIXmz
           pty="m", asp=12/16)
 
   title(main,xpd=TRUE)
              
-  points(rep(max(xLimits) + diff(range(xLimits))*0.05 + 2, nc),
-         max(yLimits)-(nc:1)/nc*diff(range(yLimits)), 
-         cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
+  # palette
+  # points(rep(max(n$x) + diff(range(n$x))*0.05,nc),
+  # max(n$y)-(nc:1)/nc*diff(range(n$y)),
+  # cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
+  points(# rep(max(n$x) + diff(range(n$x))*0.05,nc),
+    rep(max(xLimits) + diff(range(xLimits))*0.05, nc),
+    # max(n$y)-(nc:1)/nc*diff(range(n$y)), 
+    max(yLimits)-(nc:1)/nc*diff(range(yLimits)), ####  ####  ####  ####  #### FIXmz
+    cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
 
-  text(rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], 
-       (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)], 
-       col = coln[seq(1,nc,10)], 
-       cex = 0.75, 
-       labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
+  # text(rep(max(n$x) - diff(range(n$x))*0.05 + 8,nc)[seq(1,71,5)],
+  #      (max(n$y)-(nc:1)/nc*diff(range(n$y)))[seq(1,71,5)], 
+  #      col = coln[seq(1,nc,5)], 
+  #      cex = 0.75, 
+  #      labels = formatC(round(seq(-minmax, minmax, length.out=nc)[seq(1,nc,5)],2), 2, format = "f"))
+  text(# rep(max(n$x) + diff(range(n$x))*0.05 + 1.5, nc)[seq(1,71,5)], ####  #### FIXmz
+    rep(max(xLimits) + diff(range(xLimits))*0.05 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], ####  #### FIXmz
+    # (max(n$y)-(nc:1)/nc*diff(range(n$y)))[seq(1,nc,5)], 
+    (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)], ####  ####  ####  #### FIXmz
+    col = coln[seq(1,nc,10)], 
+    cex = 0.75, ####  ####  ####  #### FIXmz
+    labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
 
   # time/condition scale
   axis(1,at=seq(min(n$x),max(n$x),length=nt),labels=0:(nt-1))
@@ -256,7 +281,8 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # time 
   points(min(n$x)+(day+t)/(nt-1)*diff(range(n$x)),par("usr")[3],pch=16,cex=2)
   mtext(side=1,line=1,round(day+t,2),adj=(day+t)/(nt-1),col=8)
-  mtext(side=1,line=-1,adj=(-0.0),"time/condition")
+  # mtext(side=1,line=-1,adj=(-0.010),"time/condition")################
+  mtext(side=1,line=-1,adj=(-0.0),"time/condition")################
 
   # # Background
   # vertices
@@ -269,7 +295,7 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
     nlist[[i]][elist[[i]]$geneID1,"y"],
     nlist[[i]][elist[[i]]$geneID2,"x"],
     nlist[[i]][elist[[i]]$geneID2,"y"],
-    col='#F3F3F3', # bkg,
+    col='#F3F3F3', #bkg,
     lwd=0.5)
   # 
               
@@ -278,14 +304,15 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # # short node name
   mytext = ifelse(n$shortName !='-', n$shortName, n$geneID)
   ts = round(h(coln1,coln2,t),2)
+  # mytext = paste0(mytext,'\n[', ts, ']')
   mytext[which(round(abs(ts)) == 0)] = ''
-  
   # nodes
-  cexx <- 4*nodeCex + 1.5
+  cexx <- 4*nodeCex + 1.5 #######################################################
   tst(max(cexx))
   tst(min(cexx))
   
   # edges
+  # lwdx <- 2*lwdx # lwdx <- 4*lwdx + 0.5
   tst(max(lwdx))
   tst(min(lwdx))
   
@@ -295,10 +322,10 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
     # nlist[[i]][elist[[i]]$geneID1[sel],"y"],
     # nlist[[i]][elist[[i]]$geneID2[sel],"x"],
     # nlist[[i]][elist[[i]]$geneID2[sel],"y"],
-    nlist[[i]][match(elist[[i]]$geneID1[selFIX], nlist[[i]]$geneID),"x"],
-    nlist[[i]][match(elist[[i]]$geneID1[selFIX], nlist[[i]]$geneID),"y"],
-    nlist[[i]][match(elist[[i]]$geneID2[selFIX], nlist[[i]]$geneID),"x"],
-    nlist[[i]][match(elist[[i]]$geneID2[selFIX], nlist[[i]]$geneID),"y"],
+    nlist[[i]][match(elist[[i]]$geneID1[selFIX], nlist[[i]]$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
+    nlist[[i]][match(elist[[i]]$geneID1[selFIX], nlist[[i]]$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
+    nlist[[i]][match(elist[[i]]$geneID2[selFIX], nlist[[i]]$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
+    nlist[[i]][match(elist[[i]]$geneID2[selFIX], nlist[[i]]$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
     col=colex[selFIX],
     lwd=lwdx[selFIX])
   
@@ -308,11 +335,15 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   points(nlist[[i]]$x,nlist[[i]]$y,
          col='#E6E6E6', # bkg, 
          pch=16, cex=0.75) # Background
-
+  #.tst <- TRUE
+  #print(c(day,t))
+  #print(head(cbind(cex1,hcex=(cexx-1)/2,cex2,cexx)))
+  #.tst <- FALSE
+  
   # active
   points(nlist[[i]]$x,nlist[[i]]$y, pch=21,
   bg = colx,
-  col = colx, # circle around node, actice nodes should cover inactive ones
+  col = colx,#"white", # white circle around node, actice nodes should cover inactive ones
   cex = cexx)
   
   # THIS TRIGGERS FLICKER
@@ -321,10 +352,11 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # textCol = rgb(0,0,0, alpha = 0.5 +   tst(txtcx))
   # textCol = rgb(0,0,0, alpha = 0.8)
 
+  # tst(max(2*cexx/(3*max(cexx,1))))
   text(x = nlist[[i]]$x,
        y = nlist[[i]]$y,
        labels = mytext,
-       cex = 3*cexx/(3*max(cexx,1)),
+       cex = 3*cexx/(3*max(cexx,1)),######################################
        offset = 0.0,
        col = 'black')
   ######## ######## ######## ######## ######## ######## ######## ######## ######

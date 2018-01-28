@@ -24,13 +24,13 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     if(is.null(coln)) coln <- isolate(mypalette())$palette
     ncol <- length(coln)
 
-
+    # minmax = max(abs(isolate(colMaxMin())))
     minmax = max(abs(isolate(mypalette())$minmax))
 
     if(is.null(cole)) cole = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = NULL)
     bkg <- '#E6E6E6' # '#D9D9D9'
   
-    sel <- 1:nrow(e)  ####  ####  ####  ####  ####  ####  ####  ####  ####  ####
+    sel <- 1:nrow(e) ####  ####  ####  ####  ####  FIXmz
     selA <- which(e[,ncol(e)] !=0)
     exprCol <- ncol(n)  # last column of n is expression
     edgeCol <- ncol(e)  # last column of e is 0 absence / 1 presence of the edge
@@ -39,14 +39,14 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     coln1[is.na(coln1)] <- 0
     selnNonDE <- which(coln1==0) # not DE in point i
 
-    abs1 = abs(n[match(e$geneID1, n$geneID),exprCol][sel])
+    abs1 = abs(n[match(e$geneID1, n$geneID),exprCol][sel]) ####  ####  ####  FIXmz
     max1 = max(abs1, 1)
-    abs2 = abs(n[match(e$geneID2, n$geneID),exprCol][sel])
+    abs2 = abs(n[match(e$geneID2, n$geneID),exprCol][sel]) ####  ####  ####  FIXmz
     max2 = max(abs2, 1)
     max3 = max(abs1/max1 + abs2/max2)
     lwdx <- (abs1/max1 + abs2/max2)/max(max3, 1)
     lwdx[is.na(lwdx)] <- 0
-    lwdx[setdiff(seq(1,length(lwdx), 1), selA)] <- 0 ####  ####  ####  ####  ###
+    lwdx[setdiff(seq(1,length(lwdx), 1), selA)] <- 0 ####  ####  ####  FIXmz
     isex <- e[,edgeCol][sel]   # edge strength/presence
   
     ncol = length(coln) 
@@ -103,11 +103,11 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     cexx <- 4*nodeCex + 1.5
 
     # edges
-    # lwdx <- 4*lwdx + 0.5
-    lwdx <- 5*lwdx + 0.5 ####  ####  ####  ####  ####  ####  ####  ####  ####  ###
+    lwdx <- 4*lwdx + 0.5
 
-    # print('VisStat')
-    # print(selA)
+    print('VisStat')
+    print(selA)
+    print(which(lwdx != 0.50))
 
     # active
 
@@ -116,7 +116,7 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     inh = grep('inh', tmp)
     bind = grep('bind', tmp)
     unkn = grep('unk', tmp)
-    rest = setdiff(seq(1, length(tmp), 1), union(act, union(inh, union(bind, unkn))))
+    rest = setdiff(seq(1, length(tmp), 1), union(act, union(inh, union(bind, unkn))))#union(inh, bind)))
     
     myarrows = unlist(sapply(e$reactionType, 
                             function(x){
@@ -200,6 +200,7 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     sidePalette <- data.frame(color = (unique(isolate(mypalette())$palette))[seq(1,nc,5)[c(1,5,8,11,15)]], 
                               label =  formatC(round(seq(-minmax, minmax, 
                                                          length.out=nc)[seq(1,nc,5)[c(1,5,8,11,15)]],2), 2, format = "f"),
+                              #shape = "icon", icon = list(code = "f0c0", size = 25))
                               shape = 'circle',
                               circle = list(size = c(2,1,0.5,1,2)))
     
@@ -236,9 +237,12 @@ plot.net <- function(node1, edge1, clusterID, isOK){
                 addEdges = tmpdf, 
                 addNodes = sidePalette, 
                 position = 'right', 
+                #stepX = 100,  ####  ####  ####  ####  ####  ####  ####  #### FIXmz
+                #stepY = 100,  ####  ####  ####  ####  ####  ####  ####  #### FIXmz
                 width = 0.2, 
                 ncol = 1,
                 zoom = FALSE) %>%
+      # visLegend(useGroups = FALSE, addEdges = tmpdf, position = 'left', stepX = 100, stepY = 25, width = 0.1) %>%
       visIgraphLayout()
     
 

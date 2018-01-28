@@ -170,9 +170,9 @@ shinyUI(
               title = uiOutput("helpPalette")
           ),
           htmlOutput("helpPalette2"),
-          colourInput("col1", "Selected lower boundary colour", "#003366"),
-          colourInput("col2", "Selected intermediate colour", "#EBEBEB"),
-          colourInput("col3", "Selected upper boundary colour", "#AA1111"),
+          colourpicker::colourInput("col1", "Selected lower boundary colour", "#003366"),
+          colourpicker::colourInput("col2", "Selected intermediate colour", "#EBEBEB"),
+          colourpicker::colourInput("col3", "Selected upper boundary colour", "#AA1111"),
           uiOutput("colMaxMinPalette")#,
           # actionButton(inputId = "createPalette", label = tags$div(HTML(paste(tags$b(tags$span(style="color:#009900", "Proceed!")), sep = ""))),
           #              style="color: #C8E500;")#'padding:4px; font-size:80%') # flow control button

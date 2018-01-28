@@ -41,6 +41,7 @@ lubripack <- function(...,silent=FALSE){
 }
 
 # http://deanattali.com/2015/06/28/introducing-shinyjs-colourinput/
+# https://github.com/manlius/muxViz/issues/5
 # library(colourpicker)
 
 

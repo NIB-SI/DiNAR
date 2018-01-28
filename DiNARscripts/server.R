@@ -892,7 +892,7 @@ shinyServer(
     # create colour palette from three selected colours
     # first colour
     observeEvent(input$col1, {
-      updateColourInput(session, inputId = "col1", label = NULL,
+      colourpicker::updateColourInput(session, inputId = "col1", label = NULL,
                         value = input$text, showColour = input$showColour,
                         allowTransparent = input$allowTransparent,
                         palette = input$palette,
@@ -900,7 +900,7 @@ shinyServer(
     })
     # second colour
     observeEvent(input$col2, {
-      updateColourInput(session, "col2",
+      colourpicker::updateColourInput(session, "col2",
                         value = input$text, showColour = input$showColour,
                         allowTransparent = input$allowTransparent,
                         palette = input$palette,
@@ -908,7 +908,7 @@ shinyServer(
     })
     # third colour
     observeEvent(input$col3, {
-      updateColourInput(session = session, 
+      colourpicker::updateColourInput(session = session, 
                         inputId = "col3",
                         label = NULL,
                         value = input$text, showColour = input$showColour,
@@ -1231,9 +1231,12 @@ shinyServer(
       # http://statmethods.net/advgraphs/layout.html
       layout(matrix(c(1,1,2,2), 2, 2, byrow = TRUE), widths=c(1,1), heights=c(1,1.5))
       
-      t = (as.data.frame(table(yy$networkSimplifiedNodeDegree)))
+      t = (as.data.frame(table(yy$clusterSimplifiedNodeDegree))) ####  ####  FIXmz
       d = t[with(t, order(-Freq, Var1)), ]
-      d = d[d$Freq > round(quantile(as.numeric(as.character(d$Freq)),0.75)[[1]]),]
+      myThreshold = round(quantile(as.numeric(as.character(d$Freq)),0.75)[[1]])
+      if (myThreshold < max(d$Freq)) {
+        d = d[d$Freq > round(quantile(as.numeric(as.character(d$Freq)),0.75)[[1]]),]
+      }
       d$Position = seq(1, dim(d)[1], 1)
       yrange = range(d$Freq)
       xrange = range((as.numeric(d$Position)))
@@ -1242,12 +1245,12 @@ shinyServer(
               #breaks = sort(unique(d$Freq)),
               xlim = c(1,2*max(xrange) + 10),
               ylim = c(0,max(yrange) + 250),
-              xlab = 'Network node degree, not counting multiple relations and loops',
+              xlab = 'Cluster node degree, not counting multiple relations and loops', #### FIXmz
               ylab = paste0('Number of nodes per degree (', yrange[1], ' - ',  yrange[2],')'),
               main = paste0('\n',
                 "Number of nodes in ", input$lkn, ' network: ', dim(yy)[1], "\n",
-                "Highest node degree: ", max(yy$networkSimplifiedNodeDegree, yy$networkSimplifiedNodeDegree),  "\n",
-                "Lowest node degree: ", min(yy$networkSimplifiedNodeDegree, yy$networkSimplifiedNodeDegree), "\n"),
+                "Highest node degree: ", max(yy$clusterSimplifiedNodeDegree, yy$clusterSimplifiedNodeDegree),  "\n",
+                "Lowest node degree: ", min(yy$clusterSimplifiedNodeDegree, yy$clusterSimplifiedNodeDegree), "\n"),
               xaxt="n",
               yaxt="n",
               col = rainbow(dim(d)[1]),
@@ -1260,7 +1263,7 @@ shinyServer(
       
       ####  ####  ####  ####  ####  
       
-      t = (as.data.frame(table(yy$networkSimplifiedNodeDegree)))
+      t = (as.data.frame(table(yy$clusterSimplifiedNodeDegree))) ####  ####  FIXmz
       d = t[with(t, order(-Freq, Var1)), ]
       d = d[d$Freq <= round(quantile(as.numeric(as.character(d$Freq)),0.75)[[1]]),]
       d$Position = seq(1, dim(d)[1], 1)
@@ -1272,7 +1275,7 @@ shinyServer(
               #breaks = sort(unique(d$Freq)),
               ylim = c(1,6*max(xrange) + 10),
               xlim = c(0,max(yrange) + 1),
-              ylab = 'Network node degree, not counting multiple relations and loops',
+              ylab = 'Cluster node degree, not counting multiple relations and loops',
               xlab = paste0('Number of nodes per degree (', yrange[1], ' - ',  yrange[2],')'),
               main = '',
               xaxt="n",
@@ -1354,7 +1357,7 @@ shinyServer(
       yy <- isolate(animatoRNE())$n
       yy1 = yy$MapManBin
 
-      if (input$lkn != "Custom network") {
+      # if (input$lkn != "Custom network") {
         tmpstr = yy1
         
         if (length(tmpstr)){
@@ -1366,17 +1369,21 @@ shinyServer(
           d = t[with(t, order(-Freq, Var1)), ]
           rownames(d) = d[,1]
           colnames(d) = c('word', 'freq')
+          # typeof(d$word)
+          # typeof(demoFreq$freq)
+
           
           wordcloud2(d, #size = 2, gridSize = 1, ellipticity = 0.6)
                      shape = 'cardioid',
-                     gridSize = 1,
+                     gridSize = 1.5,
                      ellipticity = 0.6,
-                     size = 2, 
+                     size = 1.0, 
                      minRotation = -pi/2, maxRotation = -pi/2,
+                     #figPath = paste0(getwd(),"/M2jeo.jpg"),
                      color = "random-light")#, backgroundColor = "grey")
           # d3Cloud(text = d[,1], size = d[,2])
         }
-      }
+      # }
 
       
       
@@ -1792,6 +1799,8 @@ shinyServer(
       
       # this first dim(n) should be == dim(node1)
       n <- node1[which(node1$clusterID%in%clusterID),]
+      yLimits = range(n$y) ####  ####  ####  ####  ####  ####  ####  ####  ####  FIXmz
+      xLimits = range(n$x) ####  ####  ####  ####  ####  ####  ####  ####  ####  FIXmz
       sel = which(n$clusterSimplifiedNodeDegree >= cutDeg)
       n = n[sel,]
       # dim(e) is not == dim(edge1)
@@ -1799,8 +1808,14 @@ shinyServer(
       e <- edge1[select,]
       select <- which((e$geneID1 %in% n$geneID)&(e$geneID2 %in% n$geneID))
       e <- e[select,]
+      selectNonLoop <- which(e$geneID1 != e$geneID2)  ####  FIXmz
+      eNonLoop = e[selectNonLoop,] ####  ####  ####  ####  ####  ####  ####  FIXmz
+      sel = sort(which(n$geneID %in% union(eNonLoop$geneID1, eNonLoop$geneID2)))  ####  FIXmz
+      n = n[sel,]   ####  ####  ####  ####  ####  ####  ####  ####  ####  FIXmz
+      select <- which((e$geneID1 %in% n$geneID)&(e$geneID2 %in% n$geneID))
+      e <- e[select,]
       
-      return(list(n=n, e=e))
+      return(list(n=n, e=e, yLimits=yLimits, xLimits=xLimits)) ####  ####  ####  ####  ####  ####  ####  ####  ####  FIXmz
       
     }) 
     
@@ -1875,7 +1890,8 @@ shinyServer(
               visEdges(smooth = FALSE) %>% 
               # visNodes(scaling = list(min = 20, max = 60)) %>% 
               visPhysics(stabilization = FALSE) %>% 
-              visLegend(useGroups = F, addNodes = ledges, position = 'right', stepX = 25, stepY = 25, width = 0.05) %>% 
+              visLegend(useGroups = F, addNodes = ledges, position = 'right', # stepX = 25, stepY = 25, 
+                        width = 0.05) %>% 
               visInteraction(navigationButtons = TRUE,
                              keyboard = FALSE, 
                              tooltipDelay = 0) 
@@ -2078,16 +2094,16 @@ shinyServer(
                        which(ncluID == xx$clusterID_geneID2)),]
       }
       
-      sel = intersect(which(xx$networkSimplifiedNodeDegree_geneID1 > degreeCutoff),
-                      which(xx$networkSimplifiedNodeDegree_geneID2 > degreeCutoff))
+      sel = intersect(which(xx$clusterSimplifiedNodeDegree_geneID1 >= degreeCutoff), #### FIXmz
+                      which(xx$clusterSimplifiedNodeDegree_geneID2 >= degreeCutoff)) #### FIXmz
       xx = xx[sel,]
 
       if (input$lkn != "Custom network") {
         colNames = toupper(c("geneID1", "geneID2", "reactionType", 
                              "clusterID_geneID1", "clusterID_geneID2", 
-                             'superClusterID_geneID1', 'superClusterID_geneID2',
-                             'networkSimplifiedNodeDegree_geneID1', 'networkSimplifiedNodeDegree_geneID2',
-                             'superClusterSimplifiedNodeDegree_geneID1', 'superClusterSimplifiedNodeDegree_geneID2',
+                             #'superClusterID_geneID1', 'superClusterID_geneID2',
+                             #'networkSimplifiedNodeDegree_geneID1', 'networkSimplifiedNodeDegree_geneID2',
+                             #'superClusterSimplifiedNodeDegree_geneID1', 'superClusterSimplifiedNodeDegree_geneID2',
                              "clusterSimplifiedNodeDegree_geneID1", "clusterSimplifiedNodeDegree_geneID2"))
       } else {
         colNames = toupper(colnames(xx)[-ncol(xx)])
@@ -2100,9 +2116,9 @@ shinyServer(
         colnames(xx) = c('STARTgene', 'ENDgene', 
                          'reactionTYPE', 
                          'STARTcluster', 'ENDcluster',
-                         'STARTsuperClu', 'ENDsuperClu',
-                         'netSTARTnodeDegree', 'netENDnodeDegree',
-                         'superCluSTARTnodeDegree', 'superCluENDnodeDegree',
+                         #'STARTsuperClu', 'ENDsuperClu',
+                         #'netSTARTnodeDegree', 'netENDnodeDegree',
+                         #'superCluSTARTnodeDegree', 'superCluENDnodeDegree',
                          'cluSTARTnodeDegree', 'cluENDnodeDegree')
       } else {
         colnames(xx) = colnames(xx)
@@ -2132,10 +2148,10 @@ shinyServer(
       tmp = n
       if (input$lkn != "Custom network") {
         colNames = toupper(c("geneID", "shortDescription", "shortName", "MapManBin", 
-                             "networkSimplifiedNodeDegree", 
-                             'superClusterSimplifiedNodeDegree',
+                             #"networkSimplifiedNodeDegree", 
+                             #'superClusterSimplifiedNodeDegree',
                              "clusterSimplifiedNodeDegree", 
-                             'superClusterID',
+                             #'superClusterID',
                              "clusterID"))
       } else {
         colNames = toupper(colnames(tmp)[-ncol(tmp)])
@@ -2149,10 +2165,10 @@ shinyServer(
                          'shortDESCRIPTION', # 2
                          'shortNAME',        # 3
                          'MapManBIN',        # 4
-                         'networkNodeDEGREE',
-                         'superCluNodeDEGREE',
+                         #'networkNodeDEGREE',
+                         #'superCluNodeDEGREE',
                          'cluNodeDEGREE',
-                         'GENEsuperClu',
+                         #'GENEsuperClu',
                          'GENEclu')
       } else {
         colnames(yy) = colnames(yy)
@@ -2463,6 +2479,8 @@ shinyServer(
         }
       }
     )
+    
+  # save.image("test.RData")  
 
   }) 
 

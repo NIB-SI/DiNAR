@@ -83,7 +83,6 @@ ABanimatoRfunctionVIS <- function(n = n, e = e, clusterID = clusterID, isOK){
       edge1[, ncol(edge1)] = rep(0.00, length(edge1[, ncol(edge1)]))
       # assign edge expression
       ### if both end nodes are DE -> edge expression = 1, edge expression = 0
-      # edge1[, ncol(edge1)] = abs(node1[, ncol(node1)][ind3]*node1[, ncol(node1)][ind4])
       edge1[, ncol(edge1)] = ifelse(abs(node1[, ncol(node1)][ind3]*node1[, ncol(node1)][ind4]) != 0.00, 1, 0.00)
       mySubnetworkNodes[[i]] = node1 # nodes
       
@@ -121,7 +120,6 @@ ABanimatoRfunctionVIS <- function(n = n, e = e, clusterID = clusterID, isOK){
       edge1[, ncol(edge1)]= rep(0.00, length(edge1[, ncol(edge1)]))
       # assign edge expression
       ### if both end nodes are DE -> edge expression = 1, edge expression = 0
-      # edge1[, ncol(edge1)] = abs(node1[, ncol(node1)][ind3]*node1[, ncol(node1)][ind4])
       edge1[, ncol(edge1)] = ifelse(abs(node1[, ncol(node1)][ind3]*node1[, ncol(node1)][ind4]) != 0.00, 1, 0.00)
       mySubnetworkEdges[[i]] = edge1 # nodes
       
@@ -137,10 +135,6 @@ ABanimatoRfunctionVIS <- function(n = n, e = e, clusterID = clusterID, isOK){
                           e = mySubnetworkEdges , 
                           palette = mypalette, 
                           clusterID = clusterID))
-    #
-    ##############################################################################
-    # pie(c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5),
-    #     init.angle = 315, col = c("deepskyblue", "yellow", "yellow3"),
-    #     border = FALSE)
+    ############################################################################
   }
 }

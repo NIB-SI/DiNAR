@@ -45,7 +45,7 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     if(is.null(cole)) cole = gray.colors(n = 16, start = 0.85, end = 0.1, gamma = 0.5, alpha = NULL)
     bkg <- '#E6E6E6' #'#D9D9D9'
     
-    sel <- which(e[,ncol(e)] !=0) # 1:nrow(e) for all
+    sel <- which(e[,ncol(e)] !=0) # 1:nrow(e) ####  ####  ####  ####  ####  FIXmz
     exprCol <- ncol(n)  # last column of n is expression
     edgeCol <- ncol(e)  # last column of e is 0 absence / 1 presence of the edge
     
@@ -53,11 +53,11 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     coln1[is.na(coln1)] <- 0
     selnNonDE <- which(coln1==0) # not DE in point i
     
-    abs1 = abs(n[match(e$geneID1, n$geneID),exprCol][sel])
+    abs1 = abs(n[match(e$geneID1, n$geneID),exprCol][sel]) ####  ####  ####  FIXmz
     max1 = max(abs1, 1)
-    abs2 = abs(n[match(e$geneID2, n$geneID),exprCol][sel])
+    abs2 = abs(n[match(e$geneID2, n$geneID),exprCol][sel]) ####  ####  ####  FIXmz
     max2 = max(abs2, 1)
-    max3 = max(ifelse(length(abs1), abs1/max1, 0) + ifelse(length(abs2), abs2/max2, 0))
+    max3 = max(abs1/max1 + abs2/max2)
     lwdx <- (abs1/max1 + abs2/max2)/max(max3, 1)
     lwdx[is.na(lwdx)] <- 0
     isex <- e[,edgeCol][sel]   # edge strength/presence
@@ -91,28 +91,35 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
                   paste0(" [minDegree: ", minDegreeN, "]"),
                   "\nn:",nrow(n),"e:",nrow(e))
     
-    # yLimits = isolate(animatoRNE())$yLimits
-    yLimits = range(n$y)
-    xLimits = isolate(animatoRNE())$xLimits
+    # yLimits = isolate(animatoRNE())$yLimits ####  ####  ####  ####  ####  #### FIXmz
+    yLimits = range(n$y) ####  ####  ####  ####  ####  ####  ####  #### FIXmz
+    xLimits = isolate(animatoRNE())$xLimits ####  ####  ####  ####  ####  #### FIXmz
     
-    newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),
-            ylim=yLimits,
+    newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),#c(range(n$x)[1], range(n$x)[2]+8),
+            ylim=yLimits,#range(n$y), ####  ####  ####  ####  ####  ####  #### FIXmz
             pty="m", asp=12/16)
     
     title(main,xpd=TRUE)
     
     nc <- length(coln)
     # palette
-    points(# rep(max(xLimits) + diff(range(xLimits))*0.05, nc),
-           rep(max(xLimits) + diff(range(xLimits))*0.05 + 2, nc),
-           max(yLimits)-(nc:1)/nc*diff(range(yLimits)),
+    points(# rep(max(n$x) + diff(range(n$x))*0.05,nc),
+           rep(max(xLimits) + diff(range(xLimits))*0.05, nc),
+           # max(n$y)-(nc:1)/nc*diff(range(n$y)), 
+           max(yLimits)-(nc:1)/nc*diff(range(yLimits)), ####  ####  ####  ####  #### FIXmz
            cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
     
-    text(# rep(max(xLimits) + diff(range(xLimits))*0.05 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)],
-         rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)],
-         (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)],
+    # text(rep(max(n$x) - diff(range(n$x))*0.05 + 8,nc)[seq(1,71,5)],
+    #      (max(n$y)-(nc:1)/nc*diff(range(n$y)))[seq(1,nc,5)], 
+    #      col = coln[seq(1,nc,5)], 
+    #      cex = 0.75, 
+    #      labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,5)],2), 2, format = "f"))
+    text(# rep(max(n$x) + diff(range(n$x))*0.05 + 1.5, nc)[seq(1,71,5)], ####  #### FIXmz
+         rep(max(xLimits) + diff(range(xLimits))*0.05 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], ####  #### FIXmz
+         # (max(n$y)-(nc:1)/nc*diff(range(n$y)))[seq(1,nc,5)], 
+         (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)], ####  ####  ####  #### FIXmz
          col = coln[seq(1,nc,10)], 
-         cex = 0.75,
+         cex = 0.75, ####  ####  ####  #### FIXmz
          labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
 
     
@@ -120,19 +127,19 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     # pie(x=c(1,1,1), col=c('#D9D9D9', '#E6E6E6', '#F3F3F3'), labels = c('#D9D9D9', '#E6E6E6', '#F3F3F3'))
     # vertices
     points(n[,"x"],n[,"y"],
-           col="#E6E6E6", # bkg
+           col="#E6E6E6", #bkg, ####  ####  ####  ####  ####  FIXmz
            cex=1.5)
     # edges
     segments(
       #n[e$geneID1,"x"],
-      n[match(e$geneID1, n$geneID),"x"],
+      n[match(e$geneID1, n$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
       #n[e$geneID1,"y"],
-      n[match(e$geneID1, n$geneID),"y"],
+      n[match(e$geneID1, n$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
       #n[e$geneID2,"x"],
-      n[match(e$geneID2, n$geneID),"x"],
+      n[match(e$geneID2, n$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
       #n[e$geneID2,"y"],
-      n[match(e$geneID2, n$geneID),"y"],
-      col='#F3F3F3', # bkg,
+      n[match(e$geneID2, n$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
+      col='#F3F3F3', #bkg, ####  ####  ####  ####  ####  FIXmz
       lwd=0.5)
     # 
     
@@ -146,26 +153,35 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     cexx <- 4*nodeCex + 1.5
     
     # edges
-    lwdx <- 4*lwdx + 0.5
+    # lwdx <- 4*lwdx + 0.5
+    lwdx <- 4*lwdx + 0.5 ####  ####  ####  ####  ####  ####  ####  ####  FIXmz
     
     segments(
-      n[match(e$geneID1[sel], n$geneID),"x"],
-      n[match(e$geneID1[sel], n$geneID),"y"],
-      n[match(e$geneID2[sel], n$geneID),"x"],
-      n[match(e$geneID2[sel], n$geneID),"y"],
+      # n[e$geneID1[sel],"x"],
+      # n[e$geneID1[sel],"y"],
+      # n[e$geneID2[sel],"x"],
+      # n[e$geneID2[sel],"y"],
+      n[match(e$geneID1[sel], n$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
+      n[match(e$geneID1[sel], n$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
+      n[match(e$geneID2[sel], n$geneID),"x"], ####  ####  ####  ####  ####  FIXmz
+      n[match(e$geneID2[sel], n$geneID),"y"], ####  ####  ####  ####  ####  FIXmz
       col=colex,
       lwd=lwdx)
     
-    # print("staticAB")
-    # print(sel)
+    print("staticAB")
+    print(sel)
     
 
     # Background
     # inner part
     points(n$x,n$y,
-           col="#E6E6E6", # bkg,
+           col="#E6E6E6", #bkg,  ####  ####  ####  ####  ####  FIXmz
            pch=16, cex=0.75) # Background
-
+    #.tst <- TRUE
+    #print(c(day,t))
+    #print(head(cbind(cex1,hcex=(cexx-1)/2,cex2,cexx)))
+    #.tst <- FALSE
+    
     # active
     points(n$x,n$y, pch=21,
            bg = colx,
