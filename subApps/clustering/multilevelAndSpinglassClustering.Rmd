@@ -1,0 +1,1527 @@
+---
+title: "multilevel and spinglass"
+author: "mzagor"
+date: "2016/2017"
+output:
+  html_document:
+    depth: 3
+    highlight: tango
+    number_sections: yes
+    theme: united
+    toc: yes
+  pdf_document:
+    highlight: zenburn
+    number_sections: yes
+    toc: yes
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width = 15, fig.height = 15, fig.path = 'Figs/',
+                      echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# General knowledge
+
+http://stackoverflow.com/questions/9471906/what-are-the-differences-between-community-detection-algorithms-in-igraph
+
+https://www.r-bloggers.com/summary-of-community-detection-algorithms-in-igraph-0-6/
+
+<font color='green'>Community Detection in graphs - community detection algorithm implemented in igraph :
+
+1. edge-betweennes.community(w,-d) - hierarchical decomposition process, very slow 
+  
+2. walktrap.community (w,-d) - based on random walks, in my case generates to many to small clusters
+  
+3. fastgreedy.community(w) - bottom-up,  suffer from a resolution limit
+  
+4. spinglass.community (w,d, not for unconnected graph) - approach from statistical physics, based on the so-called Potts model;  It is not guaranteed that nodes in completely remote (or disconencted) parts of the networks have different spin states; in my case without set.seed(Random Number Generation) option generates different assignments
+  
+5. infomap.community (w,d) - in my case, works only on undirected, simplified (loops and multiple relations are removed) LKN with 128 (2^7) iterations and set.seed()
+  
+6. label.propagation.community(w) - very fast but yields different results based on the initial configuration (which is decided randomly)
+  
+7. multivel.community(w) - cluster_louvain(g)
+  
+8. leading.eigenvector.community (w) -  top-down hierarchical approach</font>
+  
+  
+<font color='MidnightBlue'>Pipeline:</font>
+
+<font color='MidnightBlue'>1. Cluster LKN using Multi-Level algorithm (https://arxiv.org/abs/0803.0476)</font>
+
+<font color='MidnightBlue'>2. After Multi-Level, subnetworks from big.0.0 of cluster size [2^10, max) cluster with spinglass algorithm according to the number of hub nodes and plot separately. 
+
+<font color='MidnightBlue'>4.BE CAREFUL: spinglass algorithm works only on connected graphs. Each time before spinglass clustering check if subgraph disintegrate to weak components.</font>
+
+https://lists.nongnu.org/archive/html/igraph-help/2010-04/msg00076.html - layout repeatability in R and spinglass.community function?
+
+<font color='green'>"...it gives different results each time because it is starting from different random start-points each time."</font>
+
+
+# R packages
+
+```{r packages}
+
+if (!require("igraph")) install.packages("igraph")
+library(igraph)
+if (!require("tictoc")) install.packages("tictoc")
+require(tictoc)
+if (!require("gtools")) install.packages("gtools")
+library(gtools)
+if (!require("reshape2")) install.packages("reshape2")
+library(reshape2)
+if (!require("gmp")) install.packages("gmp")
+library(gmp)
+
+tic()
+
+```
+
+
+```{r set seed}
+
+set.seed(123456)
+
+```
+
+<font color='purple'>Warnings in igraph because of bug - fix</font>
+
+```{r fix igraph}
+
+autocurve.edges <- function(graph, start=0.5) {
+  el <- apply(get.edgelist(graph, names = FALSE), 1, paste, collapse = ":")
+  ave(rep(NA, length(el)), el, FUN = function(x) {
+    if (length(x) == 1) {
+      return(0)
+    } else {
+      return(seq(-start, start, length = length(x)))
+    }
+  })
+}
+
+```
+
+```{r not in}
+
+'%ni%' = Negate('%in%') 
+
+```
+
+# Network ID
+
+myname = your network.graphml
+
+```{r names}
+
+# https://string-db.org/cgi/network.pl?taskId=DkhvPMjSF0rr
+# myname = 'STRING_PR1.graphml' # 
+myname = 'erdos.renyi.game_10000_0.001.graphml'
+dir0 = getwd()
+
+
+```
+
+
+
+```{r graphML}
+
+
+g = read_graph(paste0(myname), format = "graphml")
+
+print(summary(g))
+list.vertex.attributes(g)
+list.edge.attributes(g)
+
+myname = unlist(strsplit(myname, "[.]"))[1]
+dir1 = paste(dir0,'/clusteringResults',sep = '')
+ifelse(!dir.exists(dir1), dir.create(dir1), FALSE)
+
+
+```
+
+<font color='purple'>Graph summary</font>
+
+A scale-free network is a network whose degree distribution follows a power law, at least asymptotically.
+
+CHECK all the vertex and edge attributes! This is important at the end. The graphical parameters/attributes will not be saved, all others will. Also be careful which column is short NIB ZR biological name.
+
+```{r summary}
+
+
+V(g)$names = V(g)$geneID
+V(g)$nodeID = V(g)$names
+V(g)$numVec = seq(1,length(V(g)$id),1)
+
+# list.vertex.attributes(g)
+# list.edge.attributes(g)
+
+quantile(degree(g), c(0.5, 0.75, 0.90, 0.95, 0.975, 0.99, 0.995, 0.9987, 1.0))
+which(degree(g) > 0.6*max(degree(g)))
+
+# just for drawing purposes
+# V(g)$size = rep(40,length(V(g)$size))
+# V(g)$size = sample(seq(20,40,1), vcount(g), replace = TRUE)
+
+```
+
+# Multi-Level
+
+http://stackoverflow.com/questions/20364939/community-detection-with-infomap-algorithm-producing-one-massive-module#20390769
+
+<font color='purple'>Finding community structure by multi-level optimization of modularity</font>
+
+https://www.r-bloggers.com/summary-of-community-detection-algorithms-in-igraph-0-6/
+
+https://arxiv.org/abs/0803.0476
+
+<font color='green'>fastgreedy.community merges pairs of communities iteratively, always choosing the pair that yields the maximum increase in the overall modularity. In multilevel.community, communities are not merged; instead of that, nodes are moved between communities such that each node makes a local decision that maximizes its own contribution to the modularity score. When this procedure gets stuck (i.e. none of the nodes change their membership), then all the communities are collapsed into single nodes and the process continues (that's why it is multilevel).</font>
+
+
+<font color='purple'>On undirected, simplified network (LKN)</font>
+
+Finding community structure by multi-level optimization of modularity
+
+Description: This function implements the multi-level modularity optimization algorithm for finding community structure, see references below. It is based on the modularity measure and a hierarchial approach.
+
+Usage: cluster_louvain(graph, weights = NULL)
+
+
+<font color='purple'>BONUS: add overall degree as vertex attribute</font>
+
+```{r gu gs clu}
+
+################################################################################
+# The number of edges remains constant, 
+#  an undirected edge is created for each directed one,
+#  this version might create graphs with multiple edges.
+gu = as.undirected(g, mode = "each")
+# summary(gu)
+gs = simplify(gu,
+              remove.multiple = TRUE,
+              remove.loops = TRUE,
+              edge.attr.comb = "concat")
+              # Concatenate the attributes, using the c function.
+              # This results almost always a complex attribute.
+
+# summary(gs)
+
+V(gu)$numVec = seq(1,length(V(gu)$id),1)
+V(gs)$numVec = seq(1,length(V(gs)$id),1)
+
+V(gs)$degreeFullSimplified = degree(gs, loops = FALSE, 
+                                    normalized = FALSE,  mode = "all")
+V(g)$degreeFullSimplified = degree(gs, loops = FALSE, 
+                                   normalized = FALSE,  mode = "all")
+
+# tic()
+cl = multilevel.community(gs)
+# exectime <- toc()
+is_hierarchical(cl)
+names(cl)
+
+# cl$membership
+# cl$names
+
+```
+
+https://en.wikipedia.org/wiki/Power_law
+http://stackoverflow.com/questions/21541240/goodness-of-fit-test-for-power-law-distribution-in-r
+https://cran.r-project.org/web/packages/poweRlaw/
+
+
+For degree_distribution a numeric vector of the same length as the maximum degree plus one. The first element is the relative frequency zero degree vertices, the second vertices with degree one, etc.
+```{r Power law}
+
+dd = degree_distribution(gs, v = V(gs), loops = FALSE, 
+                         normalized = FALSE,  mode = "all")
+plot(dd)
+ddd = degree(gs, v = V(gs))
+plot(sort(ddd, decreasing = TRUE))
+max(ddd) + 1 == length(dd)
+
+plf = power.law.fit(dd, impelementation = "plfit")
+print(plf)
+plf$alpha
+xxm = plf$xmin + 0.01
+
+alpha = vector(length = 0)
+xm = vector(length = 0)
+powerl = vector(length = 0)
+powerl3 = vector(length = 0)
+for (i in seq(xxm, max(dd), 0.01)) {
+  plf = power.law.fit(dd, impelementation = "plfit", xmin = i)
+  alpha[length(alpha) + 1] = plf$alpha
+  xm[length(xm) + 1] = i
+  powerl[length(powerl) + 1] = (round(plf$alpha) == 2)
+  powerl3[length(powerl3) + 1] = (round(plf$alpha) == 3)
+}
+
+# closest value
+alpha[ which.min(abs(alpha - 2.00))]
+xm[ which.min(abs(alpha - 2.00))]
+aalpha = alpha[alpha >= 2.0]
+aalpha[ which.min(abs(aalpha - 2.00))]
+xm[ which.min(abs(aalpha - 2.00))]
+aalpha = alpha[alpha <= 3]
+aalpha[ which.min(abs(aalpha - 3))]
+xm[ which.min(abs(aalpha - 3))]
+
+
+
+```
+
+# multilevel communities
+
+<font color='purple'>Calculate some topological network parameters (http://www.nature.com/nprot/journal/v7/n4/full/nprot.2012.004.html) like centralisation, clustering coeff., number of hub nodes (http://www.nature.com/articles/srep08665)</font>
+
+http://igraph.org/r/doc/centralize.html
+
+For degree, closeness and betweenness the most centralized structure is some version of the star graph, in-star, out-star or undirected star.
+
+For eigenvector centrality the most centralized structure is the graph with a single edge (and potentially many isolates).
+
+<font color='purple'>Be CAREFUL: network with 3 nodes or less cannot be plotted!</font>
+
+```{r multilevel communities}
+
+t = (as.data.frame(table(cl$membership)))
+t[,1] = as.numeric(t[,1])
+t[,2] = as.numeric(t[,2])
+d = t[with(t, order(-Freq, Var1)), ]
+dim(d)[1] == length(unique(cl$membership))
+sum(d[,2]) == vcount(g)
+
+# singletons
+sum((t[t[,2] < 2, ])[,2])
+# duos
+sum((t[t[,2] == 2, ])[,2])
+# trios
+sum((t[t[,2] == 3, ])[,2])
+# quartets
+sum((t[t[,2] == 4, ])[,2])
+
+V(g)$membership <- cl$membership
+V(gu)$membership <- cl$membership
+V(gs)$membership <- cl$membership
+
+hist(cl$membership, breaks = length(unique(cl$membership)))
+
+toSmallInd = d[(d[,2] <= 2^2),1]
+
+d = d[d[,2] > 2^2,] # 3 doesn't plot
+
+dim(t)[1]
+cat('some clusterID size')
+print(d)
+
+mydf = matrix(NA, ncol = 36, nrow = dim(d)[1])
+colnames(mydf) = c('cliID', 'vcountD', 'ecountD', 'connectedD',
+                   'starD','-Log10qD', 'evD', 'hDegD',
+                   'vcountS', 'ecountS', 'centralityS',
+                   'starS','-Log10qS', 'evS', 'hDegS',
+                   'vcountGSS', 'ecountGSS', 'centralityGSS',
+                   'starGSS','-Log10qGSS', 'evGSS', 'hDegGSS',
+                   'vShrinkage', 'eShrinkage',
+                   'centr_degreeD', 'centr_cloD' , 'centr_betwD',
+                   'centr_degreeS', 'centr_cloS' , 'centr_betwS',
+                   'centr_degreeGSS', 'centr_cloGSS', 'centr_betwGSS',
+                   '-Log10edge_densityD', 
+                   '-Log10edge_densityS', 
+                   '-Log10edge_densityGSS')
+
+d[,1] = as.numeric(d[,1])
+d[,2] = as.numeric(d[,2])
+
+for (i in 1:dim(d)[1]) {
+  j = as.numeric(d[i,1])
+  a = which(cl$membership == j) # cl[[j]] ####  #### ####  #### ####  ####
+
+  tmpNetD = induced.subgraph(graph = g, vids = a)
+  # do not want loops and multiple edges i count
+  tmpNetS = induced.subgraph(graph = gs, vids = a)
+
+  gss = delete.vertices(tmpNetS, which(degree(tmpNetS) < 2))
+
+
+  vcS = vcount(tmpNetS)
+  ecS = ecount(tmpNetS)
+  vcD = vcount(tmpNetD)
+  ecD = ecount(tmpNetD)
+  vcgss = vcount(gss)
+  ecgss = ecount(gss)
+
+  starS = max(centr_degree(tmpNetS, loops = FALSE, 
+                           normalized = TRUE, mode = 'all')$centralization,
+      centr_clo(tmpNetS, mode = 'all', normalized = TRUE)$centralization,
+      centr_betw(tmpNetS, directed = FALSE, normalized = TRUE)$centralization)
+
+  if (length(E(gss))) {
+      starGSS = max(centr_degree(gss, loops = FALSE, 
+                                 normalized = TRUE, mode = 'all')$centralization,
+        centr_clo(gss, mode = 'all', normalized = TRUE)$centralization,
+        centr_betw(gss, directed = FALSE, normalized = TRUE)$centralization)
+    } else starGSS = -1
+
+  (hubD  = length(which(degree(tmpNetD) >= 0.6*max(degree(tmpNetD)))))
+  (hubS  = length(which(degree(tmpNetS) >= 0.6*max(degree(tmpNetS)))))
+  # cat('is star if measure close to 1:', j, starS, hubS, '\n')
+  (hubGSS  = length(which(degree(gss) >= 0.6*max(degree(gss)))))
+
+  qS = 2*ecount(tmpNetS)/(vcS*(vcS - 1)) # == edge_density(tmpNetS)
+  qD = 1*ecount(tmpNetD)/(vcD*(vcD - 1))
+  qGSS = ifelse(vcgss > 2, 2*ecount(gss)/(vcgss*(vcgss - 1)), 0)
+
+
+    mydf[i,1] = j
+    mydf[i,2] = vcD
+    mydf[i,3] = ecount(tmpNetD)
+    mydf[i,4] = is.connected(tmpNetD)
+
+    mydf[i,5] = ifelse((hubD) == 1, 1, 0)
+    mydf[i,6] = -log10(qD)
+    mydf[i,7] = ecount(tmpNetD)/vcD
+    mydf[i,8] = hubD
+
+    mydf[i,9] = vcS
+    mydf[i,10] = ecount(tmpNetS)
+    mydf[i,11] = starS
+
+    mydf[i,12] = ifelse((hubS) == 1, 1, 0)
+    mydf[i,13] = -log10(qS)
+    mydf[i,14] = ecount(tmpNetS)/vcS
+    mydf[i,15] = hubS
+
+    mydf[i,16] = vcgss
+    mydf[i,17] = ecount(gss)
+    mydf[i,18] = starGSS
+
+    mydf[i,19] = ifelse((hubGSS) == 1, 1, 0)
+    mydf[i,20] = ifelse(qGSS, -log10(qGSS), -1)
+    mydf[i,21] = ecount(gss)/vcgss
+    mydf[i,22] = hubGSS
+
+    mydf[i,23] = round(vcount(tmpNetD)/vcount(gss))
+    mydf[i,24] = ifelse(ecount(gss) != 0, 
+                        round(ecount(tmpNetD)/ecount(gss)), 
+                        -1)
+
+    mydf[i,25] = centr_degree(tmpNetD, loops = FALSE, 
+                              normalized = TRUE, mode = 'all')$centralization
+    mydf[i,26] = centr_clo(tmpNetD, mode = 'all', 
+                           normalized = TRUE)$centralization
+    mydf[i,27] = centr_betw(tmpNetD, directed = FALSE, 
+                            normalized = TRUE)$centralization
+
+    mydf[i,28] = centr_degree(tmpNetS, loops = FALSE, 
+                              normalized = TRUE, mode = 'all')$centralization
+    mydf[i,29] = centr_clo(tmpNetS, mode = 'all', 
+                           normalized = TRUE)$centralization
+    mydf[i,30] = centr_betw(tmpNetS, directed = FALSE, 
+                            normalized = TRUE)$centralization
+
+    mydf[i,31] = ifelse(ecount(gss) != 0,
+                        centr_degree(gss, loops = FALSE, 
+                                     normalized = TRUE, mode = 'all')$centralization, 
+                        -1)
+    mydf[i,32] = ifelse(ecount(gss) != 0,
+                        centr_clo(gss, mode = 'all', 
+                                  normalized = TRUE)$centralization, 
+                        -1)
+    mydf[i,33] = ifelse(ecount(gss) != 0,
+                        centr_betw(gss, directed = FALSE, 
+                                   normalized = TRUE)$centralization, 
+                        -1)
+
+    mydf[i,34] = -log10(edge_density(simplify(tmpNetD), loops = FALSE))
+    mydf[i,35] = -log10(edge_density(simplify(tmpNetS), loops = FALSE))
+    mydf[i,36] = ifelse(ecount(gss) != 0, 
+                        -log10(edge_density(simplify(gss), loops = FALSE)), 
+                        -1)
+
+
+}
+
+rownames(mydf) = mydf[,1]
+
+write.table(mydf, paste0(dir1, '/', myname, '_mydf.txt'), 
+            sep = '\t', row.names = FALSE, quote = FALSE)
+
+mydf.se = (mydf[order(-mydf[,3], -mydf[,2]),] )
+# print (mydf.se)
+mydf.sv = (mydf[order(-mydf[,2], -mydf[,3]),] )
+# print (mydf.sv)
+
+dim(mydf)
+
+```
+
+
+# stars, densely connected, unconnected
+
+```{r stars, densely connected, unconnected}
+
+indI = union(intersect(intersect(which(mydf[,11] > 0.60), 
+                                 which(round(mydf[,14]) == 1)), 
+                       which(mydf[,30] > 0.60)),
+             which(mydf[,15] == 1))
+myStars = as.vector(mydf[indI, 1])
+
+denselyConnectedG = as.vector(mydf[as.vector(which(round(mydf[,11], digits = 2) == 0.00)),1])
+
+unConnected = as.vector(mydf[as.vector(which(mydf[,4]  == 0)),1])
+
+myStars = setdiff(myStars, unConnected)
+
+denselyConnectedG = setdiff(denselyConnectedG, unConnected)
+
+
+```
+
+
+# matrix of coord and clu
+
+```{r to save coord and cluIDs}
+
+mat <- matrix(nrow = 0, ncol = 8)
+colnames(mat) = c('nodeID', 
+                  'x', 'y', 
+                  'clu', 'origin', 
+                  'degreeSimplifiedSuperCluster', 'degreeSimplifiedCluster', 
+                  'isconnected')
+head(mat)
+myClusters = 1
+
+V(g)$x = vector(mode = "double", vcount(g))
+V(g)$y = vector(mode = "double", vcount(g))
+
+# list.vertex.attributes(g)
+# list.edge.attributes(g)
+
+```
+
+
+# mini
+
+```{r mini}
+
+cntV = 0
+Vid = unlist(lapply(toSmallInd, function(x) cl[[x]]))
+cnt = length(Vid)
+
+if (cnt) {
+  mini = induced.subgraph(graph = g, vids = strtoi(match(Vid, cl$names)))
+  mydeg = degree(mini, loops = FALSE, normalized = FALSE,  mode = "all")
+  for (l in 1:vcount(mini)) {
+    tmpvec = c()
+    tmpvec = c(V(mini)$nodeID[l], 0, 0, 0, 
+               paste0('mini','_',l), mydeg[l], mydeg[l], is.connected(mini))
+    mat = rbind(mat,tmpvec)
+  }
+
+  myseq = paste0('mini','_',seq(1,vcount(mini),1))
+  rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+  print(cntV)
+  print(dim(mat))
+  # print(head(mat))
+  print(tail(mat))
+  print(myClusters)
+
+}
+
+```
+
+
+# small-moderate, big
+
+```{r small, moderate, big}
+
+mydf = mydf[which(mydf[,1] %ni% c(myStars, unConnected, denselyConnectedG)),]
+
+big.0.0 = mydf[union((which((mydf[,2] >= 2^10))), 
+                     (which(((mydf[,3] >= 2^11))))),]
+dim(big.0.0)
+
+normal.0.0 = mydf[which(as.vector(mydf[,1]) %ni% as.vector(big.0.0[,1])),]
+dim(normal.0.0)
+
+
+```
+
+
+# moderate
+
+```{r normal}
+
+cntV = 0
+tmplist = vector()
+
+print(normal.0.0)
+
+if (!is.null(dim(normal.0.0))) {
+  IND = as.vector(normal.0.0[,1])
+} else {
+  IND = normal.0.0[1]
+}
+
+
+if (length(IND)) {
+  for (i in 1:length(IND)) {
+      print(IND[i])
+
+      ttmplist = vector()
+      tmplist = c(tmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+      ttmplist = c(ttmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+
+      moderateNet = induced.subgraph(graph = g, vids = strtoi(match(cl[[IND[i]]], cl$names))) ####  ####  ####  ####
+      moderateNetGS = induced.subgraph(graph = gs,vids = strtoi(match(cl[[IND[i]]], cl$names)))  ####  ####  ####  ####
+
+
+      cat("i = ", i, "\n")
+      cat("# vertices", vcount(moderateNet), "\n")
+      cntV = cntV + vcount(moderateNet)
+      cat("# edges", ecount(moderateNet), "\n")
+      cat("#edges/#vertices", ecount(moderateNet)/vcount(moderateNet), "\n")
+      cat('\n')
+
+    if ((ecount(moderateNet) < 2^6) & (vcount(moderateNet) < 2^6)) {
+      l2 = layout.fruchterman.reingold(moderateNet, niter = 2^13)
+    } else {
+
+      l1 = layout_on_grid(moderateNet, dim = 2)
+      l2 = layout_with_kk(moderateNet, coords = l1, dim = 2,
+                          maxiter = 999 * vcount(moderateNet),
+                          epsilon = 0, kkconst = vcount(moderateNet),
+                          minx = NULL, maxx = NULL,
+                          miny = NULL, maxy = NULL,
+                          minz = NULL,maxz = NULL)
+      z = round(ecount(moderateNet)/vcount(moderateNet))
+      l2 = l2*2*z
+    }
+
+      if (vcount(moderateNet) >= 2^2) {
+        plot(0, type = "n",
+             #ann=FALSE,
+             axes = FALSE,
+            xlim = extendrange(l2[,1]),
+            ylim = extendrange(l2[,2]),
+            xlab = paste0('moderateNet_', myClusters),
+            ylab = paste0('clu: ',(IND)[i]))
+
+        plot(moderateNet, layout = l2,
+             edge.label = '',
+             vertex.label = V(moderateNet)$shortName,
+             vertex.color = 'gray60', ####  ####  ####  ####
+             rescale = FALSE, add = TRUE,
+             vertex.label.cex = 0.5,
+             edge.arrow.size = 0.25,
+             edge.arrow.width = 0.25,
+             edge.lty = 'solid',
+             edge.color = 'gray',
+             edge.width = 0.25,
+             # edge.arrow.mode = 0,
+             edge.label.cex = 0.25,
+             edge.curved = autocurve.edges(moderateNet))
+      }
+      ###
+
+
+      mydeg = degree(moderateNet, loops = FALSE, 
+                     normalized = FALSE,  mode = "all")
+      for (l in 1:vcount(moderateNet)) {
+        tmpvec = c()
+        tmpvec = c(V(moderateNet)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                   paste0('normal','_',ttmplist[l]), 
+                   mydeg[l], mydeg[l], is.connected(moderateNet))
+        mat = rbind(mat,tmpvec)
+      }
+      myClusters = myClusters + 1
+
+  }
+  myseq = paste0(rep('moderate'),'_', tmplist)
+  rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+  print(dim(mat))
+  # print(head(mat))
+  print(tail(mat))
+  print(myClusters)
+}
+
+
+```
+
+
+# stars
+
+```{r myStars}
+
+IND = myStars
+cntV = 0
+tmplist = vector()
+
+if (length(IND)) {
+  for (i in 1:length(IND)) {
+
+    ttmplist = vector()
+    tmplist = c(tmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+    ttmplist = c(ttmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+
+    starNet = induced.subgraph(graph = g, vids = strtoi(match(cl[[IND[i]]], cl$names)))  ####  ####  ####  ####
+
+    cat("i = ", i, "\n")
+    cat("# vertices", vcount(starNet), "\n")
+    cntV = cntV + vcount(starNet)
+    cat("# edges", ecount(starNet), "\n")
+    cat("#edges/#vertices", ecount(starNet)/vcount(starNet), "\n")
+    cat('\n')
+
+    if ((ecount(starNet) < 2^6) & (vcount(starNet) < 2^6)) {
+      l2 = layout.fruchterman.reingold(starNet, niter = 2^13)
+    } else {
+
+      l1 = layout_on_grid(starNet, dim = 2)
+      l2 = layout_with_kk(starNet, coords = l1, dim = 2,
+                          maxiter = 999 * vcount(starNet),
+                          epsilon = 0, kkconst = vcount(starNet),
+                          #weights = rep(100, length.out),
+                          minx = NULL, maxx = NULL,
+                          miny = NULL, maxy = NULL,
+                          minz = NULL,maxz = NULL)
+      z = round(ecount(starNet)/vcount(starNet))
+      l2 = l2*2*z
+    }
+
+    if ((vcount(starNet) >= 2^2) & (ecount(starNet) <= 2^11)) {
+      plot(0, type = "n", ann = TRUE, axes = FALSE,
+           xlim = extendrange(l2[,1]),
+           ylim = extendrange(l2[,2]),
+           xlab = paste0('starNet_', myClusters),
+           ylab = paste0('clu: ',(IND)[i]))
+
+      plot(starNet, layout = l2,
+           edge.label = '',
+           vertex.label = V(starNet)$shortName,
+           vertex.color = 'gray60', ####  ####  ####  ####
+           rescale = FALSE, add = TRUE,
+           vertex.label.cex = 0.5,
+           edge.arrow.size = 0.25,
+           edge.arrow.width = 0.25,
+           edge.lty = 'solid',
+           edge.color = 'gray',
+           edge.width = 0.25,
+           # edge.arrow.mode = 0,
+           edge.label.cex = 0.25,
+           edge.curved = autocurve.edges(starNet))
+      }
+      ###
+
+
+      mydeg = degree(starNet, loops = FALSE, 
+                     normalized = FALSE,  mode = "all")
+      for (l in 1:vcount(starNet)) {
+        tmpvec = c()
+        tmpvec = c(V(starNet)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                   paste0('starNet','_',ttmplist[l]), 
+                   mydeg[l], mydeg[l], is.connected(starNet))
+        mat = rbind(mat,tmpvec)
+      }
+      myClusters = myClusters + 1
+
+  }
+  myseq = paste0(rep('starNet'),'_', tmplist)
+  rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+  print(dim(mat))
+  # print(head(mat))
+  print(tail(mat))
+  print(myClusters)
+}
+
+
+```
+
+
+# densely Connected
+
+```{r densely Connected }
+
+IND = denselyConnectedG
+cntV = 0
+tmplist = vector()
+
+if (length(IND)) {
+  for (i in 1:length(IND)) {
+
+    ttmplist = vector()
+    tmplist = c(tmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+    ttmplist = c(ttmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+
+    denselyConnectedNet = induced.subgraph(graph = g, vids = strtoi(match(cl[[IND[i]]], cl$names)))  ####  ####  ####  ####
+
+    cat("i = ", i, "\n")
+    cat("# vertices", vcount(denselyConnectedNet), "\n")
+    cntV = cntV + vcount(denselyConnectedNet)
+    cat("# edges", ecount(denselyConnectedNet), "\n")
+    cat("#edges/#vertices", 
+        ecount(denselyConnectedNet)/vcount(denselyConnectedNet), 
+        "\n")
+    #     cat ('duplicated connect rows:', '\n')
+    #     print (cbind(V(denselyConnectedNet)$nodeID[get.edgelist(denselyConnectedNet)[duplicated(get.edgelist(denselyConnectedNet)),1]],
+    #                                          V(denselyConnectedNet)$nodeID[get.edgelist(denselyConnectedNet)[duplicated(get.edgelist(denselyConnectedNet)),2]]))
+    cat('\n')
+
+    if ((ecount(denselyConnectedNet) < 2^6) & (vcount(denselyConnectedNet) < 2^6)) {
+      l2 = layout.fruchterman.reingold(denselyConnectedNet, niter = 2^13)
+    } else {
+
+      l1 = layout_on_grid(denselyConnectedNet, dim = 2)
+      l2 = layout_with_kk(denselyConnectedNet, coords = l1, dim = 2,
+                          maxiter = 999 * vcount(denselyConnectedNet),
+                          epsilon = 0, kkconst = vcount(denselyConnectedNet),
+                          minx = NULL, maxx = NULL,
+                          miny = NULL, maxy = NULL,
+                          minz = NULL,maxz = NULL)
+      z = round(ecount(denselyConnectedNet)/vcount(denselyConnectedNet))
+      l2 = l2*2*z
+    }
+
+    if ((vcount(denselyConnectedNet) >= 2^2) & (ecount(denselyConnectedNet) <= 2^11)) {
+      plot(0, type = "n", ann = TRUE, axes = FALSE,
+           xlim = extendrange(l2[,1]),
+           ylim = extendrange(l2[,2]),
+           xlab = paste0('denselyConnectedNet_', myClusters),
+           ylab = paste0('clu: ',(IND)[i]))
+
+      plot(denselyConnectedNet, layout = l2,
+           edge.label = '',
+           vertex.label = V(denselyConnectedNet)$shortName,
+           vertex.color = 'gray60', ####  ####  ####  ####
+           rescale = FALSE, add = TRUE,
+           vertex.label.cex = 0.5,
+           edge.arrow.size = 0.25,
+           edge.arrow.width = 0.25,
+           edge.lty = 'solid',
+           edge.color = 'gray',
+           edge.width = 0.25,
+           # edge.arrow.mode = 0,
+           edge.label.cex = 0.25,
+           edge.curved = autocurve.edges(denselyConnectedNet))
+    }
+    ###
+
+
+    mydeg = degree(denselyConnectedNet, loops = FALSE, 
+                   normalized = FALSE,  mode = "all")
+    for (l in 1:vcount(denselyConnectedNet)) {
+      tmpvec = c()
+      tmpvec = c(V(denselyConnectedNet)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                 paste0('denselyConnectedNet','_',ttmplist[l]), 
+                 mydeg[l], mydeg[l], is.connected(denselyConnectedNet))
+      mat = rbind(mat,tmpvec)
+    }
+    myClusters = myClusters + 1
+
+  }
+  myseq = paste0(rep('denselyConnectedNet'),'_', tmplist)
+  rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+  print(dim(mat))
+  # print(head(mat))
+  print(tail(mat))
+  print(myClusters)
+}
+
+
+```
+
+
+# unConnected
+
+```{r unConnected}
+
+IND = unConnected
+cntV = 0
+tmplist = vector()
+
+if (length(IND)) {
+  for (i in 1:length(IND)) {
+
+    tmplist = c(tmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+    print(tmplist)
+
+    unConnectedNet = induced.subgraph(graph = g, vids = strtoi(match(cl[[IND[i]]], cl$names)))  ####  ####  ####  ####
+
+    mydegSC = degree(unConnectedNet, loops = FALSE, normalized = FALSE,  mode = "all")
+    mydegSC = cbind(strtoi(match(cl[[IND[i]]], cl$names)), mydegSC)
+
+    graphs = decompose(unConnectedNet, mode = "weak")
+    # lapply(graphs,function(x) cat('######## ######## unlist(vcount(x))', unlist(vcount(x)), '\n'))
+    unConnectedNet = graphs[[which(unlist(lapply(graphs,function(x) vcount(x)))
+                                   ==
+                                     max(unlist(lapply(graphs,function(x) vcount(x)))))]]
+
+    tempora = which(unlist(lapply(graphs,function(x) vcount(x))) !=  max(unlist(lapply(graphs,function(x) vcount(x)))))  ####  ####  ####  ####
+
+    if ((length(graphs) - 1) != 1) {
+      vids = as.vector(unlist(sapply(tempora, 
+                                     function(x) match(V(graphs[[x]])$geneID, cl$names))))
+      unConnectedNetLeftovers = induced.subgraph(graph = g,vids = strtoi(vids))
+    } else {
+      vids = match(V(graphs[[tempora]])$geneID, cl$names)
+      unConnectedNetLeftovers = induced.subgraph(graph = g,vids = strtoi(vids))
+    }
+
+
+    cat("# vertices", vcount(unConnectedNetLeftovers), "\n")
+    cntV = cntV + vcount(unConnectedNetLeftovers)
+    cat("# edges", ecount(unConnectedNetLeftovers), "\n")
+    cat("#edges/#vertices", 
+        ecount(unConnectedNetLeftovers)/vcount(unConnectedNetLeftovers), 
+        "\n")
+    cat('\n')
+
+    if ((ecount(unConnectedNetLeftovers) < 2^6) & (vcount(unConnectedNetLeftovers) < 2^6)) {
+      l2 = layout.fruchterman.reingold(unConnectedNetLeftovers, niter = 2^13)
+    } else {
+
+      l1 = layout_on_grid(unConnectedNetLeftovers, dim = 2)
+      l2 = layout_with_kk(unConnectedNetLeftovers, coords = l1, dim = 2,
+                          maxiter = 999 * vcount(unConnectedNetLeftovers),
+                          epsilon = 0, kkconst = vcount(unConnectedNetLeftovers),
+                          #weights = rep(100, length.out),
+                          minx = NULL, maxx = NULL,
+                          miny = NULL, maxy = NULL,
+                          minz = NULL,maxz = NULL)
+      z = round(ecount(unConnectedNetLeftovers)/vcount(unConnectedNetLeftovers))
+      l2 = l2*2*z
+    }
+
+    if ((vcount(unConnectedNetLeftovers) >= 2^2) & (ecount(unConnectedNetLeftovers) <= 2^11)) {
+      plot(0, type = "n", ann = TRUE, axes = FALSE,
+           xlim = extendrange(l2[,1]),
+           ylim = extendrange(l2[,2]),
+           xlab = paste0('unConnectedNetLeftovers_', myClusters),
+           ylab = paste0('clu: ',(IND)[i]))
+
+      plot(unConnectedNetLeftovers, layout = l2,
+           edge.label = '',
+           vertex.label = V(unConnectedNetLeftovers)$shortName,
+           vertex.color = 'gray60', ####  ####  ####  ####
+           rescale = FALSE, add = TRUE,
+           vertex.label.cex = 0.5,
+           edge.arrow.size = 0.25,
+           edge.arrow.width = 0.25,
+           edge.lty = 'solid',
+           edge.color = 'gray',
+           edge.width = 0.25,
+           # edge.arrow.mode = 0,
+           edge.label.cex = 0.25,
+           edge.curved = autocurve.edges(unConnectedNetLeftovers))
+    }
+    ttmplist = vector()
+    ttmplist = c(ttmplist, paste0((IND)[i],
+                                  '_unConnectedNetLeftovers_',
+                                  seq(1,vcount(unConnectedNetLeftovers),1)))
+    print(ttmplist)
+    mydeg = degree(unConnectedNetLeftovers, loops = FALSE, 
+                   normalized = FALSE,  mode = "all")
+    mydegSCucl = mydegSC[which(!is.na(match(mydegSC[,1], 
+                                            V(unConnectedNetLeftovers)$numVec))),2]
+
+    for (l in 1:vcount(unConnectedNetLeftovers)) {
+      tmpvec = c()
+      tmpvec = c(V(unConnectedNetLeftovers)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                 paste0(ttmplist[l]), 
+                 mydegSCucl[l], mydeg[l], 
+                 is.connected(unConnectedNetLeftovers))
+      mat = rbind(mat,tmpvec)
+    }
+    myClusters = myClusters + 1
+
+
+    tmpNetS = as.undirected(unConnectedNet, mode = "each")
+    tmpNetS = simplify(tmpNetS,
+                       remove.multiple = TRUE,
+                       remove.loops = TRUE,
+                       edge.attr.comb = "concat")
+    mysn = length(which(degree(tmpNetS) >= 0.6*max(degree(tmpNetS))))
+    
+    if (mysn < 2) {
+      # mysn = 2
+      # print('Problemos')
+      
+      cat('##########\n')
+      mysubg = unConnectedNet
+            cat('connected\t', is.connected(mysubg), '\n')
+      cat("# vertices", vcount(mysubg), "\n")
+      cat("# edges", ecount(mysubg), "\n")
+      cat("#edges/#vertices", ecount(mysubg)/vcount(mysubg), "\n")
+      q = ecount(mysubg)/(vcount(mysubg)*(vcount(mysubg) - 1))
+      cat("#edges/#MAXedges", q, "\n")
+    
+      if ((ecount(mysubg) < 2^6) & (vcount(mysubg) < 2^6)) {
+        l2 = layout.fruchterman.reingold(mysubg, niter = 2^13)
+      } else {
+    
+        l1 = layout_on_grid(mysubg, dim = 2)
+        l2 = layout_with_kk(mysubg, coords = l1, dim = 2,
+                    maxiter = 999 * vcount(mysubg),
+                    epsilon = 0, kkconst = vcount(mysubg),
+                    #weights = rep(100, length.out),
+                    minx = NULL, maxx = NULL,
+                    miny = NULL, maxy = NULL,
+                    minz = NULL,maxz = NULL)
+        z = round(ecount(mysubg)/vcount(mysubg))
+        l2 = l2*2*z
+      }
+    
+      if ((vcount(mysubg) >= 2^2) & (ecount(mysubg) <= 2^11)) {
+        plot(0, type = "n", ann = TRUE, axes = FALSE,
+             xlim = extendrange(l2[,1]),
+             ylim = extendrange(l2[,2]),
+             xlab = paste0('origigi; clu: ', IND[i]),
+             ylab = paste0('subclu: ',j))
+    
+        plot(mysubg,
+             layout = l2,
+             vertex.color = 'gray60', ####  ####  ####  ####
+             edge.label = '',
+             vertex.label = V(mysubg)$shortName,
+             rescale = FALSE, add = TRUE,
+             vertex.label.cex = 0.25,
+             edge.arrow.size = 0.025,
+             edge.arrow.width = 0.025,
+             edge.lty = 'solid',
+             edge.color = 'gray',
+             edge.width = 0.025,
+             # edge.arrow.mode = 0,
+             edge.label.cex = 0.025,
+             edge.curved = autocurve.edges(mysubg))
+      }
+        ttmplist = vector()
+        ttmplist = c(ttmplist, paste0((IND)[i],
+                          '_unConnectedNet_mysubg_', 
+                          j, 
+                          '_', 
+                          seq(1,vcount(mysubg),1)))
+        print(ttmplist)
+        mydeg = degree(mysubg, loops = FALSE, 
+                   normalized = FALSE,  mode = "all")
+        mydegSCs = mydegSC[which(!is.na(match(mydegSC[,1], V(mysubg)$numVec))),2]
+        for (l in 1:vcount(mysubg)) {
+          tmpvec = c()
+          tmpvec = c(V(mysubg)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                 ttmplist[l], mydegSCs[l], mydeg[l], is.connected(mysubg))
+          mat = rbind(mat,tmpvec)
+        }
+        myClusters = myClusters + 1
+      
+      
+    } else {
+          
+        cat('mysn', mysn, '\n\n')
+    
+    
+        ##########  ##########  ##########  ##########  ##########
+    
+    
+        # set.seed(123456)
+        clspin = spinglass.community(unConnectedNet, spins = mysn)
+        cntV = cntV + vcount(unConnectedNet)
+    
+        cat("# spins", mysn, "\n")
+    
+        df = (as.data.frame(table(clspin$membership)))
+        print((df))
+        df[,1] = strtoi(df[,1])
+        df[,2] = strtoi(df[,2])
+    
+        for (j in df[,1]) {
+          cat('##########\n')
+          mysubg = induced.subgraph(graph = unConnectedNet, vids = strtoi(match(clspin[[j]], clspin$names))) ####  ####  ####  ####
+    
+    
+          cat('connected\t', is.connected(mysubg), '\n')
+          cat("# vertices", vcount(mysubg), "\n")
+          cat("# edges", ecount(mysubg), "\n")
+          cat("#edges/#vertices", ecount(mysubg)/vcount(mysubg), "\n")
+          q = ecount(mysubg)/(vcount(mysubg)*(vcount(mysubg) - 1))
+          cat("#edges/#MAXedges", q, "\n")
+    
+          if ((ecount(mysubg) < 2^6) & (vcount(mysubg) < 2^6)) {
+            l2 = layout.fruchterman.reingold(mysubg, niter = 2^13)
+          } else {
+    
+            l1 = layout_on_grid(mysubg, dim = 2)
+            l2 = layout_with_kk(mysubg, coords = l1, dim = 2,
+                                maxiter = 999 * vcount(mysubg),
+                                epsilon = 0, kkconst = vcount(mysubg),
+                                #weights = rep(100, length.out),
+                                minx = NULL, maxx = NULL,
+                                miny = NULL, maxy = NULL,
+                                minz = NULL,maxz = NULL)
+            z = round(ecount(mysubg)/vcount(mysubg))
+            l2 = l2*2*z
+          }
+    
+          if ((vcount(mysubg) >= 2^2) & (ecount(mysubg) <= 2^11)) {
+            plot(0, type = "n", ann = TRUE, axes = FALSE,
+                 xlim = extendrange(l2[,1]),
+                 ylim = extendrange(l2[,2]),
+                 xlab = paste0('origigi; clu: ', IND[i]),
+                 ylab = paste0('subclu: ',j))
+    
+            plot(mysubg,
+                 layout = l2,
+                 vertex.color = 'gray60', ####  ####  ####  ####
+                 edge.label = '',
+                 vertex.label = V(mysubg)$shortName,
+                 rescale = FALSE, add = TRUE,
+                 vertex.label.cex = 0.25,
+                 edge.arrow.size = 0.025,
+                 edge.arrow.width = 0.025,
+                 edge.lty = 'solid',
+                 edge.color = 'gray',
+                 edge.width = 0.025,
+                 # edge.arrow.mode = 0,
+                 edge.label.cex = 0.025,
+                 edge.curved = autocurve.edges(mysubg))
+          }
+            ttmplist = vector()
+            ttmplist = c(ttmplist, paste0((IND)[i],
+                                          '_unConnectedNet_mysubg_', 
+                                          j, 
+                                          '_', 
+                                          seq(1,vcount(mysubg),1)))
+            print(ttmplist)
+            mydeg = degree(mysubg, loops = FALSE, 
+                           normalized = FALSE,  mode = "all")
+            mydegSCs = mydegSC[which(!is.na(match(mydegSC[,1], V(mysubg)$numVec))),2]
+            for (l in 1:vcount(mysubg)) {
+              tmpvec = c()
+              tmpvec = c(V(mysubg)$nodeID[l], l2[l,1], l2[l,2], myClusters,
+                         ttmplist[l], mydegSCs[l], mydeg[l], is.connected(mysubg))
+              mat = rbind(mat,tmpvec)
+            }
+            myClusters = myClusters + 1
+        }
+            ###
+    }
+
+
+  }
+  
+    myseq = paste0(rep('unConnectedNet'),'_', tmplist)
+    rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+    # any(duplicated(mat[grep('unConnectedNet',rownames(mat)),1]))
+    # bla = data.frame(mat[which(duplicated(mat[,1])),c(1,4)])
+    # bla = bla[with(bla, order(bla[,1])), ]
+    print(dim(mat))
+    # print(head(mat))
+    print(tail(mat))
+    print(myClusters)
+  
+}
+
+
+
+```
+
+
+```{r pt1}
+
+save.image(paste0(dir1, '/', myname, 'pt1.RData'))
+# load(paste0(dir1, '/', myname, 'pt1.RData'))
+
+```
+
+
+# Splits
+```{r tryToSplitPlot}
+
+
+#######
+cntV = 0
+tmplist = vector()
+IND = as.vector(big.0.0[,1])
+
+if (length(IND)) {
+  for (i in 1:length(IND)) {
+    
+    tmplist = c(tmplist, paste0((IND)[i],'_',seq(1,(length(cl[[IND[i]]])),1)))
+    
+    cat('i = ', i, "\n")
+    ind =  strtoi(match(cl[[IND[i]]], cl$names))  ####  ####  ####  ####
+    entryGraph = induced.subgraph(graph = g,vids = ind) 
+
+    cat("# vertices", vcount(entryGraph), "\n")
+    cat("# edges", ecount(entryGraph), "\n")
+    cat("#edges/#vertices", ecount(entryGraph)/vcount(entryGraph), "\n")
+    
+    mydegSC = degree(entryGraph, loops = FALSE, 
+                     normalized = FALSE,  mode = "all")
+    mydegSC = cbind(ind, mydegSC)
+    
+    mysn = mydf[which(mydf[,1] == IND[i]),15]
+    if (mysn < 2) {
+      mysn = 2
+    }
+    cat('mysn', mysn, '\n\n')
+    
+    ##########  ##########  ##########  ##########  ##########
+    ##########  ##########  ##########  ##########  ##########
+    
+    
+    # set.seed(123456)
+    clspin = spinglass.community(entryGraph, spins = mysn)
+    cntV = cntV + vcount(entryGraph)
+    
+    df = (as.data.frame(table(clspin$membership)))
+    print((df))
+    df[,1] = strtoi(df[,1])
+    df[,2] = strtoi(df[,2])
+    cat("# spins", dim(df)[1], "\n")
+    
+    for (j in df[,1]) {
+      cat('##########\n')
+      mysubg = induced.subgraph(graph = entryGraph, vids = strtoi(match(clspin[[j]], clspin$names))) ####  ####  ####  ####
+      
+      cat('connected\t', is.connected(mysubg), '\n')
+      cat("# vertices", vcount(mysubg), "\n")
+      cat("# edges", ecount(mysubg), "\n")
+      cat("#edges/#vertices", ecount(mysubg)/vcount(mysubg), "\n")
+      q = ecount(mysubg)/(vcount(mysubg)*(vcount(mysubg) - 1))
+      cat("#edges/#MAXedges", q, "\n")
+      
+      if ((ecount(mysubg) < 2^6) & (vcount(mysubg) < 2^6)) {
+        l2 = layout.fruchterman.reingold(mysubg, niter = 2^13)
+      } else {
+        
+        l1 = layout_on_grid(mysubg, dim = 2)
+        l2 = layout_with_kk(mysubg, coords = l1, dim = 2,
+                            maxiter = 999 * vcount(mysubg),
+                            epsilon = 0, kkconst = vcount(mysubg),
+                            minx = NULL, maxx = NULL,
+                            miny = NULL, maxy = NULL,
+                            minz = NULL,maxz = NULL)
+        z = round(ecount(mysubg)/vcount(mysubg))
+        l2 = l2*2*z
+      }
+      
+      if ((vcount(mysubg) >= 2^2) & (ecount(mysubg) <= 2^11)) {
+        plot(0, type = "n", ann = TRUE, axes = FALSE,
+             xlim = extendrange(l2[,1]),
+             ylim = extendrange(l2[,2]),
+             xlab = paste0('origigi; clu: ', IND[i]),
+             ylab = paste0('subclu: ',j))
+
+        plot(mysubg,
+             layout = l2,
+             vertex.color = 'gray60', ####  ####  ####  ####
+             #edge.label=E(mysubg)$intType,
+             edge.label = '',
+             vertex.label = V(mysubg)$shortName, #$X12_shortName,
+             rescale = FALSE, add = TRUE,
+             vertex.label.cex =  0.25,
+             edge.arrow.size = 0.025,
+             edge.arrow.width = 0.025,
+             edge.lty = 'solid',
+             edge.color = 'gray',
+             edge.width = 0.025,
+             # edge.arrow.mode = 0,
+             edge.label.cex = 0.025,
+             edge.curved = autocurve.edges(mysubg))
+      }
+        ttmplist = vector()
+        ttmplist = c(ttmplist, paste0((IND)[i],
+                                      '_big_mysubg_', 
+                                      j, 
+                                      '_', 
+                                      seq(1,vcount(mysubg),1)))
+        mydeg = degree(mysubg, loops = FALSE, 
+                       normalized = FALSE,  mode = "all")
+        mydegSCs = mydegSC[which(!is.na(match(mydegSC[,1], V(mysubg)$numVec))),2]
+        for (l in 1:vcount(mysubg)) {
+          tmpvec = c()
+          tmpvec = c(V(mysubg)$nodeID[l], l2[l,1], l2[l,2], myClusters, 
+                     ttmplist[l], mydegSCs[l], mydeg[l], is.connected(mysubg))
+          mat = rbind(mat,tmpvec)
+        }
+        myClusters = myClusters + 1
+    }
+        ###
+  }
+  ########  ########  ########  ########
+}
+
+myseq = paste0(rep('big'),'_', tmplist)
+rownames(mat)[which(rownames(mat) == 'tmpvec')] = myseq
+print(dim(mat))
+# print(head(mat))
+print(tail(mat))
+print(myClusters - 1)
+
+```
+
+
+```{r pt2}
+
+save.image(paste0(dir1, '/', myname, 'pt2.RData'))
+# load(paste0(dir1, '/', myname, 'pt2.RData'))
+
+```
+
+
+
+```{r variable type error}
+
+
+mydataframe = as.data.frame(mat)
+mydataframe[,1] = (as.character(((mydataframe[,1]))))
+mydataframe[,2] = as.numeric(as.character(((mydataframe[,2]))))
+mydataframe[,3] = as.numeric(as.character((mydataframe[,3])))
+mydataframe[,4] = strtoi(as.character(mydataframe[,4]))
+mydataframe[,5] = (as.character(((mydataframe[,5]))))
+mydataframe[,6] = strtoi(as.character(mydataframe[,6]))
+mydataframe[,7] = strtoi(as.character(mydataframe[,7]))
+mydataframe[,8] = (as.character(((mydataframe[,8]))))
+
+head(mat)
+head(mydataframe)
+typeof(mat[,2])
+typeof(mydataframe[,2])
+
+mat = mydataframe
+
+```
+
+# Results
+
+```{r save coord clu}
+
+plot(mat[,4])
+hist(strtoi(mat[,4]), breaks = myClusters)
+
+(all(mat[,1] %in% V(g)$geneID))
+(all(V(g)$geneID %in% mat[,1]))
+length(intersect(V(g)$nodeID, mat[,1]))
+
+
+dim(mat)[1] == vcount(g)
+vcount(g) - dim(mat)[1]
+
+myind = match(mat[,1],V(g)$nodeID)
+mynumvec = strtoi(V(g)$numVec[myind])
+
+mat.t = (as.data.frame(cbind(mat,as.numeric(mynumvec)), stringsAsFactors = FALSE))
+colnames(mat.t)[dim(mat.t)[2]] = 'mynumvec'
+mat.t[,dim(mat.t)[2]] = as.numeric(mat.t[,dim(mat.t)[2]])
+# head(mat.t)
+# tail(mat.t)
+mat.sorted = mat.t[with(mat.t, order(mynumvec)), ]
+head(mat.sorted)
+tail(mat.sorted)
+
+write.table(mat.sorted, paste0(dir1, '/', myname, "_id_coord_clu.tsv"), 
+            sep = "\t", quote = FALSE, row.names = TRUE, col.names = TRUE)
+
+```
+
+
+
+```{r finish}
+
+# all vertex attributes
+# list.vertex.attributes(g)
+v = list.vertex.attributes(g)
+# for (i in v) {
+#   print(head(get.vertex.attribute(g,i)))
+# }
+# all edge attributes
+# list.edge.attributes(g)
+e = list.edge.attributes(g)
+# for (j in e) {
+#   print(head(get.edge.attribute(g,j)))
+# }
+
+
+setdiff(V(g)$geneID, mat.sorted$nodeID)
+length(mat.sorted$mynumvec)
+min(mat.sorted$mynumvec)
+max(mat.sorted$mynumvec)
+missing = setdiff(seq(1,max(mat.sorted$mynumvec),1), mat.sorted$mynumvec)
+
+
+myind = match(V(g)$nodeID, mat.sorted[,1])
+noInfo = which(is.na(myind))
+if (length(noInfo)) {
+  for (i in 1:length(noInfo)) {
+    print(i)
+    tmpvec = c(V(g)$nodeID[noInfo[i]], 0, 0, 0, '-', 0, 'FALSE', noInfo[i])
+    mat.sorted = rbind(mat.sorted, tmpvec)
+  }
+}
+
+mat.sorted$mynumvec = strtoi( mat.sorted$mynumvec)
+mat.sorted = mat.sorted[with(mat.sorted , order(mynumvec)), ]
+any(!(V(g)$nodeID %in% mat.sorted$nodeID))
+any(!(mat.sorted$nodeID %in% V(g)$nodeID))
+all(mat.sorted$mynumvec[noInfo] == noInfo)
+
+myind = myind[which(!(is.na(myind)))]
+myind = match(V(g)$nodeID, mat.sorted[,1])
+
+
+V(g)$superClu <- V(g)$membership
+V(g)$membership <- (mat.sorted$clu)
+V(g)$x <- as.numeric(mat.sorted$x)
+V(g)$y <- as.numeric(mat.sorted$y)
+V(g)$cluOrigin <- mat.sorted$origin
+V(g)$degreeSimplifiedCluster <- mat.sorted$degreeSimplifiedCluster
+V(g)$degreeSimplifiedSuperCluster <- mat.sorted$degreeSimplifiedSuperCluster
+V(g)$isconnected <- mat.sorted$isconnected
+V(g)$exists <- rep(1, vcount(g))
+# list.vertex.attributes(g)
+
+E(g)$cluA = V(g)$membership[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$cluB = V(g)$membership[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$superCluA = V(g)$superClu[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$superCluB = V(g)$superClu[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$cluOriginA = V(g)$cluOrigin[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$cluOriginB = V(g)$cluOrigin[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$matchClu = (E(g)$cluA == E(g)$cluB)
+E(g)$degreeFullSimplifiedA = V(g)$degreeFullSimplified[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$degreeFullSimplifiedB = V(g)$degreeFullSimplified[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$degreeSimplifiedSuperClusterA = V(g)$degreeSimplifiedSuperCluster[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$degreeSimplifiedSuperClusterB = V(g)$degreeSimplifiedSuperCluster[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$degreeSimplifiedClusterA = V(g)$degreeSimplifiedCluster[match(E(g)$geneID1,  V(g)$geneID)]
+E(g)$degreeSimplifiedClusterB = V(g)$degreeSimplifiedCluster[match(E(g)$geneID2,  V(g)$geneID)]
+E(g)$exists <- rep(1, ecount(g))
+# list.edge.attributes(g)
+
+
+# first check if theese attributes exist
+v = list.vertex.attributes(g)
+e = list.edge.attributes(g)
+
+df1 = matrix(NA, dim(mat.sorted)[1], length(v))
+
+for (i in 1:length(v)) {
+  df1[,i] = get.vertex.attribute(g,v[i])
+}
+
+myind = match(V(g)$nodeID, mat.sorted[,1])
+myind = myind[!(is.na(myind))]
+
+
+df1 = as.data.frame(df1, stringsAsFactors = FALSE)
+colnames(df1) = v
+# str(df1)
+
+
+# which columns!!!???!!!
+colNames = toupper(c('geneID', 'shortDescription', 'shortName', 'MapManBin', 
+                     'numVec', 'superClu', 'membership', 'cluOrigin', 'x', 'y', 
+                     'degreeFullSimplified', 
+                     'degreeSimplifiedSuperCluster', 
+                     'degreeSimplifiedCluster', 
+                     'isconnected',
+                     'exists'))
+
+
+importantColsE = unlist(sapply(colNames, 
+                               function(x) grep(paste("^",x,"$", sep = ""), 
+                                                toupper((v)))))
+
+df1 = df1[,importantColsE]
+
+colnames(df1) = c('geneID',
+                  'shortDescription',
+                  'shortName',
+                  'MapManBin',
+                  'sortingOrder',
+                  'superClusterID',
+                  'clusterID',
+                  'clusterOrigin',
+                  'x',
+                  'y',
+                  'networkSimplifiedNodeDegree',
+                  'superClusterSimplifiedNodeDegree',
+                  'clusterSimplifiedNodeDegree',
+                  'isConnected',
+                  'expressed')
+
+write.table(df1, paste0(dir1, '/', myname, "_NODES.tsv"),
+            quote = FALSE,
+            row.names = FALSE,
+            sep = "\t")
+
+df2 = matrix(NA, ecount(g), length(e))
+
+for (i in 1:length(e)) {
+  df2[,i] = get.edge.attribute(g,e[i])
+}
+
+df2 = as.data.frame(df2, stringsAsFactors = FALSE)
+colnames(df2) = e
+# str(df2)
+
+# which columns!!!???!!!
+colNames = toupper(c('geneID1', 'geneID2', 'reactType', 
+                     'cluA', 'cluB', 
+                     'superCluA', 'superCluB', 
+                     'cluOriginA', 'cluOriginB', 'matchClu',
+                     'degreeFullSimplifiedA', 'degreeFullSimplifiedB' ,
+                     'degreeSimplifiedSuperClusterA', 'degreeSimplifiedSuperClusterB', 
+                     'degreeSimplifiedClusterA' ,'degreeSimplifiedClusterB',
+                     'exists'))
+
+importantColsE = unlist(sapply(colNames, 
+                               function(x) grep(paste("^",x,"$", sep = ""), 
+                                                toupper((e)))))
+
+df2 = df2[,importantColsE]
+
+colnames(df2) = c('geneID1',
+                  'geneID2',
+                  'reactionType',
+                  'clusterID_geneID1',
+                  'clusterID_geneID2',
+                  'superClusterID_geneID1',
+                  'superClusterID_geneID2',
+                  'clusterOrigin_geneID1',
+                  'clusterOrigin_geneID2',
+                  'matchingClusters',
+                  'networkSimplifiedNodeDegree_geneID1',
+                  'networkSimplifiedNodeDegree_geneID2',
+                  'superClusterSimplifiedNodeDegree_geneID1',
+                  'superClusterSimplifiedNodeDegree_geneID2',
+                  'clusterSimplifiedNodeDegree_geneID1',
+                  'clusterSimplifiedNodeDegree_geneID2',
+                  'exists')
+
+write.table(df2, paste0(dir1, '/', myname, "_EDGES_all.tsv"), 
+            quote = FALSE,
+            row.names = FALSE,
+            sep = "\t")
+
+df3 = df2[which(df2$matchingClusters == TRUE),]
+
+write.table(df3, paste0(dir1, '/', myname, "_EDGES_byClu.tsv"), 
+            quote = FALSE,
+            row.names = FALSE,
+            col.names = TRUE,
+            sep = "\t")
+
+
+```
+
+
+```{r save image2}
+
+save.image(paste0(dir1, '/', myname,'_clu_and_coord.RData'))
+
+exectime <- toc()
+
+print(exectime)
+
+```
+
+http://r.789695.n4.nabble.com/igraph-and-plotting-connected-components-td836537.html
+
