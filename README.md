@@ -81,8 +81,9 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
 
 
-# LKN clustering
-https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
+# sub apps
+## input preprocessing: https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
+## network clustering: https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
 
 
 # Ath GSE56094 experimental data analysis
