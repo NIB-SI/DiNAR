@@ -1,0 +1,81 @@
+nodeID	geneID	shortName	shortDescription	MapManBin
+ADVISOR #1	ADVISOR #1	ADVISOR #1	Terminator	3_Terminator
+AIDE	AIDE	AIDE	Terminator	3_Terminator
+ANCHORMAN	ANCHORMAN	ANCHORMAN	Terminator	1_Terminator | 3_Terminator
+ANGLE IN JEEP	ANGLE IN JEEP	ANGLE IN JEEP	Terminator	1_Terminator | 3_Terminator
+ASSISTANT	ASSISTANT	ASSISTANT	Terminator	1_Terminator | 3_Terminator
+BARNES	BARNES	BARNES	Terminator	1_Terminator | 3_Terminator
+BARTENDER	BARTENDER	BARTENDER	Terminator	1_Terminator | 3_Terminator
+BLAIR	BLAIR	BLAIR	Terminator	1_Terminator | 3_Terminator
+BOY	BOY	BOY	Terminator	1_Terminator | 3_Terminator
+BREEN	BREEN	BREEN	Terminator	1_Terminator | 3_Terminator
+BRYANT	BRYANT	BRYANT	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+BULL	BULL	BULL	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+CHANCE	CHANCE	CHANCE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+CLERK	CLERK	CLERK	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+CONNOR	CONNOR	CONNOR	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+COP	COP	COP	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+COUNTERMAN	COUNTERMAN	COUNTERMAN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+COW	COW	COW	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+CUSTOMER	CUSTOMER	CUSTOMER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DANNY	DANNY	DANNY	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DISPATCHER	DISPATCHER	DISPATCHER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DOCTOR	DOCTOR	DOCTOR	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DOUGLAS	DOUGLAS	DOUGLAS	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DRIVER	DRIVER	DRIVER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+DYSON	DYSON	DYSON	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+ENGINEER	ENGINEER	ENGINEER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+FIRST GIRL	FIRST GIRL	FIRST GIRL	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+FIRST JOCK	FIRST JOCK	FIRST JOCK	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+FIRST KID	FIRST KID	FIRST KID	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+GIBBONS	GIBBONS	GIBBONS	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+GINGER	GINGER	GINGER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+GIRL	GIRL	GIRL	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+HEAD	HEAD	HEAD	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+JANE	JANE	JANE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+JANELLE	JANELLE	JANELLE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+JEREMY	JEREMY	JEREMY	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+JOHN	JOHN	JOHN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+KATE	KATE	KATE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+KID	KID	KID	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+KYLE	KYLE	KYLE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+LEADER	LEADER	LEADER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+LISA	LISA	LISA	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+LITTLE GIRL	LITTLE GIRL	LITTLE GIRL	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MANAGER	MANAGER	MANAGER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MARCO	MARCO	MARCO	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MARCUS	MARCUS	MARCUS	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MATT	MATT	MATT	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MILES	MILES	MILES	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MORRISON	MORRISON	MORRISON	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MOSSBERG	MOSSBERG	MOSSBERG	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+MR MILLER	MR MILLER	MR MILLER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+NANCY	NANCY	NANCY	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+NAVAL OFFICER	NAVAL OFFICER	NAVAL OFFICER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+OFFICER X	OFFICER X	OFFICER X	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+PARTNER	PARTNER	PARTNER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+PHYSICIST	PHYSICIST	PHYSICIST	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+PIG	PIG	PIG	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+PRIEST	PRIEST	PRIEST	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+RADIO VOICE	RADIO VOICE	RADIO VOICE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+REESE	REESE	REESE	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+REPORTER	REPORTER	REPORTER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SALCEDA	SALCEDA	SALCEDA	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SARAH	SARAH	SARAH	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SARAH'S MOM	SARAH'S MOM	SARAH'S MOM	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SECOND PUNK	SECOND PUNK	SECOND PUNK	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SERENA	SERENA	SERENA	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SERGEANT	SERGEANT	SERGEANT	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+SILBERMAN	SILBERMAN	SILBERMAN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+STAR	STAR	STAR	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TARISSA	TARISSA	TARISSA	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TERMINATOR	TERMINATOR	TERMINATOR	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TIM	TIM	TIM	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TODD	TODD	TODD	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TRAXLER	TRAXLER	TRAXLER	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+TV ANCHORWOMAN	TV ANCHORWOMAN	TV ANCHORWOMAN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+VIDEO SARAH	VIDEO SARAH	VIDEO SARAH	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+VIDEO SILBERMAN	VIDEO SILBERMAN	VIDEO SILBERMAN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+VUKOVICH	VUKOVICH	VUKOVICH	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+WAITRESS	WAITRESS	WAITRESS	Terminator	1_Terminator | 2_Terminator | 3_Terminator
+WOMAN	WOMAN	WOMAN	Terminator	1_Terminator | 2_Terminator | 3_Terminator
