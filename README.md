@@ -82,8 +82,8 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 
 # sub apps
-## input preprocessing: https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
-## network clustering: https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
+* input preprocessing: https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
+* network clustering: https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
 
 
 # Ath GSE56094 experimental data analysis
