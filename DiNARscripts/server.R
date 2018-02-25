@@ -1313,6 +1313,8 @@ shinyServer(
       xrange = range(as.numeric(as.character(d$Position)))
       ylim <- c(0, 1.1*max(d$Freq))
       ## using xaxt="n" to avoid showing the x-axis
+      par(mar = c(max(5.1, max(nchar(as.character(d$Var1)))/1.0), 4.1, 4.1 ,2.1))
+      
       bp = barplot(d$Freq, 
                    #breaks = sort(unique(d$Freq)),
                    xlim = c(1,2*max(xrange) + 10),
@@ -1334,6 +1336,8 @@ shinyServer(
            labels = (as.character(d$Var1)), 
            las=2)
       axis(side=2, at=d$Freq, labels = d$Freq)
+      
+      par(mar = c(5.1, 4.1, 4.1, 2.1))
       
       
     })
