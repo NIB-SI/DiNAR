@@ -197,11 +197,11 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     
 
 
-    sidePalette <- data.frame(color = (unique(isolate(mypalette())$palette))[seq(1,nc,5)[c(1,5,8,11,15)]], 
+    sidePalette <- data.frame(color = (unique(isolate(mypalette())$palette))[seq(1,nc,2.5)],
                               label =  formatC(round(seq(-minmax, minmax, 
-                                                         length.out=nc)[seq(1,nc,5)[c(1,5,8,11,15)]],2), 2, format = "f"),
+                                                         length.out=nc)[seq(1,nc,2.5)],2), 2, format = "f"),
                               shape = 'circle',
-                              circle = list(size = c(2,1,0.5,1,2)))
+                              circle = list(size = c(2)))
     
     
     tmpdf <- data.frame(color = rep("gray32", 5), 
@@ -238,7 +238,7 @@ plot.net <- function(node1, edge1, clusterID, isOK){
                 position = 'right', 
                 width = 0.2, 
                 ncol = 1,
-                zoom = FALSE) %>%
+                zoom = TRUE) %>%
       visIgraphLayout()
     
 
