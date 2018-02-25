@@ -146,7 +146,7 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     cexx <- 4*nodeCex + 1.5
     
     # edges
-    lwdx <- 4*lwdx + 0.5
+    lwdx <- 2*lwdx + 0.5
     
     segments(
       n[match(e$geneID1[sel], n$geneID),"x"],
