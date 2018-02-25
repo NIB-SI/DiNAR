@@ -434,7 +434,7 @@ shinyUI(
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
                                          busyIndicator(wait = 1000),
-                                         wordcloud2Output('mywordcloud1', height = "1000px"), style = 'width:100%;'),
+                                         wordcloud2Output('mywordcloud1', height = "500px"), style = 'width:100%;'),
                                        # d3CloudOutput('mywordcloud1', height = "500px")),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
