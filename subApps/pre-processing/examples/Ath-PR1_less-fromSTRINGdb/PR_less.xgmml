@@ -3794,7 +3794,7 @@
     <att name="shortName2" value="TRX5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G73080" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G45145" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -3830,7 +3830,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G73080" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -3866,7 +3866,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G18470" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -3902,7 +3902,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68880" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -3938,7 +3938,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68880" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -3974,7 +3974,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68640" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4010,7 +4010,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G26920" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4046,7 +4046,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G56400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4082,7 +4082,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G56400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4118,7 +4118,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G56400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4154,7 +4154,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G56400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4190,7 +4190,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G14610" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4226,7 +4226,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G14610" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4262,7 +4262,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G14610" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4298,7 +4298,7 @@
     <att name="shortName2" value="PEPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G73080" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4334,7 +4334,7 @@
     <att name="shortName2" value="EFR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G20480" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4370,7 +4370,7 @@
     <att name="shortName2" value="BRI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G39400" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4406,7 +4406,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4442,7 +4442,7 @@
     <att name="shortName2" value="MPK6" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G43790" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4478,7 +4478,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4514,7 +4514,7 @@
     <att name="shortName2" value="MPK4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G46330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G01370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4550,7 +4550,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G26830" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4586,7 +4586,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G26830" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4622,7 +4622,7 @@
     <att name="shortName2" value="TE1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G26330" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4658,7 +4658,7 @@
     <att name="shortName2" value="PEPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G73080" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4694,7 +4694,7 @@
     <att name="shortName2" value="MPK4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G01370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4730,7 +4730,7 @@
     <att name="shortName2" value="MPK6" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G43790" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4766,7 +4766,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4802,7 +4802,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39400" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4838,7 +4838,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43790" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4874,7 +4874,7 @@
     <att name="shortName2" value="PEPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43790" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G73080" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4910,7 +4910,7 @@
     <att name="shortName2" value="TE1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43790" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G26330" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4946,7 +4946,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43790" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -4982,7 +4982,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43790" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5018,7 +5018,7 @@
     <att name="shortName2" value="GRX480" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G45145" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G28480" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5054,7 +5054,7 @@
     <att name="shortName2" value="JAR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G46370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5090,7 +5090,7 @@
     <att name="shortName2" value="PDF1.2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G44420" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5126,7 +5126,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5162,7 +5162,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5198,7 +5198,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5234,7 +5234,7 @@
     <att name="shortName2" value="EDS5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G39030" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5270,7 +5270,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5306,7 +5306,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5342,7 +5342,7 @@
     <att name="shortName2" value="CPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G64930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G12560" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5378,7 +5378,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G26330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5414,7 +5414,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G26330" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5450,7 +5450,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G24770" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5486,7 +5486,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G24770" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5522,7 +5522,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43570" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5558,7 +5558,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G43570" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5594,7 +5594,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5630,7 +5630,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5666,7 +5666,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5702,7 +5702,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5738,7 +5738,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5774,7 +5774,7 @@
     <att name="shortName2" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G55870" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5810,7 +5810,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5846,7 +5846,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5882,7 +5882,7 @@
     <att name="shortName2" value="CM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G29200" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5918,7 +5918,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G23600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5954,7 +5954,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -5990,7 +5990,7 @@
     <att name="shortName2" value="WRKY70" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G56400" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6026,7 +6026,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6062,7 +6062,7 @@
     <att name="shortName2" value="PEPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G73080" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6098,7 +6098,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6134,7 +6134,7 @@
     <att name="shortName2" value="TE1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G26330" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6170,7 +6170,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6206,7 +6206,7 @@
     <att name="shortName2" value="PAD3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G26830" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6242,7 +6242,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6278,7 +6278,7 @@
     <att name="shortName2" value="MPK6" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G01370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G43790" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6314,7 +6314,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6350,7 +6350,7 @@
     <att name="shortName2" value="PEPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G73080" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6386,7 +6386,7 @@
     <att name="shortName2" value="BRI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G39400" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6422,7 +6422,7 @@
     <att name="shortName2" value="MPK6" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G43790" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6458,7 +6458,7 @@
     <att name="shortName2" value="MPK4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G01370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6494,7 +6494,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G20480" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6530,7 +6530,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6566,7 +6566,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6602,7 +6602,7 @@
     <att name="shortName2" value="TIR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72930" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6638,7 +6638,7 @@
     <att name="shortName2" value="NDR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G20600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6674,7 +6674,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6710,7 +6710,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G51700" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6746,7 +6746,7 @@
     <att name="shortName2" value="NIMIN1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G09415" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G02450" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6782,7 +6782,7 @@
     <att name="shortName2" value="NIMIN1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G25882" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G02450" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6818,7 +6818,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G25882" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6854,7 +6854,7 @@
     <att name="shortName2" value="NIMIN-3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G25882" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G09415" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6890,7 +6890,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G04720" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6926,7 +6926,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G04720" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6962,7 +6962,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12500" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -6998,7 +6998,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12500" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7034,7 +7034,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12500" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7070,7 +7070,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12500" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7106,7 +7106,7 @@
     <att name="shortName2" value="PR4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12500" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G04720" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7142,7 +7142,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7178,7 +7178,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7214,7 +7214,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7250,7 +7250,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7286,7 +7286,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7322,7 +7322,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G46370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7358,7 +7358,7 @@
     <att name="shortName2" value="PAD3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G26830" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7394,7 +7394,7 @@
     <att name="shortName2" value="WRKY70" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G56400" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7430,7 +7430,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7466,7 +7466,7 @@
     <att name="shortName2" value="EDS5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G39030" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7502,7 +7502,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7538,7 +7538,7 @@
     <att name="shortName2" value="MPK4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G01370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7574,7 +7574,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7610,7 +7610,7 @@
     <att name="shortName2" value="PR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G14610" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7646,7 +7646,7 @@
     <att name="shortName2" value="BGL2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G57260" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7682,7 +7682,7 @@
     <att name="shortName2" value="EIN2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G03280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7718,7 +7718,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7754,7 +7754,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7790,7 +7790,7 @@
     <att name="shortName2" value="THI2.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72260" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7826,7 +7826,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7862,7 +7862,7 @@
     <att name="shortName2" value="JAR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G46370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7898,7 +7898,7 @@
     <att name="shortName2" value="PR4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G04720" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7934,7 +7934,7 @@
     <att name="shortName2" value="ORA59" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G06160" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -7970,7 +7970,7 @@
     <att name="shortName2" value="VSP2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G24770" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8006,7 +8006,7 @@
     <att name="shortName2" value="HCHIB" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G12500" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8042,7 +8042,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8078,7 +8078,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8114,7 +8114,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G44420" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8150,7 +8150,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G12560" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8186,7 +8186,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G12560" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8222,7 +8222,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G12560" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8258,7 +8258,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G16890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8294,7 +8294,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G16890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8330,7 +8330,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G16890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8366,7 +8366,7 @@
     <att name="shortName2" value="CPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G16890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G12560" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8402,7 +8402,7 @@
     <att name="shortName2" value="JAR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G46370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8438,7 +8438,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8474,7 +8474,7 @@
     <att name="shortName2" value="NDR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G20600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8510,7 +8510,7 @@
     <att name="shortName2" value="BGL2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G57260" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8546,7 +8546,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8582,7 +8582,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8618,7 +8618,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8654,7 +8654,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8690,7 +8690,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT4G39030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8726,7 +8726,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G72930" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8762,7 +8762,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G07040" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8798,7 +8798,7 @@
     <att name="shortName2" value="TIR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G07040" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72930" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8834,7 +8834,7 @@
     <att name="shortName2" value="ORA59" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G32640" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G06160" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8870,7 +8870,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8906,7 +8906,7 @@
     <att name="shortName2" value="THI2.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72260" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8942,7 +8942,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -8978,7 +8978,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9014,7 +9014,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9050,7 +9050,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G39940" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9086,7 +9086,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G20600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9122,7 +9122,7 @@
     <att name="shortName2" value="TIR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G20600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72930" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9158,7 +9158,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G20600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9194,7 +9194,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G20600" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9230,7 +9230,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9266,7 +9266,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9302,7 +9302,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9338,7 +9338,7 @@
     <att name="shortName2" value="TIR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72930" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9374,7 +9374,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9410,7 +9410,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9446,7 +9446,7 @@
     <att name="shortName2" value="NDR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G48090" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G20600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9482,7 +9482,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G75040" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9518,7 +9518,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G75040" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9554,7 +9554,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G75040" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9590,7 +9590,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9626,7 +9626,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9662,7 +9662,7 @@
     <att name="shortName2" value="PR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G14610" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9698,7 +9698,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9734,7 +9734,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9770,7 +9770,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9806,7 +9806,7 @@
     <att name="shortName2" value="PR4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G04720" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9842,7 +9842,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9878,7 +9878,7 @@
     <att name="shortName2" value="CHI" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G43570" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9914,7 +9914,7 @@
     <att name="shortName2" value="HCHIB" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G12500" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9950,7 +9950,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G57260" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -9986,7 +9986,7 @@
     <att name="shortName2" value="PR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G14610" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10022,7 +10022,7 @@
     <att name="shortName2" value="JAR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G46370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10058,7 +10058,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10094,7 +10094,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10130,7 +10130,7 @@
     <att name="shortName2" value="RPM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G07040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10166,7 +10166,7 @@
     <att name="shortName2" value="TIR" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G72930" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10202,7 +10202,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10238,7 +10238,7 @@
     <att name="shortName2" value="PAD3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G26830" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10274,7 +10274,7 @@
     <att name="shortName2" value="NDR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G20600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10310,7 +10310,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10346,7 +10346,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G52430" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10382,7 +10382,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10418,7 +10418,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10454,7 +10454,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10490,7 +10490,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G68890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10526,7 +10526,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10562,7 +10562,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10598,7 +10598,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10634,7 +10634,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10670,7 +10670,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10706,7 +10706,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10742,7 +10742,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10778,7 +10778,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G74710" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10814,7 +10814,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10030" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10850,7 +10850,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G69370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10886,7 +10886,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G69370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10922,7 +10922,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G69370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10958,7 +10958,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G69370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -10994,7 +10994,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G69370" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11030,7 +11030,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11066,7 +11066,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11102,7 +11102,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11138,7 +11138,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11174,7 +11174,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11210,7 +11210,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11246,7 +11246,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11282,7 +11282,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G29200" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11318,7 +11318,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G48850" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11354,7 +11354,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G48850" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11390,7 +11390,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G48850" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11426,7 +11426,7 @@
     <att name="shortName2" value="CM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G29200" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11462,7 +11462,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11498,7 +11498,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11534,7 +11534,7 @@
     <att name="shortName2" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G55870" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11570,7 +11570,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11606,7 +11606,7 @@
     <att name="shortName2" value="ASA1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G05730" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11642,7 +11642,7 @@
     <att name="shortName2" value="CORI3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G23600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11678,7 +11678,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11714,7 +11714,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11750,7 +11750,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11786,7 +11786,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11822,7 +11822,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G10870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11858,7 +11858,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G77920" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11894,7 +11894,7 @@
     <att name="shortName2" value="bZIP" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G65210" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68880" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11930,7 +11930,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G65210" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -11966,7 +11966,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G06960" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12002,7 +12002,7 @@
     <att name="shortName2" value="bZIP" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12250" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68880" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12038,7 +12038,7 @@
     <att name="shortName2" value="GRX480" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12250" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G28480" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12074,7 +12074,7 @@
     <att name="shortName2" value="NIMIN1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12250" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G02450" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12110,7 +12110,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G12250" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12146,7 +12146,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G25155" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12182,7 +12182,7 @@
     <att name="shortName2" value="MYC2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G32640" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12218,7 +12218,7 @@
     <att name="shortName2" value="MNS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G51590" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12254,7 +12254,7 @@
     <att name="shortName2" value="GRX480" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G28480" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12290,7 +12290,7 @@
     <att name="shortName2" value="CUL3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G26830" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12326,7 +12326,7 @@
     <att name="shortName2" value="NIMIN-3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G09415" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12362,7 +12362,7 @@
     <att name="shortName2" value="NIMIN1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G02450" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12398,7 +12398,7 @@
     <att name="shortName2" value="TRX5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G45145" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12434,7 +12434,7 @@
     <att name="shortName2" value="TGA3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G64280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G22070" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12470,7 +12470,7 @@
     <att name="shortName2" value="bZIP" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G06950" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68880" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12506,7 +12506,7 @@
     <att name="shortName2" value="NIMIN1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G06950" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G02450" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12542,7 +12542,7 @@
     <att name="shortName2" value="GRX480" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G06950" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G28480" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12578,7 +12578,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G06950" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12614,7 +12614,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12650,7 +12650,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12686,7 +12686,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12722,7 +12722,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12758,7 +12758,7 @@
     <att name="shortName2" value="CORI3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G23600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12794,7 +12794,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12830,7 +12830,7 @@
     <att name="shortName2" value="CM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G29200" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12866,7 +12866,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12902,7 +12902,7 @@
     <att name="shortName2" value="CM2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G10870" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12938,7 +12938,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -12974,7 +12974,7 @@
     <att name="shortName2" value="ASA1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT5G05730" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13010,7 +13010,7 @@
     <att name="shortName2" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G55870" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13046,7 +13046,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G57890" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13082,7 +13082,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G66340" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13118,7 +13118,7 @@
     <att name="shortName2" value="PR5" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G75040" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13154,7 +13154,7 @@
     <att name="shortName2" value="EDS1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G48090" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13190,7 +13190,7 @@
     <att name="shortName2" value="HCHIB" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G12500" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13226,7 +13226,7 @@
     <att name="shortName2" value="PAD4" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G52430" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13262,7 +13262,7 @@
     <att name="shortName2" value="JAR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G46370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13298,7 +13298,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13334,7 +13334,7 @@
     <att name="shortName2" value="NPR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G64280" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13370,7 +13370,7 @@
     <att name="shortName2" value="COI1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G39940" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13406,7 +13406,7 @@
     <att name="shortName2" value="ETR1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G03280" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G66340" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13442,7 +13442,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13478,7 +13478,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13514,7 +13514,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13550,7 +13550,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13586,7 +13586,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13622,7 +13622,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13658,7 +13658,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT2G29690" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13694,7 +13694,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13730,7 +13730,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13766,7 +13766,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13802,7 +13802,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13838,7 +13838,7 @@
     <att name="shortName2" value="CM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G29200" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13874,7 +13874,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13910,7 +13910,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13946,7 +13946,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -13982,7 +13982,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14018,7 +14018,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G25220" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14054,7 +14054,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT1G25220" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14090,7 +14090,7 @@
     <att name="shortName2" value="AT3G55870" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G55870" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14126,7 +14126,7 @@
     <att name="shortName2" value="ASA2" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT2G29690" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14162,7 +14162,7 @@
     <att name="shortName2" value="CORI3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT4G23600" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14198,7 +14198,7 @@
     <att name="shortName2" value="PHYLLO" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G68890" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14234,7 +14234,7 @@
     <att name="shortName2" value="EDS16" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G74710" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14270,7 +14270,7 @@
     <att name="shortName2" value="CM1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT3G29200" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14306,7 +14306,7 @@
     <att name="shortName2" value="CM3" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G69370" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14342,7 +14342,7 @@
     <att name="shortName2" value="EMB1144" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G48850" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14378,7 +14378,7 @@
     <att name="shortName2" value="AT1G25155.1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25155" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14414,7 +14414,7 @@
     <att name="shortName2" value="AT1G24807" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G24807" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
@@ -14450,7 +14450,7 @@
     <att name="shortName2" value="ASB1" type="string" cy:type="String"/>
     <att name="geneID1" value="AT5G05730" type="string" cy:type="String"/>
     <att name="geneID2" value="AT1G25220" type="string" cy:type="String"/>
-    <att name="reactType" value="-" type="string" cy:type="String"/>
+    <att name="reactionType" value="-" type="string" cy:type="String"/>
     <graphics fill="#848484" width="2.0">
       <att name="EDGE_LABEL_COLOR" value="#000000" type="string" cy:type="String"/>
       <att name="EDGE_TARGET_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>

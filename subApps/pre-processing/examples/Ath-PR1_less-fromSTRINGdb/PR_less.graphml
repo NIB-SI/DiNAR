@@ -18,7 +18,7 @@
     <key attr.name="shortName2" attr.type="string" for="edge" id="shortName2"/>
     <key attr.name="geneID1" attr.type="string" for="edge" id="geneID1"/>
     <key attr.name="geneID2" attr.type="string" for="edge" id="geneID2"/>
-    <key attr.name="reactType" attr.type="string" for="edge" id="reactType"/>
+    <key attr.name="reactionType" attr.type="string" for="edge" id="reactionType"/>
     <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
     <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
     <key attr.name="name" attr.type="string" for="graph" id="name"/>
@@ -706,7 +706,7 @@
             <data key="shortName2">TRX5</data>
             <data key="geneID1">AT1G73080</data>
             <data key="geneID2">AT1G45145</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="313" target="87">
             <data key="SUID">314</data>
@@ -719,7 +719,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G73080</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="301" target="87">
             <data key="SUID">302</data>
@@ -732,7 +732,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G18470</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="299" target="82">
             <data key="SUID">421</data>
@@ -745,7 +745,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT1G68880</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="299" target="87">
             <data key="SUID">300</data>
@@ -758,7 +758,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G68880</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="280" target="87">
             <data key="SUID">281</data>
@@ -771,7 +771,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G68640</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="271" target="123">
             <data key="SUID">272</data>
@@ -784,7 +784,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G26920</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="269" target="126">
             <data key="SUID">430</data>
@@ -797,7 +797,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT3G56400</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="269" target="123">
             <data key="SUID">400</data>
@@ -810,7 +810,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G56400</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="269" target="131">
             <data key="SUID">366</data>
@@ -823,7 +823,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT3G56400</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="269" target="87">
             <data key="SUID">270</data>
@@ -836,7 +836,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G56400</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="263" target="123">
             <data key="SUID">331</data>
@@ -849,7 +849,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT2G14610</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="263" target="129">
             <data key="SUID">330</data>
@@ -862,7 +862,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT2G14610</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="263" target="87">
             <data key="SUID">264</data>
@@ -875,7 +875,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT2G14610</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="313">
             <data key="SUID">434</data>
@@ -888,7 +888,7 @@
             <data key="shortName2">PEPR1</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT1G73080</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="185">
             <data key="SUID">424</data>
@@ -901,7 +901,7 @@
             <data key="shortName2">EFR</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT5G20480</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="233">
             <data key="SUID">422</data>
@@ -914,7 +914,7 @@
             <data key="shortName2">BRI1</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT4G39400</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="140">
             <data key="SUID">380</data>
@@ -927,7 +927,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="222">
             <data key="SUID">378</data>
@@ -940,7 +940,7 @@
             <data key="shortName2">MPK6</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT2G43790</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="87">
             <data key="SUID">308</data>
@@ -953,7 +953,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="245" target="187">
             <data key="SUID">246</data>
@@ -966,7 +966,7 @@
             <data key="shortName2">MPK4</data>
             <data key="geneID1">AT5G46330</data>
             <data key="geneID2">AT4G01370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="235" target="87">
             <data key="SUID">412</data>
@@ -979,7 +979,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G26830</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="235" target="123">
             <data key="SUID">341</data>
@@ -992,7 +992,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G26830</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="209">
             <data key="SUID">427</data>
@@ -1005,7 +1005,7 @@
             <data key="shortName2">TE1</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT2G26330</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="313">
             <data key="SUID">423</data>
@@ -1018,7 +1018,7 @@
             <data key="shortName2">PEPR1</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT1G73080</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="187">
             <data key="SUID">383</data>
@@ -1031,7 +1031,7 @@
             <data key="shortName2">MPK4</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT4G01370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="222">
             <data key="SUID">377</data>
@@ -1044,7 +1044,7 @@
             <data key="shortName2">MPK6</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT2G43790</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="82">
             <data key="SUID">327</data>
@@ -1057,7 +1057,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="233" target="87">
             <data key="SUID">234</data>
@@ -1070,7 +1070,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G39400</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="82">
             <data key="SUID">387</data>
@@ -1083,7 +1083,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT2G43790</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="313">
             <data key="SUID">385</data>
@@ -1096,7 +1096,7 @@
             <data key="shortName2">PEPR1</data>
             <data key="geneID1">AT2G43790</data>
             <data key="geneID2">AT1G73080</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="209">
             <data key="SUID">382</data>
@@ -1109,7 +1109,7 @@
             <data key="shortName2">TE1</data>
             <data key="geneID1">AT2G43790</data>
             <data key="geneID2">AT2G26330</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="138">
             <data key="SUID">367</data>
@@ -1122,7 +1122,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT2G43790</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="87">
             <data key="SUID">224</data>
@@ -1135,7 +1135,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT2G43790</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="217" target="226">
             <data key="SUID">413</data>
@@ -1148,7 +1148,7 @@
             <data key="shortName2">GRX480</data>
             <data key="geneID1">AT1G45145</data>
             <data key="geneID2">AT1G28480</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="154">
             <data key="SUID">435</data>
@@ -1161,7 +1161,7 @@
             <data key="shortName2">JAR1</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT2G46370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="152">
             <data key="SUID">403</data>
@@ -1174,7 +1174,7 @@
             <data key="shortName2">PDF1.2</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT5G44420</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="123">
             <data key="SUID">397</data>
@@ -1187,7 +1187,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="131">
             <data key="SUID">376</data>
@@ -1200,7 +1200,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="126">
             <data key="SUID">374</data>
@@ -1213,7 +1213,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="143">
             <data key="SUID">373</data>
@@ -1226,7 +1226,7 @@
             <data key="shortName2">EDS5</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT4G39030</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="129">
             <data key="SUID">355</data>
@@ -1239,7 +1239,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="87">
             <data key="SUID">277</data>
@@ -1252,7 +1252,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="213" target="150">
             <data key="SUID">214</data>
@@ -1265,7 +1265,7 @@
             <data key="shortName2">CPR1</data>
             <data key="geneID1">AT5G64930</data>
             <data key="geneID2">AT4G12560</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="209" target="82">
             <data key="SUID">298</data>
@@ -1278,7 +1278,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT2G26330</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="209" target="87">
             <data key="SUID">210</data>
@@ -1291,7 +1291,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT2G26330</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="207" target="137">
             <data key="SUID">293</data>
@@ -1304,7 +1304,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT5G24770</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="207" target="138">
             <data key="SUID">273</data>
@@ -1317,7 +1317,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT5G24770</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="202" target="129">
             <data key="SUID">402</data>
@@ -1330,7 +1330,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT2G43570</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="202" target="82">
             <data key="SUID">381</data>
@@ -1343,7 +1343,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT2G43570</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="124">
             <data key="SUID">364</data>
@@ -1356,7 +1356,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="73">
             <data key="SUID">324</data>
@@ -1369,7 +1369,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="91">
             <data key="SUID">323</data>
@@ -1382,7 +1382,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="76">
             <data key="SUID">321</data>
@@ -1395,7 +1395,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="108">
             <data key="SUID">320</data>
@@ -1408,7 +1408,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="75">
             <data key="SUID">319</data>
@@ -1421,7 +1421,7 @@
             <data key="shortName2">AT3G55870</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT3G55870</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="78">
             <data key="SUID">318</data>
@@ -1434,7 +1434,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="123">
             <data key="SUID">316</data>
@@ -1447,7 +1447,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="110">
             <data key="SUID">216</data>
@@ -1460,7 +1460,7 @@
             <data key="shortName2">CM1</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT3G29200</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="189" target="112">
             <data key="SUID">215</data>
@@ -1473,7 +1473,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT4G23600</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="82">
             <data key="SUID">433</data>
@@ -1486,7 +1486,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="269">
             <data key="SUID">418</data>
@@ -1499,7 +1499,7 @@
             <data key="shortName2">WRKY70</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT3G56400</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="123">
             <data key="SUID">396</data>
@@ -1512,7 +1512,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="313">
             <data key="SUID">390</data>
@@ -1525,7 +1525,7 @@
             <data key="shortName2">PEPR1</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT1G73080</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="131">
             <data key="SUID">386</data>
@@ -1538,7 +1538,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="209">
             <data key="SUID">384</data>
@@ -1551,7 +1551,7 @@
             <data key="shortName2">TE1</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT2G26330</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="126">
             <data key="SUID">350</data>
@@ -1564,7 +1564,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="235">
             <data key="SUID">338</data>
@@ -1577,7 +1577,7 @@
             <data key="shortName2">PAD3</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT3G26830</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="87">
             <data key="SUID">244</data>
@@ -1590,7 +1590,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="187" target="222">
             <data key="SUID">223</data>
@@ -1603,7 +1603,7 @@
             <data key="shortName2">MPK6</data>
             <data key="geneID1">AT4G01370</data>
             <data key="geneID2">AT2G43790</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="140">
             <data key="SUID">415</data>
@@ -1616,7 +1616,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="313">
             <data key="SUID">409</data>
@@ -1629,7 +1629,7 @@
             <data key="shortName2">PEPR1</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT1G73080</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="233">
             <data key="SUID">399</data>
@@ -1642,7 +1642,7 @@
             <data key="shortName2">BRI1</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT4G39400</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="222">
             <data key="SUID">368</data>
@@ -1655,7 +1655,7 @@
             <data key="shortName2">MPK6</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT2G43790</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="187">
             <data key="SUID">188</data>
@@ -1668,7 +1668,7 @@
             <data key="shortName2">MPK4</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT4G01370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="87">
             <data key="SUID">186</data>
@@ -1681,7 +1681,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G20480</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="126">
             <data key="SUID">329</data>
@@ -1694,7 +1694,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="87">
             <data key="SUID">297</data>
@@ -1707,7 +1707,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="141">
             <data key="SUID">295</data>
@@ -1720,7 +1720,7 @@
             <data key="shortName2">TIR</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT1G72930</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="132">
             <data key="SUID">206</data>
@@ -1733,7 +1733,7 @@
             <data key="shortName2">NDR1</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT3G20600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="140">
             <data key="SUID">183</data>
@@ -1746,7 +1746,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="177" target="131">
             <data key="SUID">178</data>
@@ -1759,7 +1759,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT5G51700</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="175" target="228">
             <data key="SUID">266</data>
@@ -1772,7 +1772,7 @@
             <data key="shortName2">NIMIN1</data>
             <data key="geneID1">AT1G09415</data>
             <data key="geneID2">AT1G02450</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="174" target="228">
             <data key="SUID">242</data>
@@ -1785,7 +1785,7 @@
             <data key="shortName2">NIMIN1</data>
             <data key="geneID1">AT3G25882</data>
             <data key="geneID2">AT1G02450</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="174" target="87">
             <data key="SUID">219</data>
@@ -1798,7 +1798,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G25882</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="174" target="175">
             <data key="SUID">176</data>
@@ -1811,7 +1811,7 @@
             <data key="shortName2">NIMIN-3</data>
             <data key="geneID1">AT3G25882</data>
             <data key="geneID2">AT1G09415</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="172" target="82">
             <data key="SUID">426</data>
@@ -1824,7 +1824,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT3G04720</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="172" target="129">
             <data key="SUID">239</data>
@@ -1837,7 +1837,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT3G04720</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="87">
             <data key="SUID">429</data>
@@ -1850,7 +1850,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G12500</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="274">
             <data key="SUID">405</data>
@@ -1863,7 +1863,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT3G12500</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="82">
             <data key="SUID">310</data>
@@ -1876,7 +1876,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT3G12500</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="129">
             <data key="SUID">253</data>
@@ -1889,7 +1889,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT3G12500</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="172">
             <data key="SUID">173</data>
@@ -1902,7 +1902,7 @@
             <data key="shortName2">PR4</data>
             <data key="geneID1">AT3G12500</data>
             <data key="geneID2">AT3G04720</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="129">
             <data key="SUID">395</data>
@@ -1915,7 +1915,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="82">
             <data key="SUID">371</data>
@@ -1928,7 +1928,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="123">
             <data key="SUID">325</data>
@@ -1941,7 +1941,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="138">
             <data key="SUID">255</data>
@@ -1954,7 +1954,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="87">
             <data key="SUID">212</data>
@@ -1967,7 +1967,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="137">
             <data key="SUID">155</data>
@@ -1980,7 +1980,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT2G46370</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="235">
             <data key="SUID">410</data>
@@ -1993,7 +1993,7 @@
             <data key="shortName2">PAD3</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G26830</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="269">
             <data key="SUID">391</data>
@@ -2006,7 +2006,7 @@
             <data key="shortName2">WRKY70</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G56400</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="131">
             <data key="SUID">388</data>
@@ -2019,7 +2019,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="143">
             <data key="SUID">375</data>
@@ -2032,7 +2032,7 @@
             <data key="shortName2">EDS5</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT4G39030</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="274">
             <data key="SUID">334</data>
@@ -2045,7 +2045,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="187">
             <data key="SUID">305</data>
@@ -2058,7 +2058,7 @@
             <data key="shortName2">MPK4</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT4G01370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="126">
             <data key="SUID">289</data>
@@ -2071,7 +2071,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="263">
             <data key="SUID">284</data>
@@ -2084,7 +2084,7 @@
             <data key="shortName2">PR1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT2G14610</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="128">
             <data key="SUID">268</data>
@@ -2097,7 +2097,7 @@
             <data key="shortName2">BGL2</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G57260</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="81">
             <data key="SUID">267</data>
@@ -2110,7 +2110,7 @@
             <data key="shortName2">EIN2</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT5G03280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="138">
             <data key="SUID">262</data>
@@ -2123,7 +2123,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="123">
             <data key="SUID">258</data>
@@ -2136,7 +2136,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="256">
             <data key="SUID">257</data>
@@ -2149,7 +2149,7 @@
             <data key="shortName2">THI2.1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G72260</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="82">
             <data key="SUID">252</data>
@@ -2162,7 +2162,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="154">
             <data key="SUID">248</data>
@@ -2175,7 +2175,7 @@
             <data key="shortName2">JAR1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT2G46370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="172">
             <data key="SUID">247</data>
@@ -2188,7 +2188,7 @@
             <data key="shortName2">PR4</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G04720</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="237">
             <data key="SUID">238</data>
@@ -2201,7 +2201,7 @@
             <data key="shortName2">ORA59</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G06160</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="207">
             <data key="SUID">208</data>
@@ -2214,7 +2214,7 @@
             <data key="shortName2">VSP2</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT5G24770</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="156">
             <data key="SUID">205</data>
@@ -2227,7 +2227,7 @@
             <data key="shortName2">HCHIB</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT3G12500</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="129">
             <data key="SUID">180</data>
@@ -2240,7 +2240,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="137">
             <data key="SUID">158</data>
@@ -2253,7 +2253,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="152" target="87">
             <data key="SUID">153</data>
@@ -2266,7 +2266,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G44420</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="150" target="131">
             <data key="SUID">339</data>
@@ -2279,7 +2279,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT4G12560</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="150" target="126">
             <data key="SUID">328</data>
@@ -2292,7 +2292,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT4G12560</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="150" target="87">
             <data key="SUID">311</data>
@@ -2305,7 +2305,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G12560</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="149" target="126">
             <data key="SUID">372</data>
@@ -2318,7 +2318,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT4G16890</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="149" target="87">
             <data key="SUID">309</data>
@@ -2331,7 +2331,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G16890</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="149" target="131">
             <data key="SUID">159</data>
@@ -2344,7 +2344,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT4G16890</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="149" target="150">
             <data key="SUID">151</data>
@@ -2357,7 +2357,7 @@
             <data key="shortName2">CPR1</data>
             <data key="geneID1">AT4G16890</data>
             <data key="geneID2">AT4G12560</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="154">
             <data key="SUID">419</data>
@@ -2370,7 +2370,7 @@
             <data key="shortName2">JAR1</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT2G46370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="137">
             <data key="SUID">411</data>
@@ -2383,7 +2383,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="132">
             <data key="SUID">394</data>
@@ -2396,7 +2396,7 @@
             <data key="shortName2">NDR1</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT3G20600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="128">
             <data key="SUID">389</data>
@@ -2409,7 +2409,7 @@
             <data key="shortName2">BGL2</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT3G57260</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="129">
             <data key="SUID">276</data>
@@ -2422,7 +2422,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="131">
             <data key="SUID">243</data>
@@ -2435,7 +2435,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="87">
             <data key="SUID">182</data>
@@ -2448,7 +2448,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="126">
             <data key="SUID">146</data>
@@ -2461,7 +2461,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="143" target="123">
             <data key="SUID">144</data>
@@ -2474,7 +2474,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT4G39030</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="141" target="87">
             <data key="SUID">332</data>
@@ -2487,7 +2487,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G72930</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="87">
             <data key="SUID">278</data>
@@ -2500,7 +2500,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G07040</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="141">
             <data key="SUID">142</data>
@@ -2513,7 +2513,7 @@
             <data key="shortName2">TIR</data>
             <data key="geneID1">AT3G07040</data>
             <data key="geneID2">AT1G72930</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="237">
             <data key="SUID">432</data>
@@ -2526,7 +2526,7 @@
             <data key="shortName2">ORA59</data>
             <data key="geneID1">AT1G32640</data>
             <data key="geneID2">AT1G06160</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="129">
             <data key="SUID">404</data>
@@ -2539,7 +2539,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="256">
             <data key="SUID">393</data>
@@ -2552,7 +2552,7 @@
             <data key="shortName2">THI2.1</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G72260</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="82">
             <data key="SUID">349</data>
@@ -2565,7 +2565,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="123">
             <data key="SUID">292</data>
@@ -2578,7 +2578,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="87">
             <data key="SUID">199</data>
@@ -2591,7 +2591,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="138">
             <data key="SUID">139</data>
@@ -2604,7 +2604,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT2G39940</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="132" target="123">
             <data key="SUID">351</data>
@@ -2617,7 +2617,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G20600</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="132" target="141">
             <data key="SUID">249</data>
@@ -2630,7 +2630,7 @@
             <data key="shortName2">TIR</data>
             <data key="geneID1">AT3G20600</data>
             <data key="geneID2">AT1G72930</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="132" target="87">
             <data key="SUID">240</data>
@@ -2643,7 +2643,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G20600</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="132" target="140">
             <data key="SUID">148</data>
@@ -2656,7 +2656,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT3G20600</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="137">
             <data key="SUID">401</data>
@@ -2669,7 +2669,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="129">
             <data key="SUID">285</data>
@@ -2682,7 +2682,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="140">
             <data key="SUID">181</data>
@@ -2695,7 +2695,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="141">
             <data key="SUID">147</data>
@@ -2708,7 +2708,7 @@
             <data key="shortName2">TIR</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT1G72930</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="123">
             <data key="SUID">145</data>
@@ -2721,7 +2721,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="87">
             <data key="SUID">134</data>
@@ -2734,7 +2734,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="131" target="132">
             <data key="SUID">133</data>
@@ -2747,7 +2747,7 @@
             <data key="shortName2">NDR1</data>
             <data key="geneID1">AT3G48090</data>
             <data key="geneID2">AT3G20600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="274">
             <data key="SUID">417</data>
@@ -2760,7 +2760,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT1G75040</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="123">
             <data key="SUID">241</data>
@@ -2773,7 +2773,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT1G75040</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="87">
             <data key="SUID">211</data>
@@ -2786,7 +2786,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G75040</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="82">
             <data key="SUID">406</data>
@@ -2799,7 +2799,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="131">
             <data key="SUID">379</data>
@@ -2812,7 +2812,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="263">
             <data key="SUID">333</data>
@@ -2825,7 +2825,7 @@
             <data key="shortName2">PR1</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT2G14610</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="123">
             <data key="SUID">326</data>
@@ -2838,7 +2838,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="126">
             <data key="SUID">296</data>
@@ -2851,7 +2851,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="274">
             <data key="SUID">275</data>
@@ -2864,7 +2864,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="172">
             <data key="SUID">265</data>
@@ -2877,7 +2877,7 @@
             <data key="shortName2">PR4</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT3G04720</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="87">
             <data key="SUID">204</data>
@@ -2890,7 +2890,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="202">
             <data key="SUID">203</data>
@@ -2903,7 +2903,7 @@
             <data key="shortName2">CHI</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT2G43570</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="156">
             <data key="SUID">157</data>
@@ -2916,7 +2916,7 @@
             <data key="shortName2">HCHIB</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT3G12500</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="128" target="129">
             <data key="SUID">130</data>
@@ -2929,7 +2929,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT3G57260</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="263">
             <data key="SUID">428</data>
@@ -2942,7 +2942,7 @@
             <data key="shortName2">PR1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT2G14610</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="154">
             <data key="SUID">398</data>
@@ -2955,7 +2955,7 @@
             <data key="shortName2">JAR1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT2G46370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="137">
             <data key="SUID">365</data>
@@ -2968,7 +2968,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="131">
             <data key="SUID">307</data>
@@ -2981,7 +2981,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="140">
             <data key="SUID">282</data>
@@ -2994,7 +2994,7 @@
             <data key="shortName2">RPM1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT3G07040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="141">
             <data key="SUID">260</data>
@@ -3007,7 +3007,7 @@
             <data key="shortName2">TIR</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT1G72930</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="129">
             <data key="SUID">250</data>
@@ -3020,7 +3020,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="235">
             <data key="SUID">236</data>
@@ -3033,7 +3033,7 @@
             <data key="shortName2">PAD3</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT3G26830</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="132">
             <data key="SUID">179</data>
@@ -3046,7 +3046,7 @@
             <data key="shortName2">NDR1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT3G20600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="87">
             <data key="SUID">135</data>
@@ -3059,7 +3059,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="126" target="123">
             <data key="SUID">127</data>
@@ -3072,7 +3072,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G52430</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="124" target="108">
             <data key="SUID">363</data>
@@ -3085,7 +3085,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT1G68890</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="124" target="73">
             <data key="SUID">345</data>
@@ -3098,7 +3098,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT1G68890</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="124" target="76">
             <data key="SUID">344</data>
@@ -3111,7 +3111,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G68890</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="124" target="91">
             <data key="SUID">342</data>
@@ -3124,7 +3124,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT1G68890</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="274">
             <data key="SUID">414</data>
@@ -3137,7 +3137,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="76">
             <data key="SUID">232</data>
@@ -3150,7 +3150,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="73">
             <data key="SUID">231</data>
@@ -3163,7 +3163,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="91">
             <data key="SUID">230</data>
@@ -3176,7 +3176,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="108">
             <data key="SUID">221</data>
@@ -3189,7 +3189,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="112">
             <data key="SUID">201</data>
@@ -3202,7 +3202,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="87">
             <data key="SUID">136</data>
@@ -3215,7 +3215,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="123" target="124">
             <data key="SUID">125</data>
@@ -3228,7 +3228,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT1G74710</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="114" target="87">
             <data key="SUID">115</data>
@@ -3241,7 +3241,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G10030</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="124">
             <data key="SUID">304</data>
@@ -3254,7 +3254,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT1G69370</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="73">
             <data key="SUID">171</data>
@@ -3267,7 +3267,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT1G69370</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="91">
             <data key="SUID">170</data>
@@ -3280,7 +3280,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT1G69370</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="76">
             <data key="SUID">162</data>
@@ -3293,7 +3293,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G69370</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="108">
             <data key="SUID">113</data>
@@ -3306,7 +3306,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT1G69370</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="112">
             <data key="SUID">352</data>
@@ -3319,7 +3319,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="124">
             <data key="SUID">306</data>
@@ -3332,7 +3332,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="123">
             <data key="SUID">220</data>
@@ -3345,7 +3345,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="78">
             <data key="SUID">195</data>
@@ -3358,7 +3358,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="91">
             <data key="SUID">166</data>
@@ -3371,7 +3371,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="76">
             <data key="SUID">161</data>
@@ -3384,7 +3384,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="73">
             <data key="SUID">160</data>
@@ -3397,7 +3397,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="108">
             <data key="SUID">111</data>
@@ -3410,7 +3410,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT3G29200</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="108" target="91">
             <data key="SUID">122</data>
@@ -3423,7 +3423,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT1G48850</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="108" target="76">
             <data key="SUID">121</data>
@@ -3436,7 +3436,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G48850</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="108" target="73">
             <data key="SUID">118</data>
@@ -3449,7 +3449,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT1G48850</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="110">
             <data key="SUID">340</data>
@@ -3462,7 +3462,7 @@
             <data key="shortName2">CM1</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT3G29200</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="112">
             <data key="SUID">337</data>
@@ -3475,7 +3475,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="124">
             <data key="SUID">291</data>
@@ -3488,7 +3488,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="75">
             <data key="SUID">200</data>
@@ -3501,7 +3501,7 @@
             <data key="shortName2">AT3G55870</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT3G55870</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="78">
             <data key="SUID">198</data>
@@ -3514,7 +3514,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="72">
             <data key="SUID">191</data>
@@ -3527,7 +3527,7 @@
             <data key="shortName2">ASA1</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT5G05730</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="189">
             <data key="SUID">190</data>
@@ -3540,7 +3540,7 @@
             <data key="shortName2">CORI3</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT4G23600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="123">
             <data key="SUID">184</data>
@@ -3553,7 +3553,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="91">
             <data key="SUID">169</data>
@@ -3566,7 +3566,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="73">
             <data key="SUID">168</data>
@@ -3579,7 +3579,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="76">
             <data key="SUID">164</data>
@@ -3592,7 +3592,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="108">
             <data key="SUID">109</data>
@@ -3605,7 +3605,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT5G10870</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="87">
             <data key="SUID">106</data>
@@ -3618,7 +3618,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G77920</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="299">
             <data key="SUID">407</data>
@@ -3631,7 +3631,7 @@
             <data key="shortName2">bZIP</data>
             <data key="geneID1">AT5G65210</data>
             <data key="geneID2">AT1G68880</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="87">
             <data key="SUID">102</data>
@@ -3644,7 +3644,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G65210</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="99" target="87">
             <data key="SUID">100</data>
@@ -3657,7 +3657,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G06960</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="97" target="299">
             <data key="SUID">416</data>
@@ -3670,7 +3670,7 @@
             <data key="shortName2">bZIP</data>
             <data key="geneID1">AT3G12250</data>
             <data key="geneID2">AT1G68880</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="97" target="226">
             <data key="SUID">370</data>
@@ -3683,7 +3683,7 @@
             <data key="shortName2">GRX480</data>
             <data key="geneID1">AT3G12250</data>
             <data key="geneID2">AT1G28480</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="97" target="228">
             <data key="SUID">369</data>
@@ -3696,7 +3696,7 @@
             <data key="shortName2">NIMIN1</data>
             <data key="geneID1">AT3G12250</data>
             <data key="geneID2">AT1G02450</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="97" target="87">
             <data key="SUID">98</data>
@@ -3709,7 +3709,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT3G12250</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="76">
             <data key="SUID">357</data>
@@ -3722,7 +3722,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G25155</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="138">
             <data key="SUID">408</data>
@@ -3735,7 +3735,7 @@
             <data key="shortName2">MYC2</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G32640</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="274">
             <data key="SUID">348</data>
@@ -3748,7 +3748,7 @@
             <data key="shortName2">MNS1</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G51590</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="226">
             <data key="SUID">315</data>
@@ -3761,7 +3761,7 @@
             <data key="shortName2">GRX480</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G28480</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="287">
             <data key="SUID">288</data>
@@ -3774,7 +3774,7 @@
             <data key="shortName2">CUL3</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G26830</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="175">
             <data key="SUID">251</data>
@@ -3787,7 +3787,7 @@
             <data key="shortName2">NIMIN-3</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G09415</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="228">
             <data key="SUID">229</data>
@@ -3800,7 +3800,7 @@
             <data key="shortName2">NIMIN1</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G02450</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="217">
             <data key="SUID">218</data>
@@ -3813,7 +3813,7 @@
             <data key="shortName2">TRX5</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G45145</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="87" target="103">
             <data key="SUID">104</data>
@@ -3826,7 +3826,7 @@
             <data key="shortName2">TGA3</data>
             <data key="geneID1">AT1G64280</data>
             <data key="geneID2">AT1G22070</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="299">
             <data key="SUID">356</data>
@@ -3839,7 +3839,7 @@
             <data key="shortName2">bZIP</data>
             <data key="geneID1">AT5G06950</data>
             <data key="geneID2">AT1G68880</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="228">
             <data key="SUID">294</data>
@@ -3852,7 +3852,7 @@
             <data key="shortName2">NIMIN1</data>
             <data key="geneID1">AT5G06950</data>
             <data key="geneID2">AT1G02450</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="226">
             <data key="SUID">227</data>
@@ -3865,7 +3865,7 @@
             <data key="shortName2">GRX480</data>
             <data key="geneID1">AT5G06950</data>
             <data key="geneID2">AT1G28480</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="87">
             <data key="SUID">88</data>
@@ -3878,7 +3878,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G06950</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="91">
             <data key="SUID">362</data>
@@ -3891,7 +3891,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="76">
             <data key="SUID">360</data>
@@ -3904,7 +3904,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="73">
             <data key="SUID">359</data>
@@ -3917,7 +3917,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="124">
             <data key="SUID">346</data>
@@ -3930,7 +3930,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="189">
             <data key="SUID">322</data>
@@ -3943,7 +3943,7 @@
             <data key="shortName2">CORI3</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT4G23600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="123">
             <data key="SUID">225</data>
@@ -3956,7 +3956,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="110">
             <data key="SUID">167</data>
@@ -3969,7 +3969,7 @@
             <data key="shortName2">CM1</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT3G29200</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="112">
             <data key="SUID">165</data>
@@ -3982,7 +3982,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="107">
             <data key="SUID">163</data>
@@ -3995,7 +3995,7 @@
             <data key="shortName2">CM2</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT5G10870</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="108">
             <data key="SUID">116</data>
@@ -4008,7 +4008,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="72">
             <data key="SUID">96</data>
@@ -4021,7 +4021,7 @@
             <data key="shortName2">ASA1</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT5G05730</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="75">
             <data key="SUID">93</data>
@@ -4034,7 +4034,7 @@
             <data key="shortName2">AT3G55870</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT3G55870</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="78">
             <data key="SUID">85</data>
@@ -4047,7 +4047,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT5G57890</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="82" target="87">
             <data key="SUID">290</data>
@@ -4060,7 +4060,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT1G66340</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="129">
             <data key="SUID">431</data>
@@ -4073,7 +4073,7 @@
             <data key="shortName2">PR5</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT1G75040</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="131">
             <data key="SUID">420</data>
@@ -4086,7 +4086,7 @@
             <data key="shortName2">EDS1</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT3G48090</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="156">
             <data key="SUID">392</data>
@@ -4099,7 +4099,7 @@
             <data key="shortName2">HCHIB</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT3G12500</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="126">
             <data key="SUID">336</data>
@@ -4112,7 +4112,7 @@
             <data key="shortName2">PAD4</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT3G52430</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="154">
             <data key="SUID">279</data>
@@ -4125,7 +4125,7 @@
             <data key="shortName2">JAR1</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT2G46370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="123">
             <data key="SUID">261</data>
@@ -4138,7 +4138,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="87">
             <data key="SUID">259</data>
@@ -4151,7 +4151,7 @@
             <data key="shortName2">NPR1</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT1G64280</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="137">
             <data key="SUID">254</data>
@@ -4164,7 +4164,7 @@
             <data key="shortName2">COI1</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT2G39940</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="82">
             <data key="SUID">83</data>
@@ -4177,7 +4177,7 @@
             <data key="shortName2">ETR1</data>
             <data key="geneID1">AT5G03280</data>
             <data key="geneID2">AT1G66340</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="124">
             <data key="SUID">343</data>
@@ -4190,7 +4190,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="123">
             <data key="SUID">283</data>
@@ -4203,7 +4203,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="112">
             <data key="SUID">196</data>
@@ -4216,7 +4216,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="108">
             <data key="SUID">120</data>
@@ -4229,7 +4229,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="91">
             <data key="SUID">94</data>
@@ -4242,7 +4242,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="76">
             <data key="SUID">80</data>
@@ -4255,7 +4255,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="78" target="73">
             <data key="SUID">79</data>
@@ -4268,7 +4268,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT2G29690</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="78">
             <data key="SUID">353</data>
@@ -4281,7 +4281,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="124">
             <data key="SUID">347</data>
@@ -4294,7 +4294,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="123">
             <data key="SUID">303</data>
@@ -4307,7 +4307,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="112">
             <data key="SUID">197</data>
@@ -4320,7 +4320,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="110">
             <data key="SUID">194</data>
@@ -4333,7 +4333,7 @@
             <data key="shortName2">CM1</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT3G29200</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="108">
             <data key="SUID">117</data>
@@ -4346,7 +4346,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="91">
             <data key="SUID">92</data>
@@ -4359,7 +4359,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="73">
             <data key="SUID">90</data>
@@ -4372,7 +4372,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="76">
             <data key="SUID">77</data>
@@ -4385,7 +4385,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT3G55870</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="76">
             <data key="SUID">361</data>
@@ -4398,7 +4398,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT1G25220</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="91">
             <data key="SUID">358</data>
@@ -4411,7 +4411,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT1G25220</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="75">
             <data key="SUID">354</data>
@@ -4424,7 +4424,7 @@
             <data key="shortName2">AT3G55870</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT3G55870</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="78">
             <data key="SUID">335</data>
@@ -4437,7 +4437,7 @@
             <data key="shortName2">ASA2</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT2G29690</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="189">
             <data key="SUID">317</data>
@@ -4450,7 +4450,7 @@
             <data key="shortName2">CORI3</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT4G23600</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="124">
             <data key="SUID">312</data>
@@ -4463,7 +4463,7 @@
             <data key="shortName2">PHYLLO</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G68890</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="123">
             <data key="SUID">286</data>
@@ -4476,7 +4476,7 @@
             <data key="shortName2">EDS16</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G74710</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="110">
             <data key="SUID">193</data>
@@ -4489,7 +4489,7 @@
             <data key="shortName2">CM1</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT3G29200</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="112">
             <data key="SUID">192</data>
@@ -4502,7 +4502,7 @@
             <data key="shortName2">CM3</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G69370</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="108">
             <data key="SUID">119</data>
@@ -4515,7 +4515,7 @@
             <data key="shortName2">EMB1144</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G48850</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="91">
             <data key="SUID">95</data>
@@ -4528,7 +4528,7 @@
             <data key="shortName2">AT1G25155.1</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G25155</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="76">
             <data key="SUID">89</data>
@@ -4541,7 +4541,7 @@
             <data key="shortName2">AT1G24807</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G24807</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="73">
             <data key="SUID">74</data>
@@ -4554,7 +4554,7 @@
             <data key="shortName2">ASB1</data>
             <data key="geneID1">AT5G05730</data>
             <data key="geneID2">AT1G25220</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
     </graph>
 </graphml>
