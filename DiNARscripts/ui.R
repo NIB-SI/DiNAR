@@ -374,7 +374,7 @@ shinyUI(
                                        conditionalPanel(
                                         condition = "(output.selectedLKN!=-1)", 
                                         busyIndicator(wait = 1000),
-                                       plotOutput('myhist3', height = "750px"), style = 'width:100%;'
+                                       plotOutput('myhist3', height = "1000px"), style = 'width:100%;'
                                        ),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN==-1)", 
