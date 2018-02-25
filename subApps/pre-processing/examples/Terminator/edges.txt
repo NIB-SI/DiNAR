@@ -1,4 +1,4 @@
-geneID1	geneID2	reactType	from	to
+geneID1	geneID2	reactionType	from	to
 ADVISOR #1	CONNOR	-	ADVISOR #1	CONNOR
 ADVISOR #1	JOHN	-	ADVISOR #1	JOHN
 ADVISOR #1	KATE	-	ADVISOR #1	KATE
