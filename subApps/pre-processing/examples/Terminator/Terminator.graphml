@@ -16,7 +16,7 @@
     <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
     <key attr.name="geneID1" attr.type="string" for="edge" id="geneID1"/>
     <key attr.name="geneID2" attr.type="string" for="edge" id="geneID2"/>
-    <key attr.name="reactType" attr.type="string" for="edge" id="reactType"/>
+    <key attr.name="reactionType" attr.type="string" for="edge" id="reactionType"/>
     <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
     <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
     <key attr.name="name" attr.type="string" for="graph" id="name"/>
@@ -832,7 +832,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SERGEANT</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="332" target="334">
             <data key="SUID">353</data>
@@ -843,7 +843,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">VIDEO SARAH</data>
             <data key="geneID2">VIDEO SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="326" target="154">
             <data key="SUID">338</data>
@@ -854,7 +854,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH'S MOM</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="321" target="319">
             <data key="SUID">323</data>
@@ -865,7 +865,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REPORTER</data>
             <data key="geneID2">VUKOVICH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="321" target="317">
             <data key="SUID">322</data>
@@ -876,7 +876,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REPORTER</data>
             <data key="geneID2">TRAXLER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="317" target="319">
             <data key="SUID">351</data>
@@ -887,7 +887,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TRAXLER</data>
             <data key="geneID2">VUKOVICH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="307" target="309">
             <data key="SUID">352</data>
@@ -898,7 +898,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TV ANCHORWOMAN</data>
             <data key="geneID2">WAITRESS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="304" target="86">
             <data key="SUID">305</data>
@@ -909,7 +909,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MR MILLER</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="302" target="192">
             <data key="SUID">303</data>
@@ -920,7 +920,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MOSSBERG</data>
             <data key="geneID2">SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="294" target="126">
             <data key="SUID">313</data>
@@ -931,7 +931,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">PRIEST</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="280" target="154">
             <data key="SUID">339</data>
@@ -942,7 +942,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SECOND PUNK</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="277" target="93">
             <data key="SUID">314</data>
@@ -953,7 +953,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">RADIO VOICE</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="262" target="265">
             <data key="SUID">350</data>
@@ -964,7 +964,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TIM</data>
             <data key="geneID2">WOMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="256" target="154">
             <data key="SUID">325</data>
@@ -975,7 +975,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SALCEDA</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="256" target="86">
             <data key="SUID">324</data>
@@ -986,7 +986,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SALCEDA</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="252" target="91">
             <data key="SUID">253</data>
@@ -997,7 +997,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JEREMY</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="246" target="250">
             <data key="SUID">251</data>
@@ -1008,7 +1008,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANELLE</data>
             <data key="geneID2">TODD</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="246" target="154">
             <data key="SUID">249</data>
@@ -1019,7 +1019,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANELLE</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="246" target="217">
             <data key="SUID">248</data>
@@ -1030,7 +1030,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANELLE</data>
             <data key="geneID2">OFFICER X</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="246" target="75">
             <data key="SUID">247</data>
@@ -1041,7 +1041,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANELLE</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="237" target="126">
             <data key="SUID">239</data>
@@ -1052,7 +1052,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">HEAD</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="237" target="91">
             <data key="SUID">238</data>
@@ -1063,7 +1063,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">HEAD</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="231" target="86">
             <data key="SUID">299</data>
@@ -1074,7 +1074,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MATT</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="229" target="86">
             <data key="SUID">288</data>
@@ -1085,7 +1085,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCO</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="228" target="86">
             <data key="SUID">233</data>
@@ -1096,7 +1096,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GINGER</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="228" target="231">
             <data key="SUID">232</data>
@@ -1107,7 +1107,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GINGER</data>
             <data key="geneID2">MATT</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="228" target="229">
             <data key="SUID">230</data>
@@ -1118,7 +1118,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GINGER</data>
             <data key="geneID2">MARCO</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="154">
             <data key="SUID">225</data>
@@ -1129,7 +1129,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST KID</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="86">
             <data key="SUID">224</data>
@@ -1140,7 +1140,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST KID</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="222" target="75">
             <data key="SUID">223</data>
@@ -1151,7 +1151,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST KID</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="219" target="154">
             <data key="SUID">221</data>
@@ -1162,7 +1162,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST JOCK</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="219" target="75">
             <data key="SUID">220</data>
@@ -1173,7 +1173,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST JOCK</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="217" target="250">
             <data key="SUID">311</data>
@@ -1184,7 +1184,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">OFFICER X</data>
             <data key="geneID2">TODD</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="216" target="217">
             <data key="SUID">218</data>
@@ -1195,7 +1195,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">FIRST GIRL</data>
             <data key="geneID2">OFFICER X</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="212" target="93">
             <data key="SUID">215</data>
@@ -1206,7 +1206,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ENGINEER</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="212" target="91">
             <data key="SUID">214</data>
@@ -1217,7 +1217,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ENGINEER</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="212" target="89">
             <data key="SUID">213</data>
@@ -1228,7 +1228,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ENGINEER</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="207" target="182">
             <data key="SUID">300</data>
@@ -1239,7 +1239,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MILES</data>
             <data key="geneID2">TARISSA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="205" target="154">
             <data key="SUID">282</data>
@@ -1250,7 +1250,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LEADER</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="205" target="280">
             <data key="SUID">281</data>
@@ -1261,7 +1261,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LEADER</data>
             <data key="geneID2">SECOND PUNK</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="202" target="154">
             <data key="SUID">227</data>
@@ -1272,7 +1272,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GIBBONS</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="202" target="86">
             <data key="SUID">226</data>
@@ -1283,7 +1283,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GIBBONS</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="195" target="86">
             <data key="SUID">287</data>
@@ -1294,7 +1294,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LITTLE GIRL</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="195" target="168">
             <data key="SUID">286</data>
@@ -1305,7 +1305,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LITTLE GIRL</data>
             <data key="geneID2">REESE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="194" target="154">
             <data key="SUID">201</data>
@@ -1316,7 +1316,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DRIVER</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="194" target="86">
             <data key="SUID">200</data>
@@ -1327,7 +1327,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DRIVER</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="194" target="168">
             <data key="SUID">199</data>
@@ -1338,7 +1338,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DRIVER</data>
             <data key="geneID2">REESE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="194" target="197">
             <data key="SUID">198</data>
@@ -1349,7 +1349,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DRIVER</data>
             <data key="geneID2">PARTNER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="194" target="195">
             <data key="SUID">196</data>
@@ -1360,7 +1360,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DRIVER</data>
             <data key="geneID2">LITTLE GIRL</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="192" target="319">
             <data key="SUID">346</data>
@@ -1371,7 +1371,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SILBERMAN</data>
             <data key="geneID2">VUKOVICH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="192" target="334">
             <data key="SUID">345</data>
@@ -1382,7 +1382,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SILBERMAN</data>
             <data key="geneID2">VIDEO SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="192" target="332">
             <data key="SUID">344</data>
@@ -1393,7 +1393,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SILBERMAN</data>
             <data key="geneID2">VIDEO SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="192" target="317">
             <data key="SUID">343</data>
@@ -1404,7 +1404,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SILBERMAN</data>
             <data key="geneID2">TRAXLER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="192" target="154">
             <data key="SUID">342</data>
@@ -1415,7 +1415,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SILBERMAN</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="190" target="192">
             <data key="SUID">193</data>
@@ -1426,7 +1426,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DOUGLAS</data>
             <data key="geneID2">SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="190" target="86">
             <data key="SUID">191</data>
@@ -1437,7 +1437,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DOUGLAS</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="185" target="154">
             <data key="SUID">186</data>
@@ -1448,7 +1448,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DISPATCHER</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="182" target="154">
             <data key="SUID">347</data>
@@ -1459,7 +1459,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TARISSA</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="178" target="154">
             <data key="SUID">184</data>
@@ -1470,7 +1470,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DANNY</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="178" target="182">
             <data key="SUID">183</data>
@@ -1481,7 +1481,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DANNY</data>
             <data key="geneID2">TARISSA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="178" target="86">
             <data key="SUID">181</data>
@@ -1492,7 +1492,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DANNY</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="178" target="75">
             <data key="SUID">180</data>
@@ -1503,7 +1503,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DANNY</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="178" target="138">
             <data key="SUID">179</data>
@@ -1514,7 +1514,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DANNY</data>
             <data key="geneID2">DYSON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="170" target="168">
             <data key="SUID">171</data>
@@ -1525,7 +1525,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COUNTERMAN</data>
             <data key="geneID2">REESE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="168" target="319">
             <data key="SUID">320</data>
@@ -1536,7 +1536,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REESE</data>
             <data key="geneID2">VUKOVICH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="168" target="317">
             <data key="SUID">318</data>
@@ -1547,7 +1547,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REESE</data>
             <data key="geneID2">TRAXLER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="168" target="192">
             <data key="SUID">316</data>
@@ -1558,7 +1558,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REESE</data>
             <data key="geneID2">SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="168" target="86">
             <data key="SUID">315</data>
@@ -1569,7 +1569,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">REESE</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="126">
             <data key="SUID">189</data>
@@ -1580,7 +1580,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DOCTOR</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="91">
             <data key="SUID">188</data>
@@ -1591,7 +1591,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DOCTOR</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="156" target="77">
             <data key="SUID">187</data>
@@ -1602,7 +1602,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DOCTOR</data>
             <data key="geneID2">KATE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="265">
             <data key="SUID">349</data>
@@ -1613,7 +1613,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TERMINATOR</data>
             <data key="geneID2">WOMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="154" target="250">
             <data key="SUID">348</data>
@@ -1624,7 +1624,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">TERMINATOR</data>
             <data key="geneID2">TODD</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="153" target="154">
             <data key="SUID">155</data>
@@ -1635,7 +1635,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CLERK</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="145" target="93">
             <data key="SUID">312</data>
@@ -1646,7 +1646,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">PIG</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="141" target="93">
             <data key="SUID">175</data>
@@ -1657,7 +1657,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COW</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="141" target="145">
             <data key="SUID">174</data>
@@ -1668,7 +1668,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COW</data>
             <data key="geneID2">PIG</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="141" target="91">
             <data key="SUID">173</data>
@@ -1679,7 +1679,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COW</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="141" target="89">
             <data key="SUID">172</data>
@@ -1690,7 +1690,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COW</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="93">
             <data key="SUID">147</data>
@@ -1701,7 +1701,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BULL</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="145">
             <data key="SUID">146</data>
@@ -1712,7 +1712,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BULL</data>
             <data key="geneID2">PIG</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="91">
             <data key="SUID">144</data>
@@ -1723,7 +1723,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BULL</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="89">
             <data key="SUID">143</data>
@@ -1734,7 +1734,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BULL</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="140" target="141">
             <data key="SUID">142</data>
@@ -1745,7 +1745,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BULL</data>
             <data key="geneID2">COW</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="154">
             <data key="SUID">211</data>
@@ -1756,7 +1756,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="182">
             <data key="SUID">210</data>
@@ -1767,7 +1767,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">TARISSA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="86">
             <data key="SUID">209</data>
@@ -1778,7 +1778,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="207">
             <data key="SUID">208</data>
@@ -1789,7 +1789,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">MILES</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="205">
             <data key="SUID">206</data>
@@ -1800,7 +1800,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">LEADER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="75">
             <data key="SUID">204</data>
@@ -1811,7 +1811,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="138" target="202">
             <data key="SUID">203</data>
@@ -1822,7 +1822,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">DYSON</data>
             <data key="geneID2">GIBBONS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="137" target="138">
             <data key="SUID">139</data>
@@ -1833,7 +1833,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BRYANT</data>
             <data key="geneID2">DYSON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="135" target="86">
             <data key="SUID">136</data>
@@ -1844,7 +1844,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BREEN</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="130" target="93">
             <data key="SUID">236</data>
@@ -1855,7 +1855,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GIRL</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="130" target="91">
             <data key="SUID">235</data>
@@ -1866,7 +1866,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GIRL</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="130" target="89">
             <data key="SUID">234</data>
@@ -1877,7 +1877,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">GIRL</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="93">
             <data key="SUID">134</data>
@@ -1888,7 +1888,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BOY</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="91">
             <data key="SUID">133</data>
@@ -1899,7 +1899,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BOY</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="89">
             <data key="SUID">132</data>
@@ -1910,7 +1910,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BOY</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="129" target="130">
             <data key="SUID">131</data>
@@ -1921,7 +1921,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BOY</data>
             <data key="geneID2">GIRL</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="120" target="112">
             <data key="SUID">274</data>
@@ -1932,7 +1932,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KID</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="120" target="110">
             <data key="SUID">273</data>
@@ -1943,7 +1943,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KID</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="120" target="107">
             <data key="SUID">272</data>
@@ -1954,7 +1954,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KID</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="309">
             <data key="SUID">310</data>
@@ -1965,7 +1965,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">NANCY</data>
             <data key="geneID2">WAITRESS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="307">
             <data key="SUID">308</data>
@@ -1976,7 +1976,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">NANCY</data>
             <data key="geneID2">TV ANCHORWOMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="112" target="86">
             <data key="SUID">306</data>
@@ -1987,7 +1987,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">NANCY</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="110" target="112">
             <data key="SUID">301</data>
@@ -1998,7 +1998,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MORRISON</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="112">
             <data key="SUID">285</data>
@@ -2009,7 +2009,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LISA</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="110">
             <data key="SUID">284</data>
@@ -2020,7 +2020,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LISA</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="107" target="91">
             <data key="SUID">283</data>
@@ -2031,7 +2031,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">LISA</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="126">
             <data key="SUID">245</data>
@@ -2042,7 +2042,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="112">
             <data key="SUID">244</data>
@@ -2053,7 +2053,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="110">
             <data key="SUID">243</data>
@@ -2064,7 +2064,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="91">
             <data key="SUID">242</data>
@@ -2075,7 +2075,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="107">
             <data key="SUID">241</data>
@@ -2086,7 +2086,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="105" target="120">
             <data key="SUID">240</data>
@@ -2097,7 +2097,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JANE</data>
             <data key="geneID2">KID</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="103" target="112">
             <data key="SUID">152</data>
@@ -2108,7 +2108,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CHANCE</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="103" target="110">
             <data key="SUID">151</data>
@@ -2119,7 +2119,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CHANCE</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="103" target="91">
             <data key="SUID">150</data>
@@ -2130,7 +2130,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CHANCE</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="103" target="107">
             <data key="SUID">149</data>
@@ -2141,7 +2141,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CHANCE</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="103" target="105">
             <data key="SUID">148</data>
@@ -2152,7 +2152,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CHANCE</data>
             <data key="geneID2">JANE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="93">
             <data key="SUID">128</data>
@@ -2163,7 +2163,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="126">
             <data key="SUID">127</data>
@@ -2174,7 +2174,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="112">
             <data key="SUID">125</data>
@@ -2185,7 +2185,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="110">
             <data key="SUID">124</data>
@@ -2196,7 +2196,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="91">
             <data key="SUID">123</data>
@@ -2207,7 +2207,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="107">
             <data key="SUID">122</data>
@@ -2218,7 +2218,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="120">
             <data key="SUID">121</data>
@@ -2229,7 +2229,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">KID</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="77">
             <data key="SUID">119</data>
@@ -2240,7 +2240,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">KATE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="105">
             <data key="SUID">118</data>
@@ -2251,7 +2251,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">JANE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="73">
             <data key="SUID">117</data>
@@ -2262,7 +2262,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">CONNOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="101" target="103">
             <data key="SUID">116</data>
@@ -2273,7 +2273,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BLAIR</data>
             <data key="geneID2">CHANCE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="112">
             <data key="SUID">113</data>
@@ -2284,7 +2284,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="110">
             <data key="SUID">111</data>
@@ -2295,7 +2295,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="91">
             <data key="SUID">109</data>
@@ -2306,7 +2306,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="107">
             <data key="SUID">108</data>
@@ -2317,7 +2317,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="105">
             <data key="SUID">106</data>
@@ -2328,7 +2328,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">JANE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="103">
             <data key="SUID">104</data>
@@ -2339,7 +2339,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">CHANCE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="100" target="101">
             <data key="SUID">102</data>
@@ -2350,7 +2350,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARNES</data>
             <data key="geneID2">BLAIR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="96" target="168">
             <data key="SUID">169</data>
@@ -2361,7 +2361,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COP</data>
             <data key="geneID2">REESE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="96" target="98">
             <data key="SUID">167</data>
@@ -2372,7 +2372,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">COP</data>
             <data key="geneID2">MANAGER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="95" target="98">
             <data key="SUID">99</data>
@@ -2383,7 +2383,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ASSISTANT</data>
             <data key="geneID2">MANAGER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="95" target="96">
             <data key="SUID">97</data>
@@ -2394,7 +2394,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ASSISTANT</data>
             <data key="geneID2">COP</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="93">
             <data key="SUID">298</data>
@@ -2405,7 +2405,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="126">
             <data key="SUID">297</data>
@@ -2416,7 +2416,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="277">
             <data key="SUID">296</data>
@@ -2427,7 +2427,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">RADIO VOICE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="294">
             <data key="SUID">295</data>
@@ -2438,7 +2438,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">PRIEST</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="145">
             <data key="SUID">293</data>
@@ -2449,7 +2449,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">PIG</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="291">
             <data key="SUID">292</data>
@@ -2460,7 +2460,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">PHYSICIST</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="112">
             <data key="SUID">290</data>
@@ -2471,7 +2471,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="91" target="110">
             <data key="SUID">289</data>
@@ -2482,7 +2482,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">MARCUS</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="89" target="93">
             <data key="SUID">279</data>
@@ -2493,7 +2493,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KYLE</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="89" target="277">
             <data key="SUID">278</data>
@@ -2504,7 +2504,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KYLE</data>
             <data key="geneID2">RADIO VOICE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="89" target="145">
             <data key="SUID">276</data>
@@ -2515,7 +2515,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KYLE</data>
             <data key="geneID2">PIG</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="89" target="91">
             <data key="SUID">275</data>
@@ -2526,7 +2526,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KYLE</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="88" target="93">
             <data key="SUID">94</data>
@@ -2537,7 +2537,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANGLE IN JEEP</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="88" target="91">
             <data key="SUID">92</data>
@@ -2548,7 +2548,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANGLE IN JEEP</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="88" target="89">
             <data key="SUID">90</data>
@@ -2559,7 +2559,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANGLE IN JEEP</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="309">
             <data key="SUID">337</data>
@@ -2570,7 +2570,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">WAITRESS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="319">
             <data key="SUID">336</data>
@@ -2581,7 +2581,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">VUKOVICH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="334">
             <data key="SUID">335</data>
@@ -2592,7 +2592,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">VIDEO SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="332">
             <data key="SUID">333</data>
@@ -2603,7 +2603,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">VIDEO SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="317">
             <data key="SUID">331</data>
@@ -2614,7 +2614,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">TRAXLER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="154">
             <data key="SUID">330</data>
@@ -2625,7 +2625,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="182">
             <data key="SUID">329</data>
@@ -2636,7 +2636,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">TARISSA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="192">
             <data key="SUID">328</data>
@@ -2647,7 +2647,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="86" target="326">
             <data key="SUID">327</data>
@@ -2658,7 +2658,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">SARAH</data>
             <data key="geneID2">SARAH'S MOM</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="86">
             <data key="SUID">177</data>
@@ -2669,7 +2669,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CUSTOMER</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="84" target="112">
             <data key="SUID">176</data>
@@ -2680,7 +2680,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CUSTOMER</data>
             <data key="geneID2">NANCY</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="82" target="86">
             <data key="SUID">115</data>
@@ -2691,7 +2691,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARTENDER</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="82" target="84">
             <data key="SUID">114</data>
@@ -2702,7 +2702,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">BARTENDER</data>
             <data key="geneID2">CUSTOMER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="86">
             <data key="SUID">87</data>
@@ -2713,7 +2713,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANCHORMAN</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="84">
             <data key="SUID">85</data>
@@ -2724,7 +2724,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANCHORMAN</data>
             <data key="geneID2">CUSTOMER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="81" target="82">
             <data key="SUID">83</data>
@@ -2735,7 +2735,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ANCHORMAN</data>
             <data key="geneID2">BARTENDER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="79" target="73">
             <data key="SUID">80</data>
@@ -2746,7 +2746,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">AIDE</data>
             <data key="geneID2">CONNOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="77" target="93">
             <data key="SUID">271</data>
@@ -2757,7 +2757,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KATE</data>
             <data key="geneID2">STAR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="77" target="126">
             <data key="SUID">270</data>
@@ -2768,7 +2768,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KATE</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="77" target="164">
             <data key="SUID">269</data>
@@ -2779,7 +2779,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KATE</data>
             <data key="geneID2">NAVAL OFFICER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="77" target="91">
             <data key="SUID">268</data>
@@ -2790,7 +2790,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KATE</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="77" target="89">
             <data key="SUID">267</data>
@@ -2801,7 +2801,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">KATE</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="265">
             <data key="SUID">266</data>
@@ -2812,7 +2812,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">WOMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="250">
             <data key="SUID">264</data>
@@ -2823,7 +2823,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">TODD</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="262">
             <data key="SUID">263</data>
@@ -2834,7 +2834,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">TIM</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="154">
             <data key="SUID">261</data>
@@ -2845,7 +2845,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">TERMINATOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="182">
             <data key="SUID">260</data>
@@ -2856,7 +2856,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">TARISSA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="192">
             <data key="SUID">259</data>
@@ -2867,7 +2867,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">SILBERMAN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="86">
             <data key="SUID">258</data>
@@ -2878,7 +2878,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">SARAH</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="256">
             <data key="SUID">257</data>
@@ -2889,7 +2889,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">SALCEDA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="205">
             <data key="SUID">255</data>
@@ -2900,7 +2900,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">LEADER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="75" target="77">
             <data key="SUID">254</data>
@@ -2911,7 +2911,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">JOHN</data>
             <data key="geneID2">KATE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="126">
             <data key="SUID">166</data>
@@ -2922,7 +2922,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">SERENA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="164">
             <data key="SUID">165</data>
@@ -2933,7 +2933,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">NAVAL OFFICER</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="110">
             <data key="SUID">163</data>
@@ -2944,7 +2944,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">MORRISON</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="91">
             <data key="SUID">162</data>
@@ -2955,7 +2955,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">MARCUS</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="107">
             <data key="SUID">161</data>
@@ -2966,7 +2966,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">LISA</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="89">
             <data key="SUID">160</data>
@@ -2977,7 +2977,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">KYLE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="77">
             <data key="SUID">159</data>
@@ -2988,7 +2988,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">KATE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="75">
             <data key="SUID">158</data>
@@ -2999,7 +2999,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="73" target="156">
             <data key="SUID">157</data>
@@ -3010,7 +3010,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">CONNOR</data>
             <data key="geneID2">DOCTOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="77">
             <data key="SUID">78</data>
@@ -3021,7 +3021,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ADVISOR #1</data>
             <data key="geneID2">KATE</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="75">
             <data key="SUID">76</data>
@@ -3032,7 +3032,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ADVISOR #1</data>
             <data key="geneID2">JOHN</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
         <edge source="72" target="73">
             <data key="SUID">74</data>
@@ -3043,7 +3043,7 @@
             <data key="interaction">interacts with</data>
             <data key="geneID1">ADVISOR #1</data>
             <data key="geneID2">CONNOR</data>
-            <data key="reactType">-</data>
+            <data key="reactionType">-</data>
         </edge>
     </graph>
 </graphml>
