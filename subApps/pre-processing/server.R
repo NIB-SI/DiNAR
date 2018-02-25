@@ -45,7 +45,7 @@ function(input, output, session) {
                   "<b>From nodes/edges tables, .graphml, .graphml & .xgmml</b> - to. Tab Separated Values (TSV) format with obligatory coluns for DiNAR</br>",
                   "<b>Node attributes/column names</b>  -</br>- geneID (obligatory case sensitive values), shortName (string or '-'), shortDescription (string or '-') and 
                    MapManBin (XX.Y.Z_Bin Description | aa.b.c.d.e.f_Another Bin Description style [use ' | ' as separator for multiple bins and '_' for concatenation of bin with its description] or '-')",
-                  "<b>Edge attributes/column names</b>  -</br>- geneID1 (obligatory case sensitive values), geneID2 (obligatory case sensitive values), reactType (string or '-')</br>",
+                  "<b>Edge attributes/column names</b>  -</br>- geneID1 (obligatory case sensitive values), geneID2 (obligatory case sensitive values), reactionType (string or '-')</br>",
                   "use <b> tables </b> to get DiNAR obligatory columns, including dedicated x and y coordinates, from your nodes/edges tables",
                   "use <b>.graphml </b> to get DiNAR obligatory columns, including dedicated x and y coordinates, from your .graphml file (e.g. export from Cytoscape 3.6.0 or yED)",
                   "use <b>.graphml & .xgmml </b> to get DiNAR obligatory columns while keeping x and y coordinates, from your .graphml and .xgmml files (e.g. exports from Cytoscape 3.6.0)</br>",
@@ -156,7 +156,7 @@ function(input, output, session) {
       
       
       colNames = toupper(c("from", "to", 
-                           "geneID1", "geneID2", "reactType",
+                           "geneID1", "geneID2", "reactionType",
                            "exists"))
       e = colnames(edges)
       importantColsE = unlist(sapply(colNames,
