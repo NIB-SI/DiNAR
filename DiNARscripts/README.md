@@ -33,7 +33,7 @@ if (!require("devtools")) install.packages("devtools")
 if (!require('Rcpp')) install.packages('Rcpp')
 devtools::install_github("rstudio/shiny")
 
-shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/") OR runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
+shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 ```
 
 ### Ubuntu
@@ -41,7 +41,7 @@ shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/") OR runGitHub("DiN
 ```{r}
 install.packages("devtools", lib="~/R/lib")
 
-shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/") OR runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
+shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 ```
 
 *Note: this will install/load libraries: (<a href="https://cran.r-project.org/web/packages/V8/">V8</a>), <a href="https://cran.r-project.org/web/packages/igraph/index.html">igraph</a>, <a href="https://cran.r-project.org/web/packages/colourpicker/index.html">colourpicker</a>, <a href="https://cran.r-project.org/web/packages/plotly/index.html">plotly</a>, <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a>, <a href="https://cran.r-project.org/web/packages/calibrate/index.html">calibrate</a>, <a href="https://cran.r-project.org/web/packages/stringi/index.html">stringi</a>, <a href="https://cran.r-project.org/web/packages/magrittr/index.html">magrittr</a>, <a href="https://cran.r-project.org/web/packages/yaml/index.html">yaml</a>, <a href="https://github.com/ablejec/animatoR/">animatoR</a>, <a href="https://cran.r-project.org/web/packages/stringr/index.html">stringr</a>, <a href="https://cran.r-project.org/web/packages/wordcloud2/index.html">wordcloud2</a>, <a href="https://cran.r-project.org/web/packages/shinyjs/index.html">shinyjs</a>, <a href="https://cran.r-project.org/web/packages/shinydashboard/index.html">shinydashboard</a>, <a href="https://cran.r-project.org/web/packages/shinyBS/index.html">shinyBS</a>, <a href="https://cran.r-project.org/web/packages/colorspace/index.html">colorspace</a>, <a href="https://cran.r-project.org/web/packages/knitr/index.html">knitr</a>, <a href="https://cran.r-project.org/web/packages/markdown/index.html">markdown</a>, <a href="https://cran.r-project.org/web/packages/Rcpp/index.html">Rcpp</a>, <a href="https://cran.r-project.org/web/packages/dplyr/index.html">dplyr</a>, <a href="https://cran.r-project.org/web/packages/rdrop2/index.html">rdrop2</a>, <a href="https://cran.r-project.org/web/packages/fBasics/index.html">fBasics</a>, <a href="https://github.com/rstudio/shiny-incubator">shinyIncubator</a>, <a href="https://github.com/AnalytixWare/ShinySky">shinysky</a>, <a href="https://cran.r-project.org/web/packages/downloader/index.html">downloader</a>, <a href="https://cran.r-project.org/web/packages/visNetwork/index.html">visNetwork</a>, <a href="https://cran.r-project.org/web/packages/htmltools/index.html">htmltools</a>, <a href="https://cran.r-project.org/web/packages/htmlwidgets/index.html">htmlwidgets</a>, <a href="https://cran.r-project.org/web/packages/intergraph/index.html">intergraph</a>, <a href="https://cran.r-project.org/web/packages/network/index.html">network</a>, <a href="https://cran.r-project.org/web/packages/ndtv/index.html">ndtv</a>, <a href="https://cran.r-project.org/web/packages/shinyFiles/index.html">shinyFiles</a> and <a href="https://cran.r-project.org/web/packages/pryr/index.html">pryr</a>
@@ -81,11 +81,13 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
 
 
-# LKN clustering
-https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
+# sub apps
+* input <b>pre-processing</b>: https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
+* network <b>clustering</b>: https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
 
 
 # Ath GSE56094 experimental data analysis
 https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
-
+# obsolete
+https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
