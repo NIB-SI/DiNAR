@@ -39,7 +39,7 @@ function(input, output, session) {
   output$text0 <- renderUI({
     
     str0 <- paste("</br><b><a href='https://NIB-SI.shinyapps.io/DiNAR'>DiNAR</a> optional input data preprocessing</b></br>",
-                  "<b>Cluster your Comprehensive Knowledge Network (CKN)</b> -</br>-  from .graphml fromat (e.g. Cytoscape 3.6.0 export) to Tab Separated Values (TSV) format</br></br>",
+                  "<b>Cluster your Comprehensive Knowledge Network (CKN)</b> -</br>-  from .graphml format (e.g. Cytoscape 3.6.0 export) to Tab Separated Values (TSV) format</br></br>",
                   "<b><u><i>Node attributes:</i></u></b>",
                   "- geneID (obligatory case sensitive values),", 
                   "- shortName (string or '-'),",
