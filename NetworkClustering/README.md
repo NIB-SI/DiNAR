@@ -9,7 +9,7 @@ devtools::install_github("rstudio/shiny")
 ```
 
 # Network clustering
-1. Download all scripts: ui.R, server.R, createGraphML.R, multilevel_and_spinglass_clustering.Rmd and graphMLforRigraph.py
+1. Download all scripts: ui.R, server.R, createGraphML.R, multilevel_and_spinglass_clustering.Rmd (https://github.com/NIB-SI/DiNAR/blob/master/subApps/clustering/multilevelAndSpinglassClustering.Rmd) and graphMLforRigraph.py
 2. open server.R or ui.R in RStudio and Run App with Control+Shift+Enter (see <http://shiny.rstudio.com/tutorial/lesson1/>)
 3. wait until 
 ```{r}
