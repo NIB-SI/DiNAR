@@ -308,7 +308,7 @@ shinyUI(
                             tags$hr(),
                             tags$a(href="https://github.com/NIB-SI/DiNAR", target = "_blank", htmlOutput("AdditionalInformation")),
                             tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis", target = "_blank", htmlOutput("GEODataAnalysis")),
-                            tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering", target = "_blank", htmlOutput("NetworkClustering")),
+                            tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/subApps", target = "_blank", htmlOutput("NetworkClustering")),
                             tags$a(href="http://www.gomapman.org/", target = "_blank", htmlOutput("GoMapMan")),
                             br(),
                             tags$hr(),
