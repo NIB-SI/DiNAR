@@ -38,13 +38,85 @@ function(input, output, session) {
 
   output$text0 <- renderUI({
     
-    str0 <- paste("<b>DiNAR optional input data preprocessing</b></br>",
-                  "<b>Cluster your Comprehensive Knowledge Network</b> -</br>-  from .graphml fromat (e.g. Cytoscape 3.6.0 export) to Tab Separated Values (TSV) format</br>",
-                  "<b>Node Table attributes/column names</b>  -</br>- geneID (obligatory case sensitive values), shortName (string or '-'), shortDescription (string or '-') and 
-                   MapManBin (XX.Y.Z_Bin Description | aa.b.c.d.e.f_Another Bin Description style [use ' | ' as separator for multiple bins and '_' for concatenation of bin with its description] or '-')",
-                  "<b>Edge Table attributes/column names</b>  -</br>- geneID1 (obligatory case sensitive values), geneID2 (obligatory case sensitive values), reactType (string or '-')</br>",
-                  "<b>Note:</b> could be time-consuming for large networks</br>",
-                  "<b>More information at: </b> https://github.com/NIB-SI/DiNAR/subApps",
+    str0 <- paste("</br><b><a href='https://NIB-SI.shinyapps.io/DiNAR'>DiNAR</a> optional input data preprocessing</b></br>",
+                  "<b>Cluster your Comprehensive Knowledge Network (CKN)</b> -</br>-  from .graphml fromat (e.g. Cytoscape 3.6.0 export) to Tab Separated Values (TSV) format</br></br>",
+                  "<b><u><i>Node attributes:</i></u></b>",
+                  "- geneID (obligatory case sensitive values),", 
+                  "- shortName (string or '-'),",
+                  "- shortDescription (string or '-') and ",
+                  "- MapManBin (XX.Y.Z_Bin Description | aa.b.c.d.e.f_Another Bin Description style [use ' | ' as separator for multiple bins and '_' for concatenation of bin with its description] or '-')</br>",
+                  "<style>
+                  table {
+                  font-family: arial, sans-serif;
+                  border-collapse: collapse;
+                  max-width: 1030px;
+                  }
+                  td, th {
+                  border: 1px solid #dddddd;
+                  text-align: left;
+                  padding: 8px;
+                  }
+                  </style>
+                  <table>
+                  <tr style='background-color: #dddddd;'>
+                  <th>geneID</th>
+                  <th>shortName</th>
+                  <th>shortDescription</th>
+                  <th>MapManBin</th>
+                  </tr>
+                  <tr>
+                  <td>AT3G48090</td>
+                  <td><div>EDS1</div></td>
+                  <td>Enhanced disease susceptibility 1; Positive regulator of basal resistance and of effector- triggered immunity specifically mediated by TIR-NB-LRR (TNL) resistance proteins.</td>
+                  <td><div>16.4.2_secondary metabolism.N misc.betaine | 17.3.1.1.1_hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DET2 | 20.1.3_stress.biotic.signalling</div></td>
+                  </tr>
+                  <tr>
+                  <td>AT3G52430</td>
+                  <td>PAD4</td>
+                  <td>PHYTOALEXIN DEFICIENT 4; Probable lipase required downstream of MPK4 for accumulation of the plant defense-potentiating molecule, salicylic acid, thus contributing to the plant innate immunity against invasive biotrophic pathogens and to defense mechanisms upon recognition of microbe-associated molecular patterns (MAMPs).</td>
+                  <td>20.1.3_stress.biotic.signalling</td>
+                  </tr>
+                  <tr>
+                  <td>AT5G44420</td>
+                  <td>PDF1.2</td>
+                  <td>Plant defensin 1.2; Confers broad-spectrum resistance to pathogens. Has antifungal activity in vitro.</td>
+                  <td>20.1.7.12_stress.biotic.PR-proteins.PR12 (plant defensins)</td>
+                  </tr>
+                  <tr>
+                  <td>AT5G47220</td>
+                  <td>ERF2</td>
+                  <td>ethylene responsive element binding factor 2</td>
+                  <td>17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family</td>
+                  </tr>
+                  </table> ",
+                  "<b><u><i>Edge attributes:</i></u></b>",
+                  "- geneID1 (obligatory case sensitive values),",
+                  "- geneID2 (obligatory case sensitive values),", 
+                  "- reactionType (string or '-')</br>",
+                  "<table>
+                  <tr style='background-color: #dddddd;'>
+                  <th>geneID1</th>
+                  <th>geneID2</th>
+                  <th>reactionType</th>
+                  </tr>
+                  <tr>
+                  <td>AT3G52430</td>
+                  <td>AT3G48090</td>
+                  <td>binding</td>
+                  </tr>
+                  <tr>
+                  <td>AT5G44420</td>
+                  <td>AT3G52430</td>
+                  <td>-</td>
+                  </tr>
+                  <tr>
+                  <td>AT5G47220</td>
+                  <td>AT5G44420</td>
+                  <td>act_TF</td>
+                  </tr>
+                  </table></br>",
+                  "</br><b>Note:</b></br>&#9479;time-consuming for extremely large networks</br>",
+                  "<b>More information at: </b> <a href='https://github.com/NIB-SI/DiNAR/tree/master/subApps'>https://github.com/NIB-SI/DiNAR/tree/master/subApps</a></br>",
                   sep = "</br>"
     )
     str1 <- paste0('</br>')
@@ -66,7 +138,11 @@ function(input, output, session) {
 
     gg = read.graph(file = inFile$datapath, 
                    format = "graphml")
-    
+    g=gg
+    myname=inFile$datapath
+    # print(myname)
+    # summary(g)
+    # summary(gg)
     
     myClusters <- function(g=g) {
       # R packages
@@ -125,9 +201,10 @@ function(input, output, session) {
       #### #### ```{r names}
       
       # https://string-db.org/cgi/network.pl?taskId=DkhvPMjSF0rr
-      myname = 'STRING_PR1.graphml' # 
+      myname = myname#'STRING_PR1.graphml' # 
       dir0 = getwd()
-      
+      # print(myname)
+      # print(dir0)
       
       #### #### ```
       
@@ -136,7 +213,7 @@ function(input, output, session) {
       #### #### ```{r graphML}
       
       
-      g = read_graph(paste0(myname), format = "graphml")
+      # g = read_graph(paste0(myname), format = "graphml")
       
       #### print(summary(g))
       # list.vertex.attributes(g)
@@ -145,6 +222,8 @@ function(input, output, session) {
       myname = unlist(strsplit(myname, "[.]"))[1]
       dir1 = paste(dir0,'/clusteringResults',sep = '')
       ifelse(!dir.exists(dir1), dir.create(dir1), FALSE)
+      # print(myname)
+      # print(dir1)
       
       
       #### #### ```
@@ -1436,7 +1515,7 @@ function(input, output, session) {
       # str(df2)
       
       # which columns!!!???!!!
-      colNames = toupper(c('geneID1', 'geneID2', 'reactType', 
+      colNames = toupper(c('geneID1', 'geneID2', 'reactionType', 
                            'cluA', 'cluB', 
                            'superCluA', 'superCluB', 
                            'cluOriginA', 'cluOriginB', 'matchClu',
