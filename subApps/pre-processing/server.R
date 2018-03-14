@@ -122,7 +122,7 @@ function(input, output, session) {
                   "&rArr; use <b>.graphml </b> to get DiNAR obligatory columns, including dedicated x and y coordinates, from your .graphml file (e.g. export from Cytoscape 3.6.0 or yED)",
                   "&rArr; use <b>.graphml & .xgmml </b> to get DiNAR obligatory columns while keeping x and y coordinates, from your .graphml and .xgmml files (e.g. exports from Cytoscape 3.6.0)</br>",
                   "<b>Note:</b></br>&#9479;could be time-consuming for large networks (more than 2<sup>11</sup> nodes/edges)</br>&#9479;large networks are not plotted</br>&#9479;large networks recommendation: use <b>.graphml & .xgmml</b> or <a href='https://nib-si.shinyapps.io/clustering/'>https://nib-si.shinyapps.io/clustering/</a></br>",
-                  "<b>More information at: </b> <a href='https://github.com/NIB-SI/DiNAR/subApps'>https://github.com/NIB-SI/DiNAR/subApps</a></br>",
+                  "<b>More information at: </b> <a href='https://github.com/NIB-SI/DiNAR/tree/master/subApps'>https://github.com/NIB-SI/DiNAR/tree/master/subApps</a></br>",
                   sep = "</br>"
     )
     str1 <- paste0('</br>')
