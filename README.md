@@ -48,11 +48,8 @@ shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 
 
 # Run DiNAR from shinyapps
-&#x1F4D7;
-```diff
-+ https://NIB-SI.shinyapps.io/DiNAR
-```
-https://NIB-SI.shinyapps.io/DiNAR (Basic - Performance Boost; Instance Size: 8GB; Max Worker Processes: 10; Max Connections per Worker: 1; Max Instances: 3)
+
+&#x1F34F; https://NIB-SI.shinyapps.io/DiNAR (Basic - Performance Boost; Instance Size: 8GB; Max Worker Processes: 10; Max Connections per Worker: 1; Max Instances: 3)
 
 
 # Other options
@@ -85,8 +82,8 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 
 # sub apps
-* input <b>pre-processing</b>: https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
-* network <b>clustering</b>: https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
+* input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
+* network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
 
 
 # Ath GSE56094 experimental data analysis
