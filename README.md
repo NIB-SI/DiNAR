@@ -82,12 +82,12 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 
 # sub apps
-* input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing
-* network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering
+* input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing (&#x1F34F; https://nib-si.shinyapps.io/pre-processing/)
+* network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering (&#x1F34F; https://nib-si.shinyapps.io/clustering/)
 
 
 # Ath GSE56094 experimental data analysis
-https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
+&#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
