@@ -50,9 +50,9 @@ shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 # Run DiNAR from shinyapps
 
 ```diff
-[https://NIB-SI.shinyapps.io/DiNAR](https://NIB-SI.shinyapps.io/DiNAR)
++https://NIB-SI.shinyapps.io/DiNAR
 ```
-(Basic - Performance Boost; Instance Size: 8GB; Max Worker Processes: 10; Max Connections per Worker: 1; Max Instances: 3)
+https://NIB-SI.shinyapps.io/DiNAR (Basic - Performance Boost; Instance Size: 8GB; Max Worker Processes: 10; Max Connections per Worker: 1; Max Instances: 3)
 
 
 # Other options
