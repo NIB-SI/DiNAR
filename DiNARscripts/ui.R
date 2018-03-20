@@ -257,8 +257,8 @@ shinyUI(
         #            choices = c('', "Ath GSE56094", "SoTub GSE58593", "Custom Network")),
         HTML('<i class="fa fa-download" aria-hidden="true"></i>',paste(tags$b(tags$span(style="color:#000000", "Download example set")), sep = "</br>")),
         helpText(a(tags$code("Ath GSE56094 experimental data"), href = "https://github.com/NIB-SI/DiNAR/raw/master/GEODataAnalysis/AthGSE56094.rar", target = "_blank")),
-        helpText(a(tags$code("SoTub GSE58593 experimental data"), href = "https://github.com/NIB-SI/DiNAR/raw/master/GEODataAnalysis/SoTubGSE58593.rar", target = "_blank")),
-        helpText(a(tags$code("Custom Network example"), href = "https://github.com/NIB-SI/DiNAR/raw/master/NetworkClustering/STRINGwrky33.rar", target = "_blank")),
+        helpText(a(tags$code("SoTub GSE58593 experimental data (partial)"), href = "https://github.com/NIB-SI/DiNAR/raw/master/GEODataAnalysis/SoTubGSE58593.rar", target = "_blank")),
+        helpText(a(tags$code("Custom Network example"), href = "https://github.com/NIB-SI/DiNAR/blob/master/subApps/clustering/examples/Ath-PR1-fromSTRINGdb/STRINGpr1.rar?raw=true", target = "_blank")),
         # br(),
         br(),
         HTML('<i class="fa fa-code" aria-hidden="true"></i>', paste(tags$a("Click Here for the Source Code on Github!", href = "https://github.com/NIB-SI/DiNAR/tree/master/DiNARscripts", target = "_blank"))),
@@ -308,7 +308,9 @@ shinyUI(
                             tags$hr(),
                             tags$a(href="https://github.com/NIB-SI/DiNAR", target = "_blank", htmlOutput("AdditionalInformation")),
                             tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis", target = "_blank", htmlOutput("GEODataAnalysis")),
-                            tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/subApps", target = "_blank", htmlOutput("NetworkClustering")),
+                            tags$a(href="https://github.com/NIB-SI/DiNAR/tree/master/subApps", target = "_blank", htmlOutput("subApps0")),
+                            tags$a(href="https://nib-si.shinyapps.io/pre-processing/", target = "_blank", htmlOutput("subApps1")),
+                            tags$a(href="https://nib-si.shinyapps.io/clustering/", target = "_blank", htmlOutput("subApps2")),
                             tags$a(href="http://www.gomapman.org/", target = "_blank", htmlOutput("GoMapMan")),
                             br(),
                             tags$hr(),
@@ -335,7 +337,7 @@ shinyUI(
                             #p("Here are the selected colours"),
                             conditionalPanel(
                             condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                            busyIndicator(wait = 1000),
+                            busyIndicator(wait = 3000),
                             plotOutput('piecolours', height = "1000px"), style = 'width:100%;'
                             ),
                             conditionalPanel(
@@ -351,7 +353,7 @@ shinyUI(
                                        ),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1)", 
-                                         busyIndicator(wait = 1000),
+                                         busyIndicator(wait = 3000),
                                          dataTableOutput('nodesClusters')
                                         ),
                                        conditionalPanel(
@@ -362,7 +364,7 @@ shinyUI(
                               tabPanel("Nodes Degree",  value=4,
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1)", 
-                                         busyIndicator(wait = 1000),
+                                         busyIndicator(wait = 3000),
                                        plotOutput('myhist2', height = "2000px"), style = 'width:100%;'
                                        ),
                                        conditionalPanel(
@@ -373,7 +375,7 @@ shinyUI(
                               tabPanel("Reactions types", value=5,
                                        conditionalPanel(
                                         condition = "(output.selectedLKN!=-1)", 
-                                        busyIndicator(wait = 1000),
+                                        busyIndicator(wait = 3000),
                                        plotOutput('myhist3', height = "1000px"), style = 'width:100%;'
                                        ),
                                        conditionalPanel(
@@ -387,7 +389,7 @@ shinyUI(
                                        #width = 10,
                                        conditionalPanel(
                                          condition = "(output.selectedLKN==1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                                         busyIndicator(wait = 1000),
+                                         busyIndicator(wait = 3000),
                                          # verbatimTextOutput("hover"),
                                          plotlyOutput('BCKGN', height = "1000px"), 
                                          style = 'width:100%;',
@@ -406,7 +408,7 @@ shinyUI(
                                        #width = 10,
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                                         busyIndicator(wait = 1000),
+                                         busyIndicator(wait = 3000),
                                          dataTableOutput('myText2'),style = 'width:100%;'
                                        ),
                                        conditionalPanel(
@@ -418,7 +420,7 @@ shinyUI(
                               #width = 10,
                                 conditionalPanel(
                                   condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                                  busyIndicator(wait = 1000),
+                                  busyIndicator(wait = 3000),
                                   dataTableOutput('myText1'),style = 'width:100%;'
                                 ),
                                 conditionalPanel(
@@ -433,7 +435,7 @@ shinyUI(
                                        #column(width = 8, wordcloud2Output('mywordcloud2', height = "500px")),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                                         busyIndicator(wait = 1000),
+                                         busyIndicator(wait = 3000),
                                          wordcloud2Output('mywordcloud1', height = "500px"), style = 'width:100%;'),
                                        # d3CloudOutput('mywordcloud1', height = "500px")),
                                        conditionalPanel(
@@ -451,7 +453,7 @@ shinyUI(
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0) & (input.zoom!=0)",
                                          #p("The selected file expression:"),
-                                         busyIndicator(wait = 1500),
+                                         busyIndicator(wait = 3000),
                                          plotOutput('mycluPlot2',
                                                     dblclick = "plot1_dblclick",
                                                     brush = brushOpts(
@@ -470,7 +472,7 @@ shinyUI(
                                 conditionalPanel(
                                 condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
                                 #p("The selected file expression:"),
-                                busyIndicator(wait = 1500),
+                                busyIndicator(wait = 3000),
                                 # plotOutput
                                 visNetworkOutput('mycluPlot',
                                                 height = "1000px"), style = 'width:100%;',
@@ -544,7 +546,7 @@ shinyUI(
                            id = "modalndtv", 
                            title = "Render out a web-based animation",
                            trigger = "downloadNDTV", size = "large",
-                           busyIndicator(wait = 100),
+                           busyIndicator(wait = 3000),
                            verbatimTextOutput("ndtvPopUp"),
                            downloadButton('downloadNDTV2', 'Download dynamic .html')),
                    # tabPanel("HELP", value=17,

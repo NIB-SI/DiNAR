@@ -107,8 +107,14 @@ shinyServer(
     output$GEODataAnalysis <- renderUI({
       HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:20px;">Data Analysis from GEO</p></span></h4>')) 
     })
-    output$NetworkClustering <- renderUI({
-      HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:20px;">Network clustering</p></span></h4>')) 
+    output$subApps0 <- renderUI({
+      HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:20px;">subApps</p></span></h4>')) 
+    })
+    output$subApps1 <- renderUI({
+      HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:18px;">&ensp;&ensp;preprocessing at shinyapps</p></span></h4>')) 
+    })
+    output$subApps2 <- renderUI({
+      HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:18px;">&ensp;&ensp;clustering at shinyapps</p></span></h4>')) 
     })
     output$GoMapMan <- renderUI({
       HTML(paste0('<h4><span style="color: #6666A7"><p style="text-indent:20px;">www.gomapman.org</p></span></h4>')) 
@@ -121,7 +127,7 @@ shinyServer(
       str2 <- paste0('Examine your omics datasets in the prior knowledge context.<br>
                      Follow the steps as indicated in interactive menu.<br>
                      For the help overlay the mouse over the info button or go to Quick help section.<br>
-                    Comprehensive knowledge networks of <i><b>Arabidopsis thaliana</b></i> and <i><b>Solanum tuberosum</b></i> are provided.
+                    Comprehensive knowledge network of <i><b>Arabidopsis thaliana</b></i> and <i><b>Solanum tuberosum</b></i> Immune Signalling are provided.
                      ')
       
       HTML(paste(str0, str2, sep = '<br/>'))
