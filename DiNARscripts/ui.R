@@ -21,6 +21,7 @@ shinyUI(
 
                         }
                       '))),
+            tags$head(tags$link(rel="shortcut icon", href="dinarNoBg.ico")),
             headerPanel(h6(title = "Differential Network Analysis in R"), windowTitle = "DiNAR"),
 
     titlePanel(
