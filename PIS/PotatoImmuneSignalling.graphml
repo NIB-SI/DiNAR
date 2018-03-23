@@ -413,7 +413,7 @@
             <data key="SUID">230</data>
             <data key="shared name">EIN2</data>
             <data key="name">EIN2</data>
-            <data key="selected">false</data>
+            <data key="selected">true</data>
             <data key="geneID">EIN2</data>
             <data key="shortDescription">EIN2 transporter [EC:-] | KEGG04075</data>
             <data key="shortName">EIN2</data>
@@ -2100,7 +2100,7 @@
             <data key="MapManBin">34.2_transport.sugars | 34.20_transport.porins</data>
         </node>
         <edge source="268" target="267">
-            <data key="SUID">708</data>
+            <data key="SUID">707</data>
             <data key="shared name">AGO1,5,7,10 (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">AGO1,5,7,10 (unk_binding/oligomerisation) potyvirus</data>
@@ -2116,7 +2116,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="268">
-            <data key="SUID">707</data>
+            <data key="SUID">706</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) AGO1,5,7,10</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) AGO1,5,7,10</data>
@@ -2132,7 +2132,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="254">
-            <data key="SUID">706</data>
+            <data key="SUID">705</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) PSAK</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) PSAK</data>
@@ -2148,7 +2148,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="245">
-            <data key="SUID">705</data>
+            <data key="SUID">704</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) DNAJ</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) DNAJ</data>
@@ -2164,7 +2164,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="266">
-            <data key="SUID">704</data>
+            <data key="SUID">703</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) ATPB</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) ATPB</data>
@@ -2180,7 +2180,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="253">
-            <data key="SUID">703</data>
+            <data key="SUID">702</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) CML40</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) CML40</data>
@@ -2196,7 +2196,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="262">
-            <data key="SUID">702</data>
+            <data key="SUID">701</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) CRT1,2</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) CRT1,2</data>
@@ -2212,7 +2212,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="261">
-            <data key="SUID">701</data>
+            <data key="SUID">700</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) CRT3</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) CRT3</data>
@@ -2228,7 +2228,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="238">
-            <data key="SUID">700</data>
+            <data key="SUID">699</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) DXPS</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) DXPS</data>
@@ -2244,7 +2244,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="237">
-            <data key="SUID">699</data>
+            <data key="SUID">698</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) EDF</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) EDF</data>
@@ -2260,7 +2260,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="220">
-            <data key="SUID">698</data>
+            <data key="SUID">697</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) MIND1</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) MIND1</data>
@@ -2276,7 +2276,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="219">
-            <data key="SUID">697</data>
+            <data key="SUID">696</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) PAA</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) PAA</data>
@@ -2292,7 +2292,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="218">
-            <data key="SUID">696</data>
+            <data key="SUID">695</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) PBB</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) PBB</data>
@@ -2308,7 +2308,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="217">
-            <data key="SUID">695</data>
+            <data key="SUID">694</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) PBE</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) PBE</data>
@@ -2324,7 +2324,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="216">
-            <data key="SUID">694</data>
+            <data key="SUID">693</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) SAMS</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) SAMS</data>
@@ -2340,7 +2340,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="215">
-            <data key="SUID">693</data>
+            <data key="SUID">692</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) TDX</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) TDX</data>
@@ -2356,7 +2356,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="175">
-            <data key="SUID">692</data>
+            <data key="SUID">691</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) RBCL</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) RBCL</data>
@@ -2372,7 +2372,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="174">
-            <data key="SUID">691</data>
+            <data key="SUID">690</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) RBCS</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) RBCS</data>
@@ -2388,7 +2388,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="250">
-            <data key="SUID">690</data>
+            <data key="SUID">689</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) OBE</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) OBE</data>
@@ -2404,7 +2404,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="173">
-            <data key="SUID">689</data>
+            <data key="SUID">688</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) RH</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) RH</data>
@@ -2420,7 +2420,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="267" target="119">
-            <data key="SUID">688</data>
+            <data key="SUID">687</data>
             <data key="shared name">potyvirus (unk_binding/oligomerisation) SAHH</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">potyvirus (unk_binding/oligomerisation) SAHH</data>
@@ -2436,7 +2436,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="266" target="267">
-            <data key="SUID">687</data>
+            <data key="SUID">686</data>
             <data key="shared name">ATPB (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ATPB (unk_binding/oligomerisation) potyvirus</data>
@@ -2452,7 +2452,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="265" target="264">
-            <data key="SUID">686</data>
+            <data key="SUID">685</data>
             <data key="shared name">BIK1 (act_undefined) Ca2+</data>
             <data key="shared interaction">act_undefined</data>
             <data key="name">BIK1 (act_undefined) Ca2+</data>
@@ -2468,7 +2468,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="263">
-            <data key="SUID">685</data>
+            <data key="SUID">684</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CML42-Ca2+</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CML42-Ca2+</data>
@@ -2484,7 +2484,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="262">
-            <data key="SUID">684</data>
+            <data key="SUID">683</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CRT1,2</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CRT1,2</data>
@@ -2500,7 +2500,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="261">
-            <data key="SUID">683</data>
+            <data key="SUID">682</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CRT3</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CRT3</data>
@@ -2516,7 +2516,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="260">
-            <data key="SUID">682</data>
+            <data key="SUID">681</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) NADPH-oxidase</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) NADPH-oxidase</data>
@@ -2532,7 +2532,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="252">
-            <data key="SUID">681</data>
+            <data key="SUID">680</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CML42</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CML42</data>
@@ -2548,7 +2548,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="253">
-            <data key="SUID">680</data>
+            <data key="SUID">679</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CML40</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CML40</data>
@@ -2564,7 +2564,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="149">
-            <data key="SUID">679</data>
+            <data key="SUID">678</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CAM4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CAM4</data>
@@ -2580,7 +2580,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="264" target="244">
-            <data key="SUID">678</data>
+            <data key="SUID">677</data>
             <data key="shared name">Ca2+ (act_binding/oligomerisation) CPK4,5,6,11</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">Ca2+ (act_binding/oligomerisation) CPK4,5,6,11</data>
@@ -2596,7 +2596,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="263" target="248">
-            <data key="SUID">677</data>
+            <data key="SUID">676</data>
             <data key="shared name">CML42-Ca2+ (inh_transcription) COI1</data>
             <data key="shared interaction">inh_transcription</data>
             <data key="name">CML42-Ca2+ (inh_transcription) COI1</data>
@@ -2612,7 +2612,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="262" target="241">
-            <data key="SUID">676</data>
+            <data key="SUID">675</data>
             <data key="shared name">CRT1,2 (unk_binding/oligomerisation) ETR</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CRT1,2 (unk_binding/oligomerisation) ETR</data>
@@ -2628,7 +2628,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="262" target="267">
-            <data key="SUID">675</data>
+            <data key="SUID">674</data>
             <data key="shared name">CRT1,2 (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CRT1,2 (unk_binding/oligomerisation) potyvirus</data>
@@ -2644,7 +2644,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="262" target="264">
-            <data key="SUID">674</data>
+            <data key="SUID">673</data>
             <data key="shared name">CRT1,2 (inh_undefined) Ca2+</data>
             <data key="shared interaction">inh_undefined</data>
             <data key="name">CRT1,2 (inh_undefined) Ca2+</data>
@@ -2660,7 +2660,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="261" target="261">
-            <data key="SUID">673</data>
+            <data key="SUID">672</data>
             <data key="shared name">CRT3 (act_binding/oligomerisation) CRT3</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CRT3 (act_binding/oligomerisation) CRT3</data>
@@ -2676,7 +2676,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="261" target="267">
-            <data key="SUID">672</data>
+            <data key="SUID">671</data>
             <data key="shared name">CRT3 (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CRT3 (unk_binding/oligomerisation) potyvirus</data>
@@ -2692,7 +2692,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="261" target="264">
-            <data key="SUID">671</data>
+            <data key="SUID">670</data>
             <data key="shared name">CRT3 (inh_undefined) Ca2+</data>
             <data key="shared interaction">inh_undefined</data>
             <data key="name">CRT3 (inh_undefined) Ca2+</data>
@@ -2708,7 +2708,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="260" target="186">
-            <data key="SUID">670</data>
+            <data key="SUID">669</data>
             <data key="shared name">NADPH-oxidase (act_catalysis/autocatalysis) O2</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">NADPH-oxidase (act_catalysis/autocatalysis) O2</data>
@@ -2724,7 +2724,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="260" target="249">
-            <data key="SUID">669</data>
+            <data key="SUID">668</data>
             <data key="shared name">NADPH-oxidase (act_catalysis/autocatalysis) O2.-</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">NADPH-oxidase (act_catalysis/autocatalysis) O2.-</data>
@@ -2740,7 +2740,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="259" target="258">
-            <data key="SUID">668</data>
+            <data key="SUID">667</data>
             <data key="shared name">CAM-Ca2+ (act_binding/oligomerisation) CBP60G</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CAM-Ca2+ (act_binding/oligomerisation) CBP60G</data>
@@ -2756,7 +2756,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="258" target="259">
-            <data key="SUID">667</data>
+            <data key="SUID">666</data>
             <data key="shared name">CBP60G (act_binding/oligomerisation) CAM-Ca2+</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CBP60G (act_binding/oligomerisation) CAM-Ca2+</data>
@@ -2772,7 +2772,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="258" target="62">
-            <data key="SUID">666</data>
+            <data key="SUID">665</data>
             <data key="shared name">CBP60G (act_transcription) ICS</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">CBP60G (act_transcription) ICS</data>
@@ -2788,7 +2788,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="257" target="256">
-            <data key="SUID">665</data>
+            <data key="SUID">664</data>
             <data key="shared name">CAMTA (inh_transcription) EDS1</data>
             <data key="shared interaction">inh_transcription</data>
             <data key="name">CAMTA (inh_transcription) EDS1</data>
@@ -2804,7 +2804,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="257" target="255">
-            <data key="SUID">664</data>
+            <data key="SUID">663</data>
             <data key="shared name">CAMTA (inh_transcription) EIN3(EIL1)</data>
             <data key="shared interaction">inh_transcription</data>
             <data key="name">CAMTA (inh_transcription) EIN3(EIL1)</data>
@@ -2820,7 +2820,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="256" target="236">
-            <data key="SUID">663</data>
+            <data key="SUID">662</data>
             <data key="shared name">EDS1 (act_binding/oligomerisation) EDS1-PAD4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">EDS1 (act_binding/oligomerisation) EDS1-PAD4</data>
@@ -2836,7 +2836,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="256" target="235">
-            <data key="SUID">662</data>
+            <data key="SUID">661</data>
             <data key="shared name">EDS1 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">EDS1 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
@@ -2852,7 +2852,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="256" target="234">
-            <data key="SUID">661</data>
+            <data key="SUID">660</data>
             <data key="shared name">EDS1 (act_binding/oligomerisation) PAD4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">EDS1 (act_binding/oligomerisation) PAD4</data>
@@ -2868,7 +2868,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="256" target="233">
-            <data key="SUID">660</data>
+            <data key="SUID">659</data>
             <data key="shared name">EDS1 (act_binding/oligomerisation) SAG101</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">EDS1 (act_binding/oligomerisation) SAG101</data>
@@ -2884,7 +2884,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="142">
-            <data key="SUID">659</data>
+            <data key="SUID">658</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) EBF</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) EBF</data>
@@ -2900,7 +2900,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="179">
-            <data key="SUID">658</data>
+            <data key="SUID">657</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) ERF14,95,96</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) ERF14,95,96</data>
@@ -2916,7 +2916,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="140">
-            <data key="SUID">657</data>
+            <data key="SUID">656</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) ERF098</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) ERF098</data>
@@ -2932,7 +2932,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="201">
-            <data key="SUID">656</data>
+            <data key="SUID">655</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) ERF104</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) ERF104</data>
@@ -2948,7 +2948,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="139">
-            <data key="SUID">655</data>
+            <data key="SUID">654</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) ERF13</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) ERF13</data>
@@ -2964,7 +2964,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="237">
-            <data key="SUID">654</data>
+            <data key="SUID">653</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) EDF</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) EDF</data>
@@ -2980,7 +2980,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="229">
-            <data key="SUID">653</data>
+            <data key="SUID">652</data>
             <data key="shared name">EIN3(EIL1) (act_transcription) ERF1</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EIN3(EIL1) (act_transcription) ERF1</data>
@@ -2996,7 +2996,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="255" target="62">
-            <data key="SUID">652</data>
+            <data key="SUID">651</data>
             <data key="shared name">EIN3(EIL1) (inh_transcription) ICS</data>
             <data key="shared interaction">inh_transcription</data>
             <data key="name">EIN3(EIL1) (inh_transcription) ICS</data>
@@ -3012,7 +3012,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="254" target="267">
-            <data key="SUID">651</data>
+            <data key="SUID">650</data>
             <data key="shared name">PSAK (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">PSAK (unk_binding/oligomerisation) potyvirus</data>
@@ -3028,7 +3028,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="253" target="267">
-            <data key="SUID">650</data>
+            <data key="SUID">649</data>
             <data key="shared name">CML40 (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CML40 (unk_binding/oligomerisation) potyvirus</data>
@@ -3044,7 +3044,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="253" target="257">
-            <data key="SUID">649</data>
+            <data key="SUID">648</data>
             <data key="shared name">CML40 (act_binding/oligomerisation) CAMTA</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML40 (act_binding/oligomerisation) CAMTA</data>
@@ -3060,7 +3060,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="253" target="258">
-            <data key="SUID">648</data>
+            <data key="SUID">647</data>
             <data key="shared name">CML40 (act_binding/oligomerisation) CBP60G</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML40 (act_binding/oligomerisation) CBP60G</data>
@@ -3076,7 +3076,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="253" target="252">
-            <data key="SUID">647</data>
+            <data key="SUID">646</data>
             <data key="shared name">CML40 (act_binding/oligomerisation) CML42</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML40 (act_binding/oligomerisation) CML42</data>
@@ -3092,7 +3092,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="253" target="149">
-            <data key="SUID">646</data>
+            <data key="SUID">645</data>
             <data key="shared name">CML40 (act_binding/oligomerisation) CAM4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML40 (act_binding/oligomerisation) CAM4</data>
@@ -3108,7 +3108,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="264">
-            <data key="SUID">645</data>
+            <data key="SUID">644</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) Ca2+</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) Ca2+</data>
@@ -3124,7 +3124,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="263">
-            <data key="SUID">644</data>
+            <data key="SUID">643</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) CML42-Ca2+</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) CML42-Ca2+</data>
@@ -3140,7 +3140,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="257">
-            <data key="SUID">643</data>
+            <data key="SUID">642</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) CAMTA</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) CAMTA</data>
@@ -3156,7 +3156,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="258">
-            <data key="SUID">642</data>
+            <data key="SUID">641</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) CBP60G</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) CBP60G</data>
@@ -3172,7 +3172,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="253">
-            <data key="SUID">641</data>
+            <data key="SUID">640</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) CML40</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) CML40</data>
@@ -3188,7 +3188,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="252" target="149">
-            <data key="SUID">640</data>
+            <data key="SUID">639</data>
             <data key="shared name">CML42 (act_binding/oligomerisation) CAM4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CML42 (act_binding/oligomerisation) CAM4</data>
@@ -3204,7 +3204,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="251" target="250">
-            <data key="SUID">639</data>
+            <data key="SUID">638</data>
             <data key="shared name">CO (unk_binding/oligomerisation) OBE</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CO (unk_binding/oligomerisation) OBE</data>
@@ -3220,7 +3220,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="250" target="251">
-            <data key="SUID">638</data>
+            <data key="SUID">637</data>
             <data key="shared name">OBE (unk_binding/oligomerisation) CO</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">OBE (unk_binding/oligomerisation) CO</data>
@@ -3236,7 +3236,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="250" target="267">
-            <data key="SUID">637</data>
+            <data key="SUID">636</data>
             <data key="shared name">OBE (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">OBE (unk_binding/oligomerisation) potyvirus</data>
@@ -3252,7 +3252,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="250" target="184">
-            <data key="SUID">636</data>
+            <data key="SUID">635</data>
             <data key="shared name">OBE (unk_binding/oligomerisation) WRKY11,17</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">OBE (unk_binding/oligomerisation) WRKY11,17</data>
@@ -3268,7 +3268,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="249" target="185">
-            <data key="SUID">635</data>
+            <data key="SUID">634</data>
             <data key="shared name">O2.- (act_catalysis/autocatalysis) H2O2</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">O2.- (act_catalysis/autocatalysis) H2O2</data>
@@ -3284,7 +3284,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="249" target="121">
-            <data key="SUID">634</data>
+            <data key="SUID">633</data>
             <data key="shared name">O2.- (act_catalysis/autocatalysis) 13-HPOT</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">O2.- (act_catalysis/autocatalysis) 13-HPOT</data>
@@ -3300,7 +3300,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="249" target="222">
-            <data key="SUID">633</data>
+            <data key="SUID">632</data>
             <data key="shared name">O2.- (act_translation) GRX480</data>
             <data key="shared interaction">act_translation</data>
             <data key="name">O2.- (act_translation) GRX480</data>
@@ -3316,7 +3316,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="249" target="120">
-            <data key="SUID">632</data>
+            <data key="SUID">631</data>
             <data key="shared name">O2.- (act_transcription) GST</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">O2.- (act_transcription) GST</data>
@@ -3332,7 +3332,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="249" target="163">
-            <data key="SUID">631</data>
+            <data key="SUID">630</data>
             <data key="shared name">O2.- (act_undefined) TRX-H(a)</data>
             <data key="shared interaction">act_undefined</data>
             <data key="name">O2.- (act_undefined) TRX-H(a)</data>
@@ -3348,7 +3348,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="248" target="247">
-            <data key="SUID">630</data>
+            <data key="SUID">629</data>
             <data key="shared name">COI1 (act_transcription) OMR1</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">COI1 (act_transcription) OMR1</data>
@@ -3364,7 +3364,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="248" target="246">
-            <data key="SUID">629</data>
+            <data key="SUID">628</data>
             <data key="shared name">COI1 (act_binding/oligomerisation) SCF-COI1</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">COI1 (act_binding/oligomerisation) SCF-COI1</data>
@@ -3380,7 +3380,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="248" target="118">
-            <data key="SUID">628</data>
+            <data key="SUID">627</data>
             <data key="shared name">COI1 (act_binding/oligomerisation) ASK</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">COI1 (act_binding/oligomerisation) ASK</data>
@@ -3396,7 +3396,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="248" target="240">
-            <data key="SUID">627</data>
+            <data key="SUID">626</data>
             <data key="shared name">COI1 (act_binding/oligomerisation) CUL</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">COI1 (act_binding/oligomerisation) CUL</data>
@@ -3412,7 +3412,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="248" target="239">
-            <data key="SUID">626</data>
+            <data key="SUID">625</data>
             <data key="shared name">COI1 (act_binding/oligomerisation) RBX</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">COI1 (act_binding/oligomerisation) RBX</data>
@@ -3428,7 +3428,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="247" target="183">
-            <data key="SUID">625</data>
+            <data key="SUID">624</data>
             <data key="shared name">OMR1 (act_catalysis/autocatalysis) Ile</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">OMR1 (act_catalysis/autocatalysis) Ile</data>
@@ -3444,7 +3444,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="247" target="182">
-            <data key="SUID">624</data>
+            <data key="SUID">623</data>
             <data key="shared name">OMR1 (act_catalysis/autocatalysis) Thr</data>
             <data key="shared interaction">act_catalysis/autocatalysis</data>
             <data key="name">OMR1 (act_catalysis/autocatalysis) Thr</data>
@@ -3460,7 +3460,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="246" target="168">
-            <data key="SUID">623</data>
+            <data key="SUID">622</data>
             <data key="shared name">SCF-COI1 (act_binding/oligomerisation) SCF-COI1-JA-Ile</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">SCF-COI1 (act_binding/oligomerisation) SCF-COI1-JA-Ile</data>
@@ -3476,7 +3476,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="245" target="267">
-            <data key="SUID">622</data>
+            <data key="SUID">621</data>
             <data key="shared name">DNAJ (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">DNAJ (unk_binding/oligomerisation) potyvirus</data>
@@ -3492,7 +3492,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="244" target="260">
-            <data key="SUID">621</data>
+            <data key="SUID">620</data>
             <data key="shared name">CPK4,5,6,11 (act_proteinphosphorylation) NADPH-oxidase</data>
             <data key="shared interaction">act_proteinphosphorylation</data>
             <data key="name">CPK4,5,6,11 (act_proteinphosphorylation) NADPH-oxidase</data>
@@ -3508,7 +3508,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="244" target="243">
-            <data key="SUID">620</data>
+            <data key="SUID">619</data>
             <data key="shared name">CPK4,5,6,11 (act_proteinphosphorylation) WRKY48</data>
             <data key="shared interaction">act_proteinphosphorylation</data>
             <data key="name">CPK4,5,6,11 (act_proteinphosphorylation) WRKY48</data>
@@ -3524,7 +3524,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="244" target="242">
-            <data key="SUID">619</data>
+            <data key="SUID">618</data>
             <data key="shared name">CPK4,5,6,11 (act_proteinphosphorylation) WRKY8</data>
             <data key="shared interaction">act_proteinphosphorylation</data>
             <data key="name">CPK4,5,6,11 (act_proteinphosphorylation) WRKY8</data>
@@ -3540,7 +3540,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="243" target="161">
-            <data key="SUID">618</data>
+            <data key="SUID">617</data>
             <data key="shared name">WRKY48 (act_transcription) WRKY46</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">WRKY48 (act_transcription) WRKY46</data>
@@ -3556,7 +3556,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="243" target="62">
-            <data key="SUID">617</data>
+            <data key="SUID">616</data>
             <data key="shared name">WRKY48 (act_transcription) ICS</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">WRKY48 (act_transcription) ICS</data>
@@ -3572,7 +3572,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="242" target="161">
-            <data key="SUID">616</data>
+            <data key="SUID">615</data>
             <data key="shared name">WRKY8,28 (act_transcription) WRKY46</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">WRKY8,28 (act_transcription) WRKY46</data>
@@ -3588,7 +3588,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="242" target="62">
-            <data key="SUID">615</data>
+            <data key="SUID">614</data>
             <data key="shared name">WRKY8,28 (act_transcription) ICS</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">WRKY8,28 (act_transcription) ICS</data>
@@ -3604,7 +3604,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="241" target="262">
-            <data key="SUID">614</data>
+            <data key="SUID">613</data>
             <data key="shared name">ETR (unk_binding/oligomerisation) CRT1,2</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ETR (unk_binding/oligomerisation) CRT1,2</data>
@@ -3620,7 +3620,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="241" target="227">
-            <data key="SUID">613</data>
+            <data key="SUID">612</data>
             <data key="shared name">ETR (unk_binding/oligomerisation) ETR(a)-CTR(a)</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ETR (unk_binding/oligomerisation) ETR(a)-CTR(a)</data>
@@ -3636,7 +3636,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="241" target="137">
-            <data key="SUID">612</data>
+            <data key="SUID">611</data>
             <data key="shared name">ETR (unk_binding/oligomerisation) ETR(a)-ET</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ETR (unk_binding/oligomerisation) ETR(a)-ET</data>
@@ -3652,7 +3652,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="241" target="147">
-            <data key="SUID">611</data>
+            <data key="SUID">610</data>
             <data key="shared name">ETR (unk_binding/oligomerisation) CTR</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ETR (unk_binding/oligomerisation) CTR</data>
@@ -3668,7 +3668,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="241" target="138">
-            <data key="SUID">610</data>
+            <data key="SUID">609</data>
             <data key="shared name">ETR (unk_binding/oligomerisation) ET</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">ETR (unk_binding/oligomerisation) ET</data>
@@ -3684,7 +3684,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="240" target="246">
-            <data key="SUID">609</data>
+            <data key="SUID">608</data>
             <data key="shared name">CUL (act_binding/oligomerisation) SCF-COI1</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CUL (act_binding/oligomerisation) SCF-COI1</data>
@@ -3700,7 +3700,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="240" target="141">
-            <data key="SUID">608</data>
+            <data key="SUID">607</data>
             <data key="shared name">CUL (act_binding/oligomerisation) SCF-EBF</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CUL (act_binding/oligomerisation) SCF-EBF</data>
@@ -3716,7 +3716,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="240" target="167">
-            <data key="SUID">607</data>
+            <data key="SUID">606</data>
             <data key="shared name">CUL (act_binding/oligomerisation) SCF-ETP</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">CUL (act_binding/oligomerisation) SCF-ETP</data>
@@ -3732,7 +3732,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="240" target="118">
-            <data key="SUID">606</data>
+            <data key="SUID">605</data>
             <data key="shared name">CUL (unk_binding/oligomerisation) ASK</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CUL (unk_binding/oligomerisation) ASK</data>
@@ -3748,7 +3748,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="240" target="239">
-            <data key="SUID">605</data>
+            <data key="SUID">604</data>
             <data key="shared name">CUL (unk_binding/oligomerisation) RBX</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">CUL (unk_binding/oligomerisation) RBX</data>
@@ -3764,7 +3764,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="239" target="240">
-            <data key="SUID">604</data>
+            <data key="SUID">603</data>
             <data key="shared name">RBX (unk_binding/oligomerisation) CUL</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">RBX (unk_binding/oligomerisation) CUL</data>
@@ -3780,7 +3780,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="239" target="246">
-            <data key="SUID">603</data>
+            <data key="SUID">602</data>
             <data key="shared name">RBX (act_binding/oligomerisation) SCF-COI1</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">RBX (act_binding/oligomerisation) SCF-COI1</data>
@@ -3796,7 +3796,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="239" target="141">
-            <data key="SUID">602</data>
+            <data key="SUID">601</data>
             <data key="shared name">RBX (act_binding/oligomerisation) SCF-EBF</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">RBX (act_binding/oligomerisation) SCF-EBF</data>
@@ -3812,7 +3812,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="239" target="167">
-            <data key="SUID">601</data>
+            <data key="SUID">600</data>
             <data key="shared name">RBX (act_binding/oligomerisation) SCF-ETP</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">RBX (act_binding/oligomerisation) SCF-ETP</data>
@@ -3828,7 +3828,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="239" target="118">
-            <data key="SUID">600</data>
+            <data key="SUID">599</data>
             <data key="shared name">RBX (unk_binding/oligomerisation) ASK</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">RBX (unk_binding/oligomerisation) ASK</data>
@@ -3844,7 +3844,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="238" target="267">
-            <data key="SUID">599</data>
+            <data key="SUID">598</data>
             <data key="shared name">DXPS (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">DXPS (unk_binding/oligomerisation) potyvirus</data>
@@ -3860,7 +3860,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="237" target="267">
-            <data key="SUID">598</data>
+            <data key="SUID">597</data>
             <data key="shared name">EDF (unk_binding/oligomerisation) potyvirus</data>
             <data key="shared interaction">unk_binding/oligomerisation</data>
             <data key="name">EDF (unk_binding/oligomerisation) potyvirus</data>
@@ -3876,7 +3876,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="237" target="228">
-            <data key="SUID">597</data>
+            <data key="SUID">596</data>
             <data key="shared name">EDF (act_transcription) PDF1.2</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">EDF (act_transcription) PDF1.2</data>
@@ -3892,7 +3892,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="236" target="232">
-            <data key="SUID">596</data>
+            <data key="SUID">595</data>
             <data key="shared name">EDS1-PAD4 (act_undefined) EDS5</data>
             <data key="shared interaction">act_undefined</data>
             <data key="name">EDS1-PAD4 (act_undefined) EDS5</data>
@@ -3908,7 +3908,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="234" target="236">
-            <data key="SUID">595</data>
+            <data key="SUID">594</data>
             <data key="shared name">PAD4 (act_binding/oligomerisation) EDS1-PAD4</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">PAD4 (act_binding/oligomerisation) EDS1-PAD4</data>
@@ -3924,7 +3924,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="234" target="235">
-            <data key="SUID">594</data>
+            <data key="SUID">593</data>
             <data key="shared name">PAD4 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">PAD4 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
@@ -3940,7 +3940,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="233" target="235">
-            <data key="SUID">593</data>
+            <data key="SUID">592</data>
             <data key="shared name">SAG101 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
             <data key="shared interaction">act_binding/oligomerisation</data>
             <data key="name">SAG101 (act_binding/oligomerisation) EDS1-PAD4-SAG101</data>
@@ -3956,7 +3956,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="232" target="231">
-            <data key="SUID">592</data>
+            <data key="SUID">591</data>
             <data key="shared name">EDS5 (act_translocation) SA(c)</data>
             <data key="shared interaction">act_translocation</data>
             <data key="name">EDS5 (act_translocation) SA(c)</data>
@@ -3972,7 +3972,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="232" target="206">
-            <data key="SUID">591</data>
+            <data key="SUID">590</data>
             <data key="shared name">EDS5 (act_translocation) SA</data>
             <data key="shared interaction">act_translocation</data>
             <data key="name">EDS5 (act_translocation) SA</data>
@@ -3988,7 +3988,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="232" target="62">
-            <data key="SUID">590</data>
+            <data key="SUID">589</data>
             <data key="shared name">EDS5 (act_undefined) ICS</data>
             <data key="shared interaction">act_undefined</data>
             <data key="name">EDS5 (act_undefined) ICS</data>
@@ -4004,7 +4004,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="231" target="206">
-            <data key="SUID">589</data>
+            <data key="SUID">588</data>
             <data key="shared name">SA(c) (act_translocation) SA</data>
             <data key="shared interaction">act_translocation</data>
             <data key="name">SA(c) (act_translocation) SA</data>
@@ -4020,11 +4020,11 @@
             <data key="exists">1</data>
         </edge>
         <edge source="230" target="255">
-            <data key="SUID">588</data>
+            <data key="SUID">587</data>
             <data key="shared name">EIN2 (act_undefined) EIN3(EIL1)</data>
             <data key="shared interaction">act_undefined</data>
             <data key="name">EIN2 (act_undefined) EIN3(EIL1)</data>
-            <data key="selected">false</data>
+            <data key="selected">true</data>
             <data key="interaction">act_undefined</data>
             <data key="geneID1">EIN2</data>
             <data key="geneID2">EIN3(EIL1)</data>
@@ -4036,11 +4036,11 @@
             <data key="exists">1</data>
         </edge>
         <edge source="230" target="117">
-            <data key="SUID">587</data>
+            <data key="SUID">586</data>
             <data key="shared name">EIN2 (inh_undefined) PR1</data>
             <data key="shared interaction">inh_undefined</data>
             <data key="name">EIN2 (inh_undefined) PR1</data>
-            <data key="selected">false</data>
+            <data key="selected">true</data>
             <data key="interaction">inh_undefined</data>
             <data key="geneID1">EIN2</data>
             <data key="geneID2">PR1</data>
@@ -4052,7 +4052,7 @@
             <data key="exists">1</data>
         </edge>
         <edge source="229" target="228">
-            <data key="SUID">586</data>
+            <data key="SUID">585</data>
             <data key="shared name">ERF1,2 (act_transcription) PDF1.2</data>
             <data key="shared interaction">act_transcription</data>
             <data key="name">ERF1,2 (act_transcription) PDF1.2</data>
@@ -4068,27 +4068,11 @@
             <data key="exists">1</data>
         </edge>
         <edge source="227" target="230">
-            <data key="SUID">585</data>
-            <data key="shared name">ETR(a)-CTR(a) (act_proteinphosphorylation) EIN2</data>
-            <data key="shared interaction">act_proteinphosphorylation</data>
-            <data key="name">ETR(a)-CTR(a) (act_proteinphosphorylation) EIN2</data>
-            <data key="selected">false</data>
-            <data key="interaction">act_proteinphosphorylation</data>
-            <data key="geneID1">ETR(a)-CTR(a)</data>
-            <data key="geneID2">EIN2</data>
-            <data key="reactionType">act_proteinphosphorylation</data>
-            <data key="clusterID_geneID1">1</data>
-            <data key="clusterID_geneID2">1</data>
-            <data key="clusterSimplifiedNodeDegree_geneID1">4</data>
-            <data key="clusterSimplifiedNodeDegree_geneID2">6</data>
-            <data key="exists">1</data>
-        </edge>
-        <edge source="227" target="230">
             <data key="SUID">584</data>
             <data key="shared name">ETR(a)-CTR(a) (inh_proteinphosphorylation) EIN2</data>
             <data key="shared interaction">inh_proteinphosphorylation</data>
             <data key="name">ETR(a)-CTR(a) (inh_proteinphosphorylation) EIN2</data>
-            <data key="selected">false</data>
+            <data key="selected">true</data>
             <data key="interaction">inh_proteinphosphorylation</data>
             <data key="geneID1">ETR(a)-CTR(a)</data>
             <data key="geneID2">EIN2</data>
@@ -6520,7 +6504,7 @@
             <data key="shared name">SCF-ETP (inh_degradation/secretion) EIN2</data>
             <data key="shared interaction">inh_degradation/secretion</data>
             <data key="name">SCF-ETP (inh_degradation/secretion) EIN2</data>
-            <data key="selected">false</data>
+            <data key="selected">true</data>
             <data key="interaction">inh_degradation/secretion</data>
             <data key="geneID1">SCF-ETP</data>
             <data key="geneID2">EIN2</data>

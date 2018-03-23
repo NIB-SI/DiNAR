@@ -37,10 +37,10 @@ PAD4	phytoalexin deficient,InterPro Lipase, class 3	PAD4	20.1.3_stress.biotic.si
 SAG101	senescence-associated gene 101	SAG101	20.1_stress.biotic | 27.3.99_RNA.regulation of transcription.unclassified | 33.99_development.unspecified	1	3432.63062564169	833.358520507812	2	1
 EDS5	MATE efflux family protein	EDS5	20.1.3_stress.biotic.signalling	1	3314.95408074787	2864.046875	5	1
 SA(c)	-	SA(c)	-	1	3640.35424804688	3281.46728515625	3	1
-EIN2	EIN2 transporter [EC:-] | KEGG04075	EIN2	26.12_misc.peroxidases | 29.2.3_protein.synthesis.initiation | 30.2.99_signalling.receptor kinases.misc | 34.12_transport.metal	1	-4536.80215174583	2699.10107421875	5	1
+EIN2	EIN2 transporter [EC:-] | KEGG04075	EIN2	26.12_misc.peroxidases | 29.2.3_protein.synthesis.initiation | 30.2.99_signalling.receptor kinases.misc | 34.12_transport.metal	1	-4536.80215174583	2699.10107421875	4	1
 ERF1,2	ethylene responsive element binding factor	ERF1,2	17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-3852.99697596458	1526.44616699219	5	1
 PDF1.2	plant defensin 1.2	PDF1.2	20.1.7.12_stress.biotic.PR-proteins.PR12 (plant defensins)	1	-4264.74014002708	1012.3134765625	8	1
-ETR(a)-CTR(a)	-	ETR(a)-CTR(a)	-	1	-4214.57604491282	3078.220703125	4	1
+ETR(a)-CTR(a)	-	ETR(a)-CTR(a)	-	1	-4214.57604491282	3078.220703125	3	1
 trichous-bacteria	EF-Tu fragment	trichous-bacteria	-	1	1711.216796875	5387.84559706942	3	1
 flg22-FLS2-BAK1	-	flg22-FLS2-BAK1	-	1	1822.2158203125	5085.51148552123	4	1
 FLS2	Leucine-rich receptor-like protein kinase family protein; PRR protein flagellin sensing 2	FLS2	29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.11_signalling.receptor kinases.leucine rich repeat XI	1	1360.76196289062	5014.23210581954	2	1
