@@ -94,7 +94,7 @@ WRKY48	ICS	act_transcription	1	1	3	8	1
 WRKY8,28	WRKY46	act_transcription	1	1	3	2	1
 WRKY8,28	ICS	act_transcription	1	1	3	8	1
 ETR	CRT1,2	unk_binding/oligomerisation	1	1	9	6	1
-ETR	ETR(a)-CTR(a)	unk_binding/oligomerisation	1	1	9	4	1
+ETR	ETR(a)-CTR(a)	unk_binding/oligomerisation	1	1	9	3	1
 ETR	ETR(a)-ET	unk_binding/oligomerisation	1	1	9	2	1
 ETR	CTR	unk_binding/oligomerisation	1	1	9	4	1
 ETR	ET	unk_binding/oligomerisation	1	1	9	5	1
@@ -119,11 +119,10 @@ EDS5	SA(c)	act_translocation	1	1	5	3	1
 EDS5	SA	act_translocation	1	1	5	15	1
 EDS5	ICS	act_undefined	1	1	5	8	1
 SA(c)	SA	act_translocation	1	1	3	15	1
-EIN2	EIN3(EIL1)	act_undefined	1	1	5	18	1
-EIN2	PR1	inh_undefined	1	1	5	3	1
+EIN2	EIN3(EIL1)	act_undefined	1	1	4	18	1
+EIN2	PR1	inh_undefined	1	1	4	3	1
 ERF1,2	PDF1.2	act_transcription	1	1	5	8	1
-ETR(a)-CTR(a)	EIN2	act_proteinphosphorylation	1	1	4	5	1
-ETR(a)-CTR(a)	EIN2	inh_proteinphosphorylation	1	1	4	5	1
+ETR(a)-CTR(a)	EIN2	inh_proteinphosphorylation	1	1	3	4	1
 trichous-bacteria	flg22-FLS2-BAK1	act_binding/oligomerisation	1	1	3	4	1
 trichous-bacteria	FLS2	act_binding/oligomerisation	1	1	3	2	1
 trichous-bacteria	SERK	act_binding/oligomerisation	1	1	3	2	1
@@ -275,7 +274,7 @@ SCF-COI1-JA-Ile	JAZ7,8	inh_degradation/secretion	1	1	7	11	1
 SCF-COI1-JA-Ile	JAZ1,2,5,6	inh_degradation/secretion	1	1	7	8	1
 SCF-COI1-JA-Ile	JAZ9,11,12	inh_degradation/secretion	1	1	7	8	1
 SCF-COI1-JA-Ile	JAZ10	inh_degradation/secretion	1	1	7	8	1
-SCF-ETP	EIN2	inh_degradation/secretion	1	1	5	5	1
+SCF-ETP	EIN2	inh_degradation/secretion	1	1	5	4	1
 GRAS2	TGA2,5,6-SCL14	act_binding/oligomerisation	1	1	2	3	1
 SOD	H2O2	act_catalysis/autocatalysis	1	1	2	12	1
 SOD	O2.-	act_catalysis/autocatalysis	1	1	2	11	1
@@ -299,7 +298,7 @@ CAM4	CBP60G	act_binding/oligomerisation	1	1	7	6	1
 CAM4	CML42	act_binding/oligomerisation	1	1	7	9	1
 CAM4	CML40	act_binding/oligomerisation	1	1	7	9	1
 CAT1,2,3	H2O2	inh_degradation/secretion	1	1	1	12	1
-CTR	ETR(a)-CTR(a)	unk_binding/oligomerisation	1	1	4	4	1
+CTR	ETR(a)-CTR(a)	unk_binding/oligomerisation	1	1	4	3	1
 CTR	ETR	unk_binding/oligomerisation	1	1	4	9	1
 CTS	OPDA(c)	act_translocation	1	1	2	4	1
 CTS	OPDA(p)	act_translocation	1	1	2	4	1
