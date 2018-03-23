@@ -1,208 +1,208 @@
 geneID	shortDescription	shortName	MapManBin	clusterID	x	y	clusterSimplifiedNodeDegree	expressed
-ICS	isochorismate synthase	ICS	34.2_transport.sugars | 34.20_transport.porins	1	3396.05615234375	4278.24255264546	8	1
-Trichome-initiation	Initiation of trichome growth.	Trichome-initiation	-	1	-1101.71611409608	4592.08056640625	4	1
-SAMC	S-adenosylmethionine carrier 1	SAMC	34.9_transport.metabolite transporters at the mitochondrial membrane	1	4098.76156719284	3243.47216796875	2	1
-SGE	salicyloyl glucose ester	SGE	-	1	4259.12328766476	2576.51928375851	2	1
-SAG	salicylic acid O-beta-glucoside	SAG	-	1	4636.8271484375	2744.02792461472	2	1
-OPDA	12-oxophytodienoic acid in the peroxisome	OPDA	-	1	3787.58948806031	3011.87182617188	1	1
-RTE1	In Arabidopsis, it appears to be involved in the negative regulation of the response to ethylene, is localized to the Golgi and is a positive regulator of ETR1.	RTE1	29.5.11_protein.degradation.ubiquitin	1	-3466.86938476562	3422.87051203347	1	1
-PAL	phenylalanine ammonia-lyase	PAL	16.2.1.1_secondary metabolism.phenylpropanoids.lignin biosynthesis.PAL	1	2545.30700790142	2978.35668945312	2	1
-PA	aspartate aminotransferase	PA	13.1.1.2.1_amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase | 13.2.6.2_amino acid metabolism.degradation.aromatic aa.tyrosine	1	2550.59155273438	3629.36316571855	2	1
-VSP	vegetative storage protein	VSP	-	1	-1470.42810058594	422.849964193732	2	1
-PR4	pathogenesis-related 4	PR4	20.1.7.3_stress.biotic.PR-proteins.PR3/4/8/11 (chitinases and chitin binding proteins)	1	-60.8550399574339	896.167053222656	2	1
-PR3	basic chitinase	PR3	20.1.7.3_stress.biotic.PR-proteins.PR3/4/8/11 (chitinases and chitin binding proteins)	1	434.738638285071	899.908203125	2	1
-PR13	thionin (PR13)	PR13	-	1	213.063201904297	911.155780070484	2	1
-MFP	enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]; KEGG K10527	MFP	1.1.1.2_PS.lightreaction.photosystem II.PSII polypeptide subunits | 2.2.1.3.1_major CHO metabolism.degradation.sucrose.invertases.neutral | 11.9.4.9_lipid metabolism.lipid degradation.beta-oxidation.multifunctional | 19.4_tetrapyrrole synthesis.ALA dehydratase	1	-1536.92939371642	1878.50817871094	2	1
-PUFA:LA	polyunsaturated fatty acids: linoleic acid	PUFA:LA	-	1	-507.6103515625	3655.40755181459	2	1
-OPC4-CoA	OPC4-CoA	OPC4-CoA	-	1	-1154.85852050781	1712.69438558045	4	1
-KAT	acetyl-CoA acyltransferase 1 [EC:2.3.1.16]; AraCyc Rct2.3.1.16	KAT	11.9.4.5_lipid metabolism.lipid degradation.beta-oxidation.acyl-CoA thioesterase | 13.2.4.1_amino acid metabolism.degradation.branched chain group.shared | 13.2.4.5_amino acid metabolism.degradation.branched chain group.isoleucine	1	-824.317283526598	1658.71982177427	2	1
-JMT	jasmonate O-methyltransferase [EC:2.1.1.141]; AraCyc Rct2.1.1.141	JMT	17.7.1.10_hormone metabolism.jasmonate.synthesis-degradation.jasmonate-O-methyltransferase | 17.8.1_hormone metabolism.salicylic acid.synthesis-degradation	1	-1980.9371521408	1445.74633789062	2	1
-WD40	WD40repeat-like transducin; TTG1 (transparent testa glabra 1). Abiotic heat, putative TF.	WD40	20.2.1_stress.abiotic.heat | 27.3.67_RNA.regulation of transcription.putative transcription regulator | 33.99_development.unspecified	1	755.211251851648	-672.037545796961	7	1
-MYB	MYB domain TF; MYB0 or GL1 (glabra 1)	MYB	-	1	181.43827211532	-723.421823140711	7	1
-bHLH	bHLH DNA-binding; EGL3 (enhancer of glabra 3)	bHLH	27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	396.05594789657	-1187.89081728134	7	1
-JAR	auxin-responsive GH3 family protein; AraCyc Rct6.3.-.-	JAR	17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated	1	-735.946594238281	1090.59514241639	3	1
-MeJA	methyl jasmonic acid: (-)-jasmonic acid methyl ester	MeJA	-	1	-2015.87548828125	1169.9171661171	2	1
-12-OH-JA-Ile	12-hydroxyjasmonic acid 12-O-beta-D-glucoside	12-OH-JA-Ile	-	1	-2019.8515625	978.423147562414	2	1
-CYP94	cytochrome P450, family 94, subfamily B, polypeptide 3	CYP94	26.10_misc.cytochrome P450	1	-1925.91247558594	680.105154398352	2	1
-CM	chorismate mutase	CM	13.1.6.2.1_amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase	1	2582.02248565625	3964.576171875	2	1
-CLH	chlorophyllase	CLH	-	1	573.639587402344	4680.84798132179	2	1
-Prep	prephenate	Prep	-	1	2829.9423828125	3777.69864856943	4	1
-Chor	chorismate	Chor	-	1	3134.83935546875	3922.52648819233	4	1
-AOS	hydroperoxide dehydratase [EC:4.2.1.92]	AOS	17.7.1.3_hormone metabolism.jasmonate.synthesis-degradation.allene oxidase synthase	1	-1443.50732421875	3456.64423746642	2	1
-Anthocyanin-accumulation	Accumulation of anthocynanins.	Anthocyanin-accumulation	-	1	-987.336897435009	4848.79443359375	4	1
-PhePyr	phenylpyruvate	PhePyr	-	1	2838.7607421875	3459.7386539998	4	1
-PheAla	phenylalanine	PheAla	-	1	2840.04732439611	3167.64770507812	4	1
-ADT	arogenate dehydratase	ADT	13.1.6.3.1_amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase | 29.2.2_protein.synthesis.ribosome biogenesis	1	2534.63452148438	3291.35257794764	2	1
-ACX3,6	acyl-CoA oxidase [EC:1.3.3.6]; KEGG K00232	ACX3,6	11.9.4.2_lipid metabolism.lipid degradation.beta-oxidation.acyl CoA DH	1	-746.129272460938	2122.64912027892	2	1
-OPC6-CoA	OPC6-CoA	OPC6-CoA	-	1	-1137.84899902344	2016.2261238617	5	1
-ACX1,5	acyl-CoA oxidase [EC:1.3.3.6]; KEGG K00232	ACX1,5	11.9.4.2_lipid metabolism.lipid degradation.beta-oxidation.acyl CoA DH	1	-1596.1537589508	2186.13232421875	2	1
-ACO	ACC oxidase 1	ACO	17.5.1.2_hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate oxidase | 31.1_cell.organisation	1	-4695.02009876321	4247.52783203125	5	1
-ACC	1-aminocyclopropane-1-carboxylate	ACC	-	1	-4229.9189453125	4372.25400261424	4	1
-TransCA	trans-cinnamic acid	TransCA	-	1	2843.41566326527	2828.9931640625	5	1
-OrthoCA	ortho-coumaric acid	OrthoCA	-	1	2576.39782821392	2613.04418945312	3	1
-BA	benzoic acid	BA	-	1	3053.78540039062	2548.67468155171	3	1
-AAO	aldehyde oxidase	AAO	17.1.1_hormone metabolism.abscisic acid.synthesis-degradation | 23.2_nucleotide metabolism.degradation	1	2845.59362899517	2346.15844726562	3	1
-JAZ10	jasmonate-zim-domain protein	JAZ10	-	1	-725.548452738196	-692.062814351648	8	1
-JAZ9,11,12	jasmonate-zim-domain protein	JAZ9,11,12	21.1_redox.thioredoxin | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-456.864614847571	-958.124520894617	8	1
-JAZ1,2,5,6	jasmonate-zim-domain protein	JAZ1,2,5,6	17.7.2_hormone metabolism.jasmonate.signal transduction | 20.1.3_stress.biotic.signalling | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-929.143057230383	-353.838296529382	8	1
-SAMe	S-adenosyl-L-methionine	SAMe	-	1	-4238.19873046875	4743.79697136424	4	1
-L-Met	L-methionine	L-Met	-	1	-4256.2890625	4978.14120964549	2	1
-OPC8-CoA	oxopentenyl-cyclopentane-octanoyl-CoA	OPC8-CoA	-	1	-1131.07788085938	2292.36748128358	5	1
-OPC8	oxopentenyl-cyclopentane-octanoic acid	OPC8	-	1	-1154.25512695312	2534.7110367859	4	1
-4CLL	AMP-dependent synthetase and ligase family protein	4CLL	16.2.1.3_secondary metabolism.phenylpropanoids.lignin biosynthesis.4CL	1	-762.88576497191	2426.66552734375	2	1
-PR5	thaumatin-like protein (PR5)	PR5	20.1.7_stress.biotic.PR-proteins	1	1119.73034667969	783.736624124914	2	1
-LOX	linoleate 9S-lipoxygenase [EC:1.13.11.58]	LOX	17.7.1.2_hormone metabolism.jasmonate.synthesis-degradation.lipoxygenase	1	-879.307178549201	3651.09062581483	4	1
-JA	jasmonic acid	JA	-	1	-1459.98303222656	1152.15168375549	5	1
-XRN	exoribonuclease	XRN	27.1.19_RNA.processing.ribonucleases | 28.99_DNA.unspecified	1	-3403.58681971458	2630.3974609375	1	1
-PR1	pathogenesis-related protein 1	PR1	20.1.7.1_stress.biotic.PR-proteins.PR1 (antifungal)	1	1093.25146484375	1065.99018251571	3	1
-ASK	S phase kinase-associated protein	ASK	29.5.11.4.3.1_protein.degradation.ubiquitin.E3.SCF.SKP | 30.2.17_signalling.receptor kinases.DUF 26	1	-2537.24096679688	731.637378744514	8	1
-SAHH	adenosylhomocysteinase	SAHH	13.2.3.4_amino acid metabolism.degradation.aspartate family.methionine	1	-3037.7333984375	5063.30653259293	2	1
-GST	glutathione S-transferase	GST	26.9_misc.glutathione S transferases	1	1158.02225110388	2736.1455078125	4	1
-13-HPOT	13-hydroperoxy-9,11,15-octadecatrienoic acid	13-HPOT	-	1	-1102.16240298032	3485.30747995949	6	1
-NIMIN1	NIM1-interacting	NIMIN1	-	1	3613.34130859375	1738.20401379919	1	1
-NIMIN3	NIM1-interacting	NIMIN3	-	1	3519.771484375	1910.54703137731	1	1
-NIMIN2	NIM1-interacting	NIMIN2	27.3.99_RNA.regulation of transcription.unclassified	1	3807.91430664062	1901.89310071325	1	1
-NDA	alternative NAD(P)H dehydrogenase 1	NDA	9.2.1_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).internal matrix	1	1657.15557142701	1804.353515625	1	1
-NDC	NAD(P)H dehydrogenase C1	NDC	9.2.3_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).mitochondrial	1	1901.21025892701	2014.12255859375	1	1
-NDB	NAD(P)H dehydrogenase B1	NDB	9.2.1_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).internal matrix | 9.2.2_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).external | 20.2.1_stress.abiotic.heat | 27.3.23_RNA.regulation of transcription.heat-shock transcription factor family (HSF)	1	1094.18206068482	1983.7763671875	1	1
-MOS	importin alpha isoform (IMPA/MOS)	MOS	29.3.1_protein.targeting.nucleus | 31.1_cell.organisation	1	3441.92993164062	2450.98990247106	1	1
-JAM3	jasmonate associated MYC2 like	JAM3	17.2.2_hormone metabolism.auxin.signal transduction | 27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	-5107.61806971458	1766.11083984375	2	1
-JAM1,2	jasmonate associated MYC2 like	JAM1,2	27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	-4907.57363612083	1923.66748046875	2	1
-JA-Ile	jasmonoyl-isoleucine: (+)-7-iso-jasmonoyl-L-isoleucine	JA-Ile	-	1	-1454.62012975907	872.825256347656	7	1
-JA-CoA	jasmonoyl-CoA	JA-CoA	-	1	-1125.70515055236	1460.31079101562	4	1
-IsoChor	isochorismate	IsoChor	-	1	3599.29773055766	3759.40600799033	3	1
-HMA	copper-exporting ATPase	HMA	34.12_transport.metal	1	-5088.34921544167	3543.8779296875	2	1
-GSNO	GroES-like zinc-binding dehydrogenase family protein	GSNO	5.3_fermentation.ADH | 25_C1-metabolism | 26.11.1_misc.alcohol dehydrogenases.cinnamyl alcohol dehydrogenase	1	4119.32373046875	2083.72183606481	2	1
-ETP	EIN2-targeting F-box protein; F-box and associated interaction domains-containing protein	ETP	-	1	-2633.68286132812	-232.531200357049	4	1
-ETR(a)-ET	-	ETR(a)-ET	-	1	-4609.74791991282	3727.1865234375	2	1
-ET	ethylene	ET	-	1	-4229.9189453125	4044.00902350763	5	1
-ERF13	ethylene responsive element binding factor	ERF13	-	1	-5101.49697596458	1364.20166015625	2	1
-ERF098	Integrase-type DNA-binding superfamily protein	ERF098	17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4770.19961268333	1310.27185058594	2	1
-SCF-EBF	-	SCF-EBF	-	1	-3606.27383143333	1887.16748046875	5	1
-EBF	EIN3-binding F box protein [EC:-] | KEGG04075	EBF	3.6_minor CHO metabolism.callose | 26.10_misc.cytochrome P450 | 27.3.99_RNA.regulation of transcription.unclassified | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX	1	-3489.50869471458	2365.51025390625	6	1
-RGA1,2	RGA1,2 (repressor of GA1-3)	RGA1,2	17.6.2_hormone metabolism.gibberelin.signal transduction | 17.6.3_hormone metabolism.gibberelin.induced-regulated-responsive-activated | 27.3.21_RNA.regulation of transcription.GRAS transcription factor family | 30.1.1_signalling.in sugar and nutrient physiology.misc | 33.99_development.unspecified	1	-1625.33769834366	-861.851632711023	7	1
-Cu2+(ER)	-	Cu2+(ER)	-	1	-4743.021484375	3429.40124022532	3	1
-Cu2+	copper	Cu2+	-	1	-4974.24951171875	3166.64099610281	2	1
-CTS	Arabidopsis thaliana ATP-binding cassette D1.	CTS	34.16_transport.ABC transporters and multidrug resistance systems	1	-1558.73510742188	3040.99028401795	2	1
-CTR	CTR1 kinase	CTR	16.8.3_secondary metabolism.flavonoids.dihydroflavonols | 17.5.1_hormone metabolism.ethylene.synthesis-degradation | 27.3.71_RNA.regulation of transcription.SNF7 | 29.4_protein.postranslational modification	1	-3712.97094726562	3437.34545898438	4	1
-CAT1,2,3	catalase	CAT1,2,3	21.6_redox.dismutases and catalases	1	161.673515762943	1938.25341796875	1	1
-CAM4	calmodulin 4 calcium ion binding / signal transducer	CAM4	1.1.1.2_PS.lightreaction.photosystem II.PSII polypeptide subunits | 30.3_signalling.calcium	1	-2166.37426757812	4018.86137776795	7	1
-APX1,2	ascorbate peroxidase 1	APX1,2	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.8_misc.nitrilases, nitrile lyases, berberine bridge enzymes, reticuline oxidases, troponine reductases	1	161.361015762943	2233.4345703125	1	1
-APX4	ascorbate peroxidase 4	APX4	1.2.2_PS.photorespiration.glycolate oxydase | 21.2.1_redox.ascorbate and glutathione.ascorbate	1	314.185265030521	2416.72314453125	1	1
-APX5	ascorbate peroxidase 5	APX5	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.1_misc.misc2	1	706.885925292969	2251.23355481481	1	1
-APX6	ascorbate peroxidase 6	APX6	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.12_misc.peroxidases	1	467.486931290287	1836.74951171875	1	1
-APX3	ascorbate peroxidase 3	APX3	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.1_misc.misc2 | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family | 28.99_DNA.unspecified	1	815.040886368412	2009.50439453125	1	1
-AOC	allene oxide cyclase [EC:5.3.99.6]	AOC	17.7.1.4_hormone metabolism.jasmonate.synthesis-degradation.allene oxidase cyclase | 20.2.3_stress.abiotic.drought/salt	1	-766.233111458518	3120.80053710938	2	1
-JA(p)	-	JA(p)	-	1	-1129.00059777999	1175.21411132812	3	1
-ACH	acyl-coenzyme A thioesterase 9 [EC:3.1.2.-]; AraCyc Rct3.1.2.20	ACH	28.1_DNA.synthesis/chromatin structure	1	-710.768348261583	1365.11938476562	2	1
-12,13-EOT	12,13(S)-epoxylinolenic acid	12,13-EOT	-	1	-1107.27318936776	3220.04727551794	4	1
-SEN4	senescence 4 / meristem 5; similar to endo xyloglucan transferase in sequence	SEN4	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 10.7_cell wall.modification	1	532.251107808679	84.1696380409301	1	1
-SAG12	senescence-associated gene 12	SAG12	29.5.3_protein.degradation.cysteine protease | 34.19.1_transport.major intrinsic proteins.PIP	1	453.077066060632	-392.764291402429	1	1
-WRKY46	WRKY46	WRKY46	20.1.5_stress.biotic.regulation of transcription | 27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2554.0947265625	4765.59791130248	2	1
-NPR1-NPR1	-	NPR1-NPR1	-	1	4188.86540078822	1811.00268554688	2	1
-TRX-H	Thioredoxin superfamily protein	TRX-H	21.1_redox.thioredoxin | 28.1_DNA.synthesis/chromatin structure	1	3955.25317382812	1467.08865735388	4	1
-OPR	12-oxophytodienoic acid reductase [EC:1.3.1.42]	OPR	17.7.1.5_hormone metabolism.jasmonate.synthesis-degradation.12-oxophytodienoate reductase 3	1	-738.738098144531	2711.3158683258	3	1
-SOD	superoxide dismutase	SOD	15.2_metal handling.binding, chelation and storage | 21.6_redox.dismutases and catalases	1	1058.45570762587	2424.39289087963	2	1
-GRAS2	scarecrow-like 14; GRAS family transcription factor	GRAS2	27.3.21_RNA.regulation of transcription.GRAS transcription factor family | 29.5.4_protein.degradation.aspartate protease | 33.99_development.unspecified	1	1732.96605404581	1346.69897460938	2	1
-SCF-ETP	-	SCF-ETP	-	1	-2000.29584657821	81.8077667854131	5	1
-SCF-COI1-JA-Ile	-	SCF-COI1-JA-Ile	-	1	-1036.24773252335	252.272711161047	7	1
-RTM3	MATH/TRAF domain containing protein; restricted Tobacco etch potyvirus (TEV) movement	RTM3	-	1	-712.011947750456	5128.93017578125	5	1
-RTM2	MATH/TRAF domain containing protein; restricted Tobacco etch potyvirus (TEV) movement	RTM2	20.2.1_stress.abiotic.heat	1	-540.320373535156	5444.74852001608	5	1
-RTM1-RTM2-RTM3	-	RTM1-RTM2-RTM3	-	1	-739.749313473112	6021.03515625	4	1
-JAL	jacalin-related lectin 35	JAL	-	1	-902.832992672331	5431.30517578125	7	1
-RH	RNAhelicase-like 8 (DEAD/DEAH box helicase)	RH	27.1.2_RNA.processing.RNA helicase | 28.1_DNA.synthesis/chromatin structure | 29.2.3_protein.synthesis.initiation	1	-2796.84228515625	5770.40028259293	2	1
-RBCS	RuBisCO small subunit 1A	RBCS	1.3.2_PS.calvin cycle.rubisco small subunit | 26.10_misc.cytochrome P450 | 34.3_transport.amino acids	1	-2452.95971679688	5977.04286071793	2	1
-RBCL	ribulose-bisphosphate carboxylase	RBCL	1.3.1_PS.calvin cycle.rubisco large subunit | 29.2.1.1.1.1.15_protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S15	1	-1719.67932128906	5484.80848571793	2	1
-TGA2,5,6-SCL14	-	TGA2,5,6-SCL14	-	1	2250.03563412394	1099.91356381144	3	1
-NAC32	NAC domain containing protein 32	NAC32	-	1	-3888.48525721458	593.54443359375	1	1
-MYB113	MYB domain containing transcription factor	MYB113	16.8.1_secondary metabolism.flavonoids.anthocyanins | 27.3.25_RNA.regulation of transcription.MYB domain transcription factor family	1	-3411.96279627708	483.095764160156	1	1
-ERF14,95,96	Ethylene-responsive element binding factor	ERF14,95,96	17.5.2_hormone metabolism.ethylene.signal transduction | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4284.37344080833	1374.30773925781	3	1
-OPDA(p)	-	OPDA(p)	-	1	-1112.2372054016	2771.533203125	4	1
-OPDA(c)	-	OPDA(c)	-	1	-1103.35607910156	3017.12929524535	4	1
-Thr	amino acid Threonine	Thr	-	1	-698.110301919549	806.560485839844	2	1
-Ile	amino acid Isoleucine	Ile	-	1	-1062.39624023438	832.152049966424	4	1
-WRKY11,17	WRKY11,17	WRKY11,17	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	-1541.5863481186	4724.4208984375	2	1
-H2O2	hydrogen peroxide (reactive oxygen species)	H2O2	-	1	391.281438366092	2201.52392578125	12	1
-O2	ROS precursors; oxygen	O2	-	1	2018.42327162232	2416.61767578125	2	1
-BG	pathogenesis-related protein 2; glycosyl hydrolase superfamily protein; beta 1,3-glucanase	BG	26.4.1_misc.beta 1,3 glucan hydrolases.glucan endo-1,3-beta-glucosidase	1	924.063313353036	4765.76839147804	2	1
-NPR1-TGA2,5,6	-	NPR1-TGA2,5,6	-	1	2250.6044921875	1823.11221692419	9	1
-NPR1	nonexpresser of PR genes	NPR1	27.3.61_RNA.regulation of transcription.NPR1/NIM1 | 31.1_cell.organisation	1	3750.14965820312	2322.74771497106	10	1
-SAGT	salicylic acid glucosyltransferase | UDP-glucosyltransferase 74F2	SAGT	17.8.1_hormone metabolism.salicylic acid.synthesis-degradation | 26.2_misc.UDP glucosyl and glucoronyl transferases	1	4335.06201171875	2742.50356952591	4	1
-ORA59	ERF59, octadecanoid-responsive	ORA59	-	1	-3635.34243494896	1121.94787597656	8	1
-NAC19,55,72	NAC domain containing protein 19	NAC19,55,72	27.3.27_RNA.regulation of transcription.NAC domain transcription factor family | 33.99_development.unspecified	1	-510.604116800696	194.79610288468	3	1
-MYC	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	MYC	20.1.5_stress.biotic.regulation of transcription | 27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH) | 29.4_protein.postranslational modification	1	-1572.9279083046	-56.8534980979859	23	1
-WRKY70	WRKY70	WRKY70	26.7_misc.oxidases - copper, flavone etc | 27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family | 34.13_transport.peptides and oligopeptides	1	2082.87815704414	4759.8525390625	2	1
-MPK6	MAP kinase 6	MPK6	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-129.047424316406	4248.52128987733	8	1
-MPK4	MAP kinase 4	MPK4	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-43.9740905761719	4404.89384847108	2	1
-WAK	wall associated kinase 1	WAK	16.8.4_secondary metabolism.flavonoids.flavonols | 17.5.1_hormone metabolism.ethylene.synthesis-degradation | 28.99_DNA.unspecified | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.25_signalling.receptor kinases.wall associated kinase	1	-293.453338623047	3725.9575691742	1	1
-MYB44,70,73	myb domain protein r1	MYB44,70,73	27.3.25_RNA.regulation of transcription.MYB domain transcription factor family	1	1726.36378631524	4587.57177734375	2	1
-ERF5,6	ethylene response factor5,6	ERF5,6	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4497.36025721458	1836.57958984375	4	1
-ERF105	ethylene response factor 105	ERF105	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4881.61855799583	2228.68115234375	3	1
-ERF104	ethylene response factor	ERF104	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4077.06142908958	1854.14404296875	4	1
-ACS1,2,6	ACC synthase [EC:4.4.1.14]	ACS1,2,6	17.5.1.1_hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate synthase | 29.5.11.4.2_protein.degradation.ubiquitin.E3.RING	1	-3562.41001680338	4520.3359375	5	1
-MPK3	MAP kinase 3	MPK3	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-182.476364135742	4063.31328206483	10	1
-WRKY33	WRKY33	WRKY33	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2035.72045898438	569.096788608968	5	1
-MKS1	MAP kinase substrate 1	MKS1	20.1.3_stress.biotic.signalling	1	2184.55605657113	379.598236083984	1	1
-SA	salicylate	SA	-	1	4116.71044921875	2922.46207043981	15	1
-MeSA	methyl salicylate	MeSA	-	1	4432.38559063034	3176.05313007278	4	1
-MES	methyl esterase 1	MES	17.5.3_hormone metabolism.ethylene.induced-regulated-responsive-activated | 17.8.1_hormone metabolism.salicylic acid.synthesis-degradation | 17.8.2_hormone metabolism.salicylic acid.signal transduction | 26.8_misc.nitrilases, nitrile lyases, berberine bridge enzymes, reticuline oxidases, troponine reductases	1	4536.39663593216	2946.08438007278	2	1
-JAZ7,8	jasmonate-zim-domain protein	JAZ7,8	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like) | 33.99_development.unspecified	1	-225.744070413977	-404.534921285242	11	1
-WRKY57-JAZ	-	WRKY57-JAZ	-	1	-358.99678647843	37.5666030677855	3	1
-JAZ3,4	jasmonate-zim-domain protein	JAZ3,4	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-730.758047464758	-131.592370626062	11	1
-WRKY57-IAA29	-	WRKY57-IAA29	-	1	34.73165243363	213.687240600586	2	1
-WRKY57	WRKY57	WRKY57	-	1	172.165292378992	-202.483499166101	10	1
-IAA29	indole-3-acetic acid inducible 29	IAA29	17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated | 27.3.40_RNA.regulation of transcription.AUX/IAA family | 33.99_development.unspecified	1	453.937970335241	304.896728515625	3	1
-TDX	tetracopeptide domain-containing thioredoxin	TDX	17.6.3_hormone metabolism.gibberelin.induced-regulated-responsive-activated | 21.1_redox.thioredoxin | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-1954.19262695312	5185.12733337418	2	1
-SAMS	SAM synthetase [EC:2.5.1.6]	SAMS	13.1.3.4.11_amino acid metabolism.synthesis.aspartate family.methionine.S-adenosylmethionine synthetase | 15.2_metal handling.binding, chelation and storage	1	-3545.439488023	4913.50565013238	4	1
-PBE	20S proteasome beta subunit E	PBE	11.1.9_lipid metabolism.FA synthesis and FA elongation.long chain fatty acid CoA ligase | 29.5.11.20_protein.degradation.ubiquitin.proteasom	1	-1884.53723144531	5657.65809509293	2	1
-PBB	20S proteasome beta subunit B	PBB	29.5.11.20_protein.degradation.ubiquitin.proteasom | 31.4_cell.vesicle transport	1	-2016.60229492188	5807.19129821793	2	1
-PAA	20S proteasome alpha subunit A	PAA	27.4_RNA.RNA binding | 29.5.11.20_protein.degradation.ubiquitin.proteasom	1	-2272.26123046875	5418.54530212418	2	1
-MIND1	division-related factor MinD	MIND1	31.2.5_cell.division.plastid	1	-2788.22314453125	4582.19178649918	2	1
-TGA2,5,6	TGACG sequence-specific binding protein	TGA2,5,6	27.3.35_RNA.regulation of transcription.bZIP transcription factor family	1	2286.35693359375	1388.8681983695	8	1
-GRX480	glutaredoxin; roxy19	GRX480	21.4_redox.glutaredoxins	1	217.040929147086	2730.16943359375	3	1
-SERK	BRI1-associated receptor kinase; somatic embryogenesis receptor-like kinase 3	SERK	17.3.2.99_hormone metabolism.brassinosteroid.signal transduction.other | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.2_signalling.receptor kinases.leucine rich repeat II	1	2185.32655410067	5356.3095703125	2	1
-FLS2	Leucine-rich receptor-like protein kinase family protein; PRR protein flagellin sensing 2	FLS2	29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.11_signalling.receptor kinases.leucine rich repeat XI	1	1360.76196289062	5014.23210581954	2	1
-flg22-FLS2-BAK1	-	flg22-FLS2-BAK1	-	1	1822.2158203125	5085.51148552123	4	1
-trichous-bacteria	EF-Tu fragment	trichous-bacteria	-	1	1711.216796875	5387.84559706942	3	1
-ETR(a)-CTR(a)	-	ETR(a)-CTR(a)	-	1	-4214.57604491282	3078.220703125	4	1
-PDF1.2	plant defensin 1.2	PDF1.2	20.1.7.12_stress.biotic.PR-proteins.PR12 (plant defensins)	1	-4264.74014002708	1012.3134765625	8	1
-ERF1,2	ethylene responsive element binding factor	ERF1,2	17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-3852.99697596458	1526.44616699219	5	1
-EIN2	EIN2 transporter [EC:-] | KEGG04075	EIN2	26.12_misc.peroxidases | 29.2.3_protein.synthesis.initiation | 30.2.99_signalling.receptor kinases.misc | 34.12_transport.metal	1	-4536.80215174583	2699.10107421875	5	1
-SA(c)	-	SA(c)	-	1	3640.35424804688	3281.46728515625	3	1
-EDS5	MATE efflux family protein	EDS5	20.1.3_stress.biotic.signalling	1	3314.95408074787	2864.046875	5	1
-SAG101	senescence-associated gene 101	SAG101	20.1_stress.biotic | 27.3.99_RNA.regulation of transcription.unclassified | 33.99_development.unspecified	1	3432.63062564169	833.358520507812	2	1
-PAD4	phytoalexin deficient,InterPro Lipase, class 3	PAD4	20.1.3_stress.biotic.signalling	1	2968.491964174	1434.77538021769	5	1
-EDS1-PAD4-SAG101	-	EDS1-PAD4-SAG101	-	1	3362.53857421875	1126.61964972088	3	1
-EDS1-PAD4	-	EDS1-PAD4	-	1	3130.76782226562	2183.73477551794	7	1
-EDF	AP2/B3 transcription factor family protein	EDF	27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-3718.18472010521	2691.146484375	4	1
-DXPS	1-deoxy-D-xylulose-5-phosphate synthase	DXPS	16.1.1.1_secondary metabolism.isoprenoids.non-mevalonate pathway.DXS | 17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated | 33.99_development.unspecified	1	-2774.60498046875	5384.12879821793	2	1
-RBX	RING-box	RBX	29.5.11.4.3.4_protein.degradation.ubiquitin.E3.SCF.RBX	1	-3360.80152624344	85.5523529052734	9	1
-CUL	cullin	CUL	17.4.2_hormone metabolism.cytokinin.signal transduction | 20.2.3_stress.abiotic.drought/salt | 27.3.99_RNA.regulation of transcription.unclassified | 29.5.11.4.3.3_protein.degradation.ubiquitin.E3.SCF.cullin	1	-3158.58911132812	-303.806421627514	9	1
-ETR	ethylene receptor [EC:2.7.13.-] | KEGG04075	ETR	17.4.2_hormone metabolism.cytokinin.signal transduction | 17.5.2_hormone metabolism.ethylene.signal transduction	1	-4229.9189453125	3441.79345703125	9	1
-WRKY8,28	WRKY8,28	WRKY8,28	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2546.14625114623	4493.8447265625	3	1
-WRKY48	WRKY48	WRKY48	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2558.66333007812	5020.91431755248	3	1
-CPK4,5,6,11	calmodulin-domain protein kinase 11	CPK4,5,6,11	29.4_protein.postranslational modification | 30.3_signalling.calcium	1	1892.4360242444	4271.3515625	4	1
-DNAJ	DNAJ heat shock family protein; capsid protein interacting proteins (CPIP) in nta	DNAJ	20.2.1_stress.abiotic.heat | 21.1_redox.thioredoxin | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family | 29.2.4_protein.synthesis.elongation | 34.13_transport.peptides and oligopeptides	1	-2244.162109375	5688.87830993668	2	1
-SCF-COI1	-	SCF-COI1	-	1	-2419.34858316955	177.283889770508	6	1
-OMR1	threonine ammonia-lyase; threonine deaminase (TD) in nbe	OMR1	13.1.4.5.1_amino acid metabolism.synthesis.branched chain group.isoleucine specific.threonine ammonia-lyase | 13.2.3.2_amino acid metabolism.degradation.aspartate family.threonine | 13.2.5.1_amino acid metabolism.degradation.serine-glycine-cysteine group.serine	1	-975.615060445398	482.945129394531	3	1
-COI1	Coronatine insensitive 1	COI1	17.7.3_hormone metabolism.jasmonate.induced-regulated-responsive-activated | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX	1	-2892.6714363617	560.921997070312	6	1
-O2.-	superoxide anion (reactive oxygen species)	O2.-	-	1	1583.73798133484	2176.19775390625	11	1
-OBE	oberon 1	OBE	20.1.5_stress.biotic.regulation of transcription | 31.1_cell.organisation	1	-1989.83061081391	4792.35884231109	6	1
-CO	constans transcription factor	CO	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like) | 33.99_development.unspecified	1	-1811.76777785796	4540.09423828125	2	1
-CML42	calcium-binding protein	CML42	30.3_signalling.calcium	1	-2570.55359247161	3525.09521484375	9	1
-CML40	calmodulin related	CML40	-	1	-2832.03290934142	3870.40209960938	9	1
-PSAK	photosystem I, subunit K	PSAK	1.1.2.2_PS.lightreaction.photosystem I.PSI polypeptide subunits | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX | 33.99_development.unspecified	1	-3056.908203125	4715.36211018983	2	1
-EIN3(EIL1)	EIN3 and EIN3-like transcription factors	EIN3(EIL1)	17.5.2_hormone metabolism.ethylene.signal transduction | 27.3.19_RNA.regulation of transcription.EIN3-like (EIL) transcription factor family	1	-4026.41274744896	2397.46728515625	18	1
-EDS1	enhanced disease susceptibility	EDS1	16.4.2_secondary metabolism.N misc.betaine | 17.3.1.1.1_hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DET2 | 20.1.3_stress.biotic.signalling	1	1481.59626161727	577.78125	6	1
-CAMTA	calmodulin binding; SR1 (signal responsive 1)	CAMTA	17.5.3_hormone metabolism.ethylene.induced-regulated-responsive-activated | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family	1	-3026.56562418517	3040.72290039062	5	1
-CBP60G	CAM-binding protein 60-like G; calmodulin binding	CBP60G	30.3_signalling.calcium	1	-2316.63568927193	3378.30586209996	6	1
-CAM-Ca2+	-	CAM-Ca2+	-	1	-2570.15576171875	3233.64482503358	2	1
-NADPH-oxidase	NADPH oxidase	NADPH-oxidase	20.1.1_stress.biotic.respiratory burst	1	1652.91373059606	2579.42025377894	6	1
-CRT3	calreticulin 3	CRT3	30.3_signalling.calcium | 34.3_transport.amino acids	1	-2395.76787190858	4449.01162353823	4	1
-CRT1,2	calreticulin 1	CRT1,2	30.3_signalling.calcium	1	-3815.50854492188	3722.95141601562	6	1
-CML42-Ca2+	-	CML42-Ca2+	-	1	743.03745880195	1837.47705078125	3	1
-Ca2+	calcium	Ca2+	-	1	-1146.16080325002	4195.84912109375	12	1
-BIK1	botrytis-induced kinase1	BIK1	29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII	1	1334.87272500697	4643.06754922572	2	1
-ATPB	ATP synthase, beta subunit	ATPB	1.1.4_PS.lightreaction.ATP synthase | 9.9_mitochondrial electron transport / ATP synthesis.F1-ATPase	1	-2601.416015625	5734.89051696793	2	1
-potyvirus	small peptide of unknown functions	potyvirus	-	1	-2393.32275390625	5038.45448181168	52	1
 AGO1,5,7,10	argonaute	AGO1,5,7,10	27.3.36_RNA.regulation of transcription.argonaute transcription factor family | 27.5.2.2_RNA.silencing.RISC formation.AGO | 29.2.3_protein.synthesis.initiation | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 29.6_protein.folding | 30.3_signalling.calcium | 33.99_development.unspecified	1	-3195.1943359375	5257.95008728043	2	1
+potyvirus	small peptide of unknown functions	potyvirus	-	1	-2393.32275390625	5038.45448181168	52	1
+ATPB	ATP synthase, beta subunit	ATPB	1.1.4_PS.lightreaction.ATP synthase | 9.9_mitochondrial electron transport / ATP synthesis.F1-ATPase	1	-2601.416015625	5734.89051696793	2	1
+BIK1	botrytis-induced kinase1	BIK1	29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII	1	1334.87272500697	4643.06754922572	2	1
+Ca2+	calcium	Ca2+	-	1	-1146.16080325002	4195.84912109375	12	1
+CML42-Ca2+	-	CML42-Ca2+	-	1	743.03745880195	1837.47705078125	3	1
+CRT1,2	calreticulin 1	CRT1,2	30.3_signalling.calcium	1	-3815.50854492188	3722.95141601562	6	1
+CRT3	calreticulin 3	CRT3	30.3_signalling.calcium | 34.3_transport.amino acids	1	-2395.76787190858	4449.01162353823	4	1
+NADPH-oxidase	NADPH oxidase	NADPH-oxidase	20.1.1_stress.biotic.respiratory burst	1	1652.91373059606	2579.42025377894	6	1
+CAM-Ca2+	-	CAM-Ca2+	-	1	-2570.15576171875	3233.64482503358	2	1
+CBP60G	CAM-binding protein 60-like G; calmodulin binding	CBP60G	30.3_signalling.calcium	1	-2316.63568927193	3378.30586209996	6	1
+CAMTA	calmodulin binding; SR1 (signal responsive 1)	CAMTA	17.5.3_hormone metabolism.ethylene.induced-regulated-responsive-activated | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family	1	-3026.56562418517	3040.72290039062	5	1
+EDS1	enhanced disease susceptibility	EDS1	16.4.2_secondary metabolism.N misc.betaine | 17.3.1.1.1_hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DET2 | 20.1.3_stress.biotic.signalling	1	1481.59626161727	577.78125	6	1
+EIN3(EIL1)	EIN3 and EIN3-like transcription factors	EIN3(EIL1)	17.5.2_hormone metabolism.ethylene.signal transduction | 27.3.19_RNA.regulation of transcription.EIN3-like (EIL) transcription factor family	1	-4026.41274744896	2397.46728515625	18	1
+PSAK	photosystem I, subunit K	PSAK	1.1.2.2_PS.lightreaction.photosystem I.PSI polypeptide subunits | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX | 33.99_development.unspecified	1	-3056.908203125	4715.36211018983	2	1
+CML40	calmodulin related	CML40	-	1	-2832.03290934142	3870.40209960938	9	1
+CML42	calcium-binding protein	CML42	30.3_signalling.calcium	1	-2570.55359247161	3525.09521484375	9	1
+CO	constans transcription factor	CO	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like) | 33.99_development.unspecified	1	-1811.76777785796	4540.09423828125	2	1
+OBE	oberon 1	OBE	20.1.5_stress.biotic.regulation of transcription | 31.1_cell.organisation	1	-1989.83061081391	4792.35884231109	6	1
+O2.-	superoxide anion (reactive oxygen species)	O2.-	-	1	1583.73798133484	2176.19775390625	11	1
+COI1	Coronatine insensitive 1	COI1	17.7.3_hormone metabolism.jasmonate.induced-regulated-responsive-activated | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX	1	-2892.6714363617	560.921997070312	6	1
+OMR1	threonine ammonia-lyase; threonine deaminase (TD) in nbe	OMR1	13.1.4.5.1_amino acid metabolism.synthesis.branched chain group.isoleucine specific.threonine ammonia-lyase | 13.2.3.2_amino acid metabolism.degradation.aspartate family.threonine | 13.2.5.1_amino acid metabolism.degradation.serine-glycine-cysteine group.serine	1	-975.615060445398	482.945129394531	3	1
+SCF-COI1	-	SCF-COI1	-	1	-2419.34858316955	177.283889770508	6	1
+DNAJ	DNAJ heat shock family protein; capsid protein interacting proteins (CPIP) in nta	DNAJ	20.2.1_stress.abiotic.heat | 21.1_redox.thioredoxin | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family | 29.2.4_protein.synthesis.elongation | 34.13_transport.peptides and oligopeptides	1	-2244.162109375	5688.87830993668	2	1
+CPK4,5,6,11	calmodulin-domain protein kinase 11	CPK4,5,6,11	29.4_protein.postranslational modification | 30.3_signalling.calcium	1	1892.4360242444	4271.3515625	4	1
+WRKY48	WRKY48	WRKY48	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2558.66333007812	5020.91431755248	3	1
+WRKY8,28	WRKY8,28	WRKY8,28	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2546.14625114623	4493.8447265625	3	1
+ETR	ethylene receptor [EC:2.7.13.-] | KEGG04075	ETR	17.4.2_hormone metabolism.cytokinin.signal transduction | 17.5.2_hormone metabolism.ethylene.signal transduction	1	-4229.9189453125	3441.79345703125	9	1
+CUL	cullin	CUL	17.4.2_hormone metabolism.cytokinin.signal transduction | 20.2.3_stress.abiotic.drought/salt | 27.3.99_RNA.regulation of transcription.unclassified | 29.5.11.4.3.3_protein.degradation.ubiquitin.E3.SCF.cullin	1	-3158.58911132812	-303.806421627514	9	1
+RBX	RING-box	RBX	29.5.11.4.3.4_protein.degradation.ubiquitin.E3.SCF.RBX	1	-3360.80152624344	85.5523529052734	9	1
+DXPS	1-deoxy-D-xylulose-5-phosphate synthase	DXPS	16.1.1.1_secondary metabolism.isoprenoids.non-mevalonate pathway.DXS | 17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated | 33.99_development.unspecified	1	-2774.60498046875	5384.12879821793	2	1
+EDF	AP2/B3 transcription factor family protein	EDF	27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-3718.18472010521	2691.146484375	4	1
+EDS1-PAD4	-	EDS1-PAD4	-	1	3130.76782226562	2183.73477551794	7	1
+EDS1-PAD4-SAG101	-	EDS1-PAD4-SAG101	-	1	3362.53857421875	1126.61964972088	3	1
+PAD4	phytoalexin deficient,InterPro Lipase, class 3	PAD4	20.1.3_stress.biotic.signalling	1	2968.491964174	1434.77538021769	5	1
+SAG101	senescence-associated gene 101	SAG101	20.1_stress.biotic | 27.3.99_RNA.regulation of transcription.unclassified | 33.99_development.unspecified	1	3432.63062564169	833.358520507812	2	1
+EDS5	MATE efflux family protein	EDS5	20.1.3_stress.biotic.signalling	1	3314.95408074787	2864.046875	5	1
+SA(c)	-	SA(c)	-	1	3640.35424804688	3281.46728515625	3	1
+EIN2	EIN2 transporter [EC:-] | KEGG04075	EIN2	26.12_misc.peroxidases | 29.2.3_protein.synthesis.initiation | 30.2.99_signalling.receptor kinases.misc | 34.12_transport.metal	1	-4536.80215174583	2699.10107421875	5	1
+ERF1,2	ethylene responsive element binding factor	ERF1,2	17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-3852.99697596458	1526.44616699219	5	1
+PDF1.2	plant defensin 1.2	PDF1.2	20.1.7.12_stress.biotic.PR-proteins.PR12 (plant defensins)	1	-4264.74014002708	1012.3134765625	8	1
+ETR(a)-CTR(a)	-	ETR(a)-CTR(a)	-	1	-4214.57604491282	3078.220703125	4	1
+trichous-bacteria	EF-Tu fragment	trichous-bacteria	-	1	1711.216796875	5387.84559706942	3	1
+flg22-FLS2-BAK1	-	flg22-FLS2-BAK1	-	1	1822.2158203125	5085.51148552123	4	1
+FLS2	Leucine-rich receptor-like protein kinase family protein; PRR protein flagellin sensing 2	FLS2	29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.11_signalling.receptor kinases.leucine rich repeat XI	1	1360.76196289062	5014.23210581954	2	1
+SERK	BRI1-associated receptor kinase; somatic embryogenesis receptor-like kinase 3	SERK	17.3.2.99_hormone metabolism.brassinosteroid.signal transduction.other | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.2_signalling.receptor kinases.leucine rich repeat II	1	2185.32655410067	5356.3095703125	2	1
+GRX480	glutaredoxin; roxy19	GRX480	21.4_redox.glutaredoxins	1	217.040929147086	2730.16943359375	3	1
+TGA2,5,6	TGACG sequence-specific binding protein	TGA2,5,6	27.3.35_RNA.regulation of transcription.bZIP transcription factor family	1	2286.35693359375	1388.8681983695	8	1
+MIND1	division-related factor MinD	MIND1	31.2.5_cell.division.plastid	1	-2788.22314453125	4582.19178649918	2	1
+PAA	20S proteasome alpha subunit A	PAA	27.4_RNA.RNA binding | 29.5.11.20_protein.degradation.ubiquitin.proteasom	1	-2272.26123046875	5418.54530212418	2	1
+PBB	20S proteasome beta subunit B	PBB	29.5.11.20_protein.degradation.ubiquitin.proteasom | 31.4_cell.vesicle transport	1	-2016.60229492188	5807.19129821793	2	1
+PBE	20S proteasome beta subunit E	PBE	11.1.9_lipid metabolism.FA synthesis and FA elongation.long chain fatty acid CoA ligase | 29.5.11.20_protein.degradation.ubiquitin.proteasom	1	-1884.53723144531	5657.65809509293	2	1
+SAMS	SAM synthetase [EC:2.5.1.6]	SAMS	13.1.3.4.11_amino acid metabolism.synthesis.aspartate family.methionine.S-adenosylmethionine synthetase | 15.2_metal handling.binding, chelation and storage	1	-3545.439488023	4913.50565013238	4	1
+TDX	tetracopeptide domain-containing thioredoxin	TDX	17.6.3_hormone metabolism.gibberelin.induced-regulated-responsive-activated | 21.1_redox.thioredoxin | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-1954.19262695312	5185.12733337418	2	1
+IAA29	indole-3-acetic acid inducible 29	IAA29	17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated | 27.3.40_RNA.regulation of transcription.AUX/IAA family | 33.99_development.unspecified	1	453.937970335241	304.896728515625	3	1
+WRKY57	WRKY57	WRKY57	-	1	172.165292378992	-202.483499166101	10	1
+WRKY57-IAA29	-	WRKY57-IAA29	-	1	34.73165243363	213.687240600586	2	1
+JAZ3,4	jasmonate-zim-domain protein	JAZ3,4	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-730.758047464758	-131.592370626062	11	1
+WRKY57-JAZ	-	WRKY57-JAZ	-	1	-358.99678647843	37.5666030677855	3	1
+JAZ7,8	jasmonate-zim-domain protein	JAZ7,8	27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like) | 33.99_development.unspecified	1	-225.744070413977	-404.534921285242	11	1
+MES	methyl esterase 1	MES	17.5.3_hormone metabolism.ethylene.induced-regulated-responsive-activated | 17.8.1_hormone metabolism.salicylic acid.synthesis-degradation | 17.8.2_hormone metabolism.salicylic acid.signal transduction | 26.8_misc.nitrilases, nitrile lyases, berberine bridge enzymes, reticuline oxidases, troponine reductases	1	4536.39663593216	2946.08438007278	2	1
+MeSA	methyl salicylate	MeSA	-	1	4432.38559063034	3176.05313007278	4	1
+SA	salicylate	SA	-	1	4116.71044921875	2922.46207043981	15	1
+MKS1	MAP kinase substrate 1	MKS1	20.1.3_stress.biotic.signalling	1	2184.55605657113	379.598236083984	1	1
+WRKY33	WRKY33	WRKY33	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2035.72045898438	569.096788608968	5	1
+MPK3	MAP kinase 3	MPK3	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-182.476364135742	4063.31328206483	10	1
+ACS1,2,6	ACC synthase [EC:4.4.1.14]	ACS1,2,6	17.5.1.1_hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate synthase | 29.5.11.4.2_protein.degradation.ubiquitin.E3.RING	1	-3562.41001680338	4520.3359375	5	1
+ERF104	ethylene response factor	ERF104	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4077.06142908958	1854.14404296875	4	1
+ERF105	ethylene response factor 105	ERF105	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4881.61855799583	2228.68115234375	3	1
+ERF5,6	ethylene response factor5,6	ERF5,6	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4497.36025721458	1836.57958984375	4	1
+MYB44,70,73	myb domain protein r1	MYB44,70,73	27.3.25_RNA.regulation of transcription.MYB domain transcription factor family	1	1726.36378631524	4587.57177734375	2	1
+WAK	wall associated kinase 1	WAK	16.8.4_secondary metabolism.flavonoids.flavonols | 17.5.1_hormone metabolism.ethylene.synthesis-degradation | 28.99_DNA.unspecified | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.25_signalling.receptor kinases.wall associated kinase	1	-293.453338623047	3725.9575691742	1	1
+MPK4	MAP kinase 4	MPK4	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-43.9740905761719	4404.89384847108	2	1
+MPK6	MAP kinase 6	MPK6	29.4_protein.postranslational modification | 30.6_signalling.MAP kinases | 31.1_cell.organisation	1	-129.047424316406	4248.52128987733	8	1
+WRKY70	WRKY70	WRKY70	26.7_misc.oxidases - copper, flavone etc | 27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family | 34.13_transport.peptides and oligopeptides	1	2082.87815704414	4759.8525390625	2	1
+MYC	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	MYC	20.1.5_stress.biotic.regulation of transcription | 27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH) | 29.4_protein.postranslational modification	1	-1572.9279083046	-56.8534980979859	23	1
+NAC19,55,72	NAC domain containing protein 19	NAC19,55,72	27.3.27_RNA.regulation of transcription.NAC domain transcription factor family | 33.99_development.unspecified	1	-510.604116800696	194.79610288468	3	1
+ORA59	ERF59, octadecanoid-responsive	ORA59	-	1	-3635.34243494896	1121.94787597656	8	1
+SAGT	salicylic acid glucosyltransferase | UDP-glucosyltransferase 74F2	SAGT	17.8.1_hormone metabolism.salicylic acid.synthesis-degradation | 26.2_misc.UDP glucosyl and glucoronyl transferases	1	4335.06201171875	2742.50356952591	4	1
+NPR1	nonexpresser of PR genes	NPR1	27.3.61_RNA.regulation of transcription.NPR1/NIM1 | 31.1_cell.organisation	1	3750.14965820312	2322.74771497106	10	1
+NPR1-TGA2,5,6	-	NPR1-TGA2,5,6	-	1	2250.6044921875	1823.11221692419	9	1
+BG	pathogenesis-related protein 2; glycosyl hydrolase superfamily protein; beta 1,3-glucanase	BG	26.4.1_misc.beta 1,3 glucan hydrolases.glucan endo-1,3-beta-glucosidase	1	924.063313353036	4765.76839147804	2	1
+O2	ROS precursors; oxygen	O2	-	1	2018.42327162232	2416.61767578125	2	1
+H2O2	hydrogen peroxide (reactive oxygen species)	H2O2	-	1	391.281438366092	2201.52392578125	12	1
+WRKY11,17	WRKY11,17	WRKY11,17	27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	-1541.5863481186	4724.4208984375	2	1
+Ile	amino acid Isoleucine	Ile	-	1	-1062.39624023438	832.152049966424	4	1
+Thr	amino acid Threonine	Thr	-	1	-698.110301919549	806.560485839844	2	1
+OPDA(c)	-	OPDA(c)	-	1	-1103.35607910156	3017.12929524535	4	1
+OPDA(p)	-	OPDA(p)	-	1	-1112.2372054016	2771.533203125	4	1
+ERF14,95,96	Ethylene-responsive element binding factor	ERF14,95,96	17.5.2_hormone metabolism.ethylene.signal transduction | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4284.37344080833	1374.30773925781	3	1
+MYB113	MYB domain containing transcription factor	MYB113	16.8.1_secondary metabolism.flavonoids.anthocyanins | 27.3.25_RNA.regulation of transcription.MYB domain transcription factor family	1	-3411.96279627708	483.095764160156	1	1
+NAC32	NAC domain containing protein 32	NAC32	-	1	-3888.48525721458	593.54443359375	1	1
+TGA2,5,6-SCL14	-	TGA2,5,6-SCL14	-	1	2250.03563412394	1099.91356381144	3	1
+RBCL	ribulose-bisphosphate carboxylase	RBCL	1.3.1_PS.calvin cycle.rubisco large subunit | 29.2.1.1.1.1.15_protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S15	1	-1719.67932128906	5484.80848571793	2	1
+RBCS	RuBisCO small subunit 1A	RBCS	1.3.2_PS.calvin cycle.rubisco small subunit | 26.10_misc.cytochrome P450 | 34.3_transport.amino acids	1	-2452.95971679688	5977.04286071793	2	1
+RH	RNAhelicase-like 8 (DEAD/DEAH box helicase)	RH	27.1.2_RNA.processing.RNA helicase | 28.1_DNA.synthesis/chromatin structure | 29.2.3_protein.synthesis.initiation	1	-2796.84228515625	5770.40028259293	2	1
+JAL	jacalin-related lectin 35	JAL	-	1	-902.832992672331	5431.30517578125	7	1
+RTM1-RTM2-RTM3	-	RTM1-RTM2-RTM3	-	1	-739.749313473112	6021.03515625	4	1
+RTM2	MATH/TRAF domain containing protein; restricted Tobacco etch potyvirus (TEV) movement	RTM2	20.2.1_stress.abiotic.heat	1	-540.320373535156	5444.74852001608	5	1
+RTM3	MATH/TRAF domain containing protein; restricted Tobacco etch potyvirus (TEV) movement	RTM3	-	1	-712.011947750456	5128.93017578125	5	1
+SCF-COI1-JA-Ile	-	SCF-COI1-JA-Ile	-	1	-1036.24773252335	252.272711161047	7	1
+SCF-ETP	-	SCF-ETP	-	1	-2000.29584657821	81.8077667854131	5	1
+GRAS2	scarecrow-like 14; GRAS family transcription factor	GRAS2	27.3.21_RNA.regulation of transcription.GRAS transcription factor family | 29.5.4_protein.degradation.aspartate protease | 33.99_development.unspecified	1	1732.96605404581	1346.69897460938	2	1
+SOD	superoxide dismutase	SOD	15.2_metal handling.binding, chelation and storage | 21.6_redox.dismutases and catalases	1	1058.45570762587	2424.39289087963	2	1
+OPR	12-oxophytodienoic acid reductase [EC:1.3.1.42]	OPR	17.7.1.5_hormone metabolism.jasmonate.synthesis-degradation.12-oxophytodienoate reductase 3	1	-738.738098144531	2711.3158683258	3	1
+TRX-H	Thioredoxin superfamily protein	TRX-H	21.1_redox.thioredoxin | 28.1_DNA.synthesis/chromatin structure	1	3955.25317382812	1467.08865735388	4	1
+NPR1-NPR1	-	NPR1-NPR1	-	1	4188.86540078822	1811.00268554688	2	1
+WRKY46	WRKY46	WRKY46	20.1.5_stress.biotic.regulation of transcription | 27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family	1	2554.0947265625	4765.59791130248	2	1
+SAG12	senescence-associated gene 12	SAG12	29.5.3_protein.degradation.cysteine protease | 34.19.1_transport.major intrinsic proteins.PIP	1	453.077066060632	-392.764291402429	1	1
+SEN4	senescence 4 / meristem 5; similar to endo xyloglucan transferase in sequence	SEN4	10.6.2_cell wall.degradation.mannan-xylose-arabinose-fucose | 10.7_cell wall.modification	1	532.251107808679	84.1696380409301	1	1
+12,13-EOT	12,13(S)-epoxylinolenic acid	12,13-EOT	-	1	-1107.27318936776	3220.04727551794	4	1
+ACH	acyl-coenzyme A thioesterase 9 [EC:3.1.2.-]; AraCyc Rct3.1.2.20	ACH	28.1_DNA.synthesis/chromatin structure	1	-710.768348261583	1365.11938476562	2	1
+JA(p)	-	JA(p)	-	1	-1129.00059777999	1175.21411132812	3	1
+AOC	allene oxide cyclase [EC:5.3.99.6]	AOC	17.7.1.4_hormone metabolism.jasmonate.synthesis-degradation.allene oxidase cyclase | 20.2.3_stress.abiotic.drought/salt	1	-766.233111458518	3120.80053710938	2	1
+APX3	ascorbate peroxidase 3	APX3	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.1_misc.misc2 | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family | 28.99_DNA.unspecified	1	815.040886368412	2009.50439453125	1	1
+APX6	ascorbate peroxidase 6	APX6	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.12_misc.peroxidases	1	467.486931290287	1836.74951171875	1	1
+APX5	ascorbate peroxidase 5	APX5	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.1_misc.misc2	1	706.885925292969	2251.23355481481	1	1
+APX4	ascorbate peroxidase 4	APX4	1.2.2_PS.photorespiration.glycolate oxydase | 21.2.1_redox.ascorbate and glutathione.ascorbate	1	314.185265030521	2416.72314453125	1	1
+APX1,2	ascorbate peroxidase 1	APX1,2	21.2.1_redox.ascorbate and glutathione.ascorbate | 26.8_misc.nitrilases, nitrile lyases, berberine bridge enzymes, reticuline oxidases, troponine reductases	1	161.361015762943	2233.4345703125	1	1
+CAM4	calmodulin 4 calcium ion binding / signal transducer	CAM4	1.1.1.2_PS.lightreaction.photosystem II.PSII polypeptide subunits | 30.3_signalling.calcium	1	-2166.37426757812	4018.86137776795	7	1
+CAT1,2,3	catalase	CAT1,2,3	21.6_redox.dismutases and catalases	1	161.673515762943	1938.25341796875	1	1
+CTR	CTR1 kinase	CTR	16.8.3_secondary metabolism.flavonoids.dihydroflavonols | 17.5.1_hormone metabolism.ethylene.synthesis-degradation | 27.3.71_RNA.regulation of transcription.SNF7 | 29.4_protein.postranslational modification	1	-3712.97094726562	3437.34545898438	4	1
+CTS	Arabidopsis thaliana ATP-binding cassette D1.	CTS	34.16_transport.ABC transporters and multidrug resistance systems	1	-1558.73510742188	3040.99028401795	2	1
+Cu2+	copper	Cu2+	-	1	-4974.24951171875	3166.64099610281	2	1
+Cu2+(ER)	-	Cu2+(ER)	-	1	-4743.021484375	3429.40124022532	3	1
+RGA1,2	RGA1,2 (repressor of GA1-3)	RGA1,2	17.6.2_hormone metabolism.gibberelin.signal transduction | 17.6.3_hormone metabolism.gibberelin.induced-regulated-responsive-activated | 27.3.21_RNA.regulation of transcription.GRAS transcription factor family | 30.1.1_signalling.in sugar and nutrient physiology.misc | 33.99_development.unspecified	1	-1625.33769834366	-861.851632711023	7	1
+EBF	EIN3-binding F box protein [EC:-] | KEGG04075	EBF	3.6_minor CHO metabolism.callose | 26.10_misc.cytochrome P450 | 27.3.99_RNA.regulation of transcription.unclassified | 29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX	1	-3489.50869471458	2365.51025390625	6	1
+SCF-EBF	-	SCF-EBF	-	1	-3606.27383143333	1887.16748046875	5	1
+ERF098	Integrase-type DNA-binding superfamily protein	ERF098	17.5.2_hormone metabolism.ethylene.signal transduction | 20.1.5_stress.biotic.regulation of transcription | 27.3.3_RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	1	-4770.19961268333	1310.27185058594	2	1
+ERF13	ethylene responsive element binding factor	ERF13	-	1	-5101.49697596458	1364.20166015625	2	1
+ET	ethylene	ET	-	1	-4229.9189453125	4044.00902350763	5	1
+ETR(a)-ET	-	ETR(a)-ET	-	1	-4609.74791991282	3727.1865234375	2	1
+ETP	EIN2-targeting F-box protein; F-box and associated interaction domains-containing protein	ETP	-	1	-2633.68286132812	-232.531200357049	4	1
+GSNO	GroES-like zinc-binding dehydrogenase family protein	GSNO	5.3_fermentation.ADH | 25_C1-metabolism | 26.11.1_misc.alcohol dehydrogenases.cinnamyl alcohol dehydrogenase	1	4119.32373046875	2083.72183606481	2	1
+HMA	copper-exporting ATPase	HMA	34.12_transport.metal	1	-5088.34921544167	3543.8779296875	2	1
+IsoChor	isochorismate	IsoChor	-	1	3599.29773055766	3759.40600799033	3	1
+JA-CoA	jasmonoyl-CoA	JA-CoA	-	1	-1125.70515055236	1460.31079101562	4	1
+JA-Ile	jasmonoyl-isoleucine: (+)-7-iso-jasmonoyl-L-isoleucine	JA-Ile	-	1	-1454.62012975907	872.825256347656	7	1
+JAM1,2	jasmonate associated MYC2 like	JAM1,2	27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	-4907.57363612083	1923.66748046875	2	1
+JAM3	jasmonate associated MYC2 like	JAM3	17.2.2_hormone metabolism.auxin.signal transduction | 27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	-5107.61806971458	1766.11083984375	2	1
+MOS	importin alpha isoform (IMPA/MOS)	MOS	29.3.1_protein.targeting.nucleus | 31.1_cell.organisation	1	3441.92993164062	2450.98990247106	1	1
+NDB	NAD(P)H dehydrogenase B1	NDB	9.2.1_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).internal matrix | 9.2.2_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).external | 20.2.1_stress.abiotic.heat | 27.3.23_RNA.regulation of transcription.heat-shock transcription factor family (HSF)	1	1094.18206068482	1983.7763671875	1	1
+NDC	NAD(P)H dehydrogenase C1	NDC	9.2.3_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).mitochondrial	1	1901.21025892701	2014.12255859375	1	1
+NDA	alternative NAD(P)H dehydrogenase 1	NDA	9.2.1_mitochondrial electron transport / ATP synthesis.NADH-DH (type II).internal matrix	1	1657.15557142701	1804.353515625	1	1
+NIMIN2	NIM1-interacting	NIMIN2	27.3.99_RNA.regulation of transcription.unclassified	1	3807.91430664062	1901.89310071325	1	1
+NIMIN3	NIM1-interacting	NIMIN3	-	1	3519.771484375	1910.54703137731	1	1
+NIMIN1	NIM1-interacting	NIMIN1	-	1	3613.34130859375	1738.20401379919	1	1
+13-HPOT	13-hydroperoxy-9,11,15-octadecatrienoic acid	13-HPOT	-	1	-1102.16240298032	3485.30747995949	6	1
+GST	glutathione S-transferase	GST	26.9_misc.glutathione S transferases	1	1158.02225110388	2736.1455078125	4	1
+SAHH	adenosylhomocysteinase	SAHH	13.2.3.4_amino acid metabolism.degradation.aspartate family.methionine	1	-3037.7333984375	5063.30653259293	2	1
+ASK	S phase kinase-associated protein	ASK	29.5.11.4.3.1_protein.degradation.ubiquitin.E3.SCF.SKP | 30.2.17_signalling.receptor kinases.DUF 26	1	-2537.24096679688	731.637378744514	8	1
+PR1	pathogenesis-related protein 1	PR1	20.1.7.1_stress.biotic.PR-proteins.PR1 (antifungal)	1	1093.25146484375	1065.99018251571	3	1
+XRN	exoribonuclease	XRN	27.1.19_RNA.processing.ribonucleases | 28.99_DNA.unspecified	1	-3403.58681971458	2630.3974609375	1	1
+JA	jasmonic acid	JA	-	1	-1459.98303222656	1152.15168375549	5	1
+LOX	linoleate 9S-lipoxygenase [EC:1.13.11.58]	LOX	17.7.1.2_hormone metabolism.jasmonate.synthesis-degradation.lipoxygenase	1	-879.307178549201	3651.09062581483	4	1
+PR5	thaumatin-like protein (PR5)	PR5	20.1.7_stress.biotic.PR-proteins	1	1119.73034667969	783.736624124914	2	1
+4CLL	AMP-dependent synthetase and ligase family protein	4CLL	16.2.1.3_secondary metabolism.phenylpropanoids.lignin biosynthesis.4CL	1	-762.88576497191	2426.66552734375	2	1
+OPC8	oxopentenyl-cyclopentane-octanoic acid	OPC8	-	1	-1154.25512695312	2534.7110367859	4	1
+OPC8-CoA	oxopentenyl-cyclopentane-octanoyl-CoA	OPC8-CoA	-	1	-1131.07788085938	2292.36748128358	5	1
+L-Met	L-methionine	L-Met	-	1	-4256.2890625	4978.14120964549	2	1
+SAMe	S-adenosyl-L-methionine	SAMe	-	1	-4238.19873046875	4743.79697136424	4	1
+JAZ1,2,5,6	jasmonate-zim-domain protein	JAZ1,2,5,6	17.7.2_hormone metabolism.jasmonate.signal transduction | 20.1.3_stress.biotic.signalling | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-929.143057230383	-353.838296529382	8	1
+JAZ9,11,12	jasmonate-zim-domain protein	JAZ9,11,12	21.1_redox.thioredoxin | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	1	-456.864614847571	-958.124520894617	8	1
+JAZ10	jasmonate-zim-domain protein	JAZ10	-	1	-725.548452738196	-692.062814351648	8	1
+AAO	aldehyde oxidase	AAO	17.1.1_hormone metabolism.abscisic acid.synthesis-degradation | 23.2_nucleotide metabolism.degradation	1	2845.59362899517	2346.15844726562	3	1
+BA	benzoic acid	BA	-	1	3053.78540039062	2548.67468155171	3	1
+OrthoCA	ortho-coumaric acid	OrthoCA	-	1	2576.39782821392	2613.04418945312	3	1
+TransCA	trans-cinnamic acid	TransCA	-	1	2843.41566326527	2828.9931640625	5	1
+ACC	1-aminocyclopropane-1-carboxylate	ACC	-	1	-4229.9189453125	4372.25400261424	4	1
+ACO	ACC oxidase 1	ACO	17.5.1.2_hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate oxidase | 31.1_cell.organisation	1	-4695.02009876321	4247.52783203125	5	1
+ACX1,5	acyl-CoA oxidase [EC:1.3.3.6]; KEGG K00232	ACX1,5	11.9.4.2_lipid metabolism.lipid degradation.beta-oxidation.acyl CoA DH	1	-1596.1537589508	2186.13232421875	2	1
+OPC6-CoA	OPC6-CoA	OPC6-CoA	-	1	-1137.84899902344	2016.2261238617	5	1
+ACX3,6	acyl-CoA oxidase [EC:1.3.3.6]; KEGG K00232	ACX3,6	11.9.4.2_lipid metabolism.lipid degradation.beta-oxidation.acyl CoA DH	1	-746.129272460938	2122.64912027892	2	1
+ADT	arogenate dehydratase	ADT	13.1.6.3.1_amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase | 29.2.2_protein.synthesis.ribosome biogenesis	1	2534.63452148438	3291.35257794764	2	1
+PheAla	phenylalanine	PheAla	-	1	2840.04732439611	3167.64770507812	4	1
+PhePyr	phenylpyruvate	PhePyr	-	1	2838.7607421875	3459.7386539998	4	1
+Anthocyanin-accumulation	Accumulation of anthocynanins.	Anthocyanin-accumulation	-	1	-987.336897435009	4848.79443359375	4	1
+AOS	hydroperoxide dehydratase [EC:4.2.1.92]	AOS	17.7.1.3_hormone metabolism.jasmonate.synthesis-degradation.allene oxidase synthase	1	-1443.50732421875	3456.64423746642	2	1
+Chor	chorismate	Chor	-	1	3134.83935546875	3922.52648819233	4	1
+Prep	prephenate	Prep	-	1	2829.9423828125	3777.69864856943	4	1
+CLH	chlorophyllase	CLH	-	1	573.639587402344	4680.84798132179	2	1
+CM	chorismate mutase	CM	13.1.6.2.1_amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase	1	2582.02248565625	3964.576171875	2	1
+CYP94	cytochrome P450, family 94, subfamily B, polypeptide 3	CYP94	26.10_misc.cytochrome P450	1	-1925.91247558594	680.105154398352	2	1
+12-OH-JA-Ile	12-hydroxyjasmonic acid 12-O-beta-D-glucoside	12-OH-JA-Ile	-	1	-2019.8515625	978.423147562414	2	1
+MeJA	methyl jasmonic acid: (-)-jasmonic acid methyl ester	MeJA	-	1	-2015.87548828125	1169.9171661171	2	1
+JAR	auxin-responsive GH3 family protein; AraCyc Rct6.3.-.-	JAR	17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated	1	-735.946594238281	1090.59514241639	3	1
+bHLH	bHLH DNA-binding; EGL3 (enhancer of glabra 3)	bHLH	27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	1	396.05594789657	-1187.89081728134	7	1
+MYB	MYB domain TF; MYB0 or GL1 (glabra 1)	MYB	-	1	181.43827211532	-723.421823140711	7	1
+WD40	WD40repeat-like transducin; TTG1 (transparent testa glabra 1). Abiotic heat, putative TF.	WD40	20.2.1_stress.abiotic.heat | 27.3.67_RNA.regulation of transcription.putative transcription regulator | 33.99_development.unspecified	1	755.211251851648	-672.037545796961	7	1
+JMT	jasmonate O-methyltransferase [EC:2.1.1.141]; AraCyc Rct2.1.1.141	JMT	17.7.1.10_hormone metabolism.jasmonate.synthesis-degradation.jasmonate-O-methyltransferase | 17.8.1_hormone metabolism.salicylic acid.synthesis-degradation	1	-1980.9371521408	1445.74633789062	2	1
+KAT	acetyl-CoA acyltransferase 1 [EC:2.3.1.16]; AraCyc Rct2.3.1.16	KAT	11.9.4.5_lipid metabolism.lipid degradation.beta-oxidation.acyl-CoA thioesterase | 13.2.4.1_amino acid metabolism.degradation.branched chain group.shared | 13.2.4.5_amino acid metabolism.degradation.branched chain group.isoleucine	1	-824.317283526598	1658.71982177427	2	1
+OPC4-CoA	OPC4-CoA	OPC4-CoA	-	1	-1154.85852050781	1712.69438558045	4	1
+PUFA:LA	polyunsaturated fatty acids: linoleic acid	PUFA:LA	-	1	-507.6103515625	3655.40755181459	2	1
+MFP	enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]; KEGG K10527	MFP	1.1.1.2_PS.lightreaction.photosystem II.PSII polypeptide subunits | 2.2.1.3.1_major CHO metabolism.degradation.sucrose.invertases.neutral | 11.9.4.9_lipid metabolism.lipid degradation.beta-oxidation.multifunctional | 19.4_tetrapyrrole synthesis.ALA dehydratase	1	-1536.92939371642	1878.50817871094	2	1
+PR13	thionin (PR13)	PR13	-	1	213.063201904297	911.155780070484	2	1
+PR3	basic chitinase	PR3	20.1.7.3_stress.biotic.PR-proteins.PR3/4/8/11 (chitinases and chitin binding proteins)	1	434.738638285071	899.908203125	2	1
+PR4	pathogenesis-related 4	PR4	20.1.7.3_stress.biotic.PR-proteins.PR3/4/8/11 (chitinases and chitin binding proteins)	1	-60.8550399574339	896.167053222656	2	1
+VSP	vegetative storage protein	VSP	-	1	-1470.42810058594	422.849964193732	2	1
+PA	aspartate aminotransferase	PA	13.1.1.2.1_amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase | 13.2.6.2_amino acid metabolism.degradation.aromatic aa.tyrosine	1	2550.59155273438	3629.36316571855	2	1
+PAL	phenylalanine ammonia-lyase	PAL	16.2.1.1_secondary metabolism.phenylpropanoids.lignin biosynthesis.PAL	1	2545.30700790142	2978.35668945312	2	1
+RTE1	In Arabidopsis, it appears to be involved in the negative regulation of the response to ethylene, is localized to the Golgi and is a positive regulator of ETR1.	RTE1	29.5.11_protein.degradation.ubiquitin	1	-3466.86938476562	3422.87051203347	1	1
+OPDA	12-oxophytodienoic acid in the peroxisome	OPDA	-	1	3787.58948806031	3011.87182617188	1	1
+SAG	salicylic acid O-beta-glucoside	SAG	-	1	4636.8271484375	2744.02792461472	2	1
+SGE	salicyloyl glucose ester	SGE	-	1	4259.12328766476	2576.51928375851	2	1
+SAMC	S-adenosylmethionine carrier 1	SAMC	34.9_transport.metabolite transporters at the mitochondrial membrane	1	4098.76156719284	3243.47216796875	2	1
+Trichome-initiation	Initiation of trichome growth.	Trichome-initiation	-	1	-1101.71611409608	4592.08056640625	4	1
+ICS	isochorismate synthase	ICS	34.2_transport.sugars | 34.20_transport.porins	1	3396.05615234375	4278.24255264546	8	1
