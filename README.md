@@ -6,7 +6,7 @@ Follow the steps as indicated in interactive menu.
 
 For the help overlay the mouse over the info button or go to Quick help section.
 
-Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum are provided.
+Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum immune signalling are provided.
 
 
 [![DOI](https://zenodo.org/badge/110679597.svg)](https://zenodo.org/badge/latestdoi/110679597)
