@@ -8,7 +8,9 @@ For the help overlay the mouse over the info button or go to Quick help section.
 
 Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum are provided.
 
- 
+
+[![DOI](https://zenodo.org/badge/110679597.svg)](https://zenodo.org/badge/latestdoi/110679597)
+
 
 # Run DiNAR from GitHub
 
@@ -92,5 +94,3 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
 
-
-[![DOI](https://zenodo.org/badge/110679597.svg)](https://zenodo.org/badge/latestdoi/110679597)
