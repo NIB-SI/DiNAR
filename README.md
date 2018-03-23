@@ -91,3 +91,6 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
+
+
+[![DOI](https://zenodo.org/badge/110679597.svg)](https://zenodo.org/badge/latestdoi/110679597)
