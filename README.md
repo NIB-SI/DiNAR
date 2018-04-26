@@ -10,6 +10,7 @@ Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum immune si
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1230523.svg)](https://doi.org/10.5281/zenodo.1230523)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1206075.svg)](https://doi.org/10.5281/zenodo.1206075)
 
 
 # Run DiNAR from GitHub
