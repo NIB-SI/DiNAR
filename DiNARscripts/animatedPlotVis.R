@@ -292,7 +292,7 @@ plotAnimatedNetworksVisAnimated <- function(nlist, elist, palette, clusterID, t0
                       value = cexx,
                       # size = cexx,
                       # http://stackoverflow.com/questions/39674927/how-have-labels-inside-the-scaled-nodes-in-visnetwork
-                      font.size = cexx, 
+                      font.size = 1.5*cexx, 
                       borderWidth = cexx,
                       # borderWidthSelected = cexx,
                       # scaling.label = FALSE,

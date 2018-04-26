@@ -155,8 +155,10 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   lwd2 = ifelse(elist[[i]][,edgeCol] !=0, lwd2, 0) ####  ####  ####  ####  ####
   ise2 <- elist[[i]][,edgeCol][sel]   # edge strngth/presence
   tst(max(lwd2))   
-    
-  par(oma=c(0,0,0,0),mar=c(2,1,3,2))
+  
+  # bottom, left, top, right  
+  par(oma=c(2,1,1,2))  # outer margins
+  par(mar=c(3,1,2,5))  # margin, lines
 
   selnNonDE <- intersect(selnNonDE1, selnNonDE2)
 
@@ -230,13 +232,14 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   nt <- ntp
   tst(nt)
   
-  yLimits = range(n$y)  ####  ####  ####  ####  ####  ####  ####  ####  ####
-  xLimits = isolate(animatoRNE())$xLimits ####  ####  ####  ####  ####  #### 
+  yLimits = range(n$y) # isolate(animatoRNE())$yLimits # range(n$y)  ####  ####  ####  ####  ####  ####  ####  ####  ####
+  xLimits = range(n$x) # isolate(animatoRNE())$xLimits # range(n$x)  ####  ####  ####  ####  ####  #### 
   
 
-  newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),
-          ylim=yLimits,
-          pty="m", asp=12/16)
+  newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+10),
+          ylim=yLimits + c(-0, 0),
+          pty="m") #, asp=12/16)
+  
 
   title(main,xpd=TRUE)
              
@@ -244,25 +247,50 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
          max(yLimits)-(nc:1)/nc*diff(range(yLimits)), 
          cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
 
-  text(rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], 
+  text(# rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], 
+       rep(max(xLimits) + diff(range(xLimits))*0.05 + 2 + strwidth("//", cex=2.0)*2.5, nc)[seq(1,71,10)], 
        (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)], 
        col = coln[seq(1,nc,10)], 
        cex = 0.75, 
+       xpd=TRUE,
        labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
 
   # time/condition scale
-  axis(1,at=seq(min(n$x),max(n$x),length=nt),labels=0:(nt-1))
-            
+  # axis(1,at=seq(min(n$x),max(n$x),length=nt),labels=0:(nt-1))
+  # axis(1,at=seq(min(xLimits),max(xLimits),length=nt),labels=0:(nt-1))
+  pp=par("usr")
+  axis(1,at=seq(min(xLimits), max(xLimits),length=nt),
+       labels=0:(nt-1), 
+       pos=pp[3])
+  # abline(h=pp[3:4], col=2,xpd=TRUE)
+  # abline(v=pp[1:2], col=2,xpd=TRUE)          
   # time 
-  points(min(n$x)+(day+t)/(nt-1)*diff(range(n$x)),par("usr")[3],pch=16,cex=2)
-  mtext(side=1,line=1,round(day+t,2),adj=(day+t)/(nt-1),col=8)
-  mtext(side=1,line=-1,adj=(-0.0),"time/condition")
-
+  # points(min(n$x)+(day+t)/(nt-1)*diff(range(n$x)),par("usr")[3],pch=16,cex=2)
+  # print(t)
+  # print (pp)
+  
+  # pie(rep(1, 12), col = gray.colors(12))
+  points(min(xLimits)+(day+t)/(nt-1)*diff(range(xLimits)), 
+         pp[3],
+         pch=16,
+         cex=1.5,
+         xpd=TRUE,
+         col=gray.colors(12)[2])
+  text(min(xLimits)+(day+t)/(nt-1)*diff(range(xLimits))+strheight("/", cex = 2)*0.75,
+       pp[3]-strheight("/", cex = 2)*0.75,
+       formatC(round(day+t,2), 2, format = "f"),
+       col=gray.colors(12)[2], 
+       xpd=TRUE)
+  #mtext(side=1,line=1,round(day+t,2),adj=(day+t)/(nt-1),col=8)
+  #mtext(side=1,line=-1, adj=(-0.0),"time/condition")
+  text(min(xLimits), 
+       pp[3]+strheight("/", cex = 2)*0.75,
+       "time/condition",
+       col=gray.colors(12)[2], 
+       xpd=TRUE, 
+       adj=(-0.0))
+  
   # # Background
-  # vertices
-  points(nlist[[i]][,"x"],nlist[[i]][,"y"],
-         col='#E6E6E6',#bkg,
-         cex=1.5)
   # edges
   segments(
     nlist[[i]][elist[[i]]$geneID1,"x"],
@@ -271,6 +299,11 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
     nlist[[i]][elist[[i]]$geneID2,"y"],
     col='#F3F3F3', # bkg,
     lwd=0.5)
+  # # Background
+  # vertices
+  points(nlist[[i]]$x,nlist[[i]]$y,
+         col='#E6E6E6', # bkg, 
+         pch=16, cex=1.5)# cex=0.75) # Background
   # 
               
   ##################################################################
@@ -290,6 +323,7 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   tst(min(lwdx))
   
 
+  # active
   segments(
     # nlist[[i]][elist[[i]]$geneID1[sel],"x"],
     # nlist[[i]][elist[[i]]$geneID1[sel],"y"],
@@ -302,18 +336,12 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
     col=colex[selFIX],
     lwd=lwdx[selFIX])
   
-
-  # Background
-  # inner part
-  points(nlist[[i]]$x,nlist[[i]]$y,
-         col='#E6E6E6', # bkg, 
-         pch=16, cex=0.75) # Background
-
   # active
-  points(nlist[[i]]$x,nlist[[i]]$y, pch=21,
-  bg = colx,
-  col = colx, # circle around node, actice nodes should cover inactive ones
-  cex = cexx)
+  act = setdiff(seq(1, dim(nlist[[i]])[1], 1), selnNonDE)
+  points(nlist[[i]][act,]$x,nlist[[i]][act,]$y, pch=21,
+  bg = colx[act],
+  col = colx[act], # circle around node, actice nodes should cover inactive ones
+  cex = cexx[act])
   
   # THIS TRIGGERS FLICKER
   # txtcx = abs(h(cex1,cex2,t))/(max(abs(h(cex1,cex2,t)), 1)*2)
@@ -328,7 +356,8 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
        offset = 0.0,
        col = 'black')
   ######## ######## ######## ######## ######## ######## ######## ######## ######
+  # dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, # height=18, 
+  #             out.type="pdf")
   
-  # dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, height=16, out.type="pdf")
 
 }

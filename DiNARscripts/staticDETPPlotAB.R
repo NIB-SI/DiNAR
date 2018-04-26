@@ -82,46 +82,49 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     # not xpressed between two points/conditions stay gray
     colx[selnNonDE] = '#E6E6E6' # '#D9D9D9'
     
+    selFIX = which(lwdx != 0)
     temp = lwdx*16+1
     temp[which(temp > length(cole))] = length(cole)
     colex = cole[temp]
     
     minDegreeN = strtoi(trimws(input$mydegree))
+
+    # bottom, left, top, right  
+    par(oma=c(2,1,1,2))  # outer margins
+    par(mar=c(3,1,2,5))  # margin, lines
+
     main <- paste("Cluster:",paste(clusterID, collapse=", "),
                   paste0(" [minDegree: ", minDegreeN, "]"),
                   "\nn:",nrow(n),"e:",nrow(e))
     
-    # yLimits = isolate(animatoRNE())$yLimits
-    yLimits = range(n$y)
-    xLimits = isolate(animatoRNE())$xLimits
+    yLimits = range(n$y) # isolate(animatoRNE())$yLimits # range(n$y)  ####  ####  ####  ####  ####  ####  ####  ####  ####
+    xLimits = range(n$x) # isolate(animatoRNE())$xLimits # range(n$x)  ####  ####  ####  ####  ####  #### 
     
-    newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+8),
-            ylim=yLimits,
-            pty="m", asp=12/16)
+    
+    newplot(xlim=c(range(xLimits)[1], range(xLimits)[2]+10),
+            ylim=yLimits + c(-0, 0),
+            pty="m") #, asp=12/16)
     
     title(main,xpd=TRUE)
     
     nc <- length(coln)
     # palette
-    points(# rep(max(xLimits) + diff(range(xLimits))*0.05, nc),
-           rep(max(xLimits) + diff(range(xLimits))*0.05 + 2, nc),
-           max(yLimits)-(nc:1)/nc*diff(range(yLimits)),
+    points(rep(max(xLimits) + diff(range(xLimits))*0.05 + 2, nc),
+           max(yLimits)-(nc:1)/nc*diff(range(yLimits)), 
            cex=2,pch=22,bg=coln,xpd=TRUE,col=NA)
     
-    text(# rep(max(xLimits) + diff(range(xLimits))*0.05 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)],
-         rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)],
-         (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)],
-         col = coln[seq(1,nc,10)], 
-         cex = 0.75,
-         labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
+    text(# rep(max(xLimits) + diff(range(xLimits))*0.05 + 3 + 1.0*(diff(range(xLimits))*0.05)/2, nc)[seq(1,71,10)], 
+      rep(max(xLimits) + diff(range(xLimits))*0.05 + 2 + strwidth("//", cex=2.0)*2.5, nc)[seq(1,71,10)], 
+      (max(yLimits)-(nc:1)/nc*diff(range(yLimits)))[seq(1,nc,10)], 
+      col = coln[seq(1,nc,10)], 
+      cex = 0.75, 
+      xpd=TRUE,
+      labels = formatC(round(seq(-minmax, minmax, length.out=71)[seq(1,nc,10)],2), 2, format = "f"))
 
+    pp=par("usr")
     
     # # Background
     # pie(x=c(1,1,1), col=c('#D9D9D9', '#E6E6E6', '#F3F3F3'), labels = c('#D9D9D9', '#E6E6E6', '#F3F3F3'))
-    # vertices
-    points(n[,"x"],n[,"y"],
-           col="#E6E6E6", # bkg
-           cex=1.5)
     # edges
     segments(
       #n[e$geneID1,"x"],
@@ -135,6 +138,12 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
       col='#F3F3F3', # bkg,
       lwd=0.5)
     # 
+    # # Background
+    # vertices
+    points(n$x,n$y,
+           col="#E6E6E6", # bkg,
+           pch=16, cex=1.5)# cex=0.75) # Background
+    
     
     ##################################################################
     # # Active
@@ -160,17 +169,13 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     # print(sel)
     
 
-    # Background
-    # inner part
-    points(n$x,n$y,
-           col="#E6E6E6", # bkg,
-           pch=16, cex=0.75) # Background
 
     # active
-    points(n$x,n$y, pch=21,
-           bg = colx,
-           col = "white", # white circle around node, actice nodes should cover inactive ones
-           cex = cexx)
+    act = setdiff(seq(1, dim(n)[1], 1), selnNonDE)
+    points(n[act,]$x,n[act,]$y, pch=21,
+           bg = colx[act],
+           col = colx[act],#"white", # white circle around node, actice nodes should cover inactive ones
+           cex = cexx[act])
     
     # THIS TRIGGERS FLICKER
     # txtcx = abs(h(cex1,cex2,t))/(max(abs(h(cex1,cex2,t)), 1)*2)
@@ -181,10 +186,9 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     text(x = n$x, 
          y = n$y,
          labels = mytext,
-         cex = 3*cexx/(4*max(cexx,1)),
+         cex = 3*cexx/(3*max(cexx,1)),
          offset = 0.0,
          col = 'black')
-    
   }
 }
 

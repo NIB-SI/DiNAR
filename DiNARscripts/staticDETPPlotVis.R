@@ -169,9 +169,9 @@ plot.net <- function(node1, edge1, clusterID, isOK){
                         label = mytext,
                         # size adding value
                         value = cexx,
-                        # size = cexx,
+                        size = cexx,
                         # http://stackoverflow.com/questions/39674927/how-have-labels-inside-the-scaled-nodes-in-visnetwork
-                        font.size = 2*cexx, 
+                        font.size = 1.5*cexx, 
                         borderWidth = cexx,
                         # borderWidthSelected = cexx,
                         # scaling.label = FALSE,
@@ -197,12 +197,12 @@ plot.net <- function(node1, edge1, clusterID, isOK){
     
 
 
-    sidePalette <- data.frame(color = (unique(isolate(mypalette())$palette))[seq(1,nc,2.5)],
-                              label =  formatC(round(seq(-minmax, minmax, 
-                                                         length.out=nc)[seq(1,nc,2.5)],2), 2, format = "f"),
+    sidePalette <- data.frame(color = rev(unique(isolate(mypalette())$palette))[seq(1,nc,2.5)],
+                              label =  rev(formatC(round(seq(-minmax, minmax, 
+                                                         length.out=nc)[seq(1,nc,2.5)],2), 2, format = "f")),
                               shape = 'circle',
                               circle = list(size = c(2)))
-    
+
     
     tmpdf <- data.frame(color = rep("gray32", 5), 
                         label = c("activation", "inhibition", "binding", "unknown", "others"),
