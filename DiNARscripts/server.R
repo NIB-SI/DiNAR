@@ -241,7 +241,7 @@ shinyServer(
     
     # Network selection help
     observe({
-      TIP$a <- paste('Select a background knowledge network: Arabidopsis thaliana Large Knowledge Network (LKN), Solanum Tuberosum LKN or Custom Network.', 
+      TIP$a <- paste('Select a background knowledge network: Arabidopsis thaliana Large Knowledge Network (LKN), Solanum tuberosum Immune Signalling (PIS) or Custom Network.', 
                      'In the case of Custom Network, user also needs to provide nodes and edges tables in proper format (see help page).',
                      sep = '<br>')
     })
