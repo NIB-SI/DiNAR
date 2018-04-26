@@ -9,7 +9,7 @@ For the help overlay the mouse over the info button or go to Quick help section.
 Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum immune signalling are provided.
 
 
-[![DOI](https://zenodo.org/badge/110679597.svg)](https://zenodo.org/badge/latestdoi/110679597)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1230523.svg)](https://doi.org/10.5281/zenodo.1230523)
 
 
 # Run DiNAR from GitHub
