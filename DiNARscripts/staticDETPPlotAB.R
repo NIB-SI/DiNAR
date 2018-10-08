@@ -57,7 +57,7 @@ plot.net2 <- function(node1, edge1, clusterID, isOK){
     max1 = max(abs1, 1)
     abs2 = abs(n[match(e$geneID2, n$geneID),exprCol][sel])
     max2 = max(abs2, 1)
-    max3 = max(ifelse(length(abs1), abs1/max1, 0) + ifelse(length(abs2), abs2/max2, 0))
+    max3 = max(abs1/max1+abs2/max2)
     lwdx <- (abs1/max1 + abs2/max2)/max(max3, 1)
     lwdx[is.na(lwdx)] <- 0
     isex <- e[,edgeCol][sel]   # edge strength/presence
