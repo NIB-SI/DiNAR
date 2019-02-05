@@ -84,7 +84,7 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 # Create gif
 1. in animatedPlotAB.R uncomment few lines below `# To generate .pdf animation` comment
-2. replace `.pdf` with `.png` in `myfilename`
+2. replace `myfilename = paste0("SampleGraph", length(list.files(subDir))+1, '.pdf')` with `myfilename = paste0("SampleGraph", formatC(length(list.files(subDir))+1, width=4, flag="0"), '.png')`
 3. add few lines of code before `newplot` to save all produced images in .png format; e.g.
 ```R
 png(paste0(myfilepath, '/', myfilename), 
