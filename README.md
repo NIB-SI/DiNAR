@@ -84,18 +84,22 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 
 # Create gif
 1. in animatedPlotAB.R add few lines of code to save all produced images in .png format; e.g.
-`png(paste0(myfilepath, '/', myfilename), 
+```R
+png(paste0(myfilepath, '/', myfilename), 
      width = 1500, height = 1200, 
-     units = "px", pointsize = 12)`
+     units = "px", pointsize = 12)
+```
 2. run short python2 script containing the following code (take care of dependencies!):
-`import imageio
+```python
+import imageio
 import os
 with imageio.get_writer('./my.gif', mode='I') as writer:
     for filename in sorted(os.listdir("./images/")): # images == myfilepath == where .png images of interest are
         filename="./images/"+filename
         print(filename)
         image = imageio.imread(filename)
-        writer.append_data(image)`
+        writer.append_data(image)
+```
 
 
 # sub apps
