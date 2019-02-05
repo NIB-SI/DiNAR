@@ -82,6 +82,21 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 3. install animate Package http://tug.ctan.org/macros/latex/contrib/animate/animate.pdf
 4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
 
+# Create gif
+1. in animatedPlotAB.R add few lines of code to save all produced images in .png format; e.g.
+`png(paste0(myfilepath, '/', myfilename), 
+     width = 1500, height = 1200, 
+     units = "px", pointsize = 12)`
+2. run short python2 script containing the following code (take care of dependencies!):
+`import imageio
+import os
+with imageio.get_writer('./my.gif', mode='I') as writer:
+    for filename in sorted(os.listdir("./images/")): # images == myfilepath == where .png images of interest are
+        filename="./images/"+filename
+        print(filename)
+        image = imageio.imread(filename)
+        writer.append_data(image)`
+
 
 # sub apps
 * input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing (&#x1F34F; https://nib-si.shinyapps.io/pre-processing/)
