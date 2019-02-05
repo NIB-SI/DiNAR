@@ -83,13 +83,15 @@ https://github.com/NIB-SI/DiNAR/tree/master/CKNs
 4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
 
 # Create gif
-1. in animatedPlotAB.R add few lines of code to save all produced images in .png format; e.g.
+1. in animatedPlotAB.R uncomment few lines below `# To generate .pdf animation` comment
+2. replace `.pdf` with `.png` in `myfilename`
+3. add few lines of code before `newplot` to save all produced images in .png format; e.g.
 ```R
 png(paste0(myfilepath, '/', myfilename), 
      width = 1500, height = 1200, 
      units = "px", pointsize = 12)
 ```
-2. run short python2 script containing the following code (take care of dependencies!):
+4. run short python2 script containing the following code (take care of dependencies!):
 ```python
 import imageio
 import os
