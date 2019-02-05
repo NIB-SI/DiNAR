@@ -91,7 +91,8 @@ png(paste0(myfilepath, '/', myfilename),
      width = 1500, height = 1200, 
      units = "px", pointsize = 12)
 ```
-4. run short python2 script containing the following code (take care of dependencies!):
+5. `add dev.off()` at the end of the function
+5. run short python2 script containing the following code (take care of dependencies!):
 ```python
 import imageio
 import os
@@ -102,6 +103,7 @@ with imageio.get_writer('./my.gif', mode='I') as writer:
         image = imageio.imread(filename)
         writer.append_data(image)
 ```
+Find more information at: https://rfunction.com/archives/812 and https://imageio.github.io/
 
 
 # sub apps
