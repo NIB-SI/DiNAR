@@ -40,22 +40,36 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r pckg}
 
-source("https://bioconductor.org/biocLite.R")
+# https://stackoverflow.com/questions/41839214/installation-path-not-writable-r-unable-to-update-packages
+# source("https://bioconductor.org/biocLite.R") # With R version 3.5 or greater, install Bioconductor packages using BiocManager; see https://bioconductor.org/install 
+if (!requireNamespace("BiocManager", quietly = TRUE))
+   install.packages("BiocManager")
+.libPaths()
+# Get the list of directories used by R to install libraries and choose the one with write permissions using: .libPaths()
+BiocManager::install(lib = .libPaths()[1])
+# Installation of the library "bioconductor" by forcing the directory with write permissions using: 
+#   BiocManager::install("package", lib = "C:/Users/...")
+
+update.packages(lib = .libPaths()[1])
 
 if (!require("GEOquery")) {
-  biocLite("GEOquery")
+  # biocLite("GEOquery")
+  install("GEOquery")
 }
 library(GEOquery)
 
 if (!require("Biobase")) {
-  biocLite("Biobase")
+  # biocLite("Biobase")
+  install("Biobase")
 }
 library(Biobase)
 
 if (!require("limma")) {
-  biocLite("limma")
+  # biocLite("limma")
+  install("limma")
 }
 library(limma)
+
 # source("http://bioconductor.org/biocLite.R")
 # biocLite("genefilter")
 # library(genefilter)
@@ -125,7 +139,7 @@ NCBI GEO allows supplemental files to be attached to GEO Series (GSE), GEO platf
 
 <font color='blue'>getGSEDataTables(GSE)</font>
 
-In some cases, instead of individual sample records (GSM) containing information regarding sample phenotypes, the GEO Series contains that information in an attached data table.  And example is given by GSE3494 where there are two data tables with important information contained within them.  Using getGEO with the standard parameters downloads the GSEMatrix file which, unfortunately, does not contain the information in the data tables.  This function simply downloads the ìheaderî information from the GSE record and parses out the data tables into R data.frames.
+In some cases, instead of individual sample records (GSM) containing information regarding sample phenotypes, the GEO Series contains that information in an attached data table.  And example is given by GSE3494 where there are two data tables with important information contained within them.  Using getGEO with the standard parameters downloads the GSEMatrix file which, unfortunately, does not contain the information in the data tables.  This function simply downloads the ‚Äúheader‚Äù information from the GSE record and parses out the data tables into R data.frames.
 
 5. <font color='red'>parseGEO</font>
 
@@ -162,7 +176,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4682296/
 | Title |Transcriptional dynamics driving MAMP-triggered immunity and pathogen effector-mediated immunosuppression in Arabidopsis leaves following infection with Pseudomonas syringae pv. tomato DC3000
 | Organism | Arabidopsis thaliana
 | Experiment type | Expression profiling by array
-| Summary | High-resolution temporal transcriptomic analysis of Arabidopsis thaliana leaves during infection by Pseudomonas syringae DC3000 and DC3000hrpA-thaliana. Overall design 	RNA was extracted from Arabidopsis leaves after mock-inoculation, infection with P. syringae DC3000 and infection with P. syringae DC3000hrpA-. 13 time points (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 14, 16, 17.5 hours post inoculation) were sampled from each treatment and four biological replicates (a single leaf) were harvested at each time point for each treatment. This led to 156 biological samples (13 time points x 3 treatments x 4 biological replicates). Four technical replicates of each biological sample were generated (624). The microarrays were two-channel CATMA arrays and hence two samples are hybridized to each array resulting in 312 arrays used in the experiment. A ìloop designî was developed to enable efficient extraction of information about sample comparisons. Half the arrays were used to directly compare samples at different time points within the same treatment, and half directly compared the same time point and adjacent time points between treatments. This design maximizes the power of data comparisons over time and between treatments.
+| Summary | High-resolution temporal transcriptomic analysis of Arabidopsis thaliana leaves during infection by Pseudomonas syringae DC3000 and DC3000hrpA-thaliana. Overall design 	RNA was extracted from Arabidopsis leaves after mock-inoculation, infection with P. syringae DC3000 and infection with P. syringae DC3000hrpA-. 13 time points (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 14, 16, 17.5 hours post inoculation) were sampled from each treatment and four biological replicates (a single leaf) were harvested at each time point for each treatment. This led to 156 biological samples (13 time points x 3 treatments x 4 biological replicates). Four technical replicates of each biological sample were generated (624). The microarrays were two-channel CATMA arrays and hence two samples are hybridized to each array resulting in 312 arrays used in the experiment. A ‚Äúloop design‚Äù was developed to enable efficient extraction of information about sample comparisons. Half the arrays were used to directly compare samples at different time points within the same treatment, and half directly compared the same time point and adjacent time points between treatments. This design maximizes the power of data comparisons over time and between treatments.
 | Contributor(s) | Lewis LA, Polanski K, de Torres-Zabala M, Jayaraman S, Bowden L, Moore JD, Penfold CA, Jenkins DJ, Hill C, Baxter L, Kulasekaran S, Truman W, Littlejohn G, Pruskinska J, Mead A, Steinbrenner J, Hickman R, Rand D, Wild DL, Ott S, Buchanan-Wollaston V, Smirnoff N, Beynon J, Denby K, Grant M
 | Citation(s)  | Lewis LA, Polanski K, de Torres-Zabala M, Jayaraman S et al. Transcriptional Dynamics Driving MAMP-Triggered Immunity and Pathogen Effector-Mediated Immunosuppression in Arabidopsis Leaves Following Infection with Pseudomonas syringae pv tomato DC3000. Plant Cell 2015 Nov;27(11):3038-64. PMID: 26566919
 
