@@ -324,7 +324,7 @@ shinyUI(
                             condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1)",
                             # http://shiny.rstudio.com/articles/tag-glossary.html
                             tags$b('Uploaded'),
-                            dataTableOutput('listOfFiles'),
+                            DT::dataTableOutput('listOfFiles'),
                             tags$b('Order for dynamic visualisation'),
                             tableOutput("listOfFilesToUse")
                             ),
@@ -355,7 +355,7 @@ shinyUI(
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1)", 
                                          busyIndicator(wait = 3000),
-                                         dataTableOutput('nodesClusters')
+                                         DT::dataTableOutput('nodesClusters')
                                         ),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN==-1)", 
@@ -410,7 +410,7 @@ shinyUI(
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
                                          busyIndicator(wait = 3000),
-                                         dataTableOutput('myText2'),style = 'width:100%;'
+                                         DT::dataTableOutput('myText2'),style = 'width:100%;'
                                        ),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN==-1) | (output.fileUploaded==0) | (input.createPalette==0)",
@@ -422,7 +422,7 @@ shinyUI(
                                 conditionalPanel(
                                   condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
                                   busyIndicator(wait = 3000),
-                                  dataTableOutput('myText1'),style = 'width:100%;'
+                                  DT::dataTableOutput('myText1'),style = 'width:100%;'
                                 ),
                                 conditionalPanel(
                                   condition = "(output.selectedLKN==-1) | (output.fileUploaded==0) | (input.createPalette==0)",
@@ -441,8 +441,8 @@ shinyUI(
                                        # d3CloudOutput('mywordcloud1', height = "500px")),
                                        conditionalPanel(
                                          condition = "(output.selectedLKN!=-1) & (output.fileUploaded==1) & (input.createPalette!=0)",
-                                         dataTableOutput('mywordcloud2MapManTable')),
-                                       #dataTableOutput('mywordcloud2MapManTable')
+                                         DT::dataTableOutput('mywordcloud2MapManTable')),
+                                       #DT::dataTableOutput('mywordcloud2MapManTable')
                                        conditionalPanel(
                                          condition = "(output.selectedLKN==-1) | (output.fileUploaded==0) | (input.createPalette==0)",
                                          htmlOutput("errorTXT6")
