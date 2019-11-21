@@ -641,7 +641,7 @@ shinyServer(
       return(myFiles[[length(myFiles)]])
     })
     
-    output$listOfFiles <- renderDataTable({
+    output$listOfFiles <- DT::renderDataTable({
       # no network
       if (input$lkn == '') {
         return(NULL)
@@ -1193,7 +1193,7 @@ shinyServer(
       
     })
     
-    output$nodesClusters <- renderDataTable({
+    output$nodesClusters <- DT::renderDataTable({
       
       input$lkn
       
@@ -1401,7 +1401,7 @@ shinyServer(
     )
     
     
-    output$mywordcloud2MapManTable <- renderDataTable({
+    output$mywordcloud2MapManTable <- DT::renderDataTable({
       
       if (is.null(changeFileList())) return(NULL)
 
@@ -2069,7 +2069,7 @@ shinyServer(
     
     
     # Edges table per cluster nad/or geneID
-    output$myText1 <- renderDataTable({
+    output$myText1 <- DT::renderDataTable({
       
       if (is.null(changeFileList())) return(NULL)
       
@@ -2138,7 +2138,7 @@ shinyServer(
     })
     
     # Nodes table per cluster nad/or geneID
-    output$myText2 <- renderDataTable({
+    output$myText2 <- DT::renderDataTable({
       
       if (is.null(changeFileList())) return(NULL)
       
