@@ -9,6 +9,16 @@ For the help overlay the mouse over the info button or go to Quick help section.
 Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum immune signalling are provided.
 
 
+
+📋🖋 Zagorščak, M., Blejec, A., Ramšak, Ž. et al. DiNAR: revealing hidden patterns of plant signalling dynamics using Differential Network Analysis in R. Plant Methods 14, 78 (2018). https://doi.org/10.1186/s13007-018-0345-0
+
+🔍 https://omictools.com/dinar-tool
+
+🔦 http://isbe.si/2018/09/04/dinar-article-published-in-plant-methods/
+
+🔦 https://www.facebook.com/NIBSlovenia/videos/318025485411839/
+
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1230523.svg)](https://doi.org/10.5281/zenodo.1230523)
 
 
