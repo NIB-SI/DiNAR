@@ -1,6 +1,7 @@
 ## git clone a subdirectory
 
 `git clone --depth 1 https://github.com/NIB-SI/DiNAR.git .`
+
 `git filter-branch --prune-empty --subdirectory-filter ./IDprioritization HEAD`
 
 ## Run RMarkdown script via the command line
