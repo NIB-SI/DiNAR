@@ -9,7 +9,7 @@ Run RMarkdown script (e.g. myScript.Rmd) with arguments via the command line
 ## tree
 * input
    * pis_ngs-genes :: ID translation table -- PIS node IDs to experimental IDs
-   * NGS_DE
+   * NGS_DE :: folder containg explicitly comparison files with .txt extension
       * comparison 1 :: file containing experimental IDs, differential expression values and adjusted p-values
       * comparison 2 :: file containing experimental IDs, differential expression values and adjusted p-values
       * ...
@@ -17,4 +17,5 @@ Run RMarkdown script (e.g. myScript.Rmd) with arguments via the command line
 * scripts
    * pval.cutoff = 0.01 :: cut-off threshold for adjusted p-values, adjust variable value as prefered
    * logFC.starts.from.col = 3 :: column number containing logFC values, adjust variable value according to the NGS_DE files
+   * organism.NGS = list.files("../input/NGS_DE/", pattern = ".txt") :: adjust pattern if comparison files extension differes from .txt
 * output
