@@ -1,4 +1,4 @@
-## Run RMarkdown script (e.g. myScript.Rmd) via the command line
+## Run RMarkdown script via the command line
 
 `Rscript -e "rmarkdown::render('myScript.Rmd')"`
 
@@ -15,4 +15,6 @@ Run RMarkdown script (e.g. myScript.Rmd) with arguments via the command line
       * ...
       * comparison n :: file containing experimental IDs, differential expression values and adjusted p-values
 * scripts
+   * pval.cutoff = 0.01 :: cut-off threshold for adjusted p-values, adjust variable value as prefered
+   * logFC.starts.from.col = 3 :: column number containing logFC values, adjust variable value according to the NGS_DE files
 * output
