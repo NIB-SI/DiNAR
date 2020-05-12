@@ -1,3 +1,7 @@
+## git clone a subdirectory
+
+`git archive --remote=<repo_url> <branch> <path> | tar xvf -`
+
 ## Run RMarkdown script via the command line
 
 `Rscript -e "rmarkdown::render('myScript.Rmd')"`
