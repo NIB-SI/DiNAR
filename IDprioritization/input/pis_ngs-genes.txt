@@ -1,0 +1,5 @@
+CAT1,2,3	A
+CAT1,2,3	B
+PR3	C
+PR3	D
+PR3	E
