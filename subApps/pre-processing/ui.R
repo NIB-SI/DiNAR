@@ -50,7 +50,7 @@ library(shiny)
               tabPanel("Nodes",
                        conditionalPanel(
                          condition = "(input.go1!=0)", 
-                          dataTableOutput('nodesNEW')),
+                         DT::dataTableOutput('nodesNEW')),
                        conditionalPanel(
                          condition = "(input.go1!=0)", 
                           downloadButton("downloadNodesT", "Download")
@@ -59,7 +59,7 @@ library(shiny)
               tabPanel("Edges",
                        conditionalPanel(
                          condition = "(input.go1!=0)", 
-                          dataTableOutput('edgesNEW')),
+                         DT::dataTableOutput('edgesNEW')),
                        conditionalPanel(
                          condition = "(input.go1!=0)", 
                          downloadButton("downloadEdgesT", "Download")
@@ -96,7 +96,7 @@ library(shiny)
                  tabPanel("Nodes",
                           conditionalPanel(
                             condition = "(input.go2!=0)",
-                            dataTableOutput('nodesNEW2')),
+                            DT::dataTableOutput('nodesNEW2')),
                           conditionalPanel(
                             condition = "(input.go2!=0)",
                             downloadButton("downloadNodesG", "Download")
@@ -105,7 +105,7 @@ library(shiny)
                  tabPanel("Edges",
                           conditionalPanel(
                             condition = "(input.go2!=0)",
-                            dataTableOutput('edgesNEW2')),
+                            DT::dataTableOutput('edgesNEW2')),
                           conditionalPanel(
                             condition = "(input.go2!=0)",
                             downloadButton("downloadEdgesG", "Download")
@@ -144,7 +144,7 @@ library(shiny)
                  tabPanel("Nodes",
                           conditionalPanel(
                             condition = "(input.go3!=0)",
-                            dataTableOutput('nodesNEW3')),
+                            DT::dataTableOutput('nodesNEW3')),
                           conditionalPanel(
                             condition = "(input.go3!=0)",
                             downloadButton("downloadNodesX", "Download")
@@ -153,7 +153,7 @@ library(shiny)
                  tabPanel("Edges",
                           conditionalPanel(
                             condition = "(input.go3!=0)",
-                            dataTableOutput('edgesNEW3')),
+                            DT::dataTableOutput('edgesNEW3')),
                           conditionalPanel(
                             condition = "(input.go3!=0)",
                             downloadButton("downloadEdgesX", "Download")
