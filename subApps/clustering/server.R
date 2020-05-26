@@ -1613,7 +1613,7 @@ function(input, output, session) {
     
   })
   
-  output$edgesNEW2 <- renderDataTable({
+  output$edgesNEW2 <- DT::renderDataTable({
     return(edgesNEW2())
   })
   
@@ -1629,7 +1629,7 @@ function(input, output, session) {
     
   })
   
-  output$nodesNEW2 <- renderDataTable({
+  output$nodesNEW2 <- DT::renderDataTable({
     return(nodesNEW2())
   })
   
