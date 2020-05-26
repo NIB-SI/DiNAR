@@ -13,6 +13,10 @@ if (!require("igraph")) install.packages("igraph")
 library(igraph)
 
 
+# By default, Shiny limits file uploads to 5MB per file. 
+# 100 MB limit
+options(shiny.maxRequestSize=100*1024^2) # 1024*1024*100
+
 set.seed(123456)
 '%ni%' = Negate('%in%') 
 
@@ -336,7 +340,7 @@ function(input, output, session) {
   })
 
 
-  output$nodesNEW <- renderDataTable({
+  output$nodesNEW <- DT::renderDataTable({
     
     if (is.null(getCoordNEr())) return(NULL)
 
@@ -370,7 +374,7 @@ function(input, output, session) {
   )
 
 
-  output$edgesNEW <- renderDataTable({
+  output$edgesNEW <- DT::renderDataTable({
     
     if (is.null(getCoordNEr())) return(NULL)
     
@@ -608,7 +612,7 @@ function(input, output, session) {
     
   })
   
-  output$edgesNEW2 <- renderDataTable({
+  output$edgesNEW2 <- DT::renderDataTable({
     return(edgesNEW2())
   })
   
@@ -649,7 +653,7 @@ function(input, output, session) {
     
   })
   
-  output$nodesNEW2 <- renderDataTable({
+  output$nodesNEW2 <- DT::renderDataTable({
     return(nodesNEW2())
   })
   
@@ -866,7 +870,7 @@ function(input, output, session) {
     
   })
   
-  output$nodesNEW3 <- renderDataTable({
+  output$nodesNEW3 <- DT::renderDataTable({
     return(nodesNEW3())
   })
   
@@ -921,7 +925,7 @@ function(input, output, session) {
     
   })
   
-  output$edgesNEW3 <- renderDataTable({
+  output$edgesNEW3 <- DT::renderDataTable({
     return(edgesNEW3())
   })
   
