@@ -2,12 +2,12 @@
 
 library(shiny)
 
-if (!require("knitr")) install.packages("knitr")
-library(knitr)
-if (!require("markdown")) install.packages("markdown")
-library(markdown)
-if (!require("rmarkdown")) install.packages("rmarkdown")
-library(rmarkdown)
+# if (!require("knitr")) install.packages("knitr")
+# library(knitr)
+# if (!require("markdown")) install.packages("markdown")
+# library(markdown)
+# if (!require("rmarkdown")) install.packages("rmarkdown")
+# library(rmarkdown)
 
 if (!require("igraph")) install.packages("igraph")
 library(igraph)
@@ -20,8 +20,6 @@ options(shiny.maxRequestSize=100*1024^2) # 1024*1024*100
 set.seed(123456)
 '%ni%' = Negate('%in%') 
 
-
-# source("interactiveBCKGPlot.R", local=TRUE)
 
 
 # getCoordNEr <- list()
