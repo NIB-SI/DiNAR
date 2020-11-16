@@ -1,15 +1,31 @@
 
 
+
+if (!require("shiny")) install.packages("shiny")
 library(shiny)
+# 
+# if (!require("waiter")) install.packages("waiter")
+# library(waiter)
+
+# see https://github.com/dreamRs/shinybusy
+if (!require("shinybusy")) install.packages("shinybusy")
+library(shinybusy)
+
 
 # fluidPage(
   navbarPage("DiNARsubApp",
+
              
     tabPanel("Intro", 
              htmlOutput("text0")
     ),
              
     tabPanel("Input Files",
+             
+             
+    # add_busy_gif(src = "https://jeroen.github.io/images/banana.gif", height = 70, width = 70), # dancing banana :)
+    # add_busy_bar(color = "#0000FF"),
+    add_busy_spinner(spin = "fading-circle"),
     
       titlePanel("Uploading Files"),
         sidebarLayout(
@@ -86,13 +102,13 @@ library(shiny)
                                               br(),
                                               conditionalPanel(
                                                 condition = "(output.goButton!=0)",
-                                                # busyIndicator(text = "Loading, please wait...", wait = 400), 
+                                                # busyIndicator(text = "Loading, please wait...", wait = 400),
                                                 DT::dataTableOutput('y441')), # %>% withSpinner(color="#A9F5F2", proxy.height = "50px"),
                                               br(),
                                               br(),
                                               conditionalPanel(
                                                 condition = "(output.goButton!=0)",
-                                                # busyIndicator(text = "Loading, please wait...", wait = 400), 
+                                                # busyIndicator(text = "Loading, please wait...", wait = 400),
                                                 DT::dataTableOutput('y442')), # %>% withSpinner(color="#A9F5F2", proxy.height = "50px"),
                                               br()
                                      ),
@@ -135,7 +151,7 @@ library(shiny)
                           value = "3",
                           conditionalPanel(
                             condition = "(output.goButton2!=0 & output.geneIDfrom!=NULL & output.geneIDto!=NULL)",
-                            # busyIndicator(text = "Loading, please wait...", wait = 400), 
+                            # busyIndicator(text = "Loading, please wait...", wait = 400),
 
                           wellPanel(
                            fluidRow(

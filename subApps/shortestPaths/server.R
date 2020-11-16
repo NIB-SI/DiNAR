@@ -1,13 +1,23 @@
+if (!require("knitr")) install.packages("knitr")
+library(knitr)
+if (!require("markdown")) install.packages("markdown")
+library(markdown)
+if (!require("rmarkdown")) install.packages("rmarkdown")
+library(rmarkdown)
 
 
+if (!require("shiny")) install.packages("shiny")
 library(shiny)
 
-# if (!require("knitr")) install.packages("knitr")
-# library(knitr)
-# if (!require("markdown")) install.packages("markdown")
-# library(markdown)
-# if (!require("rmarkdown")) install.packages("rmarkdown")
-# library(rmarkdown)
+
+if (!require("dplyr")) install.packages("dplyr")
+library(dplyr)
+
+# library(loggit)
+
+# getwd()
+# set_logfile(paste0(getwd(),"/loggit.log")) # loggit enforces no specific file extension
+
 
 if (!require("igraph")) install.packages("igraph")
 library(igraph)
@@ -617,6 +627,7 @@ output$graphPlot <- renderPlot({
     as(calculateCentrality(),"matrix")
     )
   
-
+  
+  
 }
 
