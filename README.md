@@ -121,6 +121,7 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 # sub apps
 * input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing (&#x1F34F; https://nib-si.shinyapps.io/pre-processing/)
 * network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering (&#x1F34F; https://nib-si.shinyapps.io/clustering/)
+* <b>cshortestPaths</b>: :grapes: https://github.com/NIB-SI/DiNAR/tree/master/subApps/shortestPaths
 
 
 # Ath GSE56094 experimental data analysis
