@@ -61,7 +61,7 @@ library(shiny)
             verbatimTextOutput("value1"),
             tags$hr(),
             actionButton("goButton", "Generate!"),
-            p("Click the button to generate the intersection table and check results in the output tab panel"),
+            p("Click the button to generate results and check them in the output tab panel"),
             tags$hr()
           ),
           mainPanel(      
@@ -105,7 +105,7 @@ library(shiny)
                                                                  width = "800px")),
                                                     conditionalPanel(
                                                       condition = "(output.goButton!=0)",
-                                                      downloadButton("downloadGraphmlT", "Download")
+                                                      downloadButton("downloadGraphmlT", "Download .graphml")
                                                     )
                                            ),
                                      
@@ -140,7 +140,8 @@ library(shiny)
                           wellPanel(
                            fluidRow(
                              column(12, wellPanel(
-                               plotOutput("graphPlot")
+                               plotOutput("graphPlot",
+                                          height = "600px" )
                              ))
                            ),
                            fluidRow(
@@ -150,9 +151,7 @@ library(shiny)
                              column(4, wellPanel(
                                checkboxInput(inputId = "showNodeName", label = "Show Short Name",  value = TRUE),
                                checkboxInput(inputId = "showEdgeName", label = "Show Edge Type",  value = FALSE),
-                               sliderInput(inputId = "vertexSize", label = "Vertex Size",  value = 15, min=1, max=100)
-                             )),
-                             column(4, wellPanel(
+                               sliderInput(inputId = "vertexSize", label = "Vertex Size",  value = 15, min=1, max=100),
                                downloadButton('downloadPlot', 'Download Plot in pdf')
                              ))
                            )

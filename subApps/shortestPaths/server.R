@@ -26,7 +26,7 @@ set.seed(123456)
 
 # getCoordNEr <- list()
 getCoordNEr2 <- list()
-
+myoutput <- list()
 
 
 # nodes1 <- reactiveValues()
@@ -36,6 +36,8 @@ getCoordNEr2 <- list()
 myLKNname1 <- reactiveValues()
 myfrom <- reactiveValues()
 myto <- reactiveValues()
+ntext <- reactiveValues()
+ntext2 <- reactiveValues()
 
 # nodesNEW2 <- reactiveValues()
 # edgesNEW2 <- reactiveValues()
