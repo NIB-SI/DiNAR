@@ -1,4 +1,3 @@
-clade	geneID
 4CLL	Sotub08g022010
 4CLL	Sotub03g023910
 4CLL	Sotub12g027780
