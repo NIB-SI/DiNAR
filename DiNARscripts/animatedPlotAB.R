@@ -359,5 +359,7 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, # height=18, 
   #             out.type="pdf")
   
+  ## save.image("test.RData") ## debug
+  
 
 }
