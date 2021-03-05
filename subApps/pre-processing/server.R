@@ -709,7 +709,7 @@ function(input, output, session) {
     myXgmml = readLines(inFileX$datapath)
     
     ind1 = grep('<node', myXgmml)
-    ind2 = grep('\\by=', myXgmml)
+    ind2 = grep('graphics h=', myXgmml)
     myIDs = myXgmml[ind1]
     myXY = myXgmml[ind2]
     
