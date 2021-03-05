@@ -258,7 +258,7 @@ function(input, output, session) {
 
       l1 = layout_on_grid(g, dim = 2)
       
-      if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^11)) {
+      if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^14)) {
         l2 = layout_with_kk(g, coords = l1, dim = 2,
                             maxiter = 999 * vcount(g),
                             epsilon = 0, kkconst = vcount(g),
@@ -275,7 +275,7 @@ function(input, output, session) {
       V(g)$clusterID <- rep(1, vcount(g))
       V(g)$x <- as.numeric(l2[,1])
       V(g)$y <- as.numeric(l2[,2])
-      mydeg = degree(g, loops = FALSE, normalized = FALSE,  mode = "all")
+      mydeg = igraph::degree(g, loops = FALSE, normalized = FALSE,  mode = "all")
       V(g)$clusterSimplifiedNodeDegree <- mydeg
 
       E(g)$clusterID_geneID1 = V(g)$clusterID[match(E(g)$geneID1,  V(g)$geneID)]
@@ -284,12 +284,12 @@ function(input, output, session) {
       E(g)$clusterSimplifiedNodeDegree_geneID2 = V(g)$clusterSimplifiedNodeDegree[match(E(g)$geneID2,  V(g)$geneID)]
 
 
-      v = list.vertex.attributes(g)
-      e = list.edge.attributes(g)
+      v = vertex_attr_names(g) # 2021-02-24
+      e = edge_attr_names(g)
 
       df1 = matrix(NA, vcount(g), length(v))
       for (i in 1:length(v)) {
-        df1[,i] = get.vertex.attribute(g,v[i])
+        df1[,i] = vertex_attr(g,v[i])
       }
       df1 = as.data.frame(df1, stringsAsFactors = FALSE)
       colnames(df1) = v
@@ -306,7 +306,7 @@ function(input, output, session) {
 
       df2 = matrix(NA, ecount(g), length(e))
       for (i in 1:length(e)) {
-        df2[,i] = get.edge.attribute(g,e[i])
+        df2[,i] = edge_attr(g,e[i])
       }
       df2 = as.data.frame(df2, stringsAsFactors = FALSE)
       colnames(df2) = e
@@ -424,7 +424,7 @@ function(input, output, session) {
       })
     }
     
-    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^11)) {
+    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^14)) {
       plot(0, type = "n",
            axes = FALSE,
            xlim = extendrange(V(g)$x),
@@ -491,7 +491,7 @@ function(input, output, session) {
     
     l1 = layout_on_grid(gg, dim = 2)
     
-    if ((vcount(gg) <= 2^11) & (ecount(gg) >= 2^2) & (ecount(gg) <= 2^11)) {
+    if ((vcount(gg) <= 2^11) & (ecount(gg) >= 2^2) & (ecount(gg) <= 2^14)) {
       l2 = layout_with_kk(gg, coords = l1, dim = 2,
                           maxiter = 999 * vcount(gg),
                           epsilon = 0, kkconst = vcount(gg),
@@ -506,7 +506,7 @@ function(input, output, session) {
     V(gg)$clusterID <- rep(1, vcount(gg))
     V(gg)$x <- as.numeric(l2[,1])
     V(gg)$y <- as.numeric(l2[,2])
-    mydeg = degree(gg, loops = FALSE, normalized = FALSE,  mode = "all")
+    mydeg = igraph::degree(gg, loops = FALSE, normalized = FALSE,  mode = "all")
     V(gg)$clusterSimplifiedNodeDegree <- mydeg
     V(gg)$expressed = rep(1, vcount(gg))
     
@@ -549,7 +549,7 @@ function(input, output, session) {
       })
     }
     
-    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^11)) {
+    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^14)) {
       plot(0, type = "n",
            axes = FALSE,
            xlim = extendrange(V(g)$x),
@@ -583,11 +583,11 @@ function(input, output, session) {
 
     gg = isolate(graphml1())
     
-    e = list.edge.attributes(gg)
+    e = edge_attr_names(gg)
     
     df2 = matrix(NA, ecount(gg), length(e))
     for (i in 1:length(e)) {
-      df2[,i] = get.edge.attribute(gg,e[i])
+      df2[,i] = edge_attr(gg,e[i])
     }
     
     df2 = as.data.frame(df2, stringsAsFactors = FALSE)
@@ -623,11 +623,11 @@ function(input, output, session) {
     
     gg = isolate(graphml1())
     
-    v = list.vertex.attributes(gg)
+    v = vertex_attr_names(gg)
     
     df1 = matrix(NA, vcount(gg), length(v))
     for (i in 1:length(v)) {
-      df1[,i] = get.vertex.attribute(gg,v[i])
+      df1[,i] = vertex_attr(gg,v[i])
     }
     df1 = as.data.frame(df1, stringsAsFactors = FALSE)
     colnames(df1) = v
@@ -761,7 +761,7 @@ function(input, output, session) {
     V(gg)$clusterID <- rep(1, vcount(gg))
     V(gg)$x <- as.numeric(l2[,1])
     V(gg)$y <- as.numeric(l2[,2])
-    mydeg = degree(gg, loops = FALSE, normalized = FALSE,  mode = "all")
+    mydeg = igraph::degree(gg, loops = FALSE, normalized = FALSE,  mode = "all")
     V(gg)$clusterSimplifiedNodeDegree <- mydeg
     V(gg)$expressed = rep(1, vcount(gg))
     
@@ -805,7 +805,7 @@ function(input, output, session) {
       })
     }
     
-    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^11)) {
+    if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^14)) {
       plot(0, type = "n",
            axes = FALSE,
            xlim = extendrange(V(g)$x),
@@ -840,11 +840,11 @@ function(input, output, session) {
     
     gg = isolate(xgmml1())
     
-    v = list.vertex.attributes(gg)
+    v = vertex_attr_names(gg)
     
     df1 = matrix(NA, vcount(gg), length(v))
     for (i in 1:length(v)) {
-      df1[,i] = get.vertex.attribute(gg,v[i])
+      df1[,i] = vertex_attr(gg,v[i])
     }
     df1 = as.data.frame(df1, stringsAsFactors = FALSE)
     colnames(df1) = v
@@ -896,11 +896,11 @@ function(input, output, session) {
     
     gg = isolate(xgmml1())
     
-    e = list.edge.attributes(gg)
+    e = edge_attr_names(gg)
     
     df2 = matrix(NA, ecount(gg), length(e))
     for (i in 1:length(e)) {
-      df2[,i] = get.edge.attribute(gg,e[i])
+      df2[,i] = edge_attr(gg,e[i])
     }
     
     df2 = as.data.frame(df2, stringsAsFactors = FALSE)
