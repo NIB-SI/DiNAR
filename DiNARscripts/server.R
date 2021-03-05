@@ -504,6 +504,7 @@ shinyServer(
                              sep = "\t", col.names = title.line,
                              quote="", comment.char="")
       return(tmpNodes)
+      
     })
     
     edgesNew <- reactive({
@@ -519,6 +520,7 @@ shinyServer(
                              sep = "\t", col.names = title.line,
                              quote="", comment.char="")
       return(tmpEdges)
+     
     })
     
     # fetch nodes table accordint to the selected network
@@ -638,6 +640,9 @@ shinyServer(
       myFiles <<- myFiles0
 
       names(myFiles) <<-  unlist(myFileNames)
+      
+      #### save(myFiles, file = 'myFiles.RData') debug
+      
       return(myFiles[[length(myFiles)]])
     })
     
@@ -1470,7 +1475,7 @@ shinyServer(
       e <- isolate(animatoRNE())$e
       ncluID = unique(n$clusterID)
       
-        if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1)){
+        if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1)){
           whatToPlot(node1 = n, edge1 = e, cluID = ncluID, mytimepoint = mytimepoint, isOK = 1)
         } else {
           whatToPlot(node1 = n, edge1 = e, cluID = ncluID, mytimepoint = mytimepoint, isOK = 0)
@@ -1498,7 +1503,7 @@ shinyServer(
       content = function(con) {
         n <- isolate(animatoRNE())$n
         e <- isolate(animatoRNE())$e
-        if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1)){
+        if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1)){
           myVisStat = whatToPlot(node1 = n, edge1 = e, cluID = unique(n$clusterID), mytimepoint = strtoi(trimws(input$timepoint)), isOK = 1)
         } else {
           myVisStat = whatToPlot(node1 = n, edge1 = e, cluID = unique(n$clusterID), mytimepoint = strtoi(trimws(input$timepoint)), isOK = 0)
@@ -1507,7 +1512,7 @@ shinyServer(
         myVisStat$width = 1850
         myVisStat$height = 850
         myVisStat %>%
-          visOptions(highlightNearest = TRUE) %>% 
+          # visOptions(highlightNearest = TRUE) %>% 
           visExport() %>% 
           visSave(con)
       }
@@ -1517,6 +1522,8 @@ shinyServer(
     myNDTVout <- reactive({
       
       if (is.null(changeFileList())) return(NULL)
+      
+      
       cutDeg = strtoi(trimws(input$mydegree))
       trimws(input$nameType)
       strtoi(trimws(input$icluID))
@@ -1550,7 +1557,8 @@ shinyServer(
       
       mymodplus = as.numeric(input$varSpeed)
       mysteps = seq(0, length(myFiles), as.numeric(input$varSpeed))
-
+      
+      
       tic=proc.time()[3]
         return(
         capture.output(type = "message", split = FALSE,{
@@ -1626,13 +1634,13 @@ shinyServer(
       subsetE = e[(e$geneID1 %in% subsetNid) & (e$geneID2 %in% subsetNid),]
       
       if(dim(subsetN)[1] != 0){
-        if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1)){
+        if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1)){
           whatToPlot2(node1 = subsetN, edge1 = subsetE, cluID = ncluID, mytimepoint = mytimepoint, isOK = 1)
         } else {
           whatToPlot2(node1 = n, edge1 = e, cluID = ncluID, mytimepoint = mytimepoint, isOK = 0)
         }
       } else {
-      if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1)){
+      if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1)){
         whatToPlot2(node1 = n, edge1 = e, cluID = ncluID, mytimepoint = mytimepoint, isOK = 1)
       } else {
         whatToPlot2(node1 = n, edge1 = e, cluID = ncluID, mytimepoint = mytimepoint, isOK = 0)
@@ -1844,7 +1852,7 @@ shinyServer(
       
 
       
-      if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1) ){
+      if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1) ){
         mytmplist = ABanimatoRfunctionVIS(n = n, e = e, clusterID = unique(n$clusterID), isOK = 1)
       } else {
         mytmplist = ABanimatoRfunctionVIS(n = n, e = e, clusterID = unique(n$clusterID), isOK = 0)
@@ -1977,7 +1985,7 @@ shinyServer(
       
 
       
-      if ((dim(e)[1] <= 2^14) & (sum(e$geneID1 != e$geneID2) >= 1)){
+      if ((dim(e)[1] <= 2^20) & (sum(e$geneID1 != e$geneID2) >= 1)){
         ABanimatoRfunctionAB(n = n, e = e, clusterID = unique(n$clusterID), isOK = 1)
       } else {
         ABanimatoRfunctionAB(n = n, e = e, clusterID = unique(n$clusterID), isOK = 0)
@@ -2036,7 +2044,7 @@ shinyServer(
       
       
 
-      if ((dim(e)[1] > 2^14) | (sum(e$geneID1 != e$geneID2) < 1)){
+      if ((dim(e)[1] > 2^20) | (sum(e$geneID1 != e$geneID2) < 1)){
         myplotlys(n = n, e = e, clusterID = unique(n$clusterID), isOK = 0)
       } else {
         myplotlys(n = n, e = e, clusterID = unique(n$clusterID), isOK = 1)
@@ -2093,6 +2101,8 @@ shinyServer(
         if (is.null(getEdges())) return(NULL)
         xx = getEdges()
       })
+      
+      
       
       if ((nname > 0) & (iname !='geneX') & (iname !='')) {
         tmp = yy[grep(paste("^",iname,"$", sep=""), yy$geneID),]
@@ -2154,6 +2164,9 @@ shinyServer(
 
       n <- isolate(animatoRNE())$n
       e <- isolate(animatoRNE())$e
+      
+      print(n)
+      print(e)
 
       tmp = n
       if (input$lkn != "Custom network") {
@@ -2169,6 +2182,7 @@ shinyServer(
       
       showCols = sapply(colNames, function(x) grep(paste("^",x,"$", sep=""), toupper(colnames(tmp))))
       yy = tmp[,showCols]
+      
 
       if (input$lkn != "Custom network") {
         colnames(yy) = c('geneID',           # 1
@@ -2490,7 +2504,7 @@ shinyServer(
       }
     )
     
-  # save.image("test.RData")  
+  # save.image("test.RData")  #### debug
 
   }) 
 
