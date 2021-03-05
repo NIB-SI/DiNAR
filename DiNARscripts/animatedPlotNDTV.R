@@ -8,6 +8,7 @@ myd3movie <- function(n, e, cutDeg, mymodplus,
   # sink(con, append=TRUE)
   # sink(con, append=TRUE, type="message")
   
+
   loopInd = which(e[,1]==e[,2])
   if (length(loopInd) > 0) {
     e = e[-loopInd,]
@@ -29,7 +30,9 @@ myd3movie <- function(n, e, cutDeg, mymodplus,
       paste(sapply(x, function(y) e[y,]$reactionType), collapse = '/')
     })
     
-    e[unlist(fixme),]$reactionType = unlist(tmpr)
+    # 2021-02-24 ## e[unlist(fixme),]$reactionType = unlist(tmpr)
+    map = setNames(fixme, tmpr)
+    e[unlist(fixme),]$reactionType = names(unlist(map))
   }
   
   dupl <- duplicated(e[,1:2])
@@ -272,9 +275,9 @@ myd3movie <- function(n, e, cutDeg, mymodplus,
       allInd = seq(1,length(cex2),1) # node order
       #### #### #### size in discrete time point/condition ### #### #### ###
       # day x
-      nodeCex1 = (abs(cex1))/max(abs(cex1), 1)
+      nodeCex1 = (abs(cex1))/max(abs(cex1), 1)/5
       # day x + 1
-      nodeCex2 = (abs(cex2))/max(abs(cex2), 1)
+      nodeCex2 = (abs(cex2))/max(abs(cex2), 1)/5
       ######## ######## ######## in tanim2 ######## ########  ########  ####
       # vertice cex in time t
       nodeCex = h(nodeCex1, nodeCex2, t)
@@ -426,7 +429,7 @@ myd3movie <- function(n, e, cutDeg, mymodplus,
     # has.loops(net)
     
     # Pre-compute animation coordinates
-    mycoord = as.matrix(cbind(myx,myy))
+    mycoord = as.matrix(cbind(myx,myy))*10
     colnames(mycoord) = c("x", "y")
     
     compute.animation(net.dyn, 
