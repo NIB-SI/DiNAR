@@ -268,7 +268,7 @@ shinyUI(
         br(),
         tags$hr(),
         useShinyjs(),
-        extendShinyjs(text = jscode),
+        extendShinyjs(text = jscode, functions = c("winprint")),
         box(width = NULL, 
             title = uiOutput("RefBut"),
             # http://fontawesome.io/icons/
