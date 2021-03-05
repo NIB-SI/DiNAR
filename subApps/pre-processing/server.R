@@ -136,9 +136,9 @@ function(input, output, session) {
   
   nodes1 <- reactive({
     
-
+    
     inFile <- input$file1
-
+    
     if (is.null(inFile))
       return(NULL)
     
@@ -187,7 +187,7 @@ function(input, output, session) {
   
   getCoordNEr <- reactive({
     
-
+    
     if (is.null(nodes1()))
       return(NULL)
     if (is.null(edges1()))
@@ -197,13 +197,13 @@ function(input, output, session) {
     edges <- isolate(edges1())
     
     # source('coordFromTables.R', local = TRUE)
-
-
+    
+    
     getCoordNE <- function(nodes, edges){
       nodes = nodes
       edges = edges
-
-
+      
+      
       edges$exists = rep(1, nrow(edges))
       
       if (length(edges$geneID1) & length(edges$geneID2)) {
@@ -214,7 +214,7 @@ function(input, output, session) {
         edges$geneID2 = edges$to
       }
       
-
+      
       nodes$expressed = rep(1, nrow(nodes))
       
       if (length(nodes$geneID)) {
@@ -224,7 +224,7 @@ function(input, output, session) {
       } else if (length(nodes$nodeID)) {
         nodes$geneID =  nodes$nodeID
       }
-
+      
       
       edges$to = toupper(edges$to)
       edges$from = toupper(edges$from)
@@ -253,9 +253,9 @@ function(input, output, session) {
       
       
       g <- graph.data.frame(edges, vertices = nodes, directed = TRUE)
-
+      
       # print("l2START")
-
+      
       l1 = layout_on_grid(g, dim = 2)
       
       if ((vcount(g) <= 2^11) & (ecount(g) >= 2^2) & (ecount(g) <= 2^14)) {
@@ -271,47 +271,47 @@ function(input, output, session) {
       l2 = l2*2*z
       
       # print("l2DONE")
-
+      
       V(g)$clusterID <- rep(1, vcount(g))
       V(g)$x <- as.numeric(l2[,1])
       V(g)$y <- as.numeric(l2[,2])
       mydeg = igraph::degree(g, loops = FALSE, normalized = FALSE,  mode = "all")
       V(g)$clusterSimplifiedNodeDegree <- mydeg
-
+      
       E(g)$clusterID_geneID1 = V(g)$clusterID[match(E(g)$geneID1,  V(g)$geneID)]
       E(g)$clusterID_geneID2 = V(g)$clusterID[match(E(g)$geneID2,  V(g)$geneID)]
       E(g)$clusterSimplifiedNodeDegree_geneID1 = V(g)$clusterSimplifiedNodeDegree[match(E(g)$geneID1,  V(g)$geneID)]
       E(g)$clusterSimplifiedNodeDegree_geneID2 = V(g)$clusterSimplifiedNodeDegree[match(E(g)$geneID2,  V(g)$geneID)]
-
-
+      
+      
       v = vertex_attr_names(g) # 2021-02-24
       e = edge_attr_names(g)
-
+      
       df1 = matrix(NA, vcount(g), length(v))
       for (i in 1:length(v)) {
         df1[,i] = vertex_attr(g,v[i])
       }
       df1 = as.data.frame(df1, stringsAsFactors = FALSE)
       colnames(df1) = v
-
-
+      
+      
       colNames = toupper(c("geneID", "shortDescription", "shortName", "MapManBin",
                            "clusterID", "x", "y", "clusterSimplifiedNodeDegree", "expressed"))
-
+      
       importantColsE = unlist(sapply(colNames,
                                      function(x) grep(paste("^",x,"$", sep = ""),
                                                       toupper((v)))))
-
+      
       df1 = df1[,importantColsE]
-
+      
       df2 = matrix(NA, ecount(g), length(e))
       for (i in 1:length(e)) {
         df2[,i] = edge_attr(g,e[i])
       }
       df2 = as.data.frame(df2, stringsAsFactors = FALSE)
       colnames(df2) = e
-
-
+      
+      
       colNames = toupper(c("geneID1", "geneID2", "reactionType",
                            "clusterID_geneID1", "clusterID_geneID2",
                            "clusterSimplifiedNodeDegree_geneID1", "clusterSimplifiedNodeDegree_geneID2",
@@ -323,27 +323,27 @@ function(input, output, session) {
       df2 = df2[,importantColsE]
       
       return(list(df1, df2, g))
-
+      
     }
-      
-     
-      
+    
+    
+    
     mylist = getCoordNE(nodes, edges)
     
     # print(length(mylist))
     return(mylist)
-      
-
+    
+    
     
     
     
   })
-
-
+  
+  
   output$nodesNEW <- DT::renderDataTable({
     
     if (is.null(getCoordNEr())) return(NULL)
-
+    
     # nodes <- isolate(nodes1())
     # edges <- isolate(edges1())
     # 
@@ -352,28 +352,28 @@ function(input, output, session) {
     # if (is.null(edges))
     #   return(NULL)
     
-
+    
     nodes2 = isolate(getCoordNEr())[[1]]
     return(nodes2)
-
+    
   })
   
-
+  
   output$downloadNodesT <- downloadHandler(
     
-
+    
     filename = function() {
       paste(myLKNname1(), ".txt", sep = "")
     },
     content = function(file) {
       write.table(isolate(getCoordNEr())[[1]], file, 
-                row.names = FALSE,
-                append = FALSE, quote = FALSE, sep = "\t",
-                eol = "\n", na = "NA", dec = ".")
+                  row.names = FALSE,
+                  append = FALSE, quote = FALSE, sep = "\t",
+                  eol = "\n", na = "NA", dec = ".")
     }
   )
-
-
+  
+  
   output$edgesNEW <- DT::renderDataTable({
     
     if (is.null(getCoordNEr())) return(NULL)
@@ -385,10 +385,10 @@ function(input, output, session) {
     #   return(NULL)
     # if (is.null(edges))
     #   return(NULL)
-
+    
     edges2 = isolate(getCoordNEr())[[2]]
     return(edges2)
-
+    
   })
   
   output$downloadEdgesT <- downloadHandler(
@@ -412,7 +412,7 @@ function(input, output, session) {
     
     g = isolate(getCoordNEr())[[3]]
     
-
+    
     autocurve.edges <- function(graph, start=0.5) {
       el <- apply(get.edgelist(graph, names = FALSE), 1, paste, collapse = ":")
       ave(rep(NA, length(el)), el, FUN = function(x) {
@@ -431,7 +431,7 @@ function(input, output, session) {
            ylim = extendrange(V(g)$y),
            xlab = '',
            ylab = '')
-  
+      
       plot(g, layout = cbind(V(g)$x, V(g)$y),
            edge.label = '',
            vertex.label = V(g)$shortName,
@@ -464,7 +464,7 @@ function(input, output, session) {
                   format = "graphml")
     }
   )
-
+  
   # observeEvent(input$do, {
   #   # source("01_createGraphML.R")
   #   # render("02_multilevel_and_spinglass_clustering.Rmd", "all")
@@ -473,7 +473,7 @@ function(input, output, session) {
   #   cat("\n\n", "DONE!","\n\n", "You may close the app and check the results.")
   # })
   # 
-
+  
   graphml1 <- reactive({
     
     
@@ -482,9 +482,9 @@ function(input, output, session) {
     if (is.null(inFile))
       return(NULL)
     
-
+    
     gg = read.graph(file = inFile$datapath, 
-                   format = "graphml")
+                    format = "graphml")
     
     # summary(gg)
     
@@ -515,7 +515,7 @@ function(input, output, session) {
     E(gg)$clusterSimplifiedNodeDegree_geneID1 = V(gg)$clusterSimplifiedNodeDegree[match(E(gg)$geneID1,  V(gg)$geneID)]
     E(gg)$clusterSimplifiedNodeDegree_geneID2 = V(gg)$clusterSimplifiedNodeDegree[match(E(gg)$geneID2,  V(gg)$geneID)]
     E(gg)$exists = rep(1, ecount(gg))
-
+    
     return(gg)
     
   })
@@ -580,7 +580,7 @@ function(input, output, session) {
     
     if (is.null(graphml1())) return(NULL)
     
-
+    
     gg = isolate(graphml1())
     
     e = edge_attr_names(gg)
@@ -592,7 +592,7 @@ function(input, output, session) {
     
     df2 = as.data.frame(df2, stringsAsFactors = FALSE)
     colnames(df2) = e
-
+    
     colNames = toupper(c("geneID1", 
                          "geneID2", 
                          "reactionType", 
@@ -608,7 +608,7 @@ function(input, output, session) {
     df2 = df2[,importantColsE]
     
     return(df2)
-
+    
     
   })
   
@@ -631,7 +631,7 @@ function(input, output, session) {
     }
     df1 = as.data.frame(df1, stringsAsFactors = FALSE)
     colnames(df1) = v
-
+    
     colNames = toupper(c("geneID", 
                          "shortDescription", 
                          "shortName", 
@@ -687,7 +687,7 @@ function(input, output, session) {
     }
   )
   
-
+  
   
   xgmml1 <- reactive({
     
@@ -703,7 +703,7 @@ function(input, output, session) {
       return(NULL)
     
     
-    gg = read.graph(file = inFile$datapath, 
+    gg = igraph::read.graph(file = inFile$datapath, 
                     format = "graphml")
     
     myXgmml = readLines(inFileX$datapath)
@@ -714,49 +714,50 @@ function(input, output, session) {
     myXY = myXgmml[ind2]
     
     myIDs = unlist(sapply(1:length(myIDs), 
-                           function(i) {
-                             if (grep('label', myIDs[i])) {
-                               myIDs[i] = gsub("[^A-Za-z0-9(/):,.+_-]", " ", myIDs[i])
-                               str = strsplit(myIDs[i], 'label')
-                               myIDs[i] = gsub(' ', '', str[[1]][2])
-                               strsplit(myIDs[i], "label=")  
-                             }
-                           }
+                          function(i) {
+                            if (grep('label', myIDs[i])) {
+                              myIDs[i] = gsub("[^A-Za-z0-9(/):,.+_-]", " ", myIDs[i])
+                              str = strsplit(myIDs[i], 'label')
+                              myIDs[i] = gsub(' ', '', str[[1]][2])
+                              strsplit(myIDs[i], "label=")  
+                            }
+                          }
     )
     )
     
     myX = unlist(sapply(1:length(myXY), 
-                         function(i) {
-                           if (grep('x=', myXY[i])) {
-                             str = strsplit(myXY[i], ' ')[[1]]
-                             strx = str[grep('x=', str)]
-                             myXY[i] = gsub("[^x0-9.=-]", " ", strx)
-                             str = strsplit(myXY[i], 'x=')
-                             myXY[i] = gsub(' ', '', str[[1]][2])
-                           }
-                         }
+                        function(i) {
+                          if (grep('x=', myXY[i])) {
+                            str = strsplit(myXY[i], ' ')[[1]]
+                            strx = str[grep('x=', str)]
+                            myXY[i] = gsub("[^x0-9.=-]", " ", strx)
+                            str = strsplit(myXY[i], 'x=')
+                            myXY[i] = gsub(' ', '', str[[1]][2])
+                          }
+                        }
     )
     )
     
     myXY = myXgmml[ind2]
     myY = unlist(sapply(1:length(myXY), 
-                         function(i) {
-                           if (grep('y=', myXY[i])) {
-                             str = strsplit(myXY[i], ' ')[[1]]
-                             stry = str[grep('y=', str)]
-                             myXY[i] = gsub("[^y0-9.=-]", " ", stry)
-                             str = strsplit(myXY[i], 'y=')
-                             myXY[i] = gsub(' ', '', str[[1]][2])
-                           }
-                         }
+                        function(i) {
+                          if (grep('y=', myXY[i])) {
+                            str = strsplit(myXY[i], ' ')[[1]]
+                            stry = str[grep('y=', str)]
+                            myXY[i] = gsub("[^y0-9.=-]", " ", stry)
+                            str = strsplit(myXY[i], 'y=')
+                            myXY[i] = gsub(' ', '', str[[1]][2])
+                          }
+                        }
     )
     )
     
+    if (! 'geneID' %in% igraph::vertex_attr_names(gg)) V(gg)$geneID = V(gg)$name
     ind = match(gsub(' ', '', V(gg)$geneID), myIDs)
     l2 = (cbind(as.numeric(myX[ind]), (-1)*as.numeric(myY[ind])))
     
-
-
+    
+    
     
     V(gg)$clusterID <- rep(1, vcount(gg))
     V(gg)$x <- as.numeric(l2[,1])
@@ -774,7 +775,7 @@ function(input, output, session) {
     return(gg)
     
   })
-
+  
   
   myLKNname3 <- reactive({
     if (is.null(input$caption3))
@@ -944,6 +945,6 @@ function(input, output, session) {
     }
   )
   
-
+  
 }
 
