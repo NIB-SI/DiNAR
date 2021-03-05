@@ -3,9 +3,9 @@ howPatient <- function() {
   # optional changes in:
   
   # maximal number of edges in cluster
-  eThreshold = 2^11
+  eThreshold = 2^13
   # maximal number of nodes in cluster
-  nThreshold = 2^10
+  nThreshold = 2^13
   
   
   tmplist = list(eThreshold, nThreshold)
