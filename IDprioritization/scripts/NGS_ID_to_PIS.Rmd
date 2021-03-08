@@ -79,12 +79,14 @@ logFC.starts.from.col = 3
 
 ```{r}
 
+lapply(organism.NGS.files, class)
+
 clades = sort(unique(organism.NGS.files$clade))
 tmp = NULL
 
 for (i in clades) {
   ind = which(organism.NGS.files$clade == i)
-  if (length(ind > 1)) { # (length(ind > 1)) for found, not length(ind) > 1 for multiple (1 or more, doesnt matter here)
+  if (length(ind) > 1) { # (length(ind > 1)) for found, not length(ind) > 1 for multiple (1 or more, doesnt matter here)
     mysubset = organism.NGS.files[ind, ]
     e = sapply(1:nrow(mysubset), function(x) sum(!is.na(mysubset[x, logFC.starts.from.col:ncol(mysubset)])))
     f1 = sapply(1:nrow(mysubset), 
@@ -103,7 +105,7 @@ for (i in clades) {
     
     tmp = rbind(tmp, mysubset[k,])
   } else { # no match
-    tmp = rbind(tmp, mysubset[ind,]) # take first
+    tmp = rbind(tmp, organism.NGS.files[ind,]) # take first
   }
 }
 nrow(tmp) == length(clades)
