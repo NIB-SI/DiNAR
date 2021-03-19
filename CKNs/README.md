@@ -8,7 +8,7 @@ More information about orthologous grouping at: http://www.gomapman.org/export/c
 
 
 
-Spud DB files - PGSC DMG/DMT/DMV/DMP
+Spud DB files - PGSC v3.4 DMG/DMT/DMC/DMP translation
 
 - [PGSC_DM_v3.4_g2t2c2p2func.txt.zip](http://solanaceae.plantbiology.msu.edu/data/PGSC_DM_v3.4_g2t2c2p2func.txt.zip)
 
