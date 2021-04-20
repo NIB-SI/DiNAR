@@ -12,7 +12,9 @@ Large knowledge networks of Arabidopsis thaliana and Solanum tuberosum immune si
 
 📋🖋 Zagorščak, M., Blejec, A., Ramšak, Ž. et al. DiNAR: revealing hidden patterns of plant signalling dynamics using Differential Network Analysis in R. Plant Methods 14, 78 (2018). https://doi.org/10.1186/s13007-018-0345-0
 
-🔍 https://omictools.com/dinar-tool
+🔍 https://omictools.com/dinar-tool (obsolete)
+
+🔍 https://bio.tools/dinar
 
 🔦 http://isbe.si/2018/09/04/dinar-article-published-in-plant-methods/
 
