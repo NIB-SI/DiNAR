@@ -1,0 +1,1 @@
+Foix, L., Nadal, A., Zagorščak, M. et al. Prunus persica plant endogenous peptides PpPep1 and PpPep2 cause PTI-like transcriptome reprogramming in peach and enhance resistance to Xanthomonas arboricola pv. pruni. BMC Genomics 22, 360 (2021). https://doi.org/10.1186/s12864-021-07571-9
