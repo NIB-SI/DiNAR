@@ -18,3 +18,5 @@ Spud DB files - PGSC v3.4 DMG/DMT/DMC/DMP translation
 pan-transcriptome
 - Petek, M., Zagorščak, M., Ramšak, Ž. et al. Cultivar-specific transcriptome and pan-transcriptome reconstruction of tetraploid potato. Sci Data 7, 249 (2020). https://doi.org/10.1038/s41597-020-00581-4
 - https://fairdomhub.org/projects/161
+
+Test
