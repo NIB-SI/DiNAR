@@ -709,7 +709,7 @@ function(input, output, session) {
     myXgmml = readLines(inFileX$datapath)
     
     ind1 = grep('<node', myXgmml)
-    ind2 = grep('graphics h=', myXgmml)
+    ind2 = grep('<graphics [[:alpha:]]+=', myXgmml)
     myIDs = myXgmml[ind1]
     myXY = myXgmml[ind2]
     
@@ -727,7 +727,7 @@ function(input, output, session) {
     
     myX = unlist(sapply(1:length(myXY), 
                         function(i) {
-                          if (grep('x=', myXY[i])) {
+                          if (grepl('x=', myXY[i])) {
                             str = strsplit(myXY[i], ' ')[[1]]
                             strx = str[grep('x=', str)]
                             myXY[i] = gsub("[^x0-9.=-]", " ", strx)
@@ -741,7 +741,7 @@ function(input, output, session) {
     myXY = myXgmml[ind2]
     myY = unlist(sapply(1:length(myXY), 
                         function(i) {
-                          if (grep('y=', myXY[i])) {
+                          if (grepl('y=', myXY[i])) {
                             str = strsplit(myXY[i], ' ')[[1]]
                             stry = str[grep('y=', str)]
                             myXY[i] = gsub("[^y0-9.=-]", " ", stry)
