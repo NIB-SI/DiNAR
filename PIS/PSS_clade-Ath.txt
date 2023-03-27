@@ -47,22 +47,22 @@ AT2G35690	ACX	acyl-CoA oxidase	Hormone - Jasmonate (JA)	PlantCoding	acyl-CoA oxi
 AT4G16760	ACX	acyl-CoA oxidase	Hormone - Jasmonate (JA)	PlantCoding	acyl-CoA oxidase 1
 AT5G65110	ACX	acyl-CoA oxidase	Hormone - Jasmonate (JA)	PlantCoding	acyl-CoA oxidase 2
 -	Ade	Adenine	Hormone - Cytokinins (CK)	Metabolite	-
-AT3G09820	ADK	"adenosine kinase 1,2"	Hormone - Cytokinins (CK)	PlantCoding	-
-AT5G03300	ADK	"adenosine kinase 1,2"	Hormone - Cytokinins (CK)	PlantCoding	adenosine kinase 2
+AT3G09820	ADK	adenosine kinase 1,2	Hormone - Cytokinins (CK)	PlantCoding	-
+AT5G03300	ADK	adenosine kinase 1,2	Hormone - Cytokinins (CK)	PlantCoding	adenosine kinase 2
 -	Ado	Adenosine	Hormone - Cytokinins (CK)	Metabolite	-
 -	ADP	adenosine 5&prime;-diphosphate	Hormone - Cytokinins (CK)	Metabolite	-
-AT1G08250	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 6
-AT1G11790	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 1
-AT2G27820	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT3G07630	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 2
-AT3G44720	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT5G22630	ADT	"arogenate dehydratase 1,2,3,4,5,6"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT1G48410	AGO1	"argonaute, stabilizer of iron transporter SufD / Polynucleotidyl transferase"	Regulation - Silencing	PlantCoding	Stabilizer of iron transporter SufD / Polynucleotidyl transferase
--	"AGO1,5,7,10|CI"		Regulation - Silencing	Complex	-
--	"AGO1,5,7,10|HC-Pro"		Regulation - Silencing	Complex	-
-AT1G27320	"AHK2,3,4"	"histidine kinase 2,3,4"	Hormone - Cytokinins (CK)	PlantCoding	histidine kinase 3
-AT2G01830	"AHK2,3,4"	"histidine kinase 2,3,4"	Hormone - Cytokinins (CK)	PlantCoding	CHASE domain containing histidine kinase protein
-AT5G35750	"AHK2,3,4"	"histidine kinase 2,3,4"	Hormone - Cytokinins (CK)	PlantCoding	-
+AT1G08250	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 6
+AT1G11790	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 1
+AT2G27820	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G07630	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	arogenate dehydratase 2
+AT3G44720	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT5G22630	ADT	arogenate dehydratase 1,2,3,4,5,6	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT1G48410	AGO1	argonaute, stabilizer of iron transporter SufD / Polynucleotidyl transferase	Regulation - Silencing	PlantCoding	Stabilizer of iron transporter SufD / Polynucleotidyl transferase
+-	AGO1,5,7,10|CI		Regulation - Silencing	Complex	-
+-	AGO1,5,7,10|HC-Pro		Regulation - Silencing	Complex	-
+AT1G27320	AHK2,3,4	histidine kinase 2,3,4	Hormone - Cytokinins (CK)	PlantCoding	histidine kinase 3
+AT2G01830	AHK2,3,4	histidine kinase 2,3,4	Hormone - Cytokinins (CK)	PlantCoding	CHASE domain containing histidine kinase protein
+AT5G35750	AHK2,3,4	histidine kinase 2,3,4	Hormone - Cytokinins (CK)	PlantCoding	-
 AT1G03430	AHP	histidine-containing phosphotransfer protein	Hormone - Cytokinins (CK)	PlantCoding	-
 AT1G80100	AHP	histidine-containing phosphotransfer protein	Hormone - Cytokinins (CK)	PlantCoding	-
 AT3G16360	AHP	histidine-containing phosphotransfer protein	Hormone - Cytokinins (CK)	PlantCoding	HPT phosphotransmitter 4
@@ -78,23 +78,23 @@ AT1G08980	AMI1	amidase 1	Hormone - Auxins (AUX)	PlantCoding	amidase 1
 -	AMP	adenosine 5&prime;-monophosphate	Hormone - Cytokinins (CK)	Metabolite	-
 -	Antheraxanthin	Antheraxanthin	Hormone - Abscisic acid (ABA)	Metabolite	-
 -	Anthocyanin-accumulation	Accumulation of anthocynanins.	Secondary metabolism - Anthocyanins	Process	-
-AT1G13280	AOC	"allene oxide cyclase 1,2,3,4"	Hormone - Jasmonate (JA)	PlantCoding	allene oxide cyclase 4
-AT3G25760	AOC	"allene oxide cyclase 1,2,3,4"	Hormone - Jasmonate (JA)	PlantCoding	-
-AT3G25770	AOC	"allene oxide cyclase 1,2,3,4"	Hormone - Jasmonate (JA)	PlantCoding	-
-AT3G25780	AOC	"allene oxide cyclase 1,2,3,4"	Hormone - Jasmonate (JA)	PlantCoding	-
+AT1G13280	AOC	allene oxide cyclase 1,2,3,4	Hormone - Jasmonate (JA)	PlantCoding	allene oxide cyclase 4
+AT3G25760	AOC	allene oxide cyclase 1,2,3,4	Hormone - Jasmonate (JA)	PlantCoding	-
+AT3G25770	AOC	allene oxide cyclase 1,2,3,4	Hormone - Jasmonate (JA)	PlantCoding	-
+AT3G25780	AOC	allene oxide cyclase 1,2,3,4	Hormone - Jasmonate (JA)	PlantCoding	-
 AT5G42650	AOS	hydroperoxide dehydratase	Hormone - Jasmonate (JA)	PlantCoding	allene oxide synthase
 -	AOX		Primary metabolism - Respiration	PlantCoding	-
-AT1G27450	APT	"adenosine phosphoribosyltransferase 1,2,3,4,5"	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 1
-AT1G80050	APT	"adenosine phosphoribosyltransferase 1,2,3,4,5"	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 2
-AT4G12440	APT	"adenosine phosphoribosyltransferase 1,2,3,4,5"	Hormone - Cytokinins (CK)	PlantCoding	-
-AT4G22570	APT	"adenosine phosphoribosyltransferase 1,2,3,4,5"	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 3
-AT5G11160	APT	"adenosine phosphoribosyltransferase 1,2,3,4,5"	Hormone - Cytokinins (CK)	PlantCoding	-
-AT1G07890	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 1
-AT3G09640	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	-
-AT4G09010	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 4
-AT4G32320	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 6
-AT4G35000	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 3
-AT4G35970	APX	"ascorbate peroxidase 1,2,3,4,5,6"	Signalling - Reactive oxygen species (ROS)	PlantCoding	-
+AT1G27450	APT	adenosine phosphoribosyltransferase 1,2,3,4,5	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 1
+AT1G80050	APT	adenosine phosphoribosyltransferase 1,2,3,4,5	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 2
+AT4G12440	APT	adenosine phosphoribosyltransferase 1,2,3,4,5	Hormone - Cytokinins (CK)	PlantCoding	-
+AT4G22570	APT	adenosine phosphoribosyltransferase 1,2,3,4,5	Hormone - Cytokinins (CK)	PlantCoding	adenine phosphoribosyl transferase 3
+AT5G11160	APT	adenosine phosphoribosyltransferase 1,2,3,4,5	Hormone - Cytokinins (CK)	PlantCoding	-
+AT1G07890	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 1
+AT3G09640	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	-
+AT4G09010	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 4
+AT4G32320	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 6
+AT4G35000	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	ascorbate peroxidase 3
+AT4G35970	APX	ascorbate peroxidase 1,2,3,4,5,6	Signalling - Reactive oxygen species (ROS)	PlantCoding	-
 AT1G19850	ARF	auxin response transcription factor	Hormone - Auxins (AUX)	PlantCoding	Transcriptional factor B3 family protein / auxin-responsive factor AUX/IAA-like protein
 AT2G33860	ARF	auxin response transcription factor	Hormone - Auxins (AUX)	PlantCoding	-
 AT5G60450	ARF	auxin response transcription factor	Hormone - Auxins (AUX)	PlantCoding	-
@@ -191,11 +191,11 @@ AT5G67480	BT4	BTB and TAZ domain protein 4	Regulation - Transcription & Translat
 AT1G08320	bZIP21	bZIP transcription factor family protein	Hormone - Salicylic acid (SA)	PlantCoding	bZIP transcription factor family protein
 AT1G65880	BZO1	benzoyloxyglucosinolate 1		PlantCoding	benzoyloxyglucosinolate 1
 AT1G19350	BZR2	Brassinosteroid signaling positive regulator (BZR1) family protein	Hormone - Brassinosteroids (BS)	PlantCoding	-
-AT1G02400	C19-GA2ox	"gibberellin 2-oxidase 1,2,3,4,6"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT1G30040	C19-GA2ox	"gibberellin 2-oxidase 1,2,3,4,6"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT1G47990	C19-GA2ox	"gibberellin 2-oxidase 1,2,3,4,6"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT1G78440	C19-GA2ox	"gibberellin 2-oxidase 1,2,3,4,6"	Hormone - Gibberellin (GA)	PlantCoding	gibberellin 2-beta-dioxygenase
-AT2G34555	C19-GA2ox	"gibberellin 2-oxidase 1,2,3,4,6"	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G02400	C19-GA2ox	gibberellin 2-oxidase 1,2,3,4,6	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G30040	C19-GA2ox	gibberellin 2-oxidase 1,2,3,4,6	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G47990	C19-GA2ox	gibberellin 2-oxidase 1,2,3,4,6	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G78440	C19-GA2ox	gibberellin 2-oxidase 1,2,3,4,6	Hormone - Gibberellin (GA)	PlantCoding	gibberellin 2-beta-dioxygenase
+AT2G34555	C19-GA2ox	gibberellin 2-oxidase 1,2,3,4,6	Hormone - Gibberellin (GA)	PlantCoding	-
 -	CA	Cinnamate	Hormone - Salicylic acid (SA)	Metabolite	-
 -	CA-CoA	Cinnamoyl-CoA	Hormone - Salicylic acid (SA)	Metabolite	-
 -	Ca2+	Calcium	Signalling - Calcium	Metabolite	-
@@ -210,7 +210,7 @@ AT2G44990	CCD	Carotenoid cleavage dioxygenase	Hormone - Strigolactones (SL)	Plan
 AT4G32810	CCD	Carotenoid cleavage dioxygenase	Hormone - Strigolactones (SL)	PlantCoding	carotenoid cleavage dioxygenase 8
 AT5G63610	CDK	cyclin-dependent kinase E-1	Regulation - Transcription & Translation	PlantCoding	cyclin-dependent kinase E%3B1
 -	CDKE|NPR1			Complex	-
--	"CDKE|TGA2,5,6"			Complex	-
+-	CDKE|TGA2,5,6			Complex	-
 -	CDKE|WRKY18			Complex	-
 -	CDKE|WRKY6			Complex	-
 AT1G35670	CDPK	calmodulin-domain protein kinase	Signalling - Calcium	PlantCoding	calcium-dependent protein kinase 2
@@ -234,9 +234,9 @@ AT5G56970	CKX	cytokinin oxidase/dehydrogenase	Hormone - Cytokinins (CK)	PlantCod
 -	CL	Carlactone	Hormone - Strigolactones (SL)	Metabolite	-
 -	CLA	Carlactonoic acid	Hormone - Strigolactones (SL)	Metabolite	-
 AT1G19670	CLH	chlorophyllase 1	Hormone - Jasmonate (JA)	PlantCoding	-
-AT1G69370	CM	"chorismate mutase 1,2,3"	Hormone - Salicylic acid (SA)	PlantCoding	chorismate mutase 3
-AT3G29200	CM	"chorismate mutase 1,2,3"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT5G10870	CM	"chorismate mutase 1,2,3"	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT1G69370	CM	chorismate mutase 1,2,3	Hormone - Salicylic acid (SA)	PlantCoding	chorismate mutase 3
+AT3G29200	CM	chorismate mutase 1,2,3	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT5G10870	CM	chorismate mutase 1,2,3	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT1G66410	CML	calmodulin related	Signalling - Calcium	PlantCoding	-
 AT3G01830	CML	calmodulin related	Signalling - Calcium	PlantCoding	-
 AT4G20780	CML	calmodulin related	Signalling - Calcium	PlantCoding	calmodulin like 42
@@ -253,9 +253,9 @@ AT2G39940	COI1	Coronatine insensitive 1	Hormone - Jasmonate (JA)	PlantCoding	RNI
 AT1G10350	CPIP	DNAJ heat shock family protein	Signalling - Heat-shock proteins (HSPs)	PlantCoding	-
 AT3G08910	CPIP	DNAJ heat shock family protein	Signalling - Heat-shock proteins (HSPs)	PlantCoding	-
 AT4G02780	CPS	ent-copalyl diphosphate synthase	Hormone - Gibberellin (GA)	PlantCoding	Terpenoid cyclases/Protein prenyltransferases superfamily protein
-AT1G08450	CRT	"calreticulin 1,2,3"	Signalling - Calcium	PlantCoding	calreticulin 3
-AT1G09210	CRT	"calreticulin 1,2,3"	Signalling - Calcium	PlantCoding	-
-AT1G56340	CRT	"calreticulin 1,2,3"	Signalling - Calcium	PlantCoding	calreticulin 1a
+AT1G08450	CRT	calreticulin 1,2,3	Signalling - Calcium	PlantCoding	calreticulin 3
+AT1G09210	CRT	calreticulin 1,2,3	Signalling - Calcium	PlantCoding	-
+AT1G56340	CRT	calreticulin 1,2,3	Signalling - Calcium	PlantCoding	calreticulin 1a
 -	CRT|Ca2+		Signalling - Calcium	Complex	-
 -	CRT|ETR			Complex	-
 -	CRT|HC-Pro		Signalling - Calcium	Complex	-
@@ -267,14 +267,14 @@ AT1G02980	CUL	cullin	Degradation - Ubiquitination	PlantCoding	-
 AT1G43140	CUL	cullin	Degradation - Ubiquitination	PlantCoding	-
 AT4G02570	CUL	cullin	Degradation - Ubiquitination	PlantCoding	cullin 1
 AT3G50070	CYCD3-3	CYCLIN D3;3	Hormone - Brassinosteroids (BS)	PlantCoding	-
-AT1G67110	"CYP735A1,A2"	"cytochrome P450, family 735, subfamily A, polypeptide 1,2"	Hormone - Cytokinins (CK)	PlantCoding	-
-AT5G38450	"CYP735A1,A2"	"cytochrome P450, family 735, subfamily A, polypeptide 1,2"	Hormone - Cytokinins (CK)	PlantCoding	cytochrome P450%2C family 735%2C subfamily A%2C polypeptide 1
+AT1G67110	CYP735A1,A2	cytochrome P450, family 735, subfamily A, polypeptide 1,2	Hormone - Cytokinins (CK)	PlantCoding	-
+AT5G38450	CYP735A1,A2	cytochrome P450, family 735, subfamily A, polypeptide 1,2	Hormone - Cytokinins (CK)	PlantCoding	cytochrome P450%2C family 735%2C subfamily A%2C polypeptide 1
 AT2G30490	CYP73A5	cinnamate-4-hydroxylase		PlantCoding	cinnamate-4-hydroxylase
-AT4G39950	CYP79B2	"cytochrome P450, family 79, subfamily B, polypeptide 2"	Hormone - Auxins (AUX)	PlantCoding	cytochrome P450%2C family 79%2C subfamily B%2C polypeptide 2
-AT4G37410	CYP81F4	"cytochrome P450, family 81, subfamily F, polypeptide 4"	Secondary metabolism - Alkaloids	PlantCoding	-
-AT4G31500	CYP83B1	"cytochrome P450, family 83, subfamily B, polypeptide 1"	Hormone - Auxins (AUX)	PlantCoding	-
-AT2G27690	CYP94	"cytochrome P450, family 94, subfamily C, polypeptide 1,3"	Hormone - Jasmonate (JA)	PlantCoding	cytochrome P450%2C family 94%2C subfamily C%2C polypeptide 1
-AT3G48520	CYP94	"cytochrome P450, family 94, subfamily C, polypeptide 1,3"	Hormone - Jasmonate (JA)	PlantCoding	cytochrome P450%2C family 94%2C subfamily B%2C polypeptide 3
+AT4G39950	CYP79B2	cytochrome P450, family 79, subfamily B, polypeptide 2	Hormone - Auxins (AUX)	PlantCoding	cytochrome P450%2C family 79%2C subfamily B%2C polypeptide 2
+AT4G37410	CYP81F4	cytochrome P450, family 81, subfamily F, polypeptide 4	Secondary metabolism - Alkaloids	PlantCoding	-
+AT4G31500	CYP83B1	cytochrome P450, family 83, subfamily B, polypeptide 1	Hormone - Auxins (AUX)	PlantCoding	-
+AT2G27690	CYP94	cytochrome P450, family 94, subfamily C, polypeptide 1,3	Hormone - Jasmonate (JA)	PlantCoding	cytochrome P450%2C family 94%2C subfamily C%2C polypeptide 1
+AT3G48520	CYP94	cytochrome P450, family 94, subfamily C, polypeptide 1,3	Hormone - Jasmonate (JA)	PlantCoding	cytochrome P450%2C family 94%2C subfamily B%2C polypeptide 3
 -	cZ	cis-zeatin	Hormone - Cytokinins (CK)	Metabolite	-
 -	cZ7G	7-(&beta;-D-glucosyl)-cis-zeatin	Hormone - Cytokinins (CK)	Metabolite	-
 -	cZ9G	9-(&beta;-D-glucosyl)-cis-zeatin	Hormone - Cytokinins (CK)	Metabolite	-
@@ -286,8 +286,8 @@ AT3G03990	D14	alpha/beta-Hydrolases superfamily protein	Hormone - Strigolactones
 -	D14|MAX2|SCF		Hormone - Strigolactones (SL)	Complex	-
 AT1G03055	D27	beta-carotene isomerase D27-like protein	Hormone - Strigolactones (SL)	PlantCoding	-
 -	D53	Protein DWARF 53	Hormone - Strigolactones (SL)	PlantCoding	-
-AT3G03300	"DCL2,4"	Dicer-like proteins	Regulation - Silencing	PlantCoding	dicer-like 2
-AT5G20320	"DCL2,4"	Dicer-like proteins	Regulation - Silencing	PlantCoding	dicer-like 4
+AT3G03300	DCL2,4	Dicer-like proteins	Regulation - Silencing	PlantCoding	dicer-like 2
+AT5G20320	DCL2,4	Dicer-like proteins	Regulation - Silencing	PlantCoding	dicer-like 4
 AT1G14920	DELLA	GRAS transcription factor family protein	Hormone - Gibberellin (GA)	PlantCoding	GRAS family transcription factor family protein
 AT1G66350	DELLA	GRAS transcription factor family protein	Hormone - Gibberellin (GA)	PlantCoding	-
 AT2G01570	DELLA	GRAS transcription factor family protein	Hormone - Gibberellin (GA)	PlantCoding	-
@@ -298,7 +298,7 @@ AT5G17490	DELLA	GRAS transcription factor family protein	Hormone - Gibberellin (
 -	DELLA|MYC			Complex	-
 AT5G48950	DHNAT2	Thioesterase superfamily protein		PlantCoding	-
 -	DMAPP	dimethylallyl diphosphate	Hormone - Cytokinins (CK)	Metabolite	-
--	DOPAL	"3,4-dihydroxyphenylacetaldehyde"		Metabolite	-
+-	DOPAL	3,4-dihydroxyphenylacetaldehyde		Metabolite	-
 AT1G73330	DR4	drought-repressed 4	Hormone - Abscisic acid (ABA)	PlantCoding	-
 -	Drought			ForeignAbiotic	-
 AT4G15560	DXPS2	1-deoxy-D-xylulose-5-phosphate synthase	Secondary metabolism - Terpenoids	PlantCoding	Deoxyxylulose-5-phosphate synthase
@@ -312,12 +312,12 @@ AT4G15560	DXPS2	1-deoxy-D-xylulose-5-phosphate synthase	Secondary metabolism - T
 -	DZROG	dihydrozeatin-9-N-glucoside-O-glucoside	Hormone - Cytokinins (CK)	Metabolite	-
 -	e-	electron	Primary metabolism - Photosynthesis	Metabolite	-
 -	eATP	extracellular ATP	Signalling - Other	Metabolite	-
-AT2G25490	EBF	"EIN3-binding F box protein 1,2"	Hormone - Ethylene (ET)	PlantCoding	EIN3-binding F box protein 1
-AT5G25350	EBF	"EIN3-binding F box protein 1,2"	Hormone - Ethylene (ET)	PlantCoding	-
+AT2G25490	EBF	EIN3-binding F box protein 1,2	Hormone - Ethylene (ET)	PlantCoding	EIN3-binding F box protein 1
+AT5G25350	EBF	EIN3-binding F box protein 1,2	Hormone - Ethylene (ET)	PlantCoding	-
 -	EBF|SCF		Hormone - Ethylene (ET)	Complex	-
 AT1G68840	EDF2	related to ABI3/VP1 2	Hormone - Ethylene (ET)	PlantCoding	related to ABI3/VP1 2
 -	EDF2|HC-Pro		Hormone - Ethylene (ET)	Complex	-
-AT3G48090	EDS1	"enhanced disease susceptibility, alpha/beta-Hydrolases superfamily protein"	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G48090	EDS1	enhanced disease susceptibility, alpha/beta-Hydrolases superfamily protein	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	EDS1|MPK3|PAD4		Signalling - MAP kinases (MAPKs)	Complex	-
 -	EDS1|PAD4		Hormone - Salicylic acid (SA)	Complex	-
 -	EDS1|PAD4|SAG		Hormone - Salicylic acid (SA)	Complex	-
@@ -326,7 +326,7 @@ AT4G39030	EDS5	MATE efflux family protein	Hormone - Salicylic acid (SA)	PlantCod
 -	EIF4E|VPg			Complex	-
 AT4G18040	EIF4E1	eukaryotic translation initiation factor 4E	Regulation - Transcription & Translation	PlantCoding	eukaryotic translation initiation factor 4E
 AT2G24860	EIJP1	EDS1 INTERACTING J PROTEIN 1	Signalling - Heat-shock proteins (HSPs)	PlantCoding	DnaJ/Hsp40 cysteine-rich domain superfamily protein
-AT5G03280	EIN2	"EIN2 transporter, NRAMP metal ion transporter family protein"	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G03280	EIN2	EIN2 transporter, NRAMP metal ion transporter family protein	Hormone - Ethylene (ET)	PlantCoding	-
 AT2G27050	EIN3(like)	EIN3 and EIN3-like transcription factors	Hormone - Ethylene (ET)	PlantCoding	-
 AT3G20770	EIN3(like)	EIN3 and EIN3-like transcription factors	Hormone - Ethylene (ET)	PlantCoding	-
 -	EIN3(like)|JAZ			Complex	-
@@ -336,23 +336,23 @@ AT2G20340	ELI5	Pyridoxal phosphate (PLP)-dependent transferases superfamily prot
 -	ent-Kaurene	ent-Kaurene	Hormone - Gibberellin (GA)	Metabolite	-
 -	ent-Kaurenoic acid	ent-Kaurenoic acid	Hormone - Gibberellin (GA)	Metabolite	-
 AT5G67160	EPS1	HXXXD-type acyl-transferase family protein	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT1G04370	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT1G13260	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT1G25560	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT1G68840	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	related to ABI3/VP1 2
-AT2G44840	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT3G23220	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT3G23230	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT3G23240	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT3G25730	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT4G17500	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G43410	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	Integrase-type DNA-binding superfamily protein
-AT5G47220	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G61600	ERF/EDF	"ERF/EDF family, RAV/TEM related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT1G06160	ERF/ORA59	"ERF family, ORA59 related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT4G17490	ERF/ORA59	"ERF family, ORA59 related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G47230	ERF/ORA59	"ERF family, ORA59 related"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G51190	ERF/ORA59	"ERF family, ORA59 related"	Hormone - Ethylene (ET)	PlantCoding	-
+AT1G04370	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT1G13260	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT1G25560	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT1G68840	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	related to ABI3/VP1 2
+AT2G44840	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT3G23220	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT3G23230	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT3G23240	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT3G25730	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT4G17500	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G43410	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	Integrase-type DNA-binding superfamily protein
+AT5G47220	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G61600	ERF/EDF	ERF/EDF family, RAV/TEM related	Hormone - Ethylene (ET)	PlantCoding	-
+AT1G06160	ERF/ORA59	ERF family, ORA59 related	Hormone - Ethylene (ET)	PlantCoding	-
+AT4G17490	ERF/ORA59	ERF family, ORA59 related	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G47230	ERF/ORA59	ERF family, ORA59 related	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G51190	ERF/ORA59	ERF family, ORA59 related	Hormone - Ethylene (ET)	PlantCoding	-
 AT5G21960	ERF016	ethylene response factor 16	Hormone - Ethylene (ET)	PlantCoding	-
 AT5G43410	ERF096	ethylene response factor 96	Hormone - Ethylene (ET)	PlantCoding	Integrase-type DNA-binding superfamily protein
 AT3G23240	ERF1	ethylene response factor 1 (1A and 1B)	Hormone - Ethylene (ET)	PlantCoding	-
@@ -378,7 +378,7 @@ AT5G48570	FKBP65	FKBP-type peptidyl-prolyl cis-trans isomerase family protein	Si
 -	flg22	flagellin fragment	Stress - Biotic	ForeignCoding	-
 AT5G46330	FLS2	Leucine-rich receptor-like protein kinase family protein; PRR protein flagellin sensing 2	Signalling - Perception and resistance genes	PlantCoding	Leucine-rich receptor-like protein kinase family protein
 -	GA	Gibberellins	Hormone - Gibberellin (GA)	Metabolite	-
--	GA-methylester	"Gibberellin A1, A3, A4 methyl ester"	Hormone - Gibberellin (GA)	Metabolite	-
+-	GA-methylester	Gibberellin A1, A3, A4 methyl ester	Hormone - Gibberellin (GA)	Metabolite	-
 -	GA|GID1		Hormone - Gibberellin (GA)	Complex	-
 -	GA12	gibberellin A12	Hormone - Gibberellin (GA)	Metabolite	-
 -	GA20	gibberellin A20	Hormone - Gibberellin (GA)	Metabolite	-
@@ -388,14 +388,14 @@ AT4G25420	GA20ox	gibberellin 20-oxidase	Hormone - Gibberellin (GA)	PlantCoding	2
 AT5G07200	GA20ox	gibberellin 20-oxidase	Hormone - Gibberellin (GA)	PlantCoding	-
 AT5G51810	GA20ox	gibberellin 20-oxidase	Hormone - Gibberellin (GA)	PlantCoding	-
 -	GA34	gibberellin A34	Hormone - Gibberellin (GA)	Metabolite	-
-AT1G15550	GA3ox	"gibberellin 3-oxidase 1,2,3,4"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT1G80330	GA3ox	"gibberellin 3-oxidase 1,2,3,4"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT1G80340	GA3ox	"gibberellin 3-oxidase 1,2,3,4"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT4G21690	GA3ox	"gibberellin 3-oxidase 1,2,3,4"	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G15550	GA3ox	gibberellin 3-oxidase 1,2,3,4	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G80330	GA3ox	gibberellin 3-oxidase 1,2,3,4	Hormone - Gibberellin (GA)	PlantCoding	-
+AT1G80340	GA3ox	gibberellin 3-oxidase 1,2,3,4	Hormone - Gibberellin (GA)	PlantCoding	-
+AT4G21690	GA3ox	gibberellin 3-oxidase 1,2,3,4	Hormone - Gibberellin (GA)	PlantCoding	-
 -	GA8	gibberellin A8	Hormone - Gibberellin (GA)	Metabolite	-
 -	GA9	gibberellin A9	Hormone - Gibberellin (GA)	Metabolite	-
-AT4G26420	"GAMT1,2"	"gibberellic acid (GA) methyltransferase 1,2"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT5G56300	"GAMT1,2"	"gibberellic acid (GA) methyltransferase 1,2"	Hormone - Gibberellin (GA)	PlantCoding	-
+AT4G26420	GAMT1,2	gibberellic acid (GA) methyltransferase 1,2	Hormone - Gibberellin (GA)	PlantCoding	-
+AT5G56300	GAMT1,2	gibberellic acid (GA) methyltransferase 1,2	Hormone - Gibberellin (GA)	PlantCoding	-
 AT1G03970	GBF4	G-box binding factor 4	Signalling - MAP kinases (MAPKs)	PlantCoding	-
 -	Geranylgeranyl-PP	Geranylgeranyl diphosphate	Hormone - Gibberellin (GA)	Metabolite	-
 AT2G47750	GH3	Auxin-responsive GH3 family protein	Hormone - Salicylic acid (SA)	PlantCoding	putative indole-3-acetic acid-amido synthetase GH3.9
@@ -427,7 +427,7 @@ AT4G02520	GST	glutathione S-transferase	Signalling - Reactive oxygen species (RO
 -	HC-Pro|PBE1		Degradation - Ubiquitination	Complex	-
 -	HC-Pro|ribosome		Regulation - Transcription & Translation	Complex	-
 -	HC-Pro|TDX		Signalling - Reactive oxygen species (ROS)	Complex	-
--	HC-Pro|vsiRNA	"In viral suppression of RNA-Silencing, Hc-Pro binds to vsiRNAs."	Regulation - Silencing	Complex	-
+-	HC-Pro|vsiRNA	In viral suppression of RNA-Silencing, Hc-Pro binds to vsiRNAs.	Regulation - Silencing	Complex	-
 AT4G20910	HEN1	HUA ENHANCER 1		PlantCoding	-
 AT1G63440	HMA	copper-exporting ATPase	Hormone - Ethylene (ET)	PlantCoding	heavy metal atpase 5
 AT5G44790	HMA	copper-exporting ATPase	Hormone - Ethylene (ET)	PlantCoding	copper-exporting ATPase / responsive-to-antagonist 1 / copper-transporting ATPase (RAN1)
@@ -461,11 +461,11 @@ AT3G02875	ILR1	Peptidase M20/M25/M40 family protein	Hormone - Auxins (AUX)	Plant
 -	iP7G	isopentenyladenine-7-N-glucoside	Hormone - Cytokinins (CK)	Metabolite	-
 -	iP9G	isopentenyladenine-9-N-glucoside	Hormone - Cytokinins (CK)	Metabolite	-
 -	IPA	Indole-3-pyruvate	Hormone - Auxins (AUX)	Metabolite	-
--	iPOG	"N6-isopentenyladenine-O-glucoside; UGT85A1,UGT73C5, and UGT73C1 recognized trans-zeatin and dihydrozeatin, which have an available hydroxyl group for glucosylation and formed the O-glucosides."	Hormone - Cytokinins (CK)	Metabolite	-
+-	iPOG	N6-isopentenyladenine-O-glucoside; UGT85A1,UGT73C5, and UGT73C1 recognized trans-zeatin and dihydrozeatin, which have an available hydroxyl group for glucosylation and formed the O-glucosides.	Hormone - Cytokinins (CK)	Metabolite	-
 -	iPR	N6-isopentenyladenosine	Hormone - Cytokinins (CK)	Metabolite	-
 -	iPRDP	N6-(dimethyallyl)adenosine 5&prime;-diphosphate	Hormone - Cytokinins (CK)	Metabolite	-
 -	iPRMP	N6-(dimethyallyl)adenosine 5&prime;-monophosphate	Hormone - Cytokinins (CK)	Metabolite	-
--	iPROG	"N6-isopentenyladenosine-O-glucoside; UGT85A1,UGT73C5, and UGT73C1 recognized trans-zeatin and dihydrozeatin, which have an available hydroxyl group for glucosylation and formed the O-glucosides."	Hormone - Cytokinins (CK)	Metabolite	-
+-	iPROG	N6-isopentenyladenosine-O-glucoside; UGT85A1,UGT73C5, and UGT73C1 recognized trans-zeatin and dihydrozeatin, which have an available hydroxyl group for glucosylation and formed the O-glucosides.	Hormone - Cytokinins (CK)	Metabolite	-
 -	iPRTP	N6-(dimethyallyl)adenosine 5&prime;-triphosphate	Hormone - Cytokinins (CK)	Metabolite	-
 AT1G25410	IPT	isopentenyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
 AT1G68460	IPT	isopentenyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
@@ -505,15 +505,15 @@ AT5G20900	JAZ	jasmonate-zim-domain protein	Hormone - Jasmonate (JA)	PlantCoding	
 -	JAZ|WRKY57		Hormone - Jasmonate (JA)	Complex	-
 AT1G19640	JMT	jasmonate O-methyltransferase	Hormone - Jasmonate (JA)	PlantCoding	-
 AT3G16470	JR1	jacalin-related lectin 35	Hormone - Jasmonate (JA)	PlantCoding	-
-AT1G05160	"KAO1,2"	"ent-kaurenoic acid oxidase 1,2"	Hormone - Gibberellin (GA)	PlantCoding	-
-AT2G32440	"KAO1,2"	"ent-kaurenoic acid oxidase 1,2"	Hormone - Gibberellin (GA)	PlantCoding	ent-kaurenoic acid hydroxylase 2
+AT1G05160	KAO1,2	ent-kaurenoic acid oxidase 1,2	Hormone - Gibberellin (GA)	PlantCoding	-
+AT2G32440	KAO1,2	ent-kaurenoic acid oxidase 1,2	Hormone - Gibberellin (GA)	PlantCoding	ent-kaurenoic acid hydroxylase 2
 AT1G04710	KAT	acetyl-CoA acyltransferase	Hormone - Jasmonate (JA)	PlantCoding	-
 AT2G33150	KAT	acetyl-CoA acyltransferase	Hormone - Jasmonate (JA)	PlantCoding	peroxisomal 3-ketoacyl-CoA thiolase 3
 AT5G48880	KAT	acetyl-CoA acyltransferase	Hormone - Jasmonate (JA)	PlantCoding	-
 AT5G25900	KO	ent-kaurene oxidase	Hormone - Gibberellin (GA)	PlantCoding	GA requiring 3
 AT1G79460	KS	ent-kaurene synthase	Hormone - Gibberellin (GA)	PlantCoding	-
 -	L-arogenate	L-arogenate		Metabolite	-
--	L-Dopa	"3,4-dihydroxy-L-phenylalanine"	Primary metabolism - Amino-acids	Metabolite	-
+-	L-Dopa	3,4-dihydroxy-L-phenylalanine	Primary metabolism - Amino-acids	Metabolite	-
 -	L-homo-cys	L-homocysteine	Hormone - Ethylene (ET)	Metabolite	-
 -	L-Met	L-methionine	Hormone - Ethylene (ET)	Metabolite	-
 -	LA	Linoleic acid	Hormone - Jasmonate (JA)	Metabolite	-
@@ -536,16 +536,16 @@ AT3G45140	LOX	lipoxygenase	Hormone - Jasmonate (JA)	PlantCoding	lipoxygenase 2
 AT4G20380	LSD1	LSD1 zinc finger family protein	Regulation - Transcription & Translation	PlantCoding	-
 -	Lycopene	Lycopene	Secondary metabolism - Terpenoids	Metabolite	-
 AT4G08500	MAPKKK8	MAP kinase kinase kinase MAPKKK8/MEKK1	Signalling - MAP kinases (MAPKs)	PlantCoding	-
-AT2G26170	MAX1	"cytochrome P450, family 711, subfamily A, polypeptide 1; more axillary branches 1"	Hormone - Strigolactones (SL)	PlantCoding	cytochrome P450%2C family 711%2C subfamily A%2C polypeptide 1
+AT2G26170	MAX1	cytochrome P450, family 711, subfamily A, polypeptide 1; more axillary branches 1	Hormone - Strigolactones (SL)	PlantCoding	cytochrome P450%2C family 711%2C subfamily A%2C polypeptide 1
 AT2G42620	MAX2	E3 ubiquitin ligase SCF complex F-box subunit; more axillary branches 2	Signalling - Perception and resistance genes	PlantCoding	RNI-like superfamily protein
 -	me-vsiRNA	methylated viral-derived small interfering RNAs	Regulation - Silencing	ForeignNonCoding	-
 -	MeIAA	methyl (indol-3-yl)acetate	Hormone - Auxins (AUX)	Metabolite	-
 -	MeJA	methyl jasmonic acid	Hormone - Jasmonate (JA)	Metabolite	-
-AT2G23560	MES	"methyl esterase 1,2,4,7,9"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT2G23580	MES	"methyl esterase 1,2,4,7,9"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT2G23600	MES	"methyl esterase 1,2,4,7,9"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT2G23620	MES	"methyl esterase 1,2,4,7,9"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT4G37150	MES	"methyl esterase 1,2,4,7,9"	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT2G23560	MES	methyl esterase 1,2,4,7,9	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT2G23580	MES	methyl esterase 1,2,4,7,9	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT2G23600	MES	methyl esterase 1,2,4,7,9	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT2G23620	MES	methyl esterase 1,2,4,7,9	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT4G37150	MES	methyl esterase 1,2,4,7,9	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	MeSA	methyl salicylate	Hormone - Salicylic acid (SA)	Metabolite	-
 AT3G06860	MFP	enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase	Hormone - Jasmonate (JA)	PlantCoding	multifunctional protein 2
 AT3G15290	MFP	enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase	Hormone - Jasmonate (JA)	PlantCoding	3-hydroxyacyl-CoA dehydrogenase family protein
@@ -564,17 +564,17 @@ AT3G18690	MKS1	mitogen-activated protein (MAP) kinase substrate 1	Signalling - M
 AT1G80680	MOS	importin-alpha isoform (IMPA/MOS)	Hormone - Salicylic acid (SA)	PlantCoding	SUPPRESSOR OF AUXIN RESISTANCE 3
 AT4G02150	MOS	importin-alpha isoform (IMPA/MOS)	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT5G05680	MOS	importin-alpha isoform (IMPA/MOS)	Hormone - Salicylic acid (SA)	PlantCoding	nuclear pore complex protein-like protein
-AT2G43790	"MPK3,6"	"mitogen-activated protein (MAP) kinase 3,6"	Signalling - MAP kinases (MAPKs)	PlantCoding	MAP kinase 6
-AT3G45640	"MPK3,6"	"mitogen-activated protein (MAP) kinase 3,6"	Signalling - MAP kinases (MAPKs)	PlantCoding	mitogen-activated protein kinase 3
+AT2G43790	MPK3,6	mitogen-activated protein (MAP) kinase 3,6	Signalling - MAP kinases (MAPKs)	PlantCoding	MAP kinase 6
+AT3G45640	MPK3,6	mitogen-activated protein (MAP) kinase 3,6	Signalling - MAP kinases (MAPKs)	PlantCoding	mitogen-activated protein kinase 3
 AT4G01370	MPK4	mitogen-activated protein (MAP) kinase 4	Signalling - MAP kinases (MAPKs)	PlantCoding	MAP kinase 4
 AT3G03780	MS	Methionine Synthase	Hormone - Ethylene (ET)	PlantCoding	-
 AT5G17920	MS	Methionine Synthase	Hormone - Ethylene (ET)	PlantCoding	Cobalamin-independent synthase family protein
 -	MVA	Mevalonic acid	Secondary metabolism - Isoprenoids	Metabolite	-
 AT5G27450	MVK	mevalonate kinase	Secondary metabolism - Isoprenoids	PlantCoding	mevalonate kinase
 AT1G66370	MYB113	MYB domain containing transcription factor	Secondary metabolism - Anthocyanins	PlantCoding	-
-AT3G11440	"MYB33,44,65"	"MYB transcription factors 33,44,65"	Secondary metabolism - Anthocyanins	PlantCoding	-
-AT5G06100	"MYB33,44,65"	"MYB transcription factors 33,44,65"	Secondary metabolism - Anthocyanins	PlantCoding	-
-AT5G67300	"MYB33,44,65"	"MYB transcription factors 33,44,65"	Secondary metabolism - Anthocyanins	PlantCoding	myb domain protein r1
+AT3G11440	MYB33,44,65	MYB transcription factors 33,44,65	Secondary metabolism - Anthocyanins	PlantCoding	-
+AT5G06100	MYB33,44,65	MYB transcription factors 33,44,65	Secondary metabolism - Anthocyanins	PlantCoding	-
+AT5G67300	MYB33,44,65	MYB transcription factors 33,44,65	Secondary metabolism - Anthocyanins	PlantCoding	myb domain protein r1
 -	MYC|PYL			Complex	-
 AT1G32640	MYC2	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	Hormone - Jasmonate (JA)	PlantCoding	-
 -	N-pyruvoyl-L-Glu	N-pyruvoyl-L-glutamate	Hormone - Salicylic acid (SA)	Metabolite	-
@@ -583,12 +583,12 @@ AT1G52890	NAC019	NAC domain containing protein 19	Regulation - Transcription & T
 AT1G77450	NAC032	NAC domain containing protein 32	Regulation - Transcription & Translation	PlantCoding	NAC domain containing protein 32
 AT3G15500	NAC055	ATAF-like NAC-domain transcription factor	Regulation - Transcription & Translation	PlantCoding	NAC domain containing protein 3
 -	NAC072		Regulation - Transcription & Translation	PlantCoding	-
-AT1G30100	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	-
-AT1G78390	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 9
-AT3G14440	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 3
-AT3G24220	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	-
-AT4G18350	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	-
-AT4G19170	NCED	"nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9"		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 4
+AT1G30100	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	-
+AT1G78390	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 9
+AT3G14440	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 3
+AT3G24220	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	-
+AT4G18350	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	-
+AT4G19170	NCED	nine-cis-epoxycarotenoid dioxygenase 2,3,4,5,6,9		PlantCoding	nine-cis-epoxycarotenoid dioxygenase 4
 AT3G20600	NDR1	non race-specific disease resistance 1	Signalling - Perception and resistance genes	PlantCoding	-
 -	NDR1|RIN4		Signalling - Perception and resistance genes	Complex	-
 AT1G02450	NIMIN	NIM1-interacting	Hormone - Salicylic acid (SA)	PlantCoding	-
@@ -597,11 +597,11 @@ AT3G25882	NIMIN	NIM1-interacting	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	NIMIN|NPR1		Hormone - Salicylic acid (SA)	Complex	-
 AT3G44310	NIT1	nitrilase 1	Hormone - Auxins (AUX)	PlantCoding	-
 AT1G64280	NPR1	nonexpresser of PR genes	Hormone - Salicylic acid (SA)	PlantCoding	-
--	NPR1 high & JAZ high	"High NPR1 activity, high JAZ activity"		Condition	-
--	NPR1 high & JAZ low	"High NPR1 activity, low JAZ activity"		Condition	-
--	NPR1 low & JAZ low	"Low NPR1 activity, low JAZ activity"		Condition	-
+-	NPR1 high & JAZ high	High NPR1 activity, high JAZ activity		Condition	-
+-	NPR1 high & JAZ low	High NPR1 activity, low JAZ activity		Condition	-
+-	NPR1 low & JAZ low	Low NPR1 activity, low JAZ activity		Condition	-
 -	NPR1|NPR1		Hormone - Salicylic acid (SA)	Complex	-
--	"NPR1|TGA2,5,6"		Hormone - Salicylic acid (SA)	Complex	-
+-	NPR1|TGA2,5,6		Hormone - Salicylic acid (SA)	Complex	-
 -	NPR1|WRKY18			Complex	-
 AT5G45110	NPR3	NPR1-like protein 3	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT4G19660	NPR4	NPR1-like protein 4	Hormone - Salicylic acid (SA)	PlantCoding	-
@@ -629,17 +629,17 @@ AT1G06160	ORA59	octadecanoid-responsive AP2/ERF 59	Hormone - Ethylene (ET)	Plant
 AT2G22250	PA	aspartate aminotransferase	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	PAA	Phenylacetaldehyde	Primary metabolism - Amino-acids	Metabolite	-
 AT2G05840	PAA2	20S proteasome alpha subunit A	Degradation - Ubiquitination	PlantCoding	20S proteasome subunit PAA2
-AT3G52430	PAD4	"phytoalexin deficient, InterPro Lipase, class 3"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT2G37040	PAL	"phenylalanine ammonia-lyase 1,2,3,4"	Hormone - Salicylic acid (SA)	PlantCoding	PHE ammonia lyase 1
-AT3G10340	PAL	"phenylalanine ammonia-lyase 1,2,3,4"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT3G53260	PAL	"phenylalanine ammonia-lyase 1,2,3,4"	Hormone - Salicylic acid (SA)	PlantCoding	phenylalanine ammonia-lyase 2
-AT5G04230	PAL	"phenylalanine ammonia-lyase 1,2,3,4"	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G52430	PAD4	phytoalexin deficient, InterPro Lipase, class 3	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT2G37040	PAL	phenylalanine ammonia-lyase 1,2,3,4	Hormone - Salicylic acid (SA)	PlantCoding	PHE ammonia lyase 1
+AT3G10340	PAL	phenylalanine ammonia-lyase 1,2,3,4	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G53260	PAL	phenylalanine ammonia-lyase 1,2,3,4	Hormone - Salicylic acid (SA)	PlantCoding	phenylalanine ammonia-lyase 2
+AT5G04230	PAL	phenylalanine ammonia-lyase 1,2,3,4	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT5G40580	PBB2	20S proteasome beta subunit B	Degradation - Ubiquitination	PlantCoding	20S proteasome beta subunit PBB2
 AT1G13060	PBE1	20S proteasome beta subunit E	Degradation - Ubiquitination	PlantCoding	-
 AT5G13320	PBS3	Auxin-responsive GH3 family protein	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT2G26020	PDF1.2	"plant defensin 1.2a,b,c"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G44420	PDF1.2	"plant defensin 1.2a,b,c"	Hormone - Ethylene (ET)	PlantCoding	-
-AT5G44430	PDF1.2	"plant defensin 1.2a,b,c"	Hormone - Ethylene (ET)	PlantCoding	-
+AT2G26020	PDF1.2	plant defensin 1.2a,b,c	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G44420	PDF1.2	plant defensin 1.2a,b,c	Hormone - Ethylene (ET)	PlantCoding	-
+AT5G44430	PDF1.2	plant defensin 1.2a,b,c	Hormone - Ethylene (ET)	PlantCoding	-
 AT4G14210	PDS	phytoene desaturase 3		PlantCoding	phytoene desaturase 3
 AT2G22000	PEP	Precursos of elicitor peptide	Hormone - Peptides	PlantCoding	-
 AT5G09976	PEP	Precursos of elicitor peptide	Hormone - Peptides	PlantCoding	-
@@ -654,13 +654,13 @@ AT1G73080	PEPR	PEP receptor	Hormone - Peptides	PlantCoding	PEP1 receptor 1
 -	PEPR1|PEP1			Complex	-
 -	Phe	Phenylalanine	Hormone - Salicylic acid (SA)	Metabolite	-
 -	Phytoene	15-cis-Phytoene	Hormone - Strigolactones (SL)	Metabolite	-
-AT1G09530	"PIF3,4"	"BHLH transcription factor, phytochrome interacting factor 3"	Signalling - Senescence	PlantCoding	-
+AT1G09530	PIF3,4	BHLH transcription factor, phytochrome interacting factor 3	Signalling - Senescence	PlantCoding	-
 -	potyvirus		Stress - Biotic	ForeignEntity	-
 AT3G11410	PP2C	protein phosphatase 2C	Stress - Waterlogging	PlantCoding	-
 AT2G14580	PR1	pathogenesis-related protein 1	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT2G14610	PR1	pathogenesis-related protein 1	Hormone - Salicylic acid (SA)	PlantCoding	pathogenesis-related protein 1
 AT1G72260	PR13	thionin	Hormone - Jasmonate (JA)	PlantCoding	-
-AT3G57260	PR2	"pathogenesis-related protein 2; beta 1,3-glucanase"	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G57260	PR2	pathogenesis-related protein 2; beta 1,3-glucanase	Hormone - Salicylic acid (SA)	PlantCoding	-
 AT3G12500	PR3	basic chitinase	Hormone - Ethylene (ET)	PlantCoding	basic chitinase
 AT3G04720	PR4	pathogenesis-related 4	Hormone - Ethylene (ET)	PlantCoding	pathogenesis-related 4
 AT1G75040	PR5	pathogenesis-related protein 5; thaumatin-like protein	Hormone - Salicylic acid (SA)	PlantCoding	-
@@ -675,7 +675,7 @@ AT3G63130	RANGAP	RAN GTPase activating protein	Signalling - Perception and resis
 -	RANGAP|Rx		Signalling - Perception and resistance genes	Complex	-
 AT5G01770	RAPTOR2	regulatory-associated protein of TOR 2 (RAPTOR2)	Primary metabolism - Photosynthesis	PlantCoding	-
 -	RAPTOR2|TOR		Primary metabolism - Photosynthesis	Complex	-
-AT5G51700	RAR1	"resistance signalling protein, cysteine and histidine-rich domain-containing protein"	Signalling - Perception and resistance genes	PlantCoding	cysteine and histidine-rich domain-containing protein RAR1
+AT5G51700	RAR1	resistance signalling protein, cysteine and histidine-rich domain-containing protein	Signalling - Perception and resistance genes	PlantCoding	cysteine and histidine-rich domain-containing protein RAR1
 AT1G67090	RBC	ribulose-bisphosphate carboxylase	Primary metabolism - Photosynthesis	PlantCoding	ribulose bisphosphate carboxylase small chain 1A
 AT5G38430	RBC	ribulose-bisphosphate carboxylase	Primary metabolism - Photosynthesis	PlantCoding	-
 ATCG00490	RBC	ribulose-bisphosphate carboxylase	Primary metabolism - Photosynthesis	PlantCoding	ribulose-bisphosphate carboxylase
@@ -691,8 +691,8 @@ AT5G51060	RBOH	NADPH oxidase	Signalling - Reactive oxygen species (ROS)	PlantCod
 AT5G60010	RBOH	NADPH oxidase	Signalling - Reactive oxygen species (ROS)	PlantCoding	ferric reductase-like transmembrane component family protein
 AT3G42830	RBX	RING-box	Degradation - Ubiquitination	PlantCoding	RING/U-box superfamily protein
 AT5G20570	RBX	RING-box	Degradation - Ubiquitination	PlantCoding	RING-box 1
-AT1G14790	"RDR1,6"	RNA-dependent RNA polymerases	Regulation - Silencing	PlantCoding	RNA-dependent RNA polymerase 1
-AT3G49500	"RDR1,6"	RNA-dependent RNA polymerases	Regulation - Silencing	PlantCoding	RNA-dependent RNA polymerase 6
+AT1G14790	RDR1,6	RNA-dependent RNA polymerases	Regulation - Silencing	PlantCoding	RNA-dependent RNA polymerase 1
+AT3G49500	RDR1,6	RNA-dependent RNA polymerases	Regulation - Silencing	PlantCoding	RNA-dependent RNA polymerase 6
 AT3G49500	RDR6	RNA-dependent RNA polymerase 6	Regulation - Silencing	PlantCoding	RNA-dependent RNA polymerase 6
 AT2G24680	REM12	transcriptional factor B3 family protein	Regulation - Transcription & Translation	PlantCoding	-
 -	REM12|VPg			Complex	-
@@ -716,8 +716,8 @@ AT2G43820	SAGT	UDP-glucosyltransferase	Hormone - Salicylic acid (SA)	PlantCoding
 AT2G43840	SAGT	UDP-glucosyltransferase	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	SAH	S-adenosyl-l-homocysteine	Hormone - Ethylene (ET)	Metabolite	-
 AT3G23810	SAHH	S-adenosyl-l-homocysteine (SAH) hydrolase 2	Hormone - Jasmonate (JA)	PlantCoding	-
-AT1G34065	SAMC	"S-adenosylmethionine carrier 1,2"	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT4G39460	SAMC	"S-adenosylmethionine carrier 1,2"	Hormone - Salicylic acid (SA)	PlantCoding	S-adenosylmethionine carrier 1
+AT1G34065	SAMC	S-adenosylmethionine carrier 1,2	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT4G39460	SAMC	S-adenosylmethionine carrier 1,2	Hormone - Salicylic acid (SA)	PlantCoding	S-adenosylmethionine carrier 1
 -	SAMe	S-adenosyl-L-methionine	Hormone - Ethylene (ET)	Metabolite	-
 AT1G02500	SAMS	S-adenosylmethionine (SAM) synthetase	Hormone - Ethylene (ET)	PlantCoding	S-adenosylmethionine synthetase 1
 AT2G36880	SAMS	S-adenosylmethionine (SAM) synthetase	Hormone - Ethylene (ET)	PlantCoding	-
@@ -728,15 +728,15 @@ AT1G73805	SARD1	Calmodulin binding protein-like protein	Hormone - Salicylic acid
 AT1G16510	SAUR41	SAUR-like auxin-responsive protein family	Hormone - Auxins (AUX)	PlantCoding	-
 -	SCF	SCF	Degradation - Ubiquitination	Complex	-
 AT1G07530	SCL14	scarecrow-like 14; GRAS family transcription factor	Regulation - Transcription & Translation	PlantCoding	-
--	"SCL14|TGA2,5,6"		Hormone - Salicylic acid (SA)	Complex	-
+-	SCL14|TGA2,5,6		Hormone - Salicylic acid (SA)	Complex	-
 AT4G30270	SEN4	senescence 4 / meristem 5; similar to endo xyloglucan transferase in sequence	Hormone - Brassinosteroids (BS)	PlantCoding	-
 AT4G11260	SGT1	SGT1 protein binding; suppressor of the g2 allelle of SKP1	Signalling - Perception and resistance genes	PlantCoding	phosphatase-like protein
 AT4G23570	SGT1	SGT1 protein binding; suppressor of the g2 allelle of SKP1	Signalling - Perception and resistance genes	PlantCoding	-
 AT1G69220	SIK1	Protein kinase superfamily protein	Signalling - Growth	PlantCoding	Protein kinase superfamily protein
 -	SL	Biologically active strigolactones (strigol and orobanchol)	Hormone - Strigolactones (SL)	Metabolite	-
-AT1G10940	SNRK2	"Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8"	Hormone - Abscisic acid (ABA)	PlantCoding	-
-AT1G78290	SNRK2	"Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8"	Hormone - Abscisic acid (ABA)	PlantCoding	Protein kinase superfamily protein
-AT4G33950	SNRK2	"Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8"	Hormone - Abscisic acid (ABA)	PlantCoding	Protein kinase superfamily protein
+AT1G10940	SNRK2	Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8	Hormone - Abscisic acid (ABA)	PlantCoding	-
+AT1G78290	SNRK2	Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8	Hormone - Abscisic acid (ABA)	PlantCoding	Protein kinase superfamily protein
+AT4G33950	SNRK2	Protein kinase superfamily protein, SNF1-RELATED PROTEIN KINASE 2.8	Hormone - Abscisic acid (ABA)	PlantCoding	Protein kinase superfamily protein
 AT1G08830	SOD	superoxide dismutase	Signalling - Reactive oxygen species (ROS)	PlantCoding	copper/zinc superoxide dismutase 1
 AT1G12520	SOD	superoxide dismutase	Signalling - Reactive oxygen species (ROS)	PlantCoding	copper chaperone for SOD1
 AT2G28190	SOD	superoxide dismutase	Signalling - Reactive oxygen species (ROS)	PlantCoding	copper/zinc superoxide dismutase 2
@@ -750,14 +750,14 @@ AT1G70560	TAA1	tryptophan aminotransferase of Arabidopsis 1	Hormone - Auxins (AU
 AT3G17185	TAS3	trans-acting siRNA3	Regulation - Silencing	PlantNonCoding	-
 AT5G49615	TAS3	trans-acting siRNA3	Regulation - Silencing	PlantNonCoding	-
 AT1G58100	TCP8	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT1G58100	"TCP8,14,15"	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT1G69690	"TCP8,14,15"	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT3G47620	"TCP8,14,15"	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT1G58100	TCP8,14,15	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT1G69690	TCP8,14,15	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G47620	TCP8,14,15	TCP family transcription factor	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	TCP8|WRKY28			Complex	-
 AT3G17880	TDX	tetracopeptide domain-containing thioredoxin	Signalling - Reactive oxygen species (ROS)	PlantCoding	tetraticopeptide domain-containing thioredoxin
-AT3G12250	"TGA2,5,6"	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	-
-AT5G06950	"TGA2,5,6"	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	bZIP transcription factor family protein
-AT5G06960	"TGA2,5,6"	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT3G12250	TGA2,5,6	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	-
+AT5G06950	TGA2,5,6	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	bZIP transcription factor family protein
+AT5G06960	TGA2,5,6	TGACG sequence-specific binding protein	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	Thiohydroximate	Indolylmethylthiohydroximate	Hormone - Auxins (AUX)	Metabolite	-
 -	Thr	Threonine	Hormone - Jasmonate (JA)	Metabolite	-
 AT3G62980	TIR1	F-box/RNI-like superfamily protein	Hormone - Auxins (AUX)	PlantCoding	-
@@ -769,8 +769,8 @@ AT1G50030	TOR	Target Of Rapamycin	Primary metabolism - Photosynthesis	PlantCodin
 AT1G45145	TRX-H	thioredoxin	Hormone - Salicylic acid (SA)	PlantCoding	thioredoxin H-type 5
 AT5G42980	TRX-H	thioredoxin	Hormone - Salicylic acid (SA)	PlantCoding	-
 -	Tyr	L-tyrosine	Primary metabolism - Amino-acids	Metabolite	-
-AT1G15710	"TYRAAT1,2"	arogenate dehydrogenase		PlantCoding	prephenate dehydrogenase family protein
-AT5G34930	"TYRAAT1,2"	arogenate dehydrogenase		PlantCoding	-
+AT1G15710	TYRAAT1,2	arogenate dehydrogenase		PlantCoding	prephenate dehydrogenase family protein
+AT5G34930	TYRAAT1,2	arogenate dehydrogenase		PlantCoding	-
 -	tZ	trans-zeatin; [6-((E)-4-hydroxy-3-methylbut-2-enylamino)purine]	Hormone - Cytokinins (CK)	Metabolite	-
 -	tZ7G	trans-zeatin-7-beta-D-glucoside; [6-((E)-4-hydroxy-3-methylbut-2-enylamino)-7-b-D-glucopyranosylpurine]	Hormone - Cytokinins (CK)	Metabolite	-
 -	tZ9G	9-(&alpha;-D-glucosyl)-trans-zeatin; [6-((E)-4-hydroxy-3-methylbut-2-enylamino)-9-&beta;-D-glucopyranosylpurine]	Hormone - Cytokinins (CK)	Metabolite	-
@@ -780,13 +780,13 @@ AT5G34930	"TYRAAT1,2"	arogenate dehydrogenase		PlantCoding	-
 -	tZRMP	9-ribosyl-trans-zeatin-5&prime;-monophosphate	Hormone - Cytokinins (CK)	Metabolite	-
 -	tZROG	O-glucosyl-trans-zeatin riboside; [6-((Z)-4-&beta;-D-glucopyranosyloxy-3-methylbut-2-enylamino)-9-&beta;-D-ribofuranosylpurine]; trans-ZEATIN-O-GLUCOSIDE RIBOSIDE	Hormone - Cytokinins (CK)	Metabolite	-
 -	tZRTP	9-ribosyl-trans-zeatin-5&prime;-triphosphate	Hormone - Cytokinins (CK)	Metabolite	-
-AT2G36750	"UGT73C1,C5"	zeatin O-glucosyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
-AT2G36800	"UGT73C1,C5"	zeatin O-glucosyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
-AT5G05860	"UGT76C1,C2"	UDP-glucosyl transferase	Hormone - Cytokinins (CK)	PlantCoding	-
-AT5G05870	"UGT76C1,C2"	UDP-glucosyl transferase	Hormone - Cytokinins (CK)	PlantCoding	-
+AT2G36750	UGT73C1,C5	zeatin O-glucosyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
+AT2G36800	UGT73C1,C5	zeatin O-glucosyltransferase	Hormone - Cytokinins (CK)	PlantCoding	-
+AT5G05860	UGT76C1,C2	UDP-glucosyl transferase	Hormone - Cytokinins (CK)	PlantCoding	-
+AT5G05870	UGT76C1,C2	UDP-glucosyl transferase	Hormone - Cytokinins (CK)	PlantCoding	-
 AT2G23260	UGT84B1	UDP-glucosyl transferase 84B1	Hormone - Auxins (AUX)	PlantCoding	-
 AT1G22400	UGT85A1	UDP-Glycosyltransferase superfamily protein	Hormone - Cytokinins (CK)	PlantCoding	UDP-Glycosyltransferase superfamily protein
-AT4G12570	UPL5	"ubiquitin protein ligase, HECT E3 class"	Degradation - Ubiquitination	PlantCoding	ubiquitin protein ligase 5
+AT4G12570	UPL5	ubiquitin protein ligase, HECT E3 class	Degradation - Ubiquitination	PlantCoding	ubiquitin protein ligase 5
 AT2G02810	UTR1	UDP-galactose transporter 1	Regulation - Transport	PlantCoding	-
 AT1G08550	VDE1	non-photochemical quenching 1		PlantCoding	non-photochemical quenching 1
 -	Violaxanthin	Violaxanthin	Hormone - Abscisic acid (ABA)	Metabolite	-
