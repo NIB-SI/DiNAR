@@ -1,5 +1,5 @@
 ## https://knetminer.com/poaceae/
-# Keyword Search: wrky33
+# Keyword Search: wrky
 
 fn = 'knetminer_network.json'
 net = jsonlite::fromJSON(fn)
@@ -21,8 +21,8 @@ e$geneID1 = e$source
 e$geneID2 = e$target
 colnames(e) = c('source', 'target', 'reactionType', 'geneID1', 'geneID2')
 
-# n$y = -n$y
-n$x = -n$x
+n$y = -n$y
+# n$x = -n$x
 
 e$exists = 1
 n$expressed = 1
