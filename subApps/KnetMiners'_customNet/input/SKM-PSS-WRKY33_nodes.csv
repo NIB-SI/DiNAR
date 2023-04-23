@@ -1,0 +1,12 @@
+id,label,group,description,synonyms,evidence sentence,external links,reaction type,functional_cluster_id,ath_homologues,osa_homologues,stu_homologues,sly_homologues,nta_homologues,ptr_homologues,vvi_homologues
+912,<b>rx00248</b>transcriptional/translational activation,Reaction,,,,doi:10.1371/journal.pgen.1002767,transcriptional/translational activation,,,,,,,,
+465,MKS1,PlantCoding,mitogen-activated protein (MAP) kinase substrate 1,"MKS1, VQ21",,gmm:20.1.3,,fc00104,AT3G18690,,,,,,
+893,<b>rx00161</b>transcriptional/translational activation,Reaction,,,,doi:10.3389/fpls.2015.00170,transcriptional/translational activation,,,,,,,,
+549,WRKY33,PlantCoding,WRKY family transcription factor 33,"ATWRKY33, WRKY33",,gmm:27.3.32,,fc00166,AT2G38470,,,,,,
+892,<b>rx00160</b>transcriptional/translational activation,Reaction,,,,doi:10.3389/fpls.2015.00170,transcriptional/translational activation,,,,,,,,
+331,ACS,PlantCoding,1-aminocyclopropane-1-carboxylic acid (ACC) synthase,"ACS, ACC1, ACS2, AT-ACC2, ACC4, ACS4, ATACS4, ACS9, AtACS9, ETO3, ACC2, ACS1, AT-ACS1, ACS11, ACC6, ACS6, ATACS6, ACCS7, ACS7, ATACS7, ACS8, ACC5, ACS5, ATACS5, CIN5, ETO2, ACC synthase",,"ec:4.4.1.14,gmm:17.5.1.1",,fc00009,"AT1G01480, AT2G22810, AT3G49700, AT3G61510, AT4G08040, AT4G11280, AT4G26200, AT4G37770, AT5G65800",,,,,,
+495,PAD4,PlantCoding,"phytoalexin deficient, InterPro Lipase, class 3","ATPAD4, EDS9, PAD4, alpha/beta-Hydrolases superfamily protein",,"gmm:20.1.7.1,mm:26.9.2.4.2",,fc00123,AT3G52430,,,,,,
+811,<b>rx00138</b>protein activation,Reaction,,,,doi:10.1105/tpc.112.109074,protein activation,,,,,,,,
+1349,"MPK3,6",PlantCoding,"mitogen-activated protein (MAP) kinase 3,6","ATMAPK6, ATMPK6, MAPK6, MPK6, ATMAPK3, ATMPK3, MPK3",,"gmm:29.4,gmm:30.6",,fc00308,"AT2G43790, AT3G45640",,,,,,
+637,MKS1|WRKY33,Complex,,,,,,,,,,,,,
+590,<b>rx00242</b>binding/oligomerisation,Reaction,,,,doi:10.1038/sj.emboj.7600737,binding/oligomerisation,,,,,,,,
