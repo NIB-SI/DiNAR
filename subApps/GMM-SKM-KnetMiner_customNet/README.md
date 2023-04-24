@@ -28,4 +28,5 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 
 
 (*) Take care of empty strings in tables in general, replate them with ```-```
+(**) Try to keep shorName short
 
