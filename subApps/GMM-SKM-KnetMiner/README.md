@@ -18,6 +18,21 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 
 </br>
 
+## NPR1 & LOX-2 e.g.
+### GoMapMan
+Obtain Ath geneID using [gomapman.nib.si](https://gomapman.nib.si/search)
+* [NPR1](https://gomapman.nib.si/gene-details/6531)
+* [LOX2](https://gomapman.nib.si/gene-details/18484)
+
+### KnetMiner
+Obtain Knowledge graph using list query [AT3G45140, AT1G64280](https://knetminer.com/poaceae/html/genepage.jsp?list=AT3G45140,AT1G64280) and save a ```.json```
+
+### SKM PSS
+Obtain shortest path between AT3G45140 & AT1G64280, and export nodes and edges as ```.csv```
+
+</br>
+
+
 # Create and visualise custom network
 
 1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run [CustomNetwork_KnetMiner-SKM](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
