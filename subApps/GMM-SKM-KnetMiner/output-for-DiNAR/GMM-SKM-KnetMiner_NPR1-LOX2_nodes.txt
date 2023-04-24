@@ -1,42 +1,10 @@
 geneID	shortDescription	shortName	MapManBin	clusterID	x	y	clusterSimplifiedNodeDegree	expressed
-EIN3(like)	EIN3 and EIN3-like transcription factors	AtEIL1, EIL1, ATEIN3, EIN3	gmm:27.3.19 | kegg:k14514	2	19.9975216765618	3.81249154841806	3	1
-<b>rx00526</b>transcriptional/translational activation	-	-	doi:10.1093/pcp/pcy106	2	7.43344210756458	13.3188639584684	3	1
-VSP	vegetative storage protein	ATVSP2, VSP2	gmm:26.13	2	12.2451428470787	0.738350577182369	2	1
-<b>rx00052</b>transcriptional/translational activation	-	-	doi:10.1111/j.1399-3054.2004.00418.x | doi:10.1105/tpc.106.048017	2	12.4253870626379	4.67319620724412	5	1
-MYC2	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	BHLH6, EN38, JAI1, JIN1, MYC2, RAP1, RD22BP1, ZBF1	gmm:27.3.6	2	10.0687326191348	6.0259010477237	6	1
-<b>rx00015</b>protein activation	-	-	doi:10.1105/tpc.001768 | doi:10.1073/pnas.0605528103 | doi:10.1016/j.pbi.2008.06.011 | kegg:k14513	2	21.9316241054381	6.95248929838455	3	1
-<b>rx00103</b>transcriptional/translational activation	-	-	doi:10.1016/s1369-5266(03)00058-x | doi:10.1105/tpc.104.027441	2	6.2976052514598	15.2342568193421	3	1
-NPR1|TGA2,5,6	-	-	-	2	9.79426925366633	14.1561484781001	4	1
-<b>rx00478</b>protein activation	-	-	kegg:k14431	2	14.5069968733162	15.8222931767114	3	1
-<b>rx00509</b>transcriptional/translational activation	-	-	doi:10.1111/ppl.13575	2	7.41107323167859	7.32311135701406	3	1
-NPR1 high & JAZ low	High NPR1 activity, low JAZ activity	-	doi:10.3389/fpls.2015.00170 | pmid:25859252	2	12.5511842759393	7.70323792149367	4	1
-<b>rx00634</b>binding/oligomerisation	-	-	doi: 10.1186/s12864-016-2394-y	2	2.0705312204596	4.37500475491736	3	1
-NPR1 low & JAZ low	Low NPR1 activity, low JAZ activity	-	doi:10.3389/fpls.2015.00170 | pmid:25859252	2	13.0968285883911	2.66734265867452	5	1
-<b>rx00210</b>undefined	-	-	doi:10.1104/pp.104.056028	2	20.5372532408121	13.900194546007	3	1
-<b>rx00673</b>binding/oligomerisation	-	-	doi:10.1186/s12864-016-2394-y	2	0.542770993829974	11.2207480745111	3	1
-VPg	viral protein genome-linked	-	doi:10.1016/j.coviro.2012.09.004	2	0.460883134742701	7.59943723040678	2	1
-ERF1	ethylene response factor 1 (1A and 1B)	AtERF092, ERF092, ERF1, ERF1B, ATERF-1, AtERF100, ERF-1, ERF100, ERF1A	gmm:17.5.2 | gmm:27.3.3	2	17.7744799882412	-1.01143010309594	2	1
-<b>rx00028</b>transcriptional/translational activation	-	-	doi:10.1016/j.jtbi.2010.12.037	2	8.84657086647972	3.14889055826212	4	1
-LOX	lipoxygenase	LOX4, ATLOX3, LOX6, LOX1, ATLOX1, LOX5, ATLOX4, LOX2, LOX3, ATLOX2, ATLOX6'	gmm:17.7.1.2 | kegg:k00454 | kegg:k15718 | kegg:k00454 | kegg:k00454 | kegg:k15718 | kegg:k00454 | ec:1.13.11.12 | ec:1.13.11.58	2	5.30043455063425	2.88578273215736	3	1
-EIN2	EIN2 transporter, NRAMP metal ion transporter family protein	ATEIN2, CKR1, EIN2, ERA3, ORE2, ORE3, PIR2	kegg:k14513 | gmm:34.12;kegg:map04075	2	22.1187925562426	10.612768773092	2	1
-PR13	thionin	THI2.1, PR13	gmm:20.1.7.13	2	16.6901941026199	5.18971302570257	2	1
-PR5|VPg	-	-	-	2	-2.28585899003966	12.4699600422898	1	1
-ICS	isochorismate synthase	ATICS2, ICS2, ATICS1, EDS16, ICS1, SID2	gmm:18.5.2.1	2	6.32563520469827	10.2680519438996	4	1
-NPR1 high & JAZ high	High NPR1 activity, high JAZ activity	-	doi:10.1105/tpc.104.027441 | doi:10.1016/s1369-5266(03)00058-x	2	11.5720862298224	14.0157270192875	1	1
-<b>rx00051</b>transcriptional/translational activation	-	-	doi:10.1111/j.1399-3054.2004.00418.x | doi:10.1105/tpc.106.048017	2	13.7159674943931	5.7265630503064	5	1
-PR5	pathogenesis-related protein 5; thaumatin-like protein	PR-5, PR5, [ORF]F9E10.11	gmm:20.1.7.5	2	2.91230082864333	13.9542372803122	3	1
-<b>rx00479</b>transcriptional/translational activation	-	-	kegg:k13449	2	18.1881585942334	18.7562252636148	3	1
-PR1	pathogenesis-related protein 1	ATPRB1, PR1, PRB1, ATPR1, PR1, [ORF]T6B13.15	gmm:20.1.7.1	2	17.374233483711	15.9218988010286	6	1
-<b>rx00101</b>transcriptional/translational activation	-	-	doi:10.1016/s1369-5266(03)00058-x | doi:10.1105/tpc.104.027441	2	12.9876103747022	16.2901263616092	3	1
-JR1	jacalin-related lectin 35	JAL35, JR1	gmm:26.16	2	10.0221828473813	0.860630394320799	2	1
-LOX2|VPg	-	-	-	2	-0.139409797136099	2.17013490369804	1	1
-<b>rx00050</b>transcriptional/translational activation	-	-	doi:10.1111/j.1399-3054.2004.00418.x | doi:10.1105/tpc.106.048017	2	11.1723561585163	4.32736686575731	5	1
-<b>rx00099</b>binding/oligomerisation	-	-	doi:10.1016/s1369-5266(03)00058-x | doi:10.1105/tpc.104.027441	2	11.8465301447445	11.2285285779758	5	1
-<b>rx00158</b>transcriptional/translational activation	-	-	doi:10.7554/elife.00675	2	16.6949521087977	1.91596525941917	4	1
-NPR1	nonexpresser of PR genes	ATNPR1, NIM1, NPR1, SAI1	gmm:27.3.61	2	13.2645344930865	12.3874272946218	4	1
-<b>rx00432</b>transcriptional/translational repression	-	-	doi:10.1016/j.celrep.2021.110125	2	11.1520148253792	9.12431897609395	3	1
-bZIP21	bZIP transcription factor family protein	bZIP21, AtbZIP21	gmm:27.3.35	2	15.5836093935183	19.0056012107307	3	1
-TGA2,5,6	TGACG sequence-specific binding protein	TGA5, BZIP26, BZIP20, OBF5, TGA2, AHBP-1B, TGA6, BZIP45, HBP1B	gmm:27.3.35	2	15.3265586632978	11.5912884239093	1	1
+NPR1	nonexpresser of PR genes	ATNPR1, NIM1, NPR1, SAI1	gmm:27.3.61	2	-0.739489389488858	0.478789232928553	2	1
+NPR1 low & JAZ low	Low NPR1 activity, low JAZ activity	-	doi:10.3389/fpls.2015.00170 | pmid:25859252	2	3.92326964945093	0.236333941639097	1	1
+<b>rx00432</b>transcriptional/translational repression	-	-	doi:10.1016/j.celrep.2021.110125	2	0.472090727114935	0.70596540552302	3	1
+MYC2	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	BHLH6, EN38, JAI1, JIN1, MYC2, RAP1, RD22BP1, ZBF1	gmm:27.3.6	2	1.69781984132937	0.93579457240079	2	1
+LOX	lipoxygenase	LOX4, ATLOX3, LOX6, LOX1, ATLOX1, LOX5, ATLOX4, LOX2, LOX3, ATLOX2, ATLOX6'	gmm:17.7.1.2 | kegg:k00454 | kegg:k15718 | kegg:k00454 | kegg:k00454 | kegg:k15718 | kegg:k00454 | ec:1.13.11.12 | ec:1.13.11.58	2	3.51870611385677	2.39395958534532	2	1
+<b>rx00028</b>transcriptional/translational activation	-	-	doi:10.1016/j.jtbi.2010.12.037	2	2.98160182039846	1.17650888625753	4	1
 TO_0002657		oxidative stress	Trait	1	640.826554243317	-649.567437916777	4	1
 AT3G45140	PROTEIN_CODING	LOX2	Gene	1	602.458463501819	-405.867503099101	9	1
 35216293		PMID: 35216293	Publication	1	441.516054145941	-805.033999209391	2	1

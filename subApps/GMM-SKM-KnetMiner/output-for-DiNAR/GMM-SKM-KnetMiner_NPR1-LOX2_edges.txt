@@ -1,65 +1,11 @@
 geneID1	geneID2	reactionType	clusterID_geneID1	clusterID_geneID2	clusterSimplifiedNodeDegree_geneID1	clusterSimplifiedNodeDegree_geneID2	exists
-VPg	<b>rx00673</b>binding/oligomerisation	SUBSTRATE	2	2	2	3	1
-PR5	<b>rx00673</b>binding/oligomerisation	SUBSTRATE	2	2	3	3	1
-<b>rx00673</b>binding/oligomerisation	PR5|VPg	PRODUCT	2	2	3	1	1
-<b>rx00015</b>protein activation	EIN3(like)	PRODUCT	2	2	3	3	1
-<b>rx00158</b>transcriptional/translational activation	ERF1	PRODUCT	2	2	4	2	1
-<b>rx00509</b>transcriptional/translational activation	ICS	PRODUCT	2	2	3	4	1
-<b>rx00526</b>transcriptional/translational activation	ICS	PRODUCT	2	2	3	4	1
-<b>rx00050</b>transcriptional/translational activation	JR1	PRODUCT	2	2	5	2	1
-<b>rx00028</b>transcriptional/translational activation	LOX	PRODUCT	2	2	4	3	1
-TGA2,5,6	<b>rx00099</b>binding/oligomerisation	SUBSTRATE	2	2	1	5	1
-NPR1 high & JAZ high	<b>rx00099</b>binding/oligomerisation	ACTIVATES	2	2	1	5	1
-NPR1 high & JAZ low	<b>rx00099</b>binding/oligomerisation	ACTIVATES	2	2	4	5	1
-NPR1	<b>rx00099</b>binding/oligomerisation	SUBSTRATE	2	2	4	5	1
-<b>rx00432</b>transcriptional/translational repression	NPR1	PRODUCT	2	2	3	4	1
-<b>rx00051</b>transcriptional/translational activation	PR13	PRODUCT	2	2	5	2	1
-<b>rx00103</b>transcriptional/translational activation	PR5	PRODUCT	2	2	3	3	1
-<b>rx00052</b>transcriptional/translational activation	VSP	PRODUCT	2	2	5	2	1
-<b>rx00099</b>binding/oligomerisation	NPR1|TGA2,5,6	PRODUCT	2	2	5	4	1
-EIN3(like)	<b>rx00015</b>protein activation	SUBSTRATE	2	2	3	3	1
-EIN2	<b>rx00015</b>protein activation	ACTIVATES	2	2	2	3	1
-MYC2	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	6	4	1
-LOX	<b>rx00028</b>transcriptional/translational activation	SUBSTRATE	2	2	3	4	1
-NPR1 low & JAZ low	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	5	4	1
-NPR1 low & JAZ low	<b>rx00050</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
-JR1	<b>rx00050</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
-NPR1 high & JAZ low	<b>rx00050</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
-MYC2	<b>rx00050</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
-NPR1 low & JAZ low	<b>rx00051</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
-PR13	<b>rx00051</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
-NPR1 high & JAZ low	<b>rx00051</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
-MYC2	<b>rx00051</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
-NPR1 high & JAZ low	<b>rx00052</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
-MYC2	<b>rx00052</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
-NPR1 low & JAZ low	<b>rx00052</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
-VSP	<b>rx00052</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
-NPR1|TGA2,5,6	<b>rx00101</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
-PR1	<b>rx00101</b>transcriptional/translational activation	SUBSTRATE	2	2	6	3	1
-PR5	<b>rx00103</b>transcriptional/translational activation	SUBSTRATE	2	2	3	3	1
-NPR1|TGA2,5,6	<b>rx00103</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
-EIN3(like)	<b>rx00158</b>transcriptional/translational activation	ACTIVATES	2	2	3	4	1
-ERF1	<b>rx00158</b>transcriptional/translational activation	SUBSTRATE	2	2	2	4	1
-NPR1 low & JAZ low	<b>rx00158</b>transcriptional/translational activation	ACTIVATES	2	2	5	4	1
-EIN2	<b>rx00210</b>undefined	INHIBITS	2	2	2	3	1
-PR1	<b>rx00210</b>undefined	SUBSTRATE	2	2	6	3	1
-NPR1|TGA2,5,6	<b>rx00526</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
-ICS	<b>rx00526</b>transcriptional/translational activation	SUBSTRATE	2	2	4	3	1
-MYC2	<b>rx00432</b>transcriptional/translational repression	INHIBITS	2	2	6	3	1
-NPR1	<b>rx00432</b>transcriptional/translational repression	SUBSTRATE	2	2	4	3	1
-bZIP21	<b>rx00478</b>protein activation	SUBSTRATE	2	2	3	3	1
-NPR1	<b>rx00478</b>protein activation	ACTIVATES	2	2	4	3	1
-PR1	<b>rx00479</b>transcriptional/translational activation	SUBSTRATE	2	2	6	3	1
-bZIP21	<b>rx00479</b>transcriptional/translational activation	ACTIVATES	2	2	3	3	1
-MYC2	<b>rx00509</b>transcriptional/translational activation	ACTIVATES	2	2	6	3	1
-ICS	<b>rx00509</b>transcriptional/translational activation	SUBSTRATE	2	2	4	3	1
-<b>rx00478</b>protein activation	bZIP21	PRODUCT	2	2	3	3	1
-VPg	<b>rx00634</b>binding/oligomerisation	SUBSTRATE	2	2	2	3	1
-LOX	<b>rx00634</b>binding/oligomerisation	SUBSTRATE	2	2	3	3	1
-<b>rx00634</b>binding/oligomerisation	LOX2|VPg	PRODUCT	2	2	3	1	1
-<b>rx00101</b>transcriptional/translational activation	PR1	PRODUCT	2	2	3	6	1
-<b>rx00210</b>undefined	PR1	PRODUCT	2	2	3	6	1
-<b>rx00479</b>transcriptional/translational activation	PR1	PRODUCT	2	2	3	6	1
+<b>rx00028</b>transcriptional/translational activation	LOX	PRODUCT	2	2	4	2	1
+<b>rx00432</b>transcriptional/translational repression	NPR1	PRODUCT	2	2	3	2	1
+LOX	<b>rx00028</b>transcriptional/translational activation	SUBSTRATE	2	2	2	4	1
+MYC2	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	2	4	1
+NPR1 low & JAZ low	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	1	4	1
+MYC2	<b>rx00432</b>transcriptional/translational repression	INHIBITS	2	2	2	3	1
+NPR1	<b>rx00432</b>transcriptional/translational repression	SUBSTRATE	2	2	2	3	1
 AT5G45110	TO_0002657	cooccurs_with	1	1	11	4	1
 AT3G12250	TO_0002657	cooccurs_with	1	1	4	4	1
 AT5G45110	TO_0006001	cooccurs_with	1	1	11	4	1
