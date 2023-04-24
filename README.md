@@ -124,7 +124,7 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 * input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing (&#x1F34F; https://nib-si.shinyapps.io/pre-processing/)
 * network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering (&#x1F34F; https://nib-si.shinyapps.io/clustering/)
 * <b>shortestPaths</b>: :grapes: https://github.com/NIB-SI/DiNAR/tree/master/subApps/shortestPaths
-* CustomNetwork from <b>GMM-KnetMiner-SKM</b> combo: &#x1F98B; https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner_customNet (&#x1F984; https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
+* CustomNetwork from <b>GMM-KnetMiner-SKM</b> combo: &#x1F98B; https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner (&#x1F984; https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
 
 
 # Ath GSE56094 experimental data analysis
