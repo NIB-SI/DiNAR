@@ -94,7 +94,7 @@ http://conferences.nib.si/DiNAR/
 
 # Create PDF animation
 1. in animatedPlotAB.R uncomment lines: 48, 49, 50, 51, 52 and 306
-2. install LaTeX (e.g. https://miktex.org/)
+2. install LaTeX (e.g. https://miktex.org/) or use [overleaf](https://www.overleaf.com/)
 3. install animate Package http://tug.ctan.org/macros/latex/contrib/animate/animate.pdf
 4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
 
