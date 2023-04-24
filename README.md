@@ -130,7 +130,7 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 
 
 # Ath GSE56094 experimental data analysis
-&#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
+&#x1F95D; https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
 # Cross-references
 * &#x1F985; [Plant Data Visualization/Orthology Bundle - Cork Oak Use Case](https://corkoak-usecase.readthedocs.io/en/latest/)
@@ -139,10 +139,14 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 * [knetminer.com](https://knetminer.com/poaceae/)
 * [gomapman.nib.si](https://gomapman.nib.si/)
 
+\
+\
+
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
 
 
-
+\
+\
 (*) [UnicodePlus](https://unicodeplus.com/)
 
