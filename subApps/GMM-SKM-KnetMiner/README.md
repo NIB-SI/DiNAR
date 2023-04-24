@@ -1,6 +1,6 @@
 # Get data
 
-## Wrky33 e.g.
+## One node neighbourhoods e.g. on Wrky33
 ### GoMapMan
 Obtain Ath geneID using [gomapman.nib.si](https://gomapman.nib.si/search)
 
@@ -18,7 +18,7 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 
 </br>
 
-## NPR1 & LOX-2 e.g.
+## Multiple nodes shortest paths: e.g. on NPR1 & LOX-2
 ### GoMapMan
 Obtain Ath geneID using [gomapman.nib.si](https://gomapman.nib.si/search)
 * [NPR1](https://gomapman.nib.si/gene-details/6531)
