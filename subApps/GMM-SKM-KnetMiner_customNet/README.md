@@ -19,9 +19,10 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 
 
 1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run [CustomNetwork_KnetMiner-SKM](https://github.com/NIB-SI/DiNAR/edit/master/subApps/GMM-SKM-KnetMiner_customNet/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
-2. Save Custom Network Tables (Nodes/Vertices and Reactions/Edges)
-3. Load Custom Network and Expression Table into [DiNAR](https://github.com/NIB-SI/DiNAR)
-4. Export results as liked
+2. Load [files](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner_customNet/input)
+3. Follow instructions and save Custom Network Tables (Nodes/Vertices and Reactions/Edges)
+4. Load [Custom Network](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner_customNet/output-for-DiNAR) and Expression Tables into [DiNAR](https://github.com/NIB-SI/DiNAR)
+5. Export [results](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner_customNet/output-from-DiNAR) as wished
 
 
 
