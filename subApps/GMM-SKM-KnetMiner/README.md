@@ -18,7 +18,7 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 
 </br>
 
-# Create custom network
+# Create and visualise custom network
 
 1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run [CustomNetwork_KnetMiner-SKM](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
 2. Load [files](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/input)
