@@ -39,7 +39,7 @@ Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/
 2. Load [files](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/input)
 3. Follow instructions and save Custom Network Tables (Nodes/Vertices and Reactions/Edges)
 4. Load [Custom Network](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-for-DiNAR) and Expression Tables into [DiNAR](https://github.com/NIB-SI/DiNAR)
-5. Export [results](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-from-DiNAR) as wished
+5. Export results as wished ([e.g.](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-from-DiNAR))
 
 
 </br>
