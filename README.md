@@ -81,13 +81,15 @@ http://conferences.nib.si/DiNAR/
 
 # Additional Data Files
 
-https://github.com/NIB-SI/DiNAR/tree/master/CKNs
+* [CKN](https://github.com/NIB-SI/DiNAR/tree/master/CKNs)
+* [PIS](https://github.com/NIB-SI/DiNAR/tree/master/PIS)
+* [PEPnetwork](https://github.com/NIB-SI/DiNAR/tree/master/PEPN)
 
 
 # Code References
 
-* http://deanattali.com/2015/06/28/introducing-shinyjs-colourinput/
-* http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library
+* [colour picker](http://deanattali.com/2015/06/28/introducing-shinyjs-colourinput/)
+* [check package](http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library)
 
 
 # Create PDF animation
