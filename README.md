@@ -131,7 +131,8 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/GEODataAnalysis
 
 # Cross-references
-&#x1F985; [Plant Data Visualization/Orthology Bundle - Cork Oak Use Case](https://corkoak-usecase.readthedocs.io/en/latest/)
+* &#x1F985; [Plant Data Visualization/Orthology Bundle - Cork Oak Use Case](https://corkoak-usecase.readthedocs.io/en/latest/)
+* &#x1F98A; [FAIR Data-finder for Agronomic Research (FAIDARE) ](https://urgi.versailles.inra.fr/faidare/search?db=SKM&db=KnetMiner&db=AgroLD)
 
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
