@@ -1,0 +1,15 @@
+geneID1	geneID2	reactionType	clusterID_geneID1	clusterID_geneID2	clusterSimplifiedNodeDegree_geneID1	clusterSimplifiedNodeDegree_geneID2	exists
+rx00248_transcriptional/translational activation	ACS	PRODUCT	2	2	3	2	1
+rx00161_transcriptional/translational activation	PAD4	PRODUCT	2	2	3	2	1
+rx00160_transcriptional/translational activation	WRKY33	PRODUCT	2	2	2	7	1
+rx00138_protein activation	WRKY33	PRODUCT	2	2	3	7	1
+MKS1	rx00242_binding/oligomerisation	SUBSTRATE	2	2	1	3	1
+WRKY33	rx00242_binding/oligomerisation	SUBSTRATE	2	2	7	3	1
+rx00242_binding/oligomerisation	MKS1|WRKY33	PRODUCT	2	2	3	1	1
+WRKY33	rx00138_protein activation	SUBSTRATE	2	2	7	3	1
+MPK3,6	rx00138_protein activation	ACTIVATES	2	2	1	3	1
+WRKY33	rx00160_transcriptional/translational activation	ACTIVATES	2	2	7	2	1
+PAD4	rx00161_transcriptional/translational activation	SUBSTRATE	2	2	2	3	1
+WRKY33	rx00161_transcriptional/translational activation	ACTIVATES	2	2	7	3	1
+ACS	rx00248_transcriptional/translational activation	SUBSTRATE	2	2	2	3	1
+WRKY33	rx00248_transcriptional/translational activation	ACTIVATES	2	2	7	3	1

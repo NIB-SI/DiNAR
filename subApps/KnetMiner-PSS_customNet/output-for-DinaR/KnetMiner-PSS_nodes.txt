@@ -1,0 +1,12 @@
+geneID	shortDescription	shortName	MapManBin	clusterID	x	y	clusterSimplifiedNodeDegree	expressed
+rx00248_transcriptional/translational activation			doi:10.1371/journal.pgen.1002767	2	1.09663271186507	2.9110109278244	3	1
+MKS1	mitogen-activated protein (MAP) kinase substrate 1	MKS1, VQ21	gmm:20.1.3	2	3.01672794673094	-2.12948212419566	1	1
+rx00161_transcriptional/translational activation			doi:10.3389/fpls.2015.00170	2	4.38676495897263	1.10597441501023	3	1
+WRKY33	WRKY family transcription factor 33	ATWRKY33, WRKY33	gmm:27.3.32	2	2.51228471576095	1.51010222913739	7	1
+rx00160_transcriptional/translational activation			doi:10.3389/fpls.2015.00170	2	0.787287551001283	1.16104288449604	2	1
+ACS	1-aminocyclopropane-1-carboxylic acid (ACC) synthase	ACS, ACC1, ACS2, AT-ACC2, ACC4, ACS4, ATACS4, ACS9, AtACS9, ETO3, ACC2, ACS1, AT-ACS1, ACS11, ACC6, ACS6, ATACS6, ACCS7, ACS7, ATACS7, ACS8, ACC5, ACS5, ATACS5, CIN5, ETO2, ACC synthase	ec:4.4.1.14|||gmm:17.5.1.1	2	-0.370778177463685	3.98082117569314	2	1
+PAD4	phytoalexin deficient, InterPro Lipase, class 3	ATPAD4, EDS9, PAD4, alpha/beta-Hydrolases superfamily protein	gmm:20.1.7.1|||mm:26.9.2.4.2	2	6.17944044902709	0.831911125497522	2	1
+rx00138_protein activation			doi:10.1105/tpc.112.109074	2	3.42544672800832	3.19295961110578	3	1
+MPK3,6	mitogen-activated protein (MAP) kinase 3,6	ATMAPK6, ATMPK6, MAPK6, MPK6, ATMAPK3, ATMPK3, MPK3	gmm:29.4|||gmm:30.6	2	4.26411854213268	4.79169477388976	1	1
+MKS1|WRKY33				2	0.665925994314524	-1.66497735471835	1	1
+rx00242_binding/oligomerisation			doi:10.1038/sj.emboj.7600737	2	2.16186143532071	-0.491046303267821	3	1
