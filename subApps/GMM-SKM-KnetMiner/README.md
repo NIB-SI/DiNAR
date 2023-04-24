@@ -27,9 +27,12 @@ Obtain first neighbours of your gene of interest from [Mechanistic Plant Stress 
 5. Export [results](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-from-DiNAR) as wished
 
 
-
+</br>
+</br>
+</br>
 
 (*) Take care of empty strings in tables in general, replate them with ```-```
 
-(**) Try to keep shorName short
+
+(**) Try to keep shortName short
 
