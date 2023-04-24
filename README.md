@@ -69,7 +69,7 @@ shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 
 
 # Other options
-1. download zip and run locally in RStudio: https://www.rstudio.com/products/rstudio/download/#download http://shiny.rstudio.com/tutorial/lesson1/
+1. download zip and run locally in RStudio: https://www.rstudio.com/products/rstudio/download/#download https://shiny.rstudio.com/tutorial/
 2. download zip and deploy: http://shiny.rstudio.com/articles/shinyapps.html http://shiny.rstudio.com/articles/scaling-and-tuning.html
 3. download zip and https://support.rstudio.com/hc/en-us/articles/214771447-Shiny-Server-Administrator-s-Guide
 
