@@ -1,0 +1,266 @@
+geneID1	geneID2	reactionType	clusterID_geneID1	clusterID_geneID2	clusterSimplifiedNodeDegree_geneID1	clusterSimplifiedNodeDegree_geneID2	exists
+VPg	<b>rx00673</b>binding/oligomerisation	SUBSTRATE	2	2	2	3	1
+PR5	<b>rx00673</b>binding/oligomerisation	SUBSTRATE	2	2	3	3	1
+<b>rx00673</b>binding/oligomerisation	PR5|VPg	PRODUCT	2	2	3	1	1
+<b>rx00015</b>protein activation	EIN3(like)	PRODUCT	2	2	3	3	1
+<b>rx00158</b>transcriptional/translational activation	ERF1	PRODUCT	2	2	4	2	1
+<b>rx00509</b>transcriptional/translational activation	ICS	PRODUCT	2	2	3	4	1
+<b>rx00526</b>transcriptional/translational activation	ICS	PRODUCT	2	2	3	4	1
+<b>rx00050</b>transcriptional/translational activation	JR1	PRODUCT	2	2	5	2	1
+<b>rx00028</b>transcriptional/translational activation	LOX	PRODUCT	2	2	4	3	1
+TGA2,5,6	<b>rx00099</b>binding/oligomerisation	SUBSTRATE	2	2	1	5	1
+NPR1 high & JAZ high	<b>rx00099</b>binding/oligomerisation	ACTIVATES	2	2	1	5	1
+NPR1 high & JAZ low	<b>rx00099</b>binding/oligomerisation	ACTIVATES	2	2	4	5	1
+NPR1	<b>rx00099</b>binding/oligomerisation	SUBSTRATE	2	2	4	5	1
+<b>rx00432</b>transcriptional/translational repression	NPR1	PRODUCT	2	2	3	4	1
+<b>rx00051</b>transcriptional/translational activation	PR13	PRODUCT	2	2	5	2	1
+<b>rx00103</b>transcriptional/translational activation	PR5	PRODUCT	2	2	3	3	1
+<b>rx00052</b>transcriptional/translational activation	VSP	PRODUCT	2	2	5	2	1
+<b>rx00099</b>binding/oligomerisation	NPR1|TGA2,5,6	PRODUCT	2	2	5	4	1
+EIN3(like)	<b>rx00015</b>protein activation	SUBSTRATE	2	2	3	3	1
+EIN2	<b>rx00015</b>protein activation	ACTIVATES	2	2	2	3	1
+MYC2	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	6	4	1
+LOX	<b>rx00028</b>transcriptional/translational activation	SUBSTRATE	2	2	3	4	1
+NPR1 low & JAZ low	<b>rx00028</b>transcriptional/translational activation	ACTIVATES	2	2	5	4	1
+NPR1 low & JAZ low	<b>rx00050</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
+JR1	<b>rx00050</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
+NPR1 high & JAZ low	<b>rx00050</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
+MYC2	<b>rx00050</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
+NPR1 low & JAZ low	<b>rx00051</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
+PR13	<b>rx00051</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
+NPR1 high & JAZ low	<b>rx00051</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
+MYC2	<b>rx00051</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
+NPR1 high & JAZ low	<b>rx00052</b>transcriptional/translational activation	INHIBITS	2	2	4	5	1
+MYC2	<b>rx00052</b>transcriptional/translational activation	ACTIVATES	2	2	6	5	1
+NPR1 low & JAZ low	<b>rx00052</b>transcriptional/translational activation	ACTIVATES	2	2	5	5	1
+VSP	<b>rx00052</b>transcriptional/translational activation	SUBSTRATE	2	2	2	5	1
+NPR1|TGA2,5,6	<b>rx00101</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
+PR1	<b>rx00101</b>transcriptional/translational activation	SUBSTRATE	2	2	6	3	1
+PR5	<b>rx00103</b>transcriptional/translational activation	SUBSTRATE	2	2	3	3	1
+NPR1|TGA2,5,6	<b>rx00103</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
+EIN3(like)	<b>rx00158</b>transcriptional/translational activation	ACTIVATES	2	2	3	4	1
+ERF1	<b>rx00158</b>transcriptional/translational activation	SUBSTRATE	2	2	2	4	1
+NPR1 low & JAZ low	<b>rx00158</b>transcriptional/translational activation	ACTIVATES	2	2	5	4	1
+EIN2	<b>rx00210</b>undefined	INHIBITS	2	2	2	3	1
+PR1	<b>rx00210</b>undefined	SUBSTRATE	2	2	6	3	1
+NPR1|TGA2,5,6	<b>rx00526</b>transcriptional/translational activation	ACTIVATES	2	2	4	3	1
+ICS	<b>rx00526</b>transcriptional/translational activation	SUBSTRATE	2	2	4	3	1
+MYC2	<b>rx00432</b>transcriptional/translational repression	INHIBITS	2	2	6	3	1
+NPR1	<b>rx00432</b>transcriptional/translational repression	SUBSTRATE	2	2	4	3	1
+bZIP21	<b>rx00478</b>protein activation	SUBSTRATE	2	2	3	3	1
+NPR1	<b>rx00478</b>protein activation	ACTIVATES	2	2	4	3	1
+PR1	<b>rx00479</b>transcriptional/translational activation	SUBSTRATE	2	2	6	3	1
+bZIP21	<b>rx00479</b>transcriptional/translational activation	ACTIVATES	2	2	3	3	1
+MYC2	<b>rx00509</b>transcriptional/translational activation	ACTIVATES	2	2	6	3	1
+ICS	<b>rx00509</b>transcriptional/translational activation	SUBSTRATE	2	2	4	3	1
+<b>rx00478</b>protein activation	bZIP21	PRODUCT	2	2	3	3	1
+VPg	<b>rx00634</b>binding/oligomerisation	SUBSTRATE	2	2	2	3	1
+LOX	<b>rx00634</b>binding/oligomerisation	SUBSTRATE	2	2	3	3	1
+<b>rx00634</b>binding/oligomerisation	LOX2|VPg	PRODUCT	2	2	3	1	1
+<b>rx00101</b>transcriptional/translational activation	PR1	PRODUCT	2	2	3	6	1
+<b>rx00210</b>undefined	PR1	PRODUCT	2	2	3	6	1
+<b>rx00479</b>transcriptional/translational activation	PR1	PRODUCT	2	2	3	6	1
+AT5G45110	TO_0002657	cooccurs_with	1	1	11	4	1
+AT3G12250	TO_0002657	cooccurs_with	1	1	4	4	1
+AT5G45110	TO_0006001	cooccurs_with	1	1	11	4	1
+AT1G64280	36344936	occurs_in	1	1	54	3	1
+TO_0006036	36344936	occurs_in	1	1	1	3	1
+TO_0000731	36344936	occurs_in	1	1	1	3	1
+AT1G64280	36087170	occurs_in	1	1	54	3	1
+TO_0000036	36087170	occurs_in	1	1	1	3	1
+TO_0000112	36087170	occurs_in	1	1	22	3	1
+AT1G64280	36168109	occurs_in	1	1	54	2	1
+TO_0000112	36168109	occurs_in	1	1	22	2	1
+AT1G64280	AT5G65210	has_physical_relation_with	1	1	54	4	1
+TO_0000112	AT5G65210	cooccurs_with	1	1	22	4	1
+TO_0001051	AT5G65210	cooccurs_with	1	1	1	4	1
+OS08T0509100-01	Q84YK8	xref	1	1	3	3	1
+AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	Q84YK8	has_similar_sequence	1	1	10	3	1
+AT3G45140.2	Q84YK8	has_similar_sequence	1	1	4	3	1
+AT1G64280	AT1G22070	has_physical_relation_with	1	1	54	4	1
+AT1G64280	AT5G06950	has_physical_relation_with	1	1	54	5	1
+AT1G64280	AT2G30360	has_physical_relation_with	1	1	54	3	1
+TO_0000303	AT2G30360	cooccurs_with	1	1	4	3	1
+AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	Q8H016	has_similar_sequence	1	1	10	3	1
+AT3G45140.2	Q8H016	has_similar_sequence	1	1	4	3	1
+OS03T0179900-01	Q8H016	xref	1	1	2	3	1
+TO_0000071	AT5G45110	cooccurs_with	1	1	2	11	1
+AT1G64280	AT5G45110	has_physical_relation_with	1	1	54	11	1
+AT1G64280	AT5G06960	has_physical_relation_with	1	1	54	4	1
+AT1G64280	AT3G12250	has_physical_relation_with	1	1	54	4	1
+OS08T0508800-01	P38419	xref	1	1	3	3	1
+AT3G45140.2	P38419	has_similar_sequence	1	1	4	3	1
+AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	P38419	has_similar_sequence	1	1	10	3	1
+TO_0000075	AT1G26830	cooccurs_with	1	1	1	11	1
+TO_0006038	AT1G26830	cooccurs_with	1	1	1	11	1
+TO_0000310	AT1G26830	cooccurs_with	1	1	1	11	1
+TO_0000163	AT1G26830	cooccurs_with	1	1	1	11	1
+TO_0000112	35216293	occurs_in	1	1	22	2	1
+AT1G64280	35216293	occurs_in	1	1	54	2	1
+OS12G0559934	OS12T0559934-00	encodes	1	1	3	2	1
+OS12G0560200	OS12T0560200-00	encodes	1	1	3	2	1
+TO_0002657	AT3G45140	cooccurs_with	1	1	4	9	1
+AT4G18040	AT3G45140	has_physical_relation_with	1	1	3	9	1
+AT1G64280	35950443	occurs_in	1	1	54	2	1
+TO_0000112	35950443	occurs_in	1	1	22	2	1
+OS08G0508800	OS08T0508800-01	encodes	1	1	3	3	1
+OS12G0559200	OS12T0559200-01	encodes	1	1	3	2	1
+OS08G0509100	OS08T0509100-01	encodes	1	1	3	3	1
+OS02G0194700	OS02T0194700-01	encodes	1	1	3	2	1
+TRAESCS7D02G019000.1	AT1G64280.1	orthologue	1	1	2	10	1
+TRAESCS3A02G105400.1	AT1G64280.1	orthologue	1	1	2	10	1
+OS01T0194300-01	AT1G64280.1	orthologue	1	1	3	10	1
+TRAESCS3D02G107500.1	AT1G64280.1	orthologue	1	1	2	10	1
+TRAESCS4A02G470500.1	AT1G64280.1	orthologue	1	1	2	10	1
+AT1G64280	AT1G64280.1	encodes	1	1	54	10	1
+TRAESCS3B02G123800.1	AT1G64280.1	orthologue	1	1	2	10	1
+AT1G64280	239	has_phenotype	1	1	54	1	1
+TO_0000496	35386673	occurs_in	1	1	1	7	1
+TO_0006002	35386673	occurs_in	1	1	1	7	1
+TO_0000333	35386673	occurs_in	1	1	1	7	1
+TO_0000495	35386673	occurs_in	1	1	1	7	1
+AT3G45140	35386673	occurs_in	1	1	9	7	1
+TO_0006001	35386673	occurs_in	1	1	4	7	1
+AT1G64280	35386673	occurs_in	1	1	54	7	1
+AT1G64280	241	has_phenotype	1	1	54	1	1
+AT1G64280	242	has_phenotype	1	1	54	1	1
+AT1G64280	244	has_phenotype	1	1	54	1	1
+AT1G64280	246	has_phenotype	1	1	54	1	1
+AT1G64280	247	has_phenotype	1	1	54	1	1
+AT1G64280	248	has_phenotype	1	1	54	1	1
+AT1G64280	250	has_phenotype	1	1	54	2	1
+AT5G45110	250	has_phenotype	1	1	11	2	1
+AT1G64280	251	has_phenotype	1	1	54	1	1
+AT1G64280	252	has_phenotype	1	1	54	1	1
+AT5G45110	TO_0000074	cooccurs_with	1	1	11	2	1
+TO_0000276	35896570	occurs_in	1	1	1	2	1
+AT3G45140	35896570	occurs_in	1	1	9	2	1
+OS01T0767900-01	Q0JJ01	xref	1	1	2	2	1
+AT1G64280.1	Q0JJ01	has_similar_sequence	1	1	10	2	1
+AT1G64280.1	Q9FDY4	has_similar_sequence	1	1	10	2	1
+OS01T0194300-01	Q9FDY4	xref	1	1	3	2	1
+OS03T0667100-01	Q75HA6	xref	1	1	2	2	1
+AT1G64280.1	Q75HA6	has_similar_sequence	1	1	10	2	1
+OS01G0194300	OS01T0194300-01	encodes	1	1	7	3	1
+AT3G45140	AT4G18040	has_physical_relation_with	1	1	9	3	1
+TRAESCS7D02G019000	TRAESCS7D02G019000.1	encodes	1	1	2	2	1
+TRAESCS3B02G123800	TRAESCS3B02G123800.1	encodes	1	1	2	2	1
+TRAESCS4A02G470500	TRAESCS4A02G470500.1	encodes	1	1	2	2	1
+TRAESCS3A02G105400	TRAESCS3A02G105400.1	encodes	1	1	2	2	1
+TRAESCS3D02G107500	TRAESCS3D02G107500.1	encodes	1	1	2	2	1
+AT1G64280	325	has_variation	1	1	54	2	1
+327	326	associated_with	1	1	2	3	1
+328	326	associated_with	1	1	2	3	1
+AT1G64280	327	has_variation	1	1	54	2	1
+AT1G64280	328	has_variation	1	1	54	2	1
+331	329	associated_with	1	1	2	2	1
+TO_0000430	AT3G11630	cooccurs_with	1	1	1	4	1
+AT3G45140	AT3G11630	has_physical_relation_with	1	1	9	4	1
+AT1G64280	331	has_variation	1	1	54	2	1
+AT3G11630	341	has_phenotype	1	1	4	1	1
+AT3G11630	342	has_phenotype	1	1	4	1	1
+AT1G22070	TO_0002681	cooccurs_with	1	1	4	1	1
+TO_0000345	OS12G0559934	cooccurs_with	1	1	7	3	1
+TO_0000435	OS12G0559934	cooccurs_with	1	1	7	3	1
+AT5G65210	373	has_phenotype	1	1	4	1	1
+TO_0000345	OS12G0560200	cooccurs_with	1	1	7	3	1
+TO_0000435	OS12G0560200	cooccurs_with	1	1	7	3	1
+AT1G64280	35151436	occurs_in	1	1	54	2	1
+TO_0000112	35151436	occurs_in	1	1	22	2	1
+TO_0000345	OS08G0508800	cooccurs_with	1	1	7	3	1
+TO_0000435	OS08G0508800	cooccurs_with	1	1	7	3	1
+TO_0000435	OS12G0559200	cooccurs_with	1	1	7	3	1
+TO_0000345	OS12G0559200	cooccurs_with	1	1	7	3	1
+TO_0000435	OS08G0509100	cooccurs_with	1	1	7	3	1
+TO_0000345	OS08G0509100	cooccurs_with	1	1	7	3	1
+TO_0000435	OS02G0194700	cooccurs_with	1	1	7	3	1
+TO_0000345	OS02G0194700	cooccurs_with	1	1	7	3	1
+AT5G06950	419	has_phenotype	1	1	5	3	1
+AT3G12250	419	has_phenotype	1	1	4	3	1
+AT5G06960	419	has_phenotype	1	1	4	3	1
+AT5G06960	421	has_phenotype	1	1	4	2	1
+AT5G06950	421	has_phenotype	1	1	5	2	1
+OS03G0179900	OS03T0179900-01	encodes	1	1	3	2	1
+AT4G18040	448	has_variation	1	1	3	2	1
+448	449	associated_with	1	1	2	3	1
+325	449	associated_with	1	1	2	3	1
+TO_0000435	OS03G0179900	cooccurs_with	1	1	7	3	1
+TO_0000345	OS03G0179900	cooccurs_with	1	1	7	3	1
+449	TO_0000183	part_of	1	1	3	3	1
+329	TO_0000183	part_of	1	1	2	3	1
+326	TO_0000183	part_of	1	1	3	3	1
+AT5G45110	TO_0000259	cooccurs_with	1	1	11	2	1
+TO_0000071	AT1G64280	cooccurs_with	1	1	2	54	1
+AT1G26830	AT1G64280	has_physical_relation_with	1	1	11	54	1
+TO_0006001	AT1G64280	cooccurs_with	1	1	4	54	1
+TO_0000513	AT1G64280	cooccurs_with	1	1	1	54	1
+TO_0000303	AT1G64280	cooccurs_with	1	1	4	54	1
+AT2G30360	AT1G64280	has_physical_relation_with	1	1	3	54	1
+AT1G22070	AT1G64280	has_physical_relation_with	1	1	4	54	1
+AT5G06950	AT1G64280	has_physical_relation_with	1	1	5	54	1
+TO_0002657	AT1G64280	cooccurs_with	1	1	4	54	1
+TO_0000112	AT1G64280	cooccurs_with	1	1	22	54	1
+AT1G45145	AT1G64280	has_physical_relation_with	1	1	2	54	1
+AT3G12250	AT1G64280	has_physical_relation_with	1	1	4	54	1
+TO_0000259	AT1G64280	cooccurs_with	1	1	2	54	1
+AT5G06960	AT1G64280	has_physical_relation_with	1	1	4	54	1
+AT5G45110	TO_0000303	cooccurs_with	1	1	11	4	1
+AT5G45110	465	has_phenotype	1	1	11	1	1
+AT5G45110	466	has_phenotype	1	1	11	1	1
+AT1G45145	472	has_phenotype	1	1	2	1	1
+TO_0000522;TO_0000522;TO_0000522;TO_0000523;TO_0000523;TO_0000523	34289193	occurs_in	1	1	1	4	1
+AT1G64280	34289193	published_in	1	1	54	4	1
+AT1G64280	34289193	occurs_in	1	1	54	4	1
+TO_0020097	34289193	occurs_in	1	1	1	4	1
+AT1G26830	510	has_phenotype	1	1	11	1	1
+AT1G26830	511	has_phenotype	1	1	11	1	1
+AT1G26830	512	has_phenotype	1	1	11	1	1
+AT1G26830	513	has_phenotype	1	1	11	1	1
+AT1G26830	514	has_phenotype	1	1	11	1	1
+AT1G26830	515	has_phenotype	1	1	11	1	1
+TO_0000207	OS01G0194300	cooccurs_with	1	1	2	7	1
+TO_0000346	OS01G0194300	cooccurs_with	1	1	1	7	1
+TO_0000074	OS01G0194300	cooccurs_with	1	1	2	7	1
+TO_0000112	OS01G0194300	cooccurs_with	1	1	22	7	1
+TO_0000040	OS01G0194300	cooccurs_with	1	1	1	7	1
+TO_0002757	OS01G0194300	cooccurs_with	1	1	1	7	1
+TO_0000112	TRAESCS7D02G019000	cooccurs_with	1	1	22	2	1
+TO_0000112	TRAESCS3B02G123800	cooccurs_with	1	1	22	2	1
+TO_0000112	TRAESCS3A02G105400	cooccurs_with	1	1	22	2	1
+TO_0000112	TRAESCS3D02G107500	cooccurs_with	1	1	22	2	1
+OS01G0767900	OS01T0767900-01	encodes	1	1	2	2	1
+OS03G0667100	OS03T0667100-01	encodes	1	1	2	2	1
+AT5G06950	558	has_variation	1	1	5	2	1
+558	559	associated_with	1	1	2	2	1
+OS12T0559934-00	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	2	10	1
+OS08T0508800-01	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	3	10	1
+AT3G45140	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	encodes	1	1	9	10	1
+OS12T0560200-00	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	2	10	1
+OS12T0559200-01	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	2	10	1
+OS02T0194700-01	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	2	10	1
+OS08T0509100-01	AT3G45140.1;AT3G45140.1;P38418;http: //biocyc.org/biopax/biopax-level2#protein45480;P38418	orthologue	1	1	3	10	1
+TO_0000112	OS03G0667100	cooccurs_with	1	1	22	2	1
+559	TO_0000043	part_of	1	1	2	1	1
+TO_0000112	34312926	occurs_in	1	1	22	4	1
+AT1G64280	34312926	published_in	1	1	54	4	1
+TO_0000207	34312926	occurs_in	1	1	2	4	1
+AT1G64280	34312926	occurs_in	1	1	54	4	1
+TO_0000112	33989128	occurs_in	1	1	22	3	1
+AT1G64280	33989128	published_in	1	1	54	3	1
+AT1G64280	33989128	occurs_in	1	1	54	3	1
+AT1G64280	34817656	occurs_in	1	1	54	2	1
+TO_0000303	34817656	occurs_in	1	1	4	2	1
+AT1G64280	35199162	occurs_in	1	1	54	2	1
+TO_0006001	35199162	occurs_in	1	1	4	2	1
+AT3G45140	AT3G45140.2	encodes	1	1	9	4	1
+AT3G45140	62	has_phenotype	1	1	9	1	1
+TO_0000112	36523630	occurs_in	1	1	22	2	1
+AT1G64280	36523630	occurs_in	1	1	54	2	1
+AT1G22070	TO_0000112	cooccurs_with	1	1	4	22	1
+AT5G45110	TO_0000112	cooccurs_with	1	1	11	22	1
+OS01G0767900	TO_0000112	cooccurs_with	1	1	2	22	1
+TRAESCS4A02G470500	TO_0000112	cooccurs_with	1	1	2	22	1
+TO_0000112	35887481	occurs_in	1	1	22	2	1
+AT1G64280	35887481	occurs_in	1	1	54	2	1
+AT1G64280	35736739	occurs_in	1	1	54	2	1
+TO_0000112	35736739	occurs_in	1	1	22	2	1
