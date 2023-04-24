@@ -122,7 +122,7 @@ with imageio.get_writer('./my.gif', mode='I') as writer:
 Find more information at: https://rfunction.com/archives/812 and https://imageio.github.io/
 
 
-# sub apps
+# subApps
 * input <b>pre-processing</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/pre-processing (&#x1F34F; https://nib-si.shinyapps.io/pre-processing/)
 * network <b>clustering</b>: &#x1F34E; https://github.com/NIB-SI/DiNAR/tree/master/subApps/clustering (&#x1F34F; https://nib-si.shinyapps.io/clustering/)
 * <b>shortestPaths</b>: :grapes: https://github.com/NIB-SI/DiNAR/tree/master/subApps/shortestPaths
