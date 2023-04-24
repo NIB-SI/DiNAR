@@ -354,8 +354,10 @@ server <- function(input, output, session) {
         nn = c("id", "geneID", "shortName", "shortDescription", "MapManBin")
         colnames(PSSn) = nn
         
-        PSSn$geneID = gsub('<b>', '', gsub("</b>","_",  PSSn$geneID))
-        PSSn$MapManBin = gsub(",","|||",  PSSn$MapManBin)
+        # PSSn$geneID = gsub('<b>', '', gsub("</b>","_",  PSSn$geneID))
+        
+        PSSn$MapManBin = gsub(","," | ",  PSSn$MapManBin)
+        PSSn[PSSn == ''] = '-'
         
         realID = PSSn[, 1:2]
         colnames(PSSe)[grep('geneID1', colnames(PSSe))] = 'id'
@@ -732,6 +734,12 @@ server <- function(input, output, session) {
   )
   
 
+  # jump to second tab
+  observe({
+    if( (!is.na(req(input$file2))[1]) & (!is.na(req(input$file1))[1]) & (!is.na(req(input$file3))[1])  & ntextChecked() ){
+      updateNavbarPage(session, inputId = 'tabselected', selected = "2")
+    }
+  })
   
   # jump to output
   observe({
