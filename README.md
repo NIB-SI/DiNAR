@@ -95,8 +95,8 @@ http://conferences.nib.si/DiNAR/
 # Create PDF animation
 1. in animatedPlotAB.R uncomment lines: 48, 49, 50, 51, 52 and 306
 2. install LaTeX (e.g. https://miktex.org/) or use [overleaf](https://www.overleaf.com/)
-3. install animate Package http://tug.ctan.org/macros/latex/contrib/animate/animate.pdf
-4. copy to working directory and run LaTeX template document: CreatePDFanimation.tex
+3. install [animate Package](http://tug.ctan.org/macros/latex/contrib/animate/animate.pdf)
+4. copy to working directory and run LaTeX template document: [CreatePDFanimation.tex](https://github.com/NIB-SI/DiNAR/blob/master/DiNARscripts/CreatePDFanimation.tex) (for more details see [this](https://github.com/NIB-SI/DiNAR/blob/master/Custom%20Animations%20-%20What%20%26%20How.md))
 
 # Create gif
 1. in animatedPlotAB.R uncomment few lines below `# To generate .pdf animation` comment
