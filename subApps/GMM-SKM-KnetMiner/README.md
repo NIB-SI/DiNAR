@@ -28,14 +28,14 @@ Obtain Ath geneID using [gomapman.nib.si](https://gomapman.nib.si/search)
 Obtain Knowledge graph using list query [AT3G45140, AT1G64280](https://knetminer.com/poaceae/html/genepage.jsp?list=AT3G45140,AT1G64280) and save a ```.json```
 
 ### SKM PSS
-Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/) (type one by one), and export nodes and edges as ```.csv```
+Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/?functional_cluster_id=fc00096&functional_cluster_id=fc00115) (type one by one if you are not familiar with [AT1G64280](https://skm.nib.si/search?entity_type=functional_cluster&key=identifier&query=AT1G64280) and [AT3G45140](https://skm.nib.si/search?entity_type=functional_cluster&key=identifier&query=AT3G45140) functional cluster), and export nodes and edges as ```.csv```
 
 </br>
 
 
 # Create and visualise custom network
 
-1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run [CustomNetwork_KnetMiner-SKM](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
+1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run _Custom Network_ [GMM-SKM-KnetMiner](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
 2. Load [files](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/input)
 3. Follow instructions and save Custom Network Tables (Nodes/Vertices and Reactions/Edges)
 4. Load [Custom Network](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-for-DiNAR) and Expression Tables into [DiNAR](https://github.com/NIB-SI/DiNAR)
