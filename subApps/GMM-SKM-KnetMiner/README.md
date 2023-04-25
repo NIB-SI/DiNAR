@@ -28,7 +28,7 @@ Obtain Ath geneID using [gomapman.nib.si](https://gomapman.nib.si/search)
 Obtain Knowledge graph using list query [AT3G45140, AT1G64280](https://knetminer.com/poaceae/html/genepage.jsp?list=AT3G45140,AT1G64280) and save a ```.json```
 
 ### SKM PSS
-Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/?functional_cluster_id=fc00096&functional_cluster_id=fc00115) (type one by one if you are not familiar with [functional cluster](https://skm.nib.si/downloads/pss/public/dinar-edges)), and export nodes and edges as ```.csv```
+Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/?functional_cluster_id=fc00096&functional_cluster_id=fc00115) (type one by one if you are not familiar with [AT1G64280](https://skm.nib.si/search?entity_type=functional_cluster&key=identifier&query=AT1G64280) and [AT3G45140](https://skm.nib.si/search?entity_type=functional_cluster&key=identifier&query=AT3G45140) functional cluster) cluster, and export nodes and edges as ```.csv```
 
 </br>
 
