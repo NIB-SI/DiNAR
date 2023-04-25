@@ -1,0 +1,48 @@
+id,type,short name,description,synonyms,functional annotation (GoMapMan)
+AT3G21630,gene,CERK1,chitin elicitor receptor kinase 1,AtCERK1 | AtLYK1 | CERK1 | LYK1 | RLK1,27.3.99_RNA.regulation of transcription.unclassified | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.21_signalling.receptor kinases.lysine motif
+AT3G45140,gene,LOX2,lipoxygenase 2,ATLOX2 | LOX2,17.7.1.2_hormone metabolism.jasmonate.synthesis-degradation.lipoxygenase
+AT5G35620,gene,EIF(ISO)4E,Eukaryotic initiation factor 4E protein,EIF(ISO)4E | EIF4E2 | LSP | LSP1 | eIFiso4E,29.2.3_protein.synthesis.initiation
+AT4G31500,gene,CYP83B1,cytochrome P450%2C family 83%2C subfamily B%2C polypeptide 1,ATR4 | CYP83B1 | RED1 | RNT1 | RUNT1 | SUR2,16.5.1.1.1.7_secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.CYP83A1 phenylacetaldoxime monooxygenase | 16.5.1.1.4.1_secondary metabolism.sulfur-containing.glucosinolates.synthesis.shared.CYP83B1 phenylacetaldoxime monooxygenase | 26.10_misc.cytochrome P450
+AT5G46790,gene,PYL1,PYR1-like 1,PYL1 | RCAR12,20.2.99_stress.abiotic.unspecified | 29.5.5_protein.degradation.serine protease
+AT1G80840,gene,WRKY40,WRKY DNA-binding protein 40,ATWRKY40 | WRKY40,20.1.5_stress.biotic.regulation of transcription | 27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family
+AT1G74470,gene,CHLP,Pyridine nucleotide-disulfide oxidoreductase family protein,CHLP,16.1.1_secondary metabolism.isoprenoids.non-mevalonate pathway
+AT1G64280,gene,NPR1,regulatory protein (NPR1),ATNPR1 | NIM1 | NPR1 | SAI1,27.3.61_RNA.regulation of transcription.NPR1/NIM1 | 31.1_cell.organisation
+AT3G16857,gene,ARR1,response regulator 1,ARR1 | RR1,17.4.2_hormone metabolism.cytokinin.signal transduction | 27.3.5_RNA.regulation of transcription.ARR
+AT2G22430,gene,ATHB-6,homeobox protein 6,ATHB-6 | ATHB6 | HB6,27.3.22_RNA.regulation of transcription.homeobox transcription factor family (HB)
+AT4G31550,gene,WRKY11,WRKY DNA-binding protein 11,ATWRKY11 | WRKY11,27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family
+AT2G23460,gene,XLG1,extra-large G-protein 1,ATXLG1 | XLG | XLG1,29.5.11.4.3.2_protein.degradation.ubiquitin.E3.SCF.FBOX | 30.5_signalling.G-proteins | 34.99_transport.misc
+AT1G09340,gene,CSP41B,chloroplast RNA binding protein,CRB | CSP41B | HIP1.3,27.3.99_RNA.regulation of transcription.unclassified
+AT1G52890,gene,NAC019,NAC domain containing protein 19,ANAC | ANAC019 | NAC019,27.3.27_RNA.regulation of transcription.NAC domain transcription factor family | 33.99_development.unspecified
+AT5G01900,gene,WRKY62,WRKY DNA-binding protein 62,ATWRKY62 | WRKY62,27.3.32_RNA.regulation of transcription.WRKY domain transcription factor family
+AT5G35750,gene,AHK2,histidine kinase 2,AHK2 | HK2,17.4.2_hormone metabolism.cytokinin.signal transduction | 27.3.5_RNA.regulation of transcription.ARR
+AT4G37940,gene,AGL21,AGAMOUS-like 21,AGL21,27.3.24_RNA.regulation of transcription.MADS box transcription factor family | 29.2.2_protein.synthesis.ribosome biogenesis
+AT1G32640,gene,MYC2,Basic helix-loop-helix (bHLH) DNA-binding family protein,BHLH6 | EN38 | JAI1 | JIN1 | MYC2 | RAP1 | RD22BP1 | ZBF1,20.1.5_stress.biotic.regulation of transcription | 27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH) | 29.4_protein.postranslational modification
+AT1G72450,gene,TIFY11B,jasmonate-zim-domain protein 6,JAZ6 | TIFY11B,17.7.2_hormone metabolism.jasmonate.signal transduction | 20.1.3_stress.biotic.signalling | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)
+AT2G18790,gene,PHYB,phytochrome B,HY3 | OOP1 | PHYB,30.11_signalling.light
+AT4G33430,gene,BAK1,BRI1-associated receptor kinase,ATBAK1 | ATSERK3 | BAK1 | ELG | ELONGATED | RKS10 | SERK3,17.3.2.99_hormone metabolism.brassinosteroid.signal transduction.other | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.2_signalling.receptor kinases.leucine rich repeat II
+AT5G23720,gene,PHS1,dual specificity protein phosphatase family protein,PHS1,29.4_protein.postranslational modification
+AT5G13220,gene,TIFY9,jasmonate-zim-domain protein 10,JAS1 | JAZ10 | TIFY9,27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)
+AT5G28770,gene,BZIP63,bZIP transcription factor family protein,BZIP63 | BZO2H3,"15.2_metal handling.binding, chelation and storage | 27.3.35_RNA.regulation of transcription.bZIP transcription factor family"
+AT3G18165,gene,MOS4,modifier of snc1%2C4,BCAS2 | MOS4 | SPF27,20.1_stress.biotic | 30.2.8.2_signalling.receptor kinases.leucine rich repeat VIII.type 2
+AT5G11260,gene,HY5,Basic-leucine zipper (bZIP) transcription factor family protein,BZIP56 | HY5,27.3.35_RNA.regulation of transcription.bZIP transcription factor family | 29.4_protein.postranslational modification
+AT1G77140,gene,VPS45,vacuolar protein sorting 45,ATVPS45 | BEN2 | VPS45,29.3.4.3_protein.targeting.secretory pathway.vacuole
+AT4G03280,gene,petC,photosynthetic electron transfer C,PETC | PGR1 | petC,1.1.3.1_PS.lightreaction.cytochrome b6/f.iron sulfur subunit
+AT2G22540,gene,SVP,K-box region and MADS-box transcription factor family protein,AGL22 | FAQ1 | SVP,27.3.24_RNA.regulation of transcription.MADS box transcription factor family | 33.99_development.unspecified
+AT4G35600,gene,CONNEXIN32,Protein kinase superfamily protein,CONNEXIN32 | CST | CX32 | Kin4,29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.18_signalling.receptor kinases.extensin | 30.2.22_signalling.receptor kinases.proline extensin like
+AT2G30360,gene,CIPK11,SOS3-interacting protein 4,CIPK11 | PKS5 | SIP4 | SNRK3.22 | SnRK3.22,1.1.2.2_PS.lightreaction.photosystem I.PSI polypeptide subunits | 16.2.1_secondary metabolism.phenylpropanoids.lignin biosynthesis | 29.4_protein.postranslational modification
+AT5G03730,gene,CTR1,Protein kinase superfamily protein,AtCTR1 | CTR1 | SIS1,16.8.3_secondary metabolism.flavonoids.dihydroflavonols | 17.5.1_hormone metabolism.ethylene.synthesis-degradation | 27.3.71_RNA.regulation of transcription.SNF7 | 29.4_protein.postranslational modification
+AT5G62880,gene,ARAC10,RAC-like 10,ARAC10 | ATRAC10 | ATROP11 | RAC10 | ROP11,"26.7_misc.oxidases - copper, flavone etc | 29.2.2_protein.synthesis.ribosome biogenesis | 30.5_signalling.G-proteins"
+AT3G15730,gene,PLDALPHA1,phospholipase D alpha 1,PLD | PLD1 | PLDALPHA1,1.1.5.1_PS.lightreaction.other electron carrier (ox/red).plastocyanin | 11.9.3.1_lipid metabolism.lipid degradation.lysophospholipases.phospholipase D | 27.3.29_RNA.regulation of transcription.TCP transcription factor family
+AT3G51920,gene,CML9,calmodulin 9,ATCML9 | CAM9 | CML9,30.3_signalling.calcium
+AT4G01050,gene,STR4,thylakoid rhodanese-like protein,STR4 | TROL,26.23_misc.rhodanese | 27.3.39_RNA.regulation of transcription.AtSR transcription factor family
+AT1G19180,gene,TIFY10A,jasmonate-zim-domain protein 1,AtJAZ1 | JAZ1 | TIFY10A,17.7.2_hormone metabolism.jasmonate.signal transduction | 20.1.3_stress.biotic.signalling | 27.3.7_RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)
+AT1G21970,gene,NFYB9,Histone superfamily protein,AtLEC1 | EMB212 | LEC1 | NF-YB9 | NFYB9,"27.3.15_RNA.regulation of transcription.CCAAT box binding factor family, HAP3"
+AT4G24580,gene,REN1,Rho GTPase activation protein (RhoGAP) with PH domain-containing protein,REN1,1.1.1.2_PS.lightreaction.photosystem II.PSII polypeptide subunits | 30.5_signalling.G-proteins
+AT4G02195,gene,SYP42,syntaxin of plants 42,ATSYP42 | ATTLG2B | SYP42 | TLG2B,31.4_cell.vesicle transport
+AT5G40280,gene,FTB,Prenyltransferase family protein,ATFTB | ERA1 | FTB | WIG | WIGGUM,29.4_protein.postranslational modification
+AT5G42970,gene,CSN4,Proteasome component (PCI) domain protein,ATS4 | COP14 | COP8 | CSN4 | EMB134 | FUS4 | FUS8,29.2.2_protein.synthesis.ribosome biogenesis | 30.11.1_signalling.light.COP9 signalosome
+AT2G13790,gene,SERK4,somatic embryogenesis receptor-like kinase 4,ATSERK4 | BAK7 | BKK1 | SERK4,17.3.2.99_hormone metabolism.brassinosteroid.signal transduction.other | 29.4.1.57_protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII | 30.2.2_signalling.receptor kinases.leucine rich repeat II
+AT2G43010,gene,PIF4,phytochrome interacting factor 4,AtPIF4 | BHLH9 | EN102 | PIF4 | SRL2,27.3.6_RNA.regulation of transcription.basic helix-loop-helix family (bHLH) | 30.11_signalling.light
+AT2G43710,gene,FAB2,Plant stearoyl-acyl-carrier-protein desaturase family protein,AtSSI2 | FAB2 | LDW1 | SSI2,11.1.15_lipid metabolism.FA synthesis and FA elongation.ACP desaturase | 29.2.2_protein.synthesis.ribosome biogenesis
+AT3G25980,gene,MAD2,DNA-binding HORMA family protein,AtMAD2 | MAD2,31.2_cell.division
+AT2G46370,gene,JAR1,Auxin-responsive GH3 family protein,AtGH3.11 | FIN219 | JAR1,17.2.3_hormone metabolism.auxin.induced-regulated-responsive-activated
