@@ -35,7 +35,7 @@ Obtain shortest path between [AT3G45140 & AT1G64280](https://skm.nib.si/biomine/
 
 # Create and visualise custom network
 
-1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run [CustomNetwork_KnetMiner-SKM](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
+1. [Download](https://github.com/NIB-SI/DiNAR/blob/master/subApps/GMM-SKM-KnetMiner_customNet/scripts/CustomNetwork_KnetMiner-SKM.R) and run _Custom Network_ [GMM-SKM-KnetMiner](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/) app localy or from [shinyapps](https://nib-si.shinyapps.io/GMM-SKM-KnetMiner/)
 2. Load [files](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/input)
 3. Follow instructions and save Custom Network Tables (Nodes/Vertices and Reactions/Edges)
 4. Load [Custom Network](https://github.com/NIB-SI/DiNAR/tree/master/subApps/GMM-SKM-KnetMiner/output-for-DiNAR) and Expression Tables into [DiNAR](https://github.com/NIB-SI/DiNAR)
