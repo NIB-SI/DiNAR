@@ -4,6 +4,13 @@ if (!require(devtools)) {
   install.packages("devtools")
   require(devtools)
 }
+if (!require(remotes)) {
+  install.packages("remotes")
+  require(remotes)
+}
+if (!require(DT)) {
+  remotes::install_github("rstudio/DT")
+}
 if (!require(animatoR)) {
   devtools::install_github("ablejec/animatoR")
 }
