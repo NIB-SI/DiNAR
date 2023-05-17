@@ -49,7 +49,7 @@ if (!require("devtools")) install.packages("devtools")
 if (!require('Rcpp')) install.packages('Rcpp')
 devtools::install_github("rstudio/shiny")
 
-shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
+install.packages("shiny", dependencies=TRUE)
 ```
 
 ### Ubuntu
