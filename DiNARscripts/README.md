@@ -31,7 +31,7 @@ sudo apt-get install libv8-dev</br>
 ```{r}
 if (!require("devtools")) install.packages("devtools")
 if (!require('Rcpp')) install.packages('Rcpp')
-devtools::install_github("rstudio/shiny")
+install.packages("shiny", dependencies=TRUE)
 
 shiny:::runGitHub("DiNAR", "NIB-SI", subdir = "DiNARscripts/")
 ```
