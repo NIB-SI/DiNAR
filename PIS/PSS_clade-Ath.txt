@@ -3,7 +3,7 @@ athID	nodeID	description	pathway	node_type	athDescription
 -	&beta;-Cryptoxanthin	&beta;-Cryptoxanthin	Hormone - Abscisic acid (ABA)	Metabolite	-
 -	&gamma;-Carotene	&gamma;-Carotene	Hormone - Strigolactones (SL)	Metabolite	-
 -	12-OH-JA-Ile	12-hydroxyjasmonic acid 12-O-&beta;-D-glucoside	Hormone - Jasmonate (JA)	Metabolite	-
--	"12,13-EOT"	"12,13(S)-epoxylinolenic acid"	Hormone - Jasmonate (JA)	Metabolite	-
+-	12,13-EOT	12,13(S)-epoxylinolenic acid	Hormone - Jasmonate (JA)	Metabolite	-
 -	13-HPOT	13(S)-hydroperoxylinolenic acid	Hormone - Jasmonate (JA)	Metabolite	-
 -	3H3PP-CoA	3-hydroxy-3-phenylpropanoyl-CoA	Hormone - Salicylic acid (SA)	Metabolite	-
 -	3O3PP-CoA	3-oxo-3-phenylpropanoyl-CoA	Hormone - Salicylic acid (SA)	Metabolite	-
@@ -821,3 +821,113 @@ AT4G28720	YUC	flavin-binding monooxygenase family protein	Hormone - Auxins (AUX)
 AT3G04870	ZDS1	zeta-carotene desaturase		PlantCoding	zeta-carotene desaturase
 -	Zeaxanthin	Zeaxanthin	Secondary metabolism - Terpenoids	Metabolite	-
 AT5G67030	ZEP	zeaxanthin epoxidase		PlantCoding	zeaxanthin epoxidase (ZEP) (ABA1)
+AT5G60790	ABCF1				
+AT5G61160	ACT				
+AT1G69440	AGO7				
+AT1G32350	AOX				
+AT3G22370	AOX				
+AT1G45249	AREB/ABF				
+AT3G19290	AREB/ABF				
+AT1G49720	AREB/ABF				
+AT4G34000	AREB/ABF				
+AT3G17020	K14A17.9				
+AT4G04640	ATPC1				
+AT3G11630	BAS1				
+AT5G16390	BCCP1				
+AT2G46020	BRAHMA				
+AT5G35360	CAC2				
+ATCG00670	clpP1				
+AT1G09130	CLPR3				
+AT2G44810	DAD1				
+AT3G52930	FBA8				
+AT5G54500	FQR1				
+AT1G13440	GAPC2				
+AT5G20630	GER3				
+AT2G25080	GPX				
+AT2G31570	GPX				
+AT2G43350	GPX				
+AT2G48150	GPX				
+AT3G63080	GPX				
+AT4G11600	GPX				
+AT4G31870	GPX				
+AT1G63460	GPX				
+AT5G10450	GRF6				
+AT2G30860	GSTF9				
+AT2G26150	HSF				
+AT3G22830	HSFA6b				
+AT1G09080	HSP				
+AT1G16030	HSP				
+AT1G56410	HSP				
+AT3G09440	HSP				
+AT3G12580	HSP				
+AT4G24280	HSP				
+AT4G37910	HSP				
+AT5G02490	HSP				
+AT5G02500	HSP				
+AT5G09590	HSP				
+AT5G28540	HSP				
+AT5G42020	HSP				
+AT5G49910	HSP				
+AT1G07400	HSP				
+AT1G53540	HSP				
+AT1G54050	HSP				
+AT1G59860	HSP				
+AT2G19310	HSP				
+AT2G29500	HSP				
+AT3G46230	HSP				
+AT4G10250	HSP				
+AT5G12020	HSP				
+AT5G12030	HSP				
+AT5G37670	HSP				
+AT5G59720	HSP				
+AT5G59720	HSP18.1-CI				
+AT1G52560	HSP26.5-MII				
+AT4G27450	HUP54				
+AT3G02780	IPP2				
+AT1G70480	JASSY				
+AT2G34430	LHB1B1				
+AT2G22040	LST8				
+AT3G18140	LST8				
+AT5G02500	MED37E				
+AT3G50440	MES10				
+AT3G21220	MPK4,5				
+AT3G02090	MPPBETA				
+AT4G00290	MSL				
+AT5G10490	MSL				
+AT1G58200	MSL				
+AT1G53470	MSL				
+AT3G14810	MSL				
+AT1G78610	MSL				
+AT2G17000	MSL				
+AT2G17010	MSL				
+AT5G19520	MSL				
+AT5G12080	MSL				
+AT5G57860	MTI20.11				
+AT4G27410	NAC072				
+AT5G48160	OBE2				
+AT4G04340	OSCA1				
+AT1G11960	OSCA1.3				
+AT2G39800	P5CS1				
+AT4G34110	PAB2				
+AT2G23350	PAB4				
+AT1G49760	PAB8				
+AT5G61270	PIF7				
+AT3G15730	PLDALPHA1				
+AT5G54190	PORA				
+AT4G27440	PORB				
+AT2G43590	PR-3 like				
+AT1G71500	PSB33				
+ATCG00680	psbB				
+AT1G06680	PSBP1				
+AT1G79040	PSBR				
+AT5G42340	PUB15				
+AT3G08850	RAPTOR2				
+AT2G39730	RCA				
+AT5G52300	RD29				
+AT5G52310	RD29				
+AT2G32060	RPS12C				
+AT1G47710	SERPIN1				
+AT2G45660	SOC1				
+AT3G26520	TIP1-2				
+AT1G50010	TUBA2				
+AT5G67500	VDAC2				
