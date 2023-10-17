@@ -144,6 +144,20 @@ Find more information at: https://rfunction.com/archives/812 and https://imageio
 <br />
 <br />
 
+# Referencing, i.e. see also
+
+* [org.At.tair.db - Genome wide annotation for Arabidopsis](https://bioconductor.org/packages/release/data/annotation/html/org.At.tair.db.html)
+* [AraCyc](https://plantcyc.org/typeofpublication/aracyc)
+* [PLAZA](https://bioinformatics.psb.ugent.be/plaza/versions/plaza_v5_dicots/)
+* [STRING](https://string-db.org/)
+* [Ath Interactome](http://interactome.dfci.harvard.edu/A_thaliana/)
+* [ATRM: Arabidopsis Transcriptional Regulatory Map](http://atrm.gao-lab.org/)
+* [Cytoscape](https://cytoscape.org/)
+
+
+<br />
+<br />
+
 # obsolete
 https://github.com/NIB-SI/DiNAR/tree/master/NetworkClustering
 
