@@ -1,1 +1,5 @@
-...
+* clustered CKNv1 from Ramšak Ž, Coll A, Stare T, Tzfadia O, Baebler Š, Van de Peer Y, Gruden K. Network Modeling Unravels Mechanisms of Crosstalk between Ethylene and Salicylate Signaling in Potato. Plant Physiol. 2018 Sep;178(1):488-499. doi: 10.1104/pp.18.00450. Epub 2018 Jun 22. PMID: 29934298; PMCID: PMC6130022.
+* PIS v2 from Ramšak Ž, Coll A, Stare T, Tzfadia O, Baebler Š, Van de Peer Y, Gruden K. Network Modeling Unravels Mechanisms of Crosstalk between Ethylene and Salicylate Signaling in Potato. Plant Physiol. 2018 Sep;178(1):488-499. doi: 10.1104/pp.18.00450. Epub 2018 Jun 22. PMID: 29934298; PMCID: PMC6130022.
+* PSS from https://skm.nib.si/
+* PEP from Foix L, Nadal A, Zagorščak M, Ramšak Ž, Esteve-Codina A, Gruden K, Pla M. Prunus persica plant endogenous peptides PpPep1 and PpPep2 cause PTI-like transcriptome reprogramming in peach and enhance resistance to Xanthomonas arboricola pv. pruni. BMC Genomics. 2021 May 18;22(1):360. doi: 10.1186/s12864-021-07571-9. PMID: 34006221; PMCID: PMC8132438.
+Forma
