@@ -50,6 +50,7 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
   # subDir <- "./plots"
   # dir.create(file.path(subDir), showWarnings = FALSE)
   # myfilename = paste0("SampleGraph", length(list.files(subDir))+1, '.pdf')
+  # myfilename = paste0("SampleGraph", formatC(length(list.files(subDir))+1, width=4, flag="0"), '.png')
   # myfilepath = file.path(subDir)
   # par(mai=c(2.0, 2.0, 2.0, 2.0))
   
@@ -356,8 +357,13 @@ plotAnimatedNetworksAB <- function(nlist, elist, clusterID){
        offset = 0.0,
        col = 'black')
   ######## ######## ######## ######## ######## ######## ######## ######## ######
-  # dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, # height=18, 
+  # dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, # height=18,
   #             out.type="pdf")
+  # dev.copy(device = png, 
+  #          filename = paste0(myfilepath, '/', myfilename), 
+  #          width = 1500, height = 1200, 
+  #          units = "px", pointsize = 12) 
+  # dev.off()
   
   ## save.image("test.RData") ## debug
   
