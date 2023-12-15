@@ -114,9 +114,10 @@ and
 2. replace `myfilename = paste0("SampleGraph", length(list.files(subDir))+1, '.pdf')` with `myfilename = paste0("SampleGraph", formatC(length(list.files(subDir))+1, width=4, flag="0"), '.png')`
 3. add few lines of code before `newplot` to save all produced images in .png format; e.g.
 ```R
-png(paste0(myfilepath, '/', myfilename), 
-     width = 1500, height = 1200, 
-     units = "px", pointsize = 12)
+  dev.copy(device = png,
+           filename = paste0(myfilepath, '/', myfilename),
+           width = 1500, height = 1500,
+           units = "px", pointsize = 12)
 ```
 5. `add dev.off()` at the end of the function
 5. run short python2 script containing the following code (take care of dependencies!):
