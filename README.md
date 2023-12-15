@@ -93,7 +93,18 @@ http://conferences.nib.si/DiNAR/
 
 
 # Create PDF animation
-1. in animatedPlotAB.R uncomment lines: 48, 49, 50, 51, 52 and 306
+1. in animatedPlotAB.R uncomment lines: 
+```
+  subDir <- "./plots"
+  dir.create(file.path(subDir), showWarnings = FALSE)
+  myfilename = paste0("SampleGraph", length(list.files(subDir))+1, '.pdf')
+  myfilepath = file.path(subDir)
+  par(mai=c(2.0, 2.0, 2.0, 2.0))`
+```
+and
+```
+   dev.copy2pdf(file = paste0(myfilepath, '/', myfilename), width=24, # height=18, out.type="pdf")
+```
 2. install LaTeX (e.g. https://miktex.org/) or use [overleaf](https://www.overleaf.com/)
 3. install [animate Package](http://tug.ctan.org/macros/latex/contrib/animate/animate.pdf)
 4. copy to working directory and run LaTeX template document: [CreatePDFanimation.tex](https://github.com/NIB-SI/DiNAR/blob/master/DiNARscripts/CreatePDFanimation.tex) (for more details see [this](https://github.com/NIB-SI/DiNAR/blob/master/Custom%20Animations%20-%20What%20%26%20How.md))
